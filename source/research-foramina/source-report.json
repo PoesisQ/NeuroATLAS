@@ -1,0 +1,922 @@
+{
+  "date": "2026-10-23",
+  "purpose": "Source-only additions for educational offline NeuroAtlas; no guessed foraminal rings or fitted anatomy",
+  "conclusions": [
+    "Original existing skeletal.glb contains whole source bone meshes, no independently labeled bony foramen rim objects.",
+    "Existing bone-nerve mesh pairings contain detected surface intersections in several coarse foraminal inspection windows. Do not certify exact nerve passage from those meshes.",
+    "UW provides author-segmented bilateral foramen ovale/rotundum/spinosum and vidian canal volume labels with bone from a 6-subject synthetic CT template. These are volume-label boundaries, not separately traced bony rims.",
+    "DBCLS official 4.3 download provides source-labeled bilateral entire insula and internal capsule, with same-source basal/deep nuclei and selected cortical neighbors.",
+    "The two additions must be independent source coordinate spaces unless an explicit, validated registration is available. No registration/deformation was applied here.",
+    "No dataset located in this bounded research establishes a completely error-free, complete skull-base rim and all-nerve/course atlas."
+  ],
+  "candidates": [
+    {
+      "id": "uw-skullbase",
+      "status": "downloaded-and-extracted",
+      "title": "Automated atlas-based segmentation for skull base surgical planning",
+      "authors": [
+        "Neeraja Konuthula",
+        "Francisco A. Perez",
+        "A. Murat Maga",
+        "Waleed M. Abuzeid",
+        "Kris Moe",
+        "Blake Hannaford",
+        "Randall A. Bly"
+      ],
+      "datasetURL": "https://hdl.handle.net/1773/46259",
+      "resolvedURL": "https://digital.lib.washington.edu/researchworks/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc",
+      "paperURL": "https://pubmed.ncbi.nlm.nih.gov/34009539/",
+      "doi": "10.1007/s11548-021-02390-5",
+      "license": "CC BY-NC-SA 3.0 United States",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+      "licenseEvidenceFile": "uw-item-metadata.json",
+      "sourceType": "6-subject synthetic CT template; manual reference segmentation agreed on by otolaryngologist and neuroradiologist per paper",
+      "nativeSpace": "Segmentation RAS / CT LPS; convert CT physical coordinates by diag(-1,-1,1) only",
+      "segmentationSpacingMm": [
+        0.46875,
+        0.46875,
+        1.25
+      ],
+      "segmentationIJKToRAS": [
+        [
+          0.46875,
+          -0.0,
+          0.0,
+          -48.109550476074205
+        ],
+        [
+          -0.0,
+          0.46875,
+          -0.0,
+          -14.334999084472997
+        ],
+        [
+          0.0,
+          -0.0,
+          1.25,
+          51.2901992797852
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ctIJKToRAS": [
+        [
+          0.46743053133989815,
+          0.03514627819984113,
+          0.0,
+          -78.9318008422852
+        ],
+        [
+          -0.03514627819984113,
+          0.46743053133989815,
+          0.0,
+          -97.91750335693368
+        ],
+        [
+          0.0,
+          0.0,
+          0.46875,
+          45.02849960327144
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry": "uw-meshes.json + uw-meshes.bin.gz",
+      "geometryMethod": {
+        "method": "Lewiner marching cubes, level 0.5",
+        "input": "original binary mask",
+        "faceWinding": "gradient_direction=ascent; positive signed volume / outward winding",
+        "smoothing": false,
+        "decimation": false,
+        "padding": "one zero voxel to close outer array boundary",
+        "coordinates": "Original source RAS mm; no deformation or registration"
+      },
+      "downloadedOriginals": [
+        "uw-segmentation.seg.nrrd",
+        "uw-template.nrrd",
+        "uw-readme.txt"
+      ],
+      "validation": [
+        "Eight source-CT overlay figures for left and right foramen ovale, spinosum, rotundum and vidian canal. No registration fitted.",
+        "Every labeled voxel samples within CT physical extent; finite CT intensity fractions equal 1.0 for all 14 segments.",
+        "Foramina ovale, rotundum and spinosum each have two nonempty connected components consistent with left and right; vidian canal has two large components plus a one-voxel island.",
+        "All original small islands are retained. No segmentation cleanup or anatomical repair was applied."
+      ],
+      "limits": [
+        "Small foramina have few source voxels and 1.25 mm through-plane label resolution. Polygon precision does not improve that resolution.",
+        "The paper reports less favorable transferred segmentation usability for foramen rotundum/spinosum; this is not an error-free atlas.",
+        "No independently labeled true osseous rim, no explicit completeness guarantee for full canal length.",
+        "Bone label is cropped anterior skull-base/fossa anatomy, not a whole skull. Marching-cubes closes label regions at array crop boundaries, which are computational cut faces and must not be labeled natural bone surface.",
+        "It does not include jugular foramen, hypoglossal canal, internal acoustic meatus, stylomastoid foramen, foramen magnum or superior orbital fissure as separate labels.",
+        "No mandibular/maxillary nerves labeled, so this source cannot independently prove V3/V2 passage."
+      ],
+      "segments": [
+        {
+          "index": 0,
+          "en": "eyes",
+          "zh": "眼球",
+          "role": "tissue",
+          "components": 2,
+          "voxels": 50911
+        },
+        {
+          "index": 1,
+          "en": "septum",
+          "zh": "鼻中隔",
+          "role": "tissue",
+          "components": 2,
+          "voxels": 34820
+        },
+        {
+          "index": 2,
+          "en": "optic nerves",
+          "zh": "视神经",
+          "role": "tissue",
+          "components": 2,
+          "voxels": 3299
+        },
+        {
+          "index": 3,
+          "en": "internal carotid artery",
+          "zh": "颈内动脉",
+          "role": "tissue",
+          "components": 2,
+          "voxels": 720
+        },
+        {
+          "index": 4,
+          "en": "nasolacrimal duct",
+          "zh": "鼻泪管",
+          "role": "lumen-or-duct-label",
+          "components": 2,
+          "voxels": 1475
+        },
+        {
+          "index": 5,
+          "en": "foramen ovale",
+          "zh": "卵圆孔",
+          "role": "foramen-volume-label",
+          "components": 2,
+          "voxels": 519
+        },
+        {
+          "index": 6,
+          "en": "foramen spinosum",
+          "zh": "棘孔",
+          "role": "foramen-volume-label",
+          "components": 2,
+          "voxels": 56
+        },
+        {
+          "index": 7,
+          "en": "foramen rotundum",
+          "zh": "圆孔",
+          "role": "foramen-volume-label",
+          "components": 2,
+          "voxels": 214
+        },
+        {
+          "index": 8,
+          "en": "vidian canal",
+          "zh": "翼管",
+          "role": "canal-volume-label",
+          "components": 3,
+          "voxels": 537
+        },
+        {
+          "index": 9,
+          "en": "pterygopalatine fossa",
+          "zh": "翼腭窝",
+          "role": "space-volume-label",
+          "components": 10,
+          "voxels": 3910
+        },
+        {
+          "index": 10,
+          "en": "pituitary",
+          "zh": "垂体",
+          "role": "tissue",
+          "components": 1,
+          "voxels": 1091
+        },
+        {
+          "index": 11,
+          "en": "cavernous sinus",
+          "zh": "海绵窦",
+          "role": "sinus-volume-label",
+          "components": 3,
+          "voxels": 1877
+        },
+        {
+          "index": 12,
+          "en": "extraocular muscles",
+          "zh": "眼外肌",
+          "role": "tissue",
+          "components": 5,
+          "voxels": 17690
+        },
+        {
+          "index": 13,
+          "en": "bone of anterior cranial fossa",
+          "zh": "前颅窝骨性结构（源分割范围）",
+          "role": "bone-segmentation",
+          "components": 124,
+          "voxels": 572637
+        }
+      ]
+    },
+    {
+      "id": "dbcls-bp3d",
+      "status": "downloaded-and-extracted",
+      "title": "BodyParts3D / Anatomography 4.3 official source meshes",
+      "sourceURL": "https://lifesciencedb.jp/bp3d/",
+      "downloadEndpoint": "https://lifesciencedb.jp/bp3d/download.cgi",
+      "officialManifestEndpoint": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+      "license": "Official archive: CC BY 4.0 (updated 2025-02-27); legacy viewer notices: CC BY-SA 2.1 Japan",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Legacy BodyParts3D notices retained.",
+      "space": "+X patient left,+Y posterior,+Z superior",
+      "unit": "mm",
+      "geometry": "bodyparts3d/bp3d-meshes.json + bodyparts3d/bp3d-meshes.bin.gz",
+      "geometryMethod": "Unmodified original OBJ positions and triangles packed as float32/uint32. No smoothing, simplification, mirror or fit.",
+      "sourceType": "Anatomical atlas incorporating MRI and anatomical art; per-structure image resolution/validation is not supplied.",
+      "validation": [
+        {
+          "side": "left",
+          "absoluteCentroidXmm": {
+            "insula": 36.184326171875,
+            "internal capsule": 19.571229934692383,
+            "caudate nucleus": 18.143373489379883,
+            "putamen": 26.360307693481445,
+            "globus pallidus": 21.94431495666504,
+            "thalamus": 11.9595365524292
+          },
+          "checks": [
+            {
+              "claim": "thalamus medial to capsule",
+              "pass": true
+            },
+            {
+              "claim": "capsule medial to globus pallidus",
+              "pass": true
+            },
+            {
+              "claim": "globus pallidus medial to putamen",
+              "pass": true
+            },
+            {
+              "claim": "putamen medial to insula",
+              "pass": true
+            },
+            {
+              "claim": "caudate centroid medial to capsule",
+              "pass": true
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "absoluteCentroidXmm": {
+            "insula": 37.4177131652832,
+            "internal capsule": 20.811002731323242,
+            "caudate nucleus": 19.306440353393555,
+            "putamen": 27.67818832397461,
+            "globus pallidus": 23.44196891784668,
+            "thalamus": 12.93968677520752
+          },
+          "checks": [
+            {
+              "claim": "thalamus medial to capsule",
+              "pass": true
+            },
+            {
+              "claim": "capsule medial to globus pallidus",
+              "pass": true
+            },
+            {
+              "claim": "globus pallidus medial to putamen",
+              "pass": true
+            },
+            {
+              "claim": "putamen medial to insula",
+              "pass": true
+            },
+            {
+              "claim": "caudate centroid medial to capsule",
+              "pass": true
+            }
+          ]
+        }
+      ],
+      "limits": [
+        "No claustrum, external capsule, extreme capsule or circular insular sulcus element found in inspected 4.3 discovery manifest.",
+        "Downloaded superior parietal lobule has overlapping old/new element variants; excluded from packed scene rather than superimposed.",
+        "Internal capsule is a whole labeled atlas structure; anterior limb, genu, posterior/retrolenticular/sublenticular subdivisions are not independently labeled.",
+        "Insula is source-labeled whole structure, not separately labeled short/long gyri, limen or central insular sulcus.",
+        "Cortical context is a selection of same-source gyri, not a closed complete hemisphere shell.",
+        "Centroid ordering is only a gross consistency check, not a full anatomy or surface-contact validation.",
+        "Data not co-registered to existing Z-Anatomy scene; do not paste into it based on matching names."
+      ],
+      "specificCaveat": "Left thalamus reaches X=-0.092 mm, crossing approximate world midline slightly; its centroid and bulk are left. No mirroring correction was applied.",
+      "missingOriginalElements": [
+        "claustrum",
+        "external capsule",
+        "extreme capsule",
+        "circular sulcus of insula",
+        "separately labeled insular long/short gyri",
+        "separately labeled internal-capsule limbs"
+      ],
+      "sourceGeometryCount": 24
+    },
+    {
+      "id": "cahid-cranial",
+      "status": "reference-only-already-upstream",
+      "title": "Cranial Nerves and Foramina",
+      "sourceURL": "https://sketchfab.com/3d-models/cranial-nerves-and-foramina-a9358ee7a6dd4ea18a3622114405a4c7",
+      "author": "Sophia Lappe / University of Dundee CAHID",
+      "sourceType": "Anatomical model based on BodyParts3D, as stated by author",
+      "licenseEvidence": "Existing Z_ANATOMY_LICENSE.txt credits CC BY 4.0; current Sketchfab page displays NoAI tag and no directly accessible original download in research tools.",
+      "decision": "No new model bytes downloaded. Existing attribution retained. This is not independent evidence of CT-derived precise rim geometry."
+    },
+    {
+      "id": "cahid-microct",
+      "status": "candidate-not-downloaded",
+      "title": "Transverse section of calvarium",
+      "sourceURL": "https://sketchfab.com/3d-models/transverse-section-of-calvarium-15ae80638f7d4f0d82fff13728ebb6be",
+      "author": "University of Dundee CAHID",
+      "sourceType": "Author states micro-CT of adult male skull; 605.7k triangles",
+      "limits": [
+        "Different specimen and coordinate space",
+        "No cranial-foramen label set verified",
+        "Original download and redistribution license not independently verified"
+      ],
+      "decision": "Not bundled; potentially useful future evidence if original download/license obtained."
+    },
+    {
+      "id": "stanford-dissection",
+      "status": "candidate-reference-only",
+      "sourceURL": "https://med.stanford.edu/neurosurgery/research/SNFTVR_Lab/models.html",
+      "sourceType": "Official Stanford models based on photogrammetry from dissections",
+      "decision": "No original mesh download/redistribution rights confirmed; not bundled, no fabricated registration."
+    }
+  ],
+  "perExistingForamen": [
+    {
+      "id": "cribriform",
+      "zh": "筛孔",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "cribriform",
+      "zh": "筛孔",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "optic_canal",
+      "zh": "视神经管",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "optic_canal",
+      "zh": "视神经管",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "sof",
+      "zh": "眶上裂",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "sof",
+      "zh": "眶上裂",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "rotundum",
+      "zh": "圆孔",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "rotundum",
+      "zh": "圆孔",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "ovale",
+      "zh": "卵圆孔",
+      "side": "left",
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "collisionLocationCountCappedAt10": 0,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "ovale",
+      "zh": "卵圆孔",
+      "side": "right",
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "collisionLocationCountCappedAt10": 0,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "iam",
+      "zh": "内耳道",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "iam",
+      "zh": "内耳道",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "stylomastoid",
+      "zh": "茎乳孔",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "stylomastoid",
+      "zh": "茎乳孔",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "jugular",
+      "zh": "颈静脉孔",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "jugular",
+      "zh": "颈静脉孔",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "foramen_magnum",
+      "zh": "枕骨大孔",
+      "side": "median",
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "collisionLocationCountCappedAt10": 0,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "hypoglossal_canal",
+      "zh": "舌下神经管",
+      "side": "left",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "hypoglossal_canal",
+      "zh": "舌下神经管",
+      "side": "right",
+      "status": "source-surface-intersection-detected-not-validated",
+      "collisionLocationCountCappedAt10": 10,
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    }
+  ],
+  "followupVerification": {
+    "foramenComponentSides": "uw-side-components.json: original mesh connected components; no face or vertex change; septum centroid is a coarse side reference, not a fitted anatomical midsagittal plane.",
+    "rightCTEvidence": "uw-right-ct-validation.json: exact source voxel centroids, original CT and label affines, three planes per right structure.",
+    "insulaLicense": "bodyparts3d/insula-license-recheck.json: direct official OBJ provenance, SHA256 checks, current archive and legacy viewer notices retained."
+  },
+  "files": [
+    {
+      "path": "analyze_bp3d.py",
+      "bytes": 7312,
+      "sha256": "820b8b3e071712fc9dd003f52017b26049de6ed9bdcf51fe5017796ab876e915"
+    },
+    {
+      "path": "analyze_existing_bones.py",
+      "bytes": 5804,
+      "sha256": "2fe4c955306d8fe139d700eeaf21f88a5417858c933bea8bd9822bdea9d75099"
+    },
+    {
+      "path": "analyze_uw.py",
+      "bytes": 7452,
+      "sha256": "e11f1d3977ba436c70b7f28da52b7a19d656e0fbc2ba849fad91821e92ea07ee"
+    },
+    {
+      "path": "bodyparts3d/bp3d-analysis.json",
+      "bytes": 36657,
+      "sha256": "7198a2ebf5b8e3b8ab181dda88aee7fe7793af94e2e190fcefcaf5fb39a69f0a"
+    },
+    {
+      "path": "bodyparts3d/bp3d-context-sections.png",
+      "bytes": 243584,
+      "sha256": "dc285a4a0d3e1a173cacc32609a2d7355502b03c0e6cde99f8084f6c0daa26d0"
+    },
+    {
+      "path": "bodyparts3d/bp3d-meshes.bin",
+      "bytes": 2214432,
+      "sha256": "8055cd3198c086ecd4697794ccbcd2efac14649da2bc7a2de80143facba1da83"
+    },
+    {
+      "path": "bodyparts3d/bp3d-meshes.bin.gz",
+      "bytes": 1121807,
+      "sha256": "3b1a8b3d1fbd352c88b3b4b424cbe26a647a33069b3a469e8ee8a88753502aac"
+    },
+    {
+      "path": "bodyparts3d/bp3d-meshes.json",
+      "bytes": 14843,
+      "sha256": "0a168e3719e1d2e9f31ca91bd2afc64a06133b413c627672f634a4d80529ba01"
+    },
+    {
+      "path": "bodyparts3d/bp3d-section-validation.json",
+      "bytes": 3456,
+      "sha256": "eb3585aa606d4585ac1a3b52929cdd61154568e2962e92ae192c6a02fc90118f"
+    },
+    {
+      "path": "bodyparts3d/capsule-insula-context-official.zip",
+      "bytes": 2158318,
+      "sha256": "565e14ceaf42ada83f1285d7e16dc6119c22fdaf11bcf43fd317b33881c03b1c"
+    },
+    {
+      "path": "bodyparts3d/coordinate_system.png",
+      "bytes": 28425,
+      "sha256": "338736275c11eac8c89531fdc14193c9a8adf5baab674033d9d89259f152a5f6"
+    },
+    {
+      "path": "bodyparts3d/download-manifest.json",
+      "bytes": 13757,
+      "sha256": "f861abc71243ebe0a20488886d81f3d4e639ca630a778f06f256a15d68117a5b"
+    },
+    {
+      "path": "bodyparts3d/FJ1744_BP22402_FMA72658_Left inferior frontal gyrus.obj",
+      "bytes": 218285,
+      "sha256": "52fbd7c171a48cc746e221e2caf7285dd3236d1997471a83a1d871be477e410a"
+    },
+    {
+      "path": "bodyparts3d/FJ1745_BP22397_FMA72657_Right inferior frontal gyrus.obj",
+      "bytes": 219872,
+      "sha256": "b4d47e04b64092abc56e522a3e1e49f74bed6afebaf1061a6567d842b724c464"
+    },
+    {
+      "path": "bodyparts3d/FJ1748_BP23978_FMA72978_Left insula.obj",
+      "bytes": 147665,
+      "sha256": "941d824f461433d486be6291a55e5b9aad880f759e16b616a04fecae3d2d3a38"
+    },
+    {
+      "path": "bodyparts3d/FJ1749_BP21973_FMA72977_Right insula.obj",
+      "bytes": 150125,
+      "sha256": "c724379de905744b0a6ffea5a20376af1a521bd577e9abdca9665dfd3daf39e0"
+    },
+    {
+      "path": "bodyparts3d/FJ1750_BP22348_FMA72907_Left internal capsule.obj",
+      "bytes": 686073,
+      "sha256": "cb931c008468da46fedbfeb3658cf558a057943ea175d7fbb0de3a42774c585f"
+    },
+    {
+      "path": "bodyparts3d/FJ1751_BP22231_FMA72906_Right internal capsule.obj",
+      "bytes": 692824,
+      "sha256": "9730c79f00ae16b6291626dbf6a01839628758883f2637223796487bdbd1ee63"
+    },
+    {
+      "path": "bodyparts3d/FJ1754_BP23921_FMA72827_Left caudate nucleus.obj",
+      "bytes": 156368,
+      "sha256": "e14317d10dc2ee6ee38dc920973154049936c48e6151b6b619953af7d0878cd1"
+    },
+    {
+      "path": "bodyparts3d/FJ1757_BP20205_FMA72831_Left globus pallidus.obj",
+      "bytes": 447648,
+      "sha256": "1431210b8185f3aba17d92456f847662ba5eb81ec764dfbfb021622815ac67e9"
+    },
+    {
+      "path": "bodyparts3d/FJ1776_BP20313_FMA72829_Left putamen.obj",
+      "bytes": 453659,
+      "sha256": "a0abd6e6f017a26517d29d4c0d00a34adfeb6ae89dfb2e9c74493aa8146db731"
+    },
+    {
+      "path": "bodyparts3d/FJ1782_BP21462_FMA258716_Left thalamus.obj",
+      "bytes": 99686,
+      "sha256": "5ec986cc2be7519115ac6e1dfc8679de7164d56dbbae32ded69d584cb3fddf63"
+    },
+    {
+      "path": "bodyparts3d/FJ1787_BP22367_FMA72656_Left middle frontal gyrus.obj",
+      "bytes": 225724,
+      "sha256": "e6ca6e379b91d5f203c15f9f064e3958e390f91f819458f5fc4f37a4ce52344a"
+    },
+    {
+      "path": "bodyparts3d/FJ1788_BP20959_FMA72655_Right middle frontal gyrus.obj",
+      "bytes": 223730,
+      "sha256": "6a615bb30f034dfea5e954aef0f6a182e7aa32cf19e2bfd307c2a9a091ed3461"
+    },
+    {
+      "path": "bodyparts3d/FJ1797_BP22179_FMA72666_Left postcentral gyrus.obj",
+      "bytes": 235820,
+      "sha256": "b15debc6839323f9465abd0ffbdb3e589c567110c77000a25de09ef85d086a9c"
+    },
+    {
+      "path": "bodyparts3d/FJ1798_BP22140_FMA72665_Right postcentral gyrus.obj",
+      "bytes": 238631,
+      "sha256": "654bfc5d371b721596ef891e528905caa810031541de3da6d53045be2a119484"
+    },
+    {
+      "path": "bodyparts3d/FJ1800_BP22183_FMA72662_Left precentral gyrus.obj",
+      "bytes": 269813,
+      "sha256": "8d2f96c138a533222e1f70ea80c07ba0699e0985fa46e6f394bc64326c168d9c"
+    },
+    {
+      "path": "bodyparts3d/FJ1801_BP22215_FMA72661_Right precentral gyrus.obj",
+      "bytes": 274379,
+      "sha256": "9520c6260fdad81f12bb0a7d3ff4288a9ca82e894c612cb2ce2856a8a204dece"
+    },
+    {
+      "path": "bodyparts3d/FJ1802_BP20207_FMA72826_Right caudate nucleus.obj",
+      "bytes": 158750,
+      "sha256": "d26243a9a0c620f661c199e33539b4c7e00ea2fa949bec15ff66e7e6b9442dde"
+    },
+    {
+      "path": "bodyparts3d/FJ1805_BP20297_FMA72830_Right globus pallidus.obj",
+      "bytes": 337918,
+      "sha256": "3c41d95b54f41c2480a054c29a5254dbe08022ef763137d36942ea72d90a87a4"
+    },
+    {
+      "path": "bodyparts3d/FJ1823_BP20196_FMA72828_Right putamen.obj",
+      "bytes": 459991,
+      "sha256": "ebcd224e3abccee31cfb3fa6d1dc80be2fbb9de0e51dc487ce622aab85deaaf3"
+    },
+    {
+      "path": "bodyparts3d/FJ1827_BP21533_FMA258714_Right thalamus.obj",
+      "bytes": 44286,
+      "sha256": "9b4d914f47a49a2c77a0bb99e84fa11494a1dba124120a5646e2615d38527756"
+    },
+    {
+      "path": "bodyparts3d/FJ1835_BP22159_FMA72672_Left superior parietal lobule.obj",
+      "bytes": 366550,
+      "sha256": "a4b4c047928796b62147f8d8337e3d504569ebb11d409afe6b3221adcfc22666"
+    },
+    {
+      "path": "bodyparts3d/FJ1836_BP22214_FMA72671_Right superior parietal lobule.obj",
+      "bytes": 383193,
+      "sha256": "03ecd1c245b7a1e7b554f8d6debd9de32ec3c9626749014c49a470d93adfb17e"
+    },
+    {
+      "path": "bodyparts3d/FJ1841_BP22180_FMA72668_Left supramarginal gyrus.obj",
+      "bytes": 149523,
+      "sha256": "2217ead15bb83b7556f1efca934afa2f308f1d9d606ba86cfd72b40a3ea7b7e6"
+    },
+    {
+      "path": "bodyparts3d/FJ1842_BP22255_FMA72667_Right supramarginal gyrus.obj",
+      "bytes": 152058,
+      "sha256": "f341ba331d13d72ecbe311e73f681b122bedb4d896263958327e236e50c06999"
+    },
+    {
+      "path": "bodyparts3d/FJ7463_BP22159_FMA72672_Left superior parietal lobule.obj",
+      "bytes": 820430,
+      "sha256": "9c37400a0047439901bc872d1255b83ff4c84774564c77557efa2c15b3649e6b"
+    },
+    {
+      "path": "bodyparts3d/FJ7463M_BP22214_FMA72671_Right superior parietal lobule.obj",
+      "bytes": 824508,
+      "sha256": "422948376b4795386e3c2eeedae94530e7b92e530df5c6f1a32ad2338527b82f"
+    },
+    {
+      "path": "bodyparts3d/FJ7479_BP29914_FMA72684_Left superior temporal gyrus.obj",
+      "bytes": 879793,
+      "sha256": "81446a29e939e6afe5d1889d3dd564c43ef719e6a2fb955d917828a90a51e607"
+    },
+    {
+      "path": "bodyparts3d/FJ7479M_BP29913_FMA72683_Right superior temporal gyrus.obj",
+      "bytes": 885407,
+      "sha256": "161625f7a1434cb04b02c8b930781ec68c57d1fa00b51665f40d3a0393bc4f55"
+    },
+    {
+      "path": "bodyparts3d/FMA2Obj.txt",
+      "bytes": 611355,
+      "sha256": "83b4388ac3a3035d5baa43bc1f97f2b4a2d3f1b21e6130c56cddb8e4459675ee"
+    },
+    {
+      "path": "bodyparts3d/insula-license-recheck.json",
+      "bytes": 2753,
+      "sha256": "2feac78b05eacf3e031abf71a9cdb6841768cc1cf226423fb15cd591894cd80e"
+    },
+    {
+      "path": "bodyparts3d/official-4.3-manifest.zip",
+      "bytes": 92926,
+      "sha256": "b93912e504f34a638564bafed41d4b585d9a6c9ffe43c3e21752f06370753898"
+    },
+    {
+      "path": "bodyparts3d/official-license.html",
+      "bytes": 14694,
+      "sha256": "9663cd800ee5bcd62c9be7aeed0413bc20b623b88cda8f32d46f12f7d06e40e3"
+    },
+    {
+      "path": "bodyparts3d/official-readme.html",
+      "bytes": 19263,
+      "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107"
+    },
+    {
+      "path": "bodyparts3d/opercula-download-manifest.json",
+      "bytes": 6021,
+      "sha256": "99c787b78ddd61ab46a412d3bfe90217f3f87dfd6cc3369809b510db32bf7c72"
+    },
+    {
+      "path": "bodyparts3d/opercular-context-official.zip",
+      "bytes": 987861,
+      "sha256": "f05a30909bf012bfd88e80ca05de654084854291a85a74f9f07470df854f1bdb"
+    },
+    {
+      "path": "bp-download-reference.py.txt",
+      "bytes": 15176,
+      "sha256": "c1405c34b152110bb5ad06c9d2dbac2ed096e60bccf106278ecc736ea708fe4c"
+    },
+    {
+      "path": "bp-MANIFEST.csv",
+      "bytes": 267920,
+      "sha256": "376cf368d8679a02bd60455b4cc8853f8367cd4043745372e6df1f231d08e27f"
+    },
+    {
+      "path": "fetch_bp3d.py",
+      "bytes": 3385,
+      "sha256": "71c8ea34b0509108a3868ca93d85cea7289c80cc05b6f48579215f29b5bb80a2"
+    },
+    {
+      "path": "make_source_report.py",
+      "bytes": 9614,
+      "sha256": "7d04a5db98a899ff9e49ab30411eb43dc7a0b5bb726d2f0fb61a0cc602e72362"
+    },
+    {
+      "path": "mesh-analysis.json",
+      "bytes": 55289,
+      "sha256": "e3678059daf3f2af3fb72523dc5e41219295acb126b8076485019844338416c4"
+    },
+    {
+      "path": "recheck_bp_insula_license.py",
+      "bytes": 3128,
+      "sha256": "2512de7df2e2e0f6b21b0185aa56c1455f2f360dd4c0fb577453de608bd99057"
+    },
+    {
+      "path": "uw-ct-validation.json",
+      "bytes": 6394,
+      "sha256": "c00bcaf569824d21e8138d81c9111c7c70cdf815c3e085d72c14a49541c0a60c"
+    },
+    {
+      "path": "uw-data-page.html",
+      "bytes": 488474,
+      "sha256": "6d8fd1e08e4dfb199e142002f3e1ea9c3937cf9693d2ac1f3f1ead6acf458fd1"
+    },
+    {
+      "path": "uw-foramen-ovale-ct.png",
+      "bytes": 356628,
+      "sha256": "6ebeebf6877e8e44a2f9b6991fd12a89180f455e34feeb14bcab2f760f96dd39"
+    },
+    {
+      "path": "uw-foramen-ovale-right-ct.png",
+      "bytes": 349154,
+      "sha256": "fe1fa8f730be1293ac593470abd634cbd517c35d0d45398cf683acdfff2298a0"
+    },
+    {
+      "path": "uw-foramen-rotundum-ct.png",
+      "bytes": 326973,
+      "sha256": "0259d7d280e2abf2197b772c39645ea7505faf4ff8a40dcdcb3dbd3a658e2f6f"
+    },
+    {
+      "path": "uw-foramen-rotundum-right-ct.png",
+      "bytes": 315311,
+      "sha256": "9e393fc4845f2fd38a9b6f649fd668691c7756e91d304bf62369c6f151ad846d"
+    },
+    {
+      "path": "uw-foramen-spinosum-ct.png",
+      "bytes": 311724,
+      "sha256": "b970f47c9785b3c552f71590726714ece47ee62f51ed12948496e2378a540bd7"
+    },
+    {
+      "path": "uw-foramen-spinosum-right-ct.png",
+      "bytes": 308290,
+      "sha256": "e6b3e92722c0762111e8c050d43e4194b3b624a9702492eda574efa824550378"
+    },
+    {
+      "path": "uw-item-metadata.json",
+      "bytes": 7053,
+      "sha256": "4876230c3986bc9a7379befd91a49c321b725f1e240ba4af1954f95a0783c415"
+    },
+    {
+      "path": "uw-label-statistics.json",
+      "bytes": 122912,
+      "sha256": "a002414f579f9fe11261c55c72760dace3df87fa1ffe3a413ff0972be561223f"
+    },
+    {
+      "path": "uw-meshes.bin",
+      "bytes": 16536060,
+      "sha256": "2ebec1a1e39a8a891d898c02995eedfae51c6aaa727157caa1796ccf3cabaedc"
+    },
+    {
+      "path": "uw-meshes.bin.gz",
+      "bytes": 5077994,
+      "sha256": "2ca90f03984c15ac32e2ae5a9eeda8efb6aa44f2e07589b7b121575cf5549e68"
+    },
+    {
+      "path": "uw-meshes.json",
+      "bytes": 5921,
+      "sha256": "5a657194388b7193d68575f852cd80dff9edea86e5e69659392cb3c41e7c93e5"
+    },
+    {
+      "path": "uw-readme.txt",
+      "bytes": 462,
+      "sha256": "5d6d569af94267f5bfb803f9631f022c8ef0e319dea37d12fa47aed8bc409107"
+    },
+    {
+      "path": "uw-right-ct-validation.json",
+      "bytes": 12003,
+      "sha256": "a1e7a86b9b9019eea32694f5c91c38c5a589ceb73ea9feb59afe8b2dc9272645"
+    },
+    {
+      "path": "uw-segmentation.seg.nrrd",
+      "bytes": 299575,
+      "sha256": "bf4a600515fc2ca1477029baaeb42d25d4f6a8b594f0236e3292e376f3447963"
+    },
+    {
+      "path": "uw-side-components.json",
+      "bytes": 90520,
+      "sha256": "ab9015b18c444fa682fa460e33e0dff011606ec2bed59ebb36467cce76e86d2f"
+    },
+    {
+      "path": "uw-template.nrrd",
+      "bytes": 77669909,
+      "sha256": "40b16cf04998c5b2fb865d4baf4d86981ae4f5d252b058b46abc3ce2684e44d5"
+    },
+    {
+      "path": "uw-vidian-canal-ct.png",
+      "bytes": 360979,
+      "sha256": "c448f57e2551e13608e1a232a75dba1321e3ff62049d5129d3a6715e3c5fb8bf"
+    },
+    {
+      "path": "uw-vidian-canal-right-ct.png",
+      "bytes": 354227,
+      "sha256": "d6e229163dd14a1483b58ae5116ef15f27088ba1a5b24f3959fb0b307182e252"
+    },
+    {
+      "path": "UW_ATTRIBUTION.txt",
+      "bytes": 838,
+      "sha256": "d9c0f3ebbf2322f656c6ebf5ec8b1129bb9e9f5d79f7d52b1f7ef41e8eccd098"
+    },
+    {
+      "path": "validate_bp_sections.py",
+      "bytes": 3541,
+      "sha256": "8b7b76d01f2e0d3b469bb56b00d977aff57d76e313acfe16d7c351c26784b94a"
+    },
+    {
+      "path": "validate_ct.py",
+      "bytes": 4127,
+      "sha256": "13c78967bb5bd6d977a69f47a9cfed53e3f04fe0a2e122696cb8e0be20c43464"
+    },
+    {
+      "path": "validate_ct_right.py",
+      "bytes": 4813,
+      "sha256": "013a15635f88242667876cbf642a81a873040052289bd36e2f89ef2a88314813"
+    },
+    {
+      "path": "validate_uw_side_components.py",
+      "bytes": 3127,
+      "sha256": "7d14accb15896d725aa8332af8d9389c751b07a8f529a0c35d264b437a23c337"
+    }
+  ]
+}

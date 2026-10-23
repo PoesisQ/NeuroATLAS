@@ -1,0 +1,4567 @@
+{
+  "source": "University of Washington ResearchWorks / Konuthula et al.",
+  "url": "https://hdl.handle.net/1773/46259",
+  "sha256": "bf4a600515fc2ca1477029baaeb42d25d4f6a8b594f0236e3292e376f3447963",
+  "license": "CC BY-NC-SA 3.0 United States",
+  "coordinateSystem": "right-anterior-superior",
+  "arrayShape": [
+    14,
+    282,
+    230,
+    85
+  ],
+  "voxelSpacingMm": [
+    0.46875,
+    0.46875,
+    1.25
+  ],
+  "ijkToRAS": [
+    [
+      0.46875,
+      -0.0,
+      0.0,
+      -48.109550476074205
+    ],
+    [
+      -0.0,
+      0.46875,
+      -0.0,
+      -14.334999084472997
+    ],
+    [
+      0.0,
+      -0.0,
+      1.25,
+      51.2901992797852
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "referenceMidlineXmmFromSeptumCentroid": 12.821083857642044,
+  "sourceType": "Synthetic template from 6 CT subjects; manual reference segmentation",
+  "notRegisteredToExistingAtlas": true,
+  "surfaceExtraction": {
+    "method": "Lewiner marching cubes, level 0.5",
+    "input": "original binary mask",
+    "faceWinding": "gradient_direction=ascent; positive signed volume / outward winding",
+    "smoothing": false,
+    "decimation": false,
+    "padding": "one zero voxel to close outer array boundary",
+    "coordinates": "Original source RAS mm; no deformation or registration"
+  },
+  "segments": [
+    {
+      "index": 0,
+      "id": "Segment_3",
+      "en": "eyes",
+      "zh": "眼球",
+      "role": "tissue",
+      "voxelCount": 50911,
+      "volumeMm3": 13983.123779296875,
+      "centroidRASmm": [
+        13.488909949963379,
+        66.69595751135142,
+        113.86832581432584
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -28.422050476074205,
+          54.571250915527,
+          101.2901992797852
+        ],
+        [
+          53.609199523925795,
+          79.883750915527,
+          125.0401992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -28.65642547607422,
+          54.336875915527344,
+          100.66519927978516
+        ],
+        [
+          53.84357452392578,
+          80.11812591552734,
+          125.66519927978516
+        ]
+      ],
+      "vertexCount": 14166,
+      "triangleCount": 28324,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 26194,
+          "volumeMm3": 7194.39697265625,
+          "centroidRASmm": [
+            42.04034072038299,
+            67.10371899027727,
+            113.85600633483595
+          ],
+          "bboxRASmm": [
+            [
+              31.109199523925795,
+              55.508750915527,
+              101.2901992797852
+            ],
+            [
+              53.609199523925795,
+              79.883750915527,
+              125.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 24717,
+          "volumeMm3": 6788.726806640625,
+          "centroidRASmm": [
+            -16.768652763973233,
+            66.26382965687944,
+            113.88138146208885
+          ],
+          "bboxRASmm": [
+            [
+              -28.422050476074205,
+              54.571250915527,
+              101.2901992797852
+            ],
+            [
+              -6.3908004760742045,
+              78.946250915527,
+              125.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 13960.212707519531
+    },
+    {
+      "index": 1,
+      "id": "Segment_5",
+      "en": "septum",
+      "zh": "鼻中隔",
+      "role": "tissue",
+      "voxelCount": 34820,
+      "volumeMm3": 9563.5986328125,
+      "centroidRASmm": [
+        12.821083857642037,
+        61.06179604045553,
+        91.4023115715715
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          6.7341995239257955,
+          22.696250915527003,
+          72.5401992797852
+        ],
+        [
+          19.390449523925795,
+          90.665000915527,
+          116.2901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          6.499824523925781,
+          22.461875915527344,
+          71.91519927978516
+        ],
+        [
+          19.62482452392578,
+          90.89937591552734,
+          116.91519927978516
+        ]
+      ],
+      "vertexCount": 18195,
+      "triangleCount": 36418,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 34818,
+          "volumeMm3": 9563.04931640625,
+          "centroidRASmm": [
+            12.821164240451719,
+            61.062397736137356,
+            91.40145638817738
+          ],
+          "bboxRASmm": [
+            [
+              6.7341995239257955,
+              22.696250915527003,
+              72.5401992797852
+            ],
+            [
+              19.390449523925795,
+              90.665000915527,
+              116.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            11.421699523925795,
+            50.586875915527,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              11.421699523925795,
+              50.352500915527,
+              106.2901992797852
+            ],
+            [
+              11.421699523925795,
+              50.821250915527,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 9536.4990234375
+    },
+    {
+      "index": 2,
+      "id": "Segment_6",
+      "en": "optic nerves",
+      "zh": "视神经",
+      "role": "tissue",
+      "voxelCount": 3299,
+      "volumeMm3": 906.097412109375,
+      "centroidRASmm": [
+        13.748256814013688,
+        46.83311056996806,
+        116.17463395696008
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -14.359550476074205,
+          29.727500915527003,
+          112.5401992797852
+        ],
+        [
+          41.421699523925795,
+          57.383750915527,
+          118.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -14.593925476074219,
+          29.493125915527344,
+          111.91519927978516
+        ],
+        [
+          41.65607452392578,
+          57.618125915527344,
+          119.41519927978516
+        ]
+      ],
+      "vertexCount": 3688,
+      "triangleCount": 7368,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 1705,
+          "volumeMm3": 468.292236328125,
+          "centroidRASmm": [
+            34.70689013976156,
+            46.5554884521842,
+            115.9075013325711
+          ],
+          "bboxRASmm": [
+            [
+              24.077949523925795,
+              29.727500915527003,
+              112.5401992797852
+            ],
+            [
+              41.421699523925795,
+              57.383750915527,
+              118.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 1594,
+          "volumeMm3": 437.80517578125,
+          "centroidRASmm": [
+            -8.669854742071708,
+            47.130065219165964,
+            116.46036866497965
+          ],
+          "bboxRASmm": [
+            [
+              -14.359550476074205,
+              30.196250915527003,
+              113.7901992797852
+            ],
+            [
+              2.0466995239257955,
+              56.915000915527,
+              118.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 886.9972229003906
+    },
+    {
+      "index": 3,
+      "id": "Segment_7",
+      "en": "internal carotid artery",
+      "zh": "颈内动脉",
+      "role": "tissue",
+      "voxelCount": 720,
+      "volumeMm3": 197.75390625,
+      "centroidRASmm": [
+        14.779121398925783,
+        21.025026957193894,
+        115.5592965020074
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          2.0466995239257955,
+          16.133750915527003,
+          111.2901992797852
+        ],
+        [
+          25.952949523925795,
+          24.571250915527003,
+          118.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          1.8123245239257812,
+          15.899375915527344,
+          110.66519927978516
+        ],
+        [
+          26.18732452392578,
+          24.805625915527344,
+          119.41519927978516
+        ]
+      ],
+      "vertexCount": 1156,
+      "triangleCount": 2304,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 386,
+          "volumeMm3": 106.01806640625,
+          "centroidRASmm": [
+            23.198739679366202,
+            21.41872500879138,
+            115.62957751812715
+          ],
+          "bboxRASmm": [
+            [
+              20.327949523925795,
+              16.133750915527003,
+              111.2901992797852
+            ],
+            [
+              25.952949523925795,
+              24.571250915527003,
+              118.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 334,
+          "volumeMm3": 91.73583984375,
+          "centroidRASmm": [
+            5.048664344285065,
+            20.570034598161822,
+            115.47807353128218
+          ],
+          "bboxRASmm": [
+            [
+              2.0466995239257955,
+              16.133750915527003,
+              111.2901992797852
+            ],
+            [
+              7.6716995239257955,
+              23.633750915527003,
+              118.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 188.49563598632812
+    },
+    {
+      "index": 4,
+      "id": "Segment_13",
+      "en": "nasolacrimal duct",
+      "zh": "鼻泪管",
+      "role": "lumen-or-duct-label",
+      "voxelCount": 1475,
+      "volumeMm3": 405.120849609375,
+      "centroidRASmm": [
+        13.412377490027481,
+        70.12961955959513,
+        99.55799588995467
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -1.2345504760742045,
+          62.071250915527,
+          90.0401992797852
+        ],
+        [
+          26.421699523925795,
+          75.665000915527,
+          112.5401992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -1.4689254760742188,
+          61.836875915527344,
+          89.41519927978516
+        ],
+        [
+          26.65607452392578,
+          75.89937591552734,
+          113.16519927978516
+        ]
+      ],
+      "vertexCount": 1853,
+      "triangleCount": 3702,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 798,
+          "volumeMm3": 219.17724609375,
+          "centroidRASmm": [
+            24.021558546482176,
+            70.51403756966265,
+            99.83969802665234
+          ],
+          "bboxRASmm": [
+            [
+              21.734199523925795,
+              62.071250915527,
+              90.0401992797852
+            ],
+            [
+              26.421699523925795,
+              75.665000915527,
+              112.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 677,
+          "volumeMm3": 185.943603515625,
+          "centroidRASmm": [
+            0.9070207942359825,
+            69.67649463783158,
+            99.22594521774677
+          ],
+          "bboxRASmm": [
+            [
+              -1.2345504760742045,
+              62.071250915527,
+              90.0401992797852
+            ],
+            [
+              3.4529495239257955,
+              74.727500915527,
+              111.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 393.402099609375
+    },
+    {
+      "index": 5,
+      "id": "Segment_15",
+      "en": "foramen ovale",
+      "zh": "卵圆孔",
+      "role": "foramen-volume-label",
+      "voxelCount": 519,
+      "volumeMm3": 142.547607421875,
+      "centroidRASmm": [
+        16.442472645313067,
+        13.818902649631148,
+        95.71457307554626
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -12.484550476074205,
+          10.977500915527003,
+          92.5401992797852
+        ],
+        [
+          41.421699523925795,
+          16.602500915527003,
+          98.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -12.718925476074219,
+          10.743125915527344,
+          91.91519927978516
+        ],
+        [
+          41.65607452392578,
+          16.836875915527344,
+          99.41519927978516
+        ]
+      ],
+      "vertexCount": 790,
+      "triangleCount": 1572,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 280,
+          "volumeMm3": 76.904296875,
+          "centroidRASmm": [
+            38.91556113106864,
+            13.975826808384062,
+            95.51341356549945
+          ],
+          "bboxRASmm": [
+            [
+              35.796699523925795,
+              10.977500915527003,
+              92.5401992797852
+            ],
+            [
+              41.421699523925795,
+              16.602500915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 239,
+          "volumeMm3": 65.643310546875,
+          "centroidRASmm": [
+            -9.885831856827355,
+            13.63505844690768,
+            95.95024112078936
+          ],
+          "bboxRASmm": [
+            [
+              -12.484550476074205,
+              11.446250915527003,
+              93.7901992797852
+            ],
+            [
+              -7.3283004760742045,
+              16.133750915527003,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 136.90567016601562,
+      "interpretation": "Boundary of author-labeled foramen/canal volume. Not a separately segmented osseous rim. Full canal completeness is not documented."
+    },
+    {
+      "index": 6,
+      "id": "Segment_16",
+      "en": "foramen spinosum",
+      "zh": "棘孔",
+      "role": "foramen-volume-label",
+      "voxelCount": 56,
+      "volumeMm3": 15.380859375,
+      "centroidRASmm": [
+        7.914445059640071,
+        8.692344665527003,
+        95.19644927978517
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -17.172050476074205,
+          7.227500915527003,
+          92.5401992797852
+        ],
+        [
+          45.640449523925795,
+          10.508750915527003,
+          97.5401992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -17.40642547607422,
+          6.993125915527344,
+          91.91519927978516
+        ],
+        [
+          45.87482452392578,
+          10.743125915527344,
+          98.16519927978516
+        ]
+      ],
+      "vertexCount": 169,
+      "triangleCount": 334,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 34,
+          "volumeMm3": 9.33837890625,
+          "centroidRASmm": [
+            -16.000175476074215,
+            8.096067091997591,
+            95.77549339743223
+          ],
+          "bboxRASmm": [
+            [
+              -17.172050476074205,
+              7.227500915527003,
+              92.5401992797852
+            ],
+            [
+              -15.297050476074205,
+              9.102500915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 22,
+          "volumeMm3": 6.04248046875,
+          "centroidRASmm": [
+            44.873404069380335,
+            9.61386455189064,
+            94.30156291614881
+          ],
+          "bboxRASmm": [
+            [
+              44.234199523925795,
+              8.633750915527003,
+              92.5401992797852
+            ],
+            [
+              45.640449523925795,
+              10.508750915527003,
+              95.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 12.485504150390625,
+      "interpretation": "Boundary of author-labeled foramen/canal volume. Not a separately segmented osseous rim. Full canal completeness is not documented."
+    },
+    {
+      "index": 7,
+      "id": "Segment_17",
+      "en": "foramen rotundum",
+      "zh": "圆孔",
+      "role": "foramen-volume-label",
+      "voxelCount": 214,
+      "volumeMm3": 58.77685546875,
+      "centroidRASmm": [
+        14.006395785608026,
+        28.818476382816776,
+        102.38833012090667
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -6.8595504760742045,
+          25.508750915527003,
+          100.0401992797852
+        ],
+        [
+          33.921699523925795,
+          32.540000915527,
+          103.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -7.093925476074219,
+          25.274375915527344,
+          99.41519927978516
+        ],
+        [
+          34.15607452392578,
+          32.774375915527344,
+          104.41519927978516
+        ]
+      ],
+      "vertexCount": 483,
+      "triangleCount": 962,
+      "components": [
+        {
+          "label": 2,
+          "voxelCount": 108,
+          "volumeMm3": 29.6630859375,
+          "centroidRASmm": [
+            32.74982452392579,
+            28.937570359971375,
+            102.05408816867406
+          ],
+          "bboxRASmm": [
+            [
+              31.577949523925795,
+              25.508750915527003,
+              101.2901992797852
+            ],
+            [
+              33.921699523925795,
+              32.540000915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 106,
+          "volumeMm3": 29.11376953125,
+          "centroidRASmm": [
+            -5.090682551545914,
+            28.69713534948919,
+            102.7288785250682
+          ],
+          "bboxRASmm": [
+            [
+              -6.8595504760742045,
+              25.508750915527003,
+              100.0401992797852
+            ],
+            [
+              -3.1095504760742045,
+              31.602500915527003,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 52.631378173828125,
+      "interpretation": "Boundary of author-labeled foramen/canal volume. Not a separately segmented osseous rim. Full canal completeness is not documented."
+    },
+    {
+      "index": 8,
+      "id": "Segment_18",
+      "en": "vidian canal",
+      "zh": "翼管",
+      "role": "canal-volume-label",
+      "voxelCount": 537,
+      "volumeMm3": 147.491455078125,
+      "centroidRASmm": [
+        11.134513769735843,
+        28.49234030100209,
+        96.39494788313712
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -1.2345504760742045,
+          25.508750915527003,
+          93.7901992797852
+        ],
+        [
+          27.827949523925795,
+          31.133750915527003,
+          98.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -1.4689254760742188,
+          25.274375915527344,
+          93.16519927978516
+        ],
+        [
+          28.06232452392578,
+          31.368125915527344,
+          99.41519927978516
+        ]
+      ],
+      "vertexCount": 844,
+      "triangleCount": 1680,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 322,
+          "volumeMm3": 88.43994140625,
+          "centroidRASmm": [
+            1.5401001450438023,
+            28.552714424843927,
+            96.51923654686591
+          ],
+          "bboxRASmm": [
+            [
+              -1.2345504760742045,
+              25.508750915527003,
+              93.7901992797852
+            ],
+            [
+              4.8591995239257955,
+              31.133750915527003,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 3,
+          "voxelCount": 214,
+          "volumeMm3": 58.77685546875,
+          "centroidRASmm": [
+            25.60248223420616,
+            28.404486896835465,
+            96.20258245735526
+          ],
+          "bboxRASmm": [
+            [
+              23.609199523925795,
+              25.508750915527003,
+              93.7901992797852
+            ],
+            [
+              27.827949523925795,
+              30.665000915527003,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            4.3904495239257955,
+            27.852500915527003,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              4.3904495239257955,
+              27.852500915527003,
+              97.5401992797852
+            ],
+            [
+              4.3904495239257955,
+              27.852500915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 140.75088500976562,
+      "interpretation": "Boundary of author-labeled foramen/canal volume. Not a separately segmented osseous rim. Full canal completeness is not documented."
+    },
+    {
+      "index": 9,
+      "id": "Segment_19",
+      "en": "pterygopalatine fossa",
+      "zh": "翼腭窝",
+      "role": "space-volume-label",
+      "voxelCount": 3910,
+      "volumeMm3": 1073.91357421875,
+      "centroidRASmm": [
+        11.093214869194325,
+        34.6948122966015,
+        96.54563406239387
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -13.422050476074205,
+          30.665000915527003,
+          86.2901992797852
+        ],
+        [
+          37.671699523925795,
+          40.040000915527,
+          106.2901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -13.656425476074219,
+          30.430625915527344,
+          85.66519927978516
+        ],
+        [
+          37.90607452392578,
+          40.274375915527344,
+          106.91519927978516
+        ]
+      ],
+      "vertexCount": 3545,
+      "triangleCount": 7066,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 2142,
+          "volumeMm3": 588.31787109375,
+          "centroidRASmm": [
+            -6.629552226774498,
+            34.23905553737605,
+            96.9875615580298
+          ],
+          "bboxRASmm": [
+            [
+              -13.422050476074205,
+              30.665000915527003,
+              86.2901992797852
+            ],
+            [
+              1.1091995239257955,
+              40.040000915527,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 10,
+          "voxelCount": 1749,
+          "volumeMm3": 480.377197265625,
+          "centroidRASmm": [
+            32.980983400426645,
+            35.244760778306045,
+            96.06578532895612
+          ],
+          "bboxRASmm": [
+            [
+              27.359199523925795,
+              32.540000915527,
+              86.2901992797852
+            ],
+            [
+              37.671699523925795,
+              39.571250915527,
+              105.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 6,
+          "voxelCount": 9,
+          "volumeMm3": 2.471923828125,
+          "centroidRASmm": [
+            -5.2449671427408715,
+            35.352500915527,
+            89.62353261311851
+          ],
+          "bboxRASmm": [
+            [
+              -6.8595504760742045,
+              35.352500915527,
+              87.5401992797852
+            ],
+            [
+              -4.0470504760742045,
+              35.352500915527,
+              90.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 5,
+          "voxelCount": 4,
+          "volumeMm3": 1.0986328125,
+          "centroidRASmm": [
+            -6.6251754760742045,
+            34.883750915527,
+            87.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -7.3283004760742045,
+              34.883750915527,
+              87.5401992797852
+            ],
+            [
+              -5.9220504760742045,
+              34.883750915527,
+              87.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 9,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -1.7033004760742045,
+            35.821250915527,
+            93.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -1.7033004760742045,
+              35.821250915527,
+              93.7901992797852
+            ],
+            [
+              -1.7033004760742045,
+              35.821250915527,
+              93.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 8,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -1.7033004760742045,
+            31.133750915527003,
+            95.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -1.7033004760742045,
+              31.133750915527003,
+              95.0401992797852
+            ],
+            [
+              -1.7033004760742045,
+              31.133750915527003,
+              95.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 7,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -3.1095504760742045,
+            35.821250915527,
+            95.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -3.1095504760742045,
+              35.821250915527,
+              95.0401992797852
+            ],
+            [
+              -3.1095504760742045,
+              35.821250915527,
+              95.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 4,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -7.7970504760742045,
+            35.352500915527,
+            88.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -7.7970504760742045,
+              35.352500915527,
+              88.7901992797852
+            ],
+            [
+              -7.7970504760742045,
+              35.352500915527,
+              88.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 3,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -10.140800476074205,
+            38.165000915527,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -10.140800476074205,
+              38.165000915527,
+              97.5401992797852
+            ],
+            [
+              -10.140800476074205,
+              38.165000915527,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -10.609550476074205,
+            39.571250915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -10.609550476074205,
+              39.571250915527,
+              100.0401992797852
+            ],
+            [
+              -10.609550476074205,
+              39.571250915527,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 1058.4297180175781
+    },
+    {
+      "index": 10,
+      "id": "Segment_20",
+      "en": "pituitary",
+      "zh": "垂体",
+      "role": "tissue",
+      "voxelCount": 1091,
+      "volumeMm3": 299.652099609375,
+      "centroidRASmm": [
+        13.724632612835041,
+        17.095741062181695,
+        114.69533218537637
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          7.6716995239257955,
+          13.321250915527003,
+          112.5401992797852
+        ],
+        [
+          19.859199523925795,
+          20.352500915527003,
+          117.5401992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          7.437324523925781,
+          13.086875915527344,
+          111.91519927978516
+        ],
+        [
+          20.09357452392578,
+          20.586875915527344,
+          118.16519927978516
+        ]
+      ],
+      "vertexCount": 1039,
+      "triangleCount": 2074,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 1091,
+          "volumeMm3": 299.652099609375,
+          "centroidRASmm": [
+            13.724632612835041,
+            17.095741062181695,
+            114.69533218537637
+          ],
+          "bboxRASmm": [
+            [
+              7.6716995239257955,
+              13.321250915527003,
+              112.5401992797852
+            ],
+            [
+              19.859199523925795,
+              20.352500915527003,
+              117.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 294.98291015625
+    },
+    {
+      "index": 11,
+      "id": "Segment_21",
+      "en": "cavernous sinus",
+      "zh": "海绵窦",
+      "role": "sinus-volume-label",
+      "voxelCount": 1877,
+      "volumeMm3": 515.533447265625,
+      "centroidRASmm": [
+        14.164274111032869,
+        15.846307521813912,
+        112.56350775074948
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          1.1091995239257955,
+          8.633750915527003,
+          110.0401992797852
+        ],
+        [
+          26.890449523925795,
+          23.165000915527003,
+          115.0401992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          0.8748245239257812,
+          8.399375915527344,
+          109.41519927978516
+        ],
+        [
+          27.12482452392578,
+          23.399375915527344,
+          115.66519927978516
+        ]
+      ],
+      "vertexCount": 2215,
+      "triangleCount": 4426,
+      "components": [
+        {
+          "label": 3,
+          "voxelCount": 956,
+          "volumeMm3": 262.5732421875,
+          "centroidRASmm": [
+            23.466515162001098,
+            16.06951843644773,
+            112.50358840112408
+          ],
+          "bboxRASmm": [
+            [
+              19.390449523925795,
+              8.633750915527003,
+              110.0401992797852
+            ],
+            [
+              26.890449523925795,
+              23.165000915527003,
+              115.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 1,
+          "voxelCount": 920,
+          "volumeMm3": 252.685546875,
+          "centroidRASmm": [
+            4.508656045664914,
+            15.621692491614183,
+            112.62851449717648
+          ],
+          "bboxRASmm": [
+            [
+              1.1091995239257955,
+              9.102500915527003,
+              110.0401992797852
+            ],
+            [
+              8.140449523925795,
+              21.758750915527003,
+              115.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            4.3904495239257955,
+            9.102500915527003,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              4.3904495239257955,
+              9.102500915527003,
+              110.0401992797852
+            ],
+            [
+              4.3904495239257955,
+              9.102500915527003,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 504.1236877441406
+    },
+    {
+      "index": 12,
+      "id": "Segment_8",
+      "en": "extraocular muscles",
+      "zh": "眼外肌",
+      "role": "tissue",
+      "voxelCount": 17690,
+      "volumeMm3": 4858.70361328125,
+      "centroidRASmm": [
+        11.614552124264957,
+        56.33432327279133,
+        117.64251697339738
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -31.703300476074205,
+          33.477500915527,
+          98.7901992797852
+        ],
+        [
+          55.952949523925795,
+          74.258750915527,
+          128.7901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -31.93767547607422,
+          33.243125915527344,
+          98.16519927978516
+        ],
+        [
+          56.18732452392578,
+          74.49312591552734,
+          129.4152069091797
+        ]
+      ],
+      "vertexCount": 19001,
+      "triangleCount": 38022,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 6241,
+          "volumeMm3": 1714.141845703125,
+          "centroidRASmm": [
+            -13.024277683252553,
+            53.02567528662171,
+            112.72065914198674
+          ],
+          "bboxRASmm": [
+            [
+              -31.703300476074205,
+              33.477500915527,
+              98.7901992797852
+            ],
+            [
+              -0.7658004760742045,
+              72.383750915527,
+              121.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 3141,
+          "volumeMm3": 862.701416015625,
+          "centroidRASmm": [
+            -14.56743610167116,
+            60.52561457359801,
+            126.89470421451934
+          ],
+          "bboxRASmm": [
+            [
+              -23.265800476074205,
+              44.258750915527,
+              121.2901992797852
+            ],
+            [
+              -6.3908004760742045,
+              71.446250915527,
+              128.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 4,
+          "voxelCount": 3082,
+          "volumeMm3": 846.49658203125,
+          "centroidRASmm": [
+            39.87704507876031,
+            61.75581045478754,
+            126.46338227783839
+          ],
+          "bboxRASmm": [
+            [
+              33.452949523925795,
+              45.665000915527,
+              121.2901992797852
+            ],
+            [
+              47.515449523925795,
+              73.321250915527,
+              128.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 3,
+          "voxelCount": 2864,
+          "volumeMm3": 786.62109375,
+          "centroidRASmm": [
+            31.779754255071037,
+            53.31655905100219,
+            111.82834522950584
+          ],
+          "bboxRASmm": [
+            [
+              26.890449523925795,
+              35.821250915527,
+              98.7901992797852
+            ],
+            [
+              44.234199523925795,
+              74.258750915527,
+              121.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 5,
+          "voxelCount": 2362,
+          "volumeMm3": 648.74267578125,
+          "centroidRASmm": [
+            50.204907610293276,
+            56.08804018309718,
+            113.88386989790541
+          ],
+          "bboxRASmm": [
+            [
+              38.140449523925795,
+              40.977500915527,
+              108.7901992797852
+            ],
+            [
+              55.952949523925795,
+              69.102500915527,
+              120.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 4774.867326999083
+    },
+    {
+      "index": 13,
+      "id": "Segment_23",
+      "en": "bone of anterior cranial fossa",
+      "zh": "前颅窝骨性结构（源分割范围）",
+      "role": "bone-segmentation",
+      "voxelCount": 572637,
+      "volumeMm3": 157279.44946289062,
+      "centroidRASmm": [
+        14.405499143056227,
+        46.509988938044216,
+        104.75331814915617
+      ],
+      "bboxVoxelCentersRASmm": [
+        [
+          -48.109550476074205,
+          -14.334999084472997,
+          51.2901992797852
+        ],
+        [
+          83.6091995239258,
+          93.008750915527,
+          156.2901992797852
+        ]
+      ],
+      "bboxSurfaceRASmm": [
+        [
+          -48.34392547607422,
+          -14.569374084472656,
+          50.665199279785156
+        ],
+        [
+          83.84357452392578,
+          93.24312591552734,
+          156.9152069091797
+        ]
+      ],
+      "vertexCount": 390739,
+      "triangleCount": 785870,
+      "components": [
+        {
+          "label": 1,
+          "voxelCount": 572001,
+          "volumeMm3": 157104.76684570312,
+          "centroidRASmm": [
+            14.40503893242332,
+            46.51771631724866,
+            104.7685411008659
+          ],
+          "bboxRASmm": [
+            [
+              -48.109550476074205,
+              -13.866249084472997,
+              57.5401992797852
+            ],
+            [
+              79.8591995239258,
+              93.008750915527,
+              156.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": true
+        },
+        {
+          "label": 57,
+          "voxelCount": 321,
+          "volumeMm3": 88.165283203125,
+          "centroidRASmm": [
+            11.890449523925783,
+            50.83293315851787,
+            83.03474756638953
+          ],
+          "bboxRASmm": [
+            [
+              11.890449523925795,
+              36.758750915527,
+              77.5401992797852
+            ],
+            [
+              11.890449523925795,
+              64.415000915527,
+              87.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 121,
+          "voxelCount": 30,
+          "volumeMm3": 8.23974609375,
+          "centroidRASmm": [
+            72.1404495239258,
+            1.4618759155270027,
+            106.66519927978517
+          ],
+          "bboxRASmm": [
+            [
+              71.8904495239258,
+              0.1962509155270027,
+              103.7901992797852
+            ],
+            [
+              72.8279495239258,
+              2.5400009155270027,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 104,
+          "voxelCount": 23,
+          "volumeMm3": 6.317138671875,
+          "centroidRASmm": [
+            37.65131908914318,
+            35.719348741613956,
+            65.09454710587214
+          ],
+          "bboxRASmm": [
+            [
+              36.734199523925795,
+              35.352500915527,
+              63.7901992797852
+            ],
+            [
+              38.609199523925795,
+              36.290000915527,
+              66.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 34,
+          "voxelCount": 13,
+          "volumeMm3": 3.570556640625,
+          "centroidRASmm": [
+            -3.0013773991511274,
+            9.67942399245008,
+            103.88635312593902
+          ],
+          "bboxRASmm": [
+            [
+              -4.0470504760742045,
+              9.571250915527003,
+              102.5401992797852
+            ],
+            [
+              -2.1720504760742045,
+              10.040000915527003,
+              105.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 26,
+          "voxelCount": 12,
+          "volumeMm3": 3.2958984375,
+          "centroidRASmm": [
+            -11.273612976074205,
+            29.766563415527003,
+            107.95686594645184
+          ],
+          "bboxRASmm": [
+            [
+              -12.015800476074205,
+              28.790000915527003,
+              107.5401992797852
+            ],
+            [
+              -10.609550476074205,
+              30.665000915527003,
+              108.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 12,
+          "voxelCount": 10,
+          "volumeMm3": 2.74658203125,
+          "centroidRASmm": [
+            -27.95330047607421,
+            3.6181259155270027,
+            97.04019927978518
+          ],
+          "bboxRASmm": [
+            [
+              -27.953300476074205,
+              2.0712509155270027,
+              96.2901992797852
+            ],
+            [
+              -27.953300476074205,
+              4.883750915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 21,
+          "voxelCount": 9,
+          "volumeMm3": 2.471923828125,
+          "centroidRASmm": [
+            -14.203300476074205,
+            38.633750915527,
+            62.95686594645187
+          ],
+          "bboxRASmm": [
+            [
+              -15.765800476074205,
+              38.633750915527,
+              62.5401992797852
+            ],
+            [
+              -12.953300476074205,
+              38.633750915527,
+              63.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 32,
+          "voxelCount": 9,
+          "volumeMm3": 2.471923828125,
+          "centroidRASmm": [
+            -8.630383809407538,
+            14.519167582193669,
+            85.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -9.203300476074205,
+              13.790000915527003,
+              85.0401992797852
+            ],
+            [
+              -8.265800476074205,
+              15.665000915527003,
+              85.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 92,
+          "voxelCount": 9,
+          "volumeMm3": 2.471923828125,
+          "centroidRASmm": [
+            27.20294952392579,
+            75.92541758219367,
+            132.54019927978518
+          ],
+          "bboxRASmm": [
+            [
+              25.952949523925795,
+              75.665000915527,
+              132.5401992797852
+            ],
+            [
+              28.296699523925795,
+              76.133750915527,
+              132.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 112,
+          "voxelCount": 9,
+          "volumeMm3": 2.471923828125,
+          "centroidRASmm": [
+            55.380032857259124,
+            4.36291758219367,
+            93.79019927978518
+          ],
+          "bboxRASmm": [
+            [
+              55.015449523925795,
+              3.4775009155270027,
+              93.7901992797852
+            ],
+            [
+              55.952949523925795,
+              4.883750915527003,
+              93.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 114,
+          "voxelCount": 8,
+          "volumeMm3": 2.197265625,
+          "centroidRASmm": [
+            56.83185577392579,
+            4.473594665527003,
+            95.04019927978518
+          ],
+          "bboxRASmm": [
+            [
+              56.421699523925795,
+              3.9462509155270027,
+              95.0401992797852
+            ],
+            [
+              57.359199523925795,
+              4.883750915527003,
+              95.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 89,
+          "voxelCount": 6,
+          "volumeMm3": 1.64794921875,
+          "centroidRASmm": [
+            25.484199523925795,
+            22.227500915527003,
+            120.24853261311853
+          ],
+          "bboxRASmm": [
+            [
+              24.546699523925795,
+              22.227500915527003,
+              120.0401992797852
+            ],
+            [
+              26.421699523925795,
+              22.227500915527003,
+              121.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 22,
+          "voxelCount": 6,
+          "volumeMm3": 1.64794921875,
+          "centroidRASmm": [
+            -13.265800476074205,
+            34.649375915527,
+            61.290199279785206
+          ],
+          "bboxRASmm": [
+            [
+              -13.422050476074205,
+              33.946250915527,
+              61.2901992797852
+            ],
+            [
+              -12.953300476074205,
+              35.352500915527,
+              61.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 72,
+          "voxelCount": 6,
+          "volumeMm3": 1.64794921875,
+          "centroidRASmm": [
+            16.265449523925795,
+            41.211875915527,
+            102.95686594645186
+          ],
+          "bboxRASmm": [
+            [
+              16.109199523925795,
+              40.977500915527,
+              102.5401992797852
+            ],
+            [
+              16.577949523925795,
+              41.446250915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 8,
+          "voxelCount": 6,
+          "volumeMm3": 1.64794921875,
+          "centroidRASmm": [
+            -35.45330047607421,
+            1.1337509155270027,
+            106.9151992797852
+          ],
+          "bboxRASmm": [
+            [
+              -35.922050476074205,
+              0.6650009155270027,
+              106.2901992797852
+            ],
+            [
+              -34.984550476074205,
+              1.6025009155270027,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 68,
+          "voxelCount": 5,
+          "volumeMm3": 1.373291015625,
+          "centroidRASmm": [
+            15.640449523925795,
+            40.883750915527,
+            106.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              15.640449523925795,
+              40.508750915527,
+              105.0401992797852
+            ],
+            [
+              15.640449523925795,
+              41.446250915527,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 13,
+          "voxelCount": 5,
+          "volumeMm3": 1.373291015625,
+          "centroidRASmm": [
+            -27.015800476074208,
+            3.8525009155270027,
+            96.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -27.015800476074205,
+              3.0087509155270027,
+              95.0401992797852
+            ],
+            [
+              -27.015800476074205,
+              4.415000915527003,
+              96.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 63,
+          "voxelCount": 5,
+          "volumeMm3": 1.373291015625,
+          "centroidRASmm": [
+            14.702949523925795,
+            37.696250915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              14.234199523925795,
+              37.696250915527,
+              98.7901992797852
+            ],
+            [
+              15.171699523925795,
+              37.696250915527,
+              101.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 106,
+          "voxelCount": 5,
+          "volumeMm3": 1.373291015625,
+          "centroidRASmm": [
+            42.546699523925795,
+            37.508750915527,
+            51.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              42.359199523925795,
+              36.758750915527,
+              51.2901992797852
+            ],
+            [
+              42.827949523925795,
+              38.165000915527,
+              51.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": true
+        },
+        {
+          "label": 33,
+          "voxelCount": 4,
+          "volumeMm3": 1.0986328125,
+          "centroidRASmm": [
+            -3.3439254760742045,
+            9.102500915527003,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -4.0470504760742045,
+              9.102500915527003,
+              100.0401992797852
+            ],
+            [
+              -2.6408004760742045,
+              9.102500915527003,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 75,
+          "voxelCount": 4,
+          "volumeMm3": 1.0986328125,
+          "centroidRASmm": [
+            17.163887023925795,
+            39.922813415527,
+            101.9151992797852
+          ],
+          "bboxRASmm": [
+            [
+              17.046699523925795,
+              39.571250915527,
+              101.2901992797852
+            ],
+            [
+              17.515449523925795,
+              40.040000915527,
+              102.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 76,
+          "voxelCount": 4,
+          "volumeMm3": 1.0986328125,
+          "centroidRASmm": [
+            17.515449523925795,
+            38.868125915527,
+            102.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              17.515449523925795,
+              38.633750915527,
+              101.2901992797852
+            ],
+            [
+              17.515449523925795,
+              39.102500915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 48,
+          "voxelCount": 3,
+          "volumeMm3": 0.823974609375,
+          "centroidRASmm": [
+            6.2654495239257955,
+            19.727500915527003,
+            100.45686594645186
+          ],
+          "bboxRASmm": [
+            [
+              6.2654495239257955,
+              19.415000915527003,
+              100.0401992797852
+            ],
+            [
+              6.2654495239257955,
+              19.883750915527003,
+              101.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 2,
+          "voxelCount": 3,
+          "volumeMm3": 0.823974609375,
+          "centroidRASmm": [
+            -42.015800476074205,
+            1.1337509155270027,
+            115.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -42.015800476074205,
+              0.6650009155270027,
+              115.0401992797852
+            ],
+            [
+              -42.015800476074205,
+              1.6025009155270027,
+              115.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 119,
+          "voxelCount": 3,
+          "volumeMm3": 0.823974609375,
+          "centroidRASmm": [
+            69.8591995239258,
+            7.383750915527003,
+            108.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              69.5466995239258,
+              7.227500915527003,
+              108.7901992797852
+            ],
+            [
+              70.0154495239258,
+              7.696250915527003,
+              108.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 15,
+          "voxelCount": 3,
+          "volumeMm3": 0.823974609375,
+          "centroidRASmm": [
+            -17.640800476074205,
+            39.571250915527,
+            108.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -18.109550476074205,
+              39.571250915527,
+              108.7901992797852
+            ],
+            [
+              -17.172050476074205,
+              39.571250915527,
+              108.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 70,
+          "voxelCount": 3,
+          "volumeMm3": 0.823974609375,
+          "centroidRASmm": [
+            16.109199523925795,
+            32.071250915527,
+            102.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              16.109199523925795,
+              31.602500915527003,
+              102.5401992797852
+            ],
+            [
+              16.109199523925795,
+              32.540000915527,
+              102.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 88,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            24.312324523925795,
+            75.665000915527,
+            131.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              24.077949523925795,
+              75.665000915527,
+              131.2901992797852
+            ],
+            [
+              24.546699523925795,
+              75.665000915527,
+              131.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 40,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            3.2185745239257955,
+            -14.334999084472997,
+            76.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              2.9841995239257955,
+              -14.334999084472997,
+              76.2901992797852
+            ],
+            [
+              3.4529495239257955,
+              -14.334999084472997,
+              76.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": true
+        },
+        {
+          "label": 99,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            29.468574523925795,
+            68.165000915527,
+            142.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              29.234199523925795,
+              68.165000915527,
+              142.5401992797852
+            ],
+            [
+              29.702949523925795,
+              68.165000915527,
+              142.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 113,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            56.187324523925795,
+            6.290000915527003,
+            93.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              55.952949523925795,
+              6.290000915527003,
+              93.7901992797852
+            ],
+            [
+              56.421699523925795,
+              6.290000915527003,
+              93.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 105,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            39.312324523925795,
+            0.1962509155270027,
+            96.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              39.077949523925795,
+              0.1962509155270027,
+              96.2901992797852
+            ],
+            [
+              39.546699523925795,
+              0.1962509155270027,
+              96.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 109,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            49.390449523925795,
+            56.680625915527,
+            61.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              49.390449523925795,
+              56.446250915527,
+              61.2901992797852
+            ],
+            [
+              49.390449523925795,
+              56.915000915527,
+              61.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 78,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            17.984199523925795,
+            38.633750915527,
+            100.6651992797852
+          ],
+          "bboxRASmm": [
+            [
+              17.984199523925795,
+              38.633750915527,
+              100.0401992797852
+            ],
+            [
+              17.984199523925795,
+              38.633750915527,
+              101.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 94,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            26.890449523925795,
+            67.930625915527,
+            136.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              26.890449523925795,
+              67.696250915527,
+              136.2901992797852
+            ],
+            [
+              26.890449523925795,
+              68.165000915527,
+              136.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 83,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            20.562324523925795,
+            70.040000915527,
+            138.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              20.327949523925795,
+              70.040000915527,
+              138.7901992797852
+            ],
+            [
+              20.796699523925795,
+              70.040000915527,
+              138.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 102,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            32.749824523925795,
+            3.4775009155270027,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              32.515449523925795,
+              3.4775009155270027,
+              97.5401992797852
+            ],
+            [
+              32.984199523925795,
+              3.4775009155270027,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 111,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            52.671699523925795,
+            4.649375915527003,
+            90.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              52.671699523925795,
+              4.415000915527003,
+              90.0401992797852
+            ],
+            [
+              52.671699523925795,
+              4.883750915527003,
+              90.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 124,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            83.6091995239258,
+            34.649375915527,
+            85.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              83.6091995239258,
+              34.415000915527,
+              85.0401992797852
+            ],
+            [
+              83.6091995239258,
+              34.883750915527,
+              85.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": true
+        },
+        {
+          "label": 29,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            -10.375175476074205,
+            30.196250915527003,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -10.609550476074205,
+              30.196250915527003,
+              110.0401992797852
+            ],
+            [
+              -10.140800476074205,
+              30.196250915527003,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 3,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            -42.015800476074205,
+            2.7743759155270027,
+            116.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -42.015800476074205,
+              2.5400009155270027,
+              116.2901992797852
+            ],
+            [
+              -42.015800476074205,
+              3.0087509155270027,
+              116.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 11,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            -29.359550476074205,
+            33.243125915527,
+            125.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -29.359550476074205,
+              33.008750915527,
+              125.0401992797852
+            ],
+            [
+              -29.359550476074205,
+              33.477500915527,
+              125.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 6,
+          "voxelCount": 2,
+          "volumeMm3": 0.54931640625,
+          "centroidRASmm": [
+            -36.390800476074205,
+            4.180625915527003,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -36.390800476074205,
+              3.9462509155270027,
+              106.2901992797852
+            ],
+            [
+              -36.390800476074205,
+              4.415000915527003,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 87,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            21.734199523925795,
+            55.977500915527,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              21.734199523925795,
+              55.977500915527,
+              98.7901992797852
+            ],
+            [
+              21.734199523925795,
+              55.977500915527,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 96,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            27.827949523925795,
+            22.227500915527003,
+            120.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              27.827949523925795,
+              22.227500915527003,
+              120.0401992797852
+            ],
+            [
+              27.827949523925795,
+              22.227500915527003,
+              120.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 97,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            27.827949523925795,
+            85.977500915527,
+            66.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              27.827949523925795,
+              85.977500915527,
+              66.2901992797852
+            ],
+            [
+              27.827949523925795,
+              85.977500915527,
+              66.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 98,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            28.296699523925795,
+            12.852500915527003,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              28.296699523925795,
+              12.852500915527003,
+              97.5401992797852
+            ],
+            [
+              28.296699523925795,
+              12.852500915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 100,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            29.702949523925795,
+            77.071250915527,
+            135.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              29.702949523925795,
+              77.071250915527,
+              135.0401992797852
+            ],
+            [
+              29.702949523925795,
+              77.071250915527,
+              135.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 103,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            33.921699523925795,
+            61.133750915527,
+            135.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              33.921699523925795,
+              61.133750915527,
+              135.0401992797852
+            ],
+            [
+              33.921699523925795,
+              61.133750915527,
+              135.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 101,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            30.640449523925795,
+            68.165000915527,
+            143.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              30.640449523925795,
+              68.165000915527,
+              143.7901992797852
+            ],
+            [
+              30.640449523925795,
+              68.165000915527,
+              143.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 108,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            48.921699523925795,
+            49.883750915527,
+            130.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              48.921699523925795,
+              49.883750915527,
+              130.0401992797852
+            ],
+            [
+              48.921699523925795,
+              49.883750915527,
+              130.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 107,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            45.640449523925795,
+            76.133750915527,
+            155.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              45.640449523925795,
+              76.133750915527,
+              155.0401992797852
+            ],
+            [
+              45.640449523925795,
+              76.133750915527,
+              155.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 110,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            51.734199523925795,
+            63.008750915527,
+            138.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              51.734199523925795,
+              63.008750915527,
+              138.7901992797852
+            ],
+            [
+              51.734199523925795,
+              63.008750915527,
+              138.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 120,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            70.9529495239258,
+            6.290000915527003,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              70.9529495239258,
+              6.290000915527003,
+              110.0401992797852
+            ],
+            [
+              70.9529495239258,
+              6.290000915527003,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 123,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            77.5154495239258,
+            54.571250915527,
+            88.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              77.5154495239258,
+              54.571250915527,
+              88.7901992797852
+            ],
+            [
+              77.5154495239258,
+              54.571250915527,
+              88.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 115,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            56.421699523925795,
+            10.508750915527003,
+            132.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              56.421699523925795,
+              10.508750915527003,
+              132.5401992797852
+            ],
+            [
+              56.421699523925795,
+              10.508750915527003,
+              132.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 122,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            77.0466995239258,
+            55.040000915527,
+            88.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              77.0466995239258,
+              55.040000915527,
+              88.7901992797852
+            ],
+            [
+              77.0466995239258,
+              55.040000915527,
+              88.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 118,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            66.7341995239258,
+            6.290000915527003,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              66.7341995239258,
+              6.290000915527003,
+              103.7901992797852
+            ],
+            [
+              66.7341995239258,
+              6.290000915527003,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 117,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            66.2654495239258,
+            40.977500915527,
+            153.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              66.2654495239258,
+              40.977500915527,
+              153.7901992797852
+            ],
+            [
+              66.2654495239258,
+              40.977500915527,
+              153.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 116,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            57.827949523925795,
+            7.227500915527003,
+            95.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              57.827949523925795,
+              7.227500915527003,
+              95.0401992797852
+            ],
+            [
+              57.827949523925795,
+              7.227500915527003,
+              95.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 64,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            14.234199523925795,
+            39.571250915527,
+            102.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              14.234199523925795,
+              39.571250915527,
+              102.5401992797852
+            ],
+            [
+              14.234199523925795,
+              39.571250915527,
+              102.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 65,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            14.234199523925795,
+            55.040000915527,
+            112.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              14.234199523925795,
+              55.040000915527,
+              112.5401992797852
+            ],
+            [
+              14.234199523925795,
+              55.040000915527,
+              112.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 66,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            14.702949523925795,
+            39.571250915527,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              14.702949523925795,
+              39.571250915527,
+              103.7901992797852
+            ],
+            [
+              14.702949523925795,
+              39.571250915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 67,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            15.171699523925795,
+            40.977500915527,
+            107.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              15.171699523925795,
+              40.977500915527,
+              107.5401992797852
+            ],
+            [
+              15.171699523925795,
+              40.977500915527,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 69,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            15.640449523925795,
+            46.133750915527,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              15.640449523925795,
+              46.133750915527,
+              98.7901992797852
+            ],
+            [
+              15.640449523925795,
+              46.133750915527,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 71,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            16.109199523925795,
+            40.508750915527,
+            105.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              16.109199523925795,
+              40.508750915527,
+              105.0401992797852
+            ],
+            [
+              16.109199523925795,
+              40.508750915527,
+              105.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 74,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            16.577949523925795,
+            40.508750915527,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              16.577949523925795,
+              40.508750915527,
+              103.7901992797852
+            ],
+            [
+              16.577949523925795,
+              40.508750915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 73,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            16.577949523925795,
+            39.102500915527,
+            72.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              16.577949523925795,
+              39.102500915527,
+              72.5401992797852
+            ],
+            [
+              16.577949523925795,
+              39.102500915527,
+              72.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 79,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            18.452949523925795,
+            76.602500915527,
+            133.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              18.452949523925795,
+              76.602500915527,
+              133.7901992797852
+            ],
+            [
+              18.452949523925795,
+              76.602500915527,
+              133.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 77,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            17.515449523925795,
+            80.821250915527,
+            142.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              17.515449523925795,
+              80.821250915527,
+              142.5401992797852
+            ],
+            [
+              17.515449523925795,
+              80.821250915527,
+              142.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 85,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            20.796699523925795,
+            75.196250915527,
+            128.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              20.796699523925795,
+              75.196250915527,
+              128.7901992797852
+            ],
+            [
+              20.796699523925795,
+              75.196250915527,
+              128.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 86,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            21.265449523925795,
+            56.915000915527,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              21.265449523925795,
+              56.915000915527,
+              98.7901992797852
+            ],
+            [
+              21.265449523925795,
+              56.915000915527,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 84,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            20.796699523925795,
+            56.915000915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              20.796699523925795,
+              56.915000915527,
+              100.0401992797852
+            ],
+            [
+              20.796699523925795,
+              56.915000915527,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 82,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            19.859199523925795,
+            48.008750915527,
+            111.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              19.859199523925795,
+              48.008750915527,
+              111.2901992797852
+            ],
+            [
+              19.859199523925795,
+              48.008750915527,
+              111.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 81,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            18.921699523925795,
+            77.071250915527,
+            133.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              18.921699523925795,
+              77.071250915527,
+              133.7901992797852
+            ],
+            [
+              18.921699523925795,
+              77.071250915527,
+              133.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 80,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            18.921699523925795,
+            53.165000915527,
+            113.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              18.921699523925795,
+              53.165000915527,
+              113.7901992797852
+            ],
+            [
+              18.921699523925795,
+              53.165000915527,
+              113.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 95,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            27.359199523925795,
+            68.165000915527,
+            137.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              27.359199523925795,
+              68.165000915527,
+              137.5401992797852
+            ],
+            [
+              27.359199523925795,
+              68.165000915527,
+              137.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 90,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            25.015449523925795,
+            45.665000915527,
+            112.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              25.015449523925795,
+              45.665000915527,
+              112.5401992797852
+            ],
+            [
+              25.015449523925795,
+              45.665000915527,
+              112.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 93,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            26.890449523925795,
+            12.852500915527003,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              26.890449523925795,
+              12.852500915527003,
+              97.5401992797852
+            ],
+            [
+              26.890449523925795,
+              12.852500915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 91,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            25.952949523925795,
+            34.415000915527,
+            86.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              25.952949523925795,
+              34.415000915527,
+              86.2901992797852
+            ],
+            [
+              25.952949523925795,
+              34.415000915527,
+              86.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "right",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 49,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            6.7341995239257955,
+            53.633750915527,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              6.7341995239257955,
+              53.633750915527,
+              110.0401992797852
+            ],
+            [
+              6.7341995239257955,
+              53.633750915527,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 50,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            7.6716995239257955,
+            15.665000915527003,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              7.6716995239257955,
+              15.665000915527003,
+              98.7901992797852
+            ],
+            [
+              7.6716995239257955,
+              15.665000915527003,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 51,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            8.140449523925795,
+            40.508750915527,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              8.140449523925795,
+              40.508750915527,
+              106.2901992797852
+            ],
+            [
+              8.140449523925795,
+              40.508750915527,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 61,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            13.765449523925795,
+            40.040000915527,
+            107.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              13.765449523925795,
+              40.040000915527,
+              107.5401992797852
+            ],
+            [
+              13.765449523925795,
+              40.040000915527,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 56,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            11.421699523925795,
+            37.696250915527,
+            101.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              11.421699523925795,
+              37.696250915527,
+              101.2901992797852
+            ],
+            [
+              11.421699523925795,
+              37.696250915527,
+              101.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 55,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            9.546699523925795,
+            40.040000915527,
+            108.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              9.546699523925795,
+              40.040000915527,
+              108.7901992797852
+            ],
+            [
+              9.546699523925795,
+              40.040000915527,
+              108.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 53,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            9.077949523925795,
+            40.508750915527,
+            107.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              9.077949523925795,
+              40.508750915527,
+              107.5401992797852
+            ],
+            [
+              9.077949523925795,
+              40.508750915527,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 54,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            9.546699523925795,
+            39.102500915527,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              9.546699523925795,
+              39.102500915527,
+              110.0401992797852
+            ],
+            [
+              9.546699523925795,
+              39.102500915527,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 60,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            13.296699523925795,
+            37.227500915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              13.296699523925795,
+              37.227500915527,
+              100.0401992797852
+            ],
+            [
+              13.296699523925795,
+              37.227500915527,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 59,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            11.890449523925795,
+            40.040000915527,
+            105.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              11.890449523925795,
+              40.040000915527,
+              105.0401992797852
+            ],
+            [
+              11.890449523925795,
+              40.040000915527,
+              105.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 58,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            11.890449523925795,
+            39.571250915527,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              11.890449523925795,
+              39.571250915527,
+              106.2901992797852
+            ],
+            [
+              11.890449523925795,
+              39.571250915527,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 62,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            13.765449523925795,
+            62.071250915527,
+            112.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              13.765449523925795,
+              62.071250915527,
+              112.5401992797852
+            ],
+            [
+              13.765449523925795,
+              62.071250915527,
+              112.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "median",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 35,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -2.1720504760742045,
+            55.508750915527,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -2.1720504760742045,
+              55.508750915527,
+              103.7901992797852
+            ],
+            [
+              -2.1720504760742045,
+              55.508750915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 38,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            0.6404495239257955,
+            62.540000915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              0.6404495239257955,
+              62.540000915527,
+              100.0401992797852
+            ],
+            [
+              0.6404495239257955,
+              62.540000915527,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 37,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -1.7033004760742045,
+            56.915000915527,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -1.7033004760742045,
+              56.915000915527,
+              103.7901992797852
+            ],
+            [
+              -1.7033004760742045,
+              56.915000915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 36,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -1.7033004760742045,
+            40.508750915527,
+            103.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -1.7033004760742045,
+              40.508750915527,
+              103.7901992797852
+            ],
+            [
+              -1.7033004760742045,
+              40.508750915527,
+              103.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 39,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            0.6404495239257955,
+            70.040000915527,
+            80.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              0.6404495239257955,
+              70.040000915527,
+              80.0401992797852
+            ],
+            [
+              0.6404495239257955,
+              70.040000915527,
+              80.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 43,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            3.4529495239257955,
+            27.852500915527003,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              3.4529495239257955,
+              27.852500915527003,
+              98.7901992797852
+            ],
+            [
+              3.4529495239257955,
+              27.852500915527003,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 42,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            2.9841995239257955,
+            28.790000915527003,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              2.9841995239257955,
+              28.790000915527003,
+              100.0401992797852
+            ],
+            [
+              2.9841995239257955,
+              28.790000915527003,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 41,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            2.9841995239257955,
+            12.383750915527003,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              2.9841995239257955,
+              12.383750915527003,
+              100.0401992797852
+            ],
+            [
+              2.9841995239257955,
+              12.383750915527003,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 46,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            5.3279495239257955,
+            77.071250915527,
+            135.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              5.3279495239257955,
+              77.071250915527,
+              135.0401992797852
+            ],
+            [
+              5.3279495239257955,
+              77.071250915527,
+              135.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 45,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            5.3279495239257955,
+            57.383750915527,
+            107.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              5.3279495239257955,
+              57.383750915527,
+              107.5401992797852
+            ],
+            [
+              5.3279495239257955,
+              57.383750915527,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 47,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            5.7966995239257955,
+            37.696250915527,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              5.7966995239257955,
+              37.696250915527,
+              98.7901992797852
+            ],
+            [
+              5.7966995239257955,
+              37.696250915527,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 44,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            3.9216995239257955,
+            -14.334999084472997,
+            77.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              3.9216995239257955,
+              -14.334999084472997,
+              77.5401992797852
+            ],
+            [
+              3.9216995239257955,
+              -14.334999084472997,
+              77.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": true
+        },
+        {
+          "label": 52,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            9.077949523925795,
+            39.571250915527,
+            108.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              9.077949523925795,
+              39.571250915527,
+              108.7901992797852
+            ],
+            [
+              9.077949523925795,
+              39.571250915527,
+              108.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 28,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -11.078300476074205,
+            30.665000915527003,
+            110.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -11.078300476074205,
+              30.665000915527003,
+              110.0401992797852
+            ],
+            [
+              -11.078300476074205,
+              30.665000915527003,
+              110.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 30,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -10.609550476074205,
+            56.446250915527,
+            100.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -10.609550476074205,
+              56.446250915527,
+              100.0401992797852
+            ],
+            [
+              -10.609550476074205,
+              56.446250915527,
+              100.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 27,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -11.547050476074205,
+            64.883750915527,
+            91.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -11.547050476074205,
+              64.883750915527,
+              91.2901992797852
+            ],
+            [
+              -11.547050476074205,
+              64.883750915527,
+              91.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 16,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -18.109550476074205,
+            41.446250915527,
+            66.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -18.109550476074205,
+              41.446250915527,
+              66.2901992797852
+            ],
+            [
+              -18.109550476074205,
+              41.446250915527,
+              66.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 17,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -18.109550476074205,
+            41.915000915527,
+            67.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -18.109550476074205,
+              41.915000915527,
+              67.5401992797852
+            ],
+            [
+              -18.109550476074205,
+              41.915000915527,
+              67.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 18,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -17.640800476074205,
+            41.446250915527,
+            65.0401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -17.640800476074205,
+              41.446250915527,
+              65.0401992797852
+            ],
+            [
+              -17.640800476074205,
+              41.446250915527,
+              65.0401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 19,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -16.234550476074205,
+            38.633750915527,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -16.234550476074205,
+              38.633750915527,
+              106.2901992797852
+            ],
+            [
+              -16.234550476074205,
+              38.633750915527,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 20,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -16.234550476074205,
+            44.727500915527,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -16.234550476074205,
+              44.727500915527,
+              97.5401992797852
+            ],
+            [
+              -16.234550476074205,
+              44.727500915527,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 23,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -12.953300476074205,
+            25.508750915527003,
+            73.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -12.953300476074205,
+              25.508750915527003,
+              73.7901992797852
+            ],
+            [
+              -12.953300476074205,
+              25.508750915527003,
+              73.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 25,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -12.484550476074205,
+            30.665000915527003,
+            107.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -12.484550476074205,
+              30.665000915527003,
+              107.5401992797852
+            ],
+            [
+              -12.484550476074205,
+              30.665000915527003,
+              107.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 24,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -12.953300476074205,
+            40.508750915527,
+            98.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -12.953300476074205,
+              40.508750915527,
+              98.7901992797852
+            ],
+            [
+              -12.953300476074205,
+              40.508750915527,
+              98.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 31,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -10.140800476074205,
+            84.102500915527,
+            58.7901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -10.140800476074205,
+              84.102500915527,
+              58.7901992797852
+            ],
+            [
+              -10.140800476074205,
+              84.102500915527,
+              58.7901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 9,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -35.922050476074205,
+            5.821250915527003,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -35.922050476074205,
+              5.821250915527003,
+              106.2901992797852
+            ],
+            [
+              -35.922050476074205,
+              5.821250915527003,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 14,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -22.328300476074205,
+            13.321250915527003,
+            127.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -22.328300476074205,
+              13.321250915527003,
+              127.5401992797852
+            ],
+            [
+              -22.328300476074205,
+              13.321250915527003,
+              127.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 10,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -33.578300476074205,
+            7.696250915527003,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -33.578300476074205,
+              7.696250915527003,
+              97.5401992797852
+            ],
+            [
+              -33.578300476074205,
+              7.696250915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 4,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -38.734550476074205,
+            9.102500915527003,
+            96.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -38.734550476074205,
+              9.102500915527003,
+              96.2901992797852
+            ],
+            [
+              -38.734550476074205,
+              9.102500915527003,
+              96.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 5,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -37.797050476074205,
+            8.165000915527003,
+            97.5401992797852
+          ],
+          "bboxRASmm": [
+            [
+              -37.797050476074205,
+              8.165000915527003,
+              97.5401992797852
+            ],
+            [
+              -37.797050476074205,
+              8.165000915527003,
+              97.5401992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        },
+        {
+          "label": 7,
+          "voxelCount": 1,
+          "volumeMm3": 0.274658203125,
+          "centroidRASmm": [
+            -36.390800476074205,
+            6.758750915527003,
+            106.2901992797852
+          ],
+          "bboxRASmm": [
+            [
+              -36.390800476074205,
+              6.758750915527003,
+              106.2901992797852
+            ],
+            [
+              -36.390800476074205,
+              6.758750915527003,
+              106.2901992797852
+            ]
+          ],
+          "approxSideRelativeToSeptum": "left",
+          "touchesArrayBoundary": false
+        }
+      ],
+      "quality": "source CT template segmentation, finite voxel resolution; not independent histological ground truth",
+      "signedMeshVolumeMm3": 157416.59452440217,
+      "interpretation": "Authors anterior cranial fossa bone label only; not a complete skull and not the posterior fossa."
+    }
+  ]
+}

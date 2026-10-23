@@ -1,0 +1,70 @@
+"""Right-side UW CT overlays; existing left PNGs and source meshes are untouched.
+
+Both CT and labelmap use their published affine matrices. Assigning a side by
+source RAS position is a naming operation, not registration or reconstruction.
+"""
+from pathlib import Path
+import hashlib,json
+import numpy as np
+from scipy.ndimage import map_coordinates
+from analyze_uw import read_nrrd,HERE
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+seg,sh,sa=read_nrrd(HERE/'uw-segmentation.seg.nrrd')
+ct,ch,ca=read_nrrd(HERE/'uw-template.nrrd')
+if ch['space']=='left-posterior-superior':ca=np.diag([-1,-1,1,1])@ca
+assert sh['space']=='right-anterior-superior'
+invct=np.linalg.inv(ca);invseg=np.linalg.inv(sa)
+stats=json.loads((HERE/'uw-label-statistics.json').read_text(encoding='utf-8'))
+
+def sample_ct_ras(ras):
+    ijk=ras@invct[:3,:3].T+invct[:3,3]
+    return map_coordinates(ct,ijk.T,order=1,mode='constant',cval=np.nan,prefilter=False)
+
+report={'ctSha256':hashlib.sha256((HERE/'uw-template.nrrd').read_bytes()).hexdigest(),
+ 'segmentationSha256':hashlib.sha256((HERE/'uw-segmentation.seg.nrrd').read_bytes()).hexdigest(),
+ 'ctOriginalSpace':ch['space'],'ctShape':list(ct.shape),'ctIJKToRAS':ca.tolist(),'segIJKToRAS':sa.tolist(),
+ 'registrationPerformed':False,'side':'right',
+ 'sideAssignment':'Connected-component centroid lies to positive R of source septum reference plane; no deformation or registration.',
+ 'referenceMidlineXmmFromSeptumCentroid':stats['referenceMidlineXmmFromSeptumCentroid'],
+ 'sampling':'CT linear interpolation / label nearest-neighbour in original world RAS coordinates',
+ 'interpretation':'Verification overlays of the published 6-subject synthetic CT template and its source segmentation. Not single-patient imaging or independent proof of exact rim geometry.',
+ 'slices':[]}
+
+for index in [5,6,7,8]:
+    s=stats['segments'][index]
+    candidates=[v for v in s['components'] if v['approxSideRelativeToSeptum']=='right']
+    target=max(candidates,key=lambda x:x['voxelCount'])
+    c=target['centroidRASmm'];views=[('Axial',0,1,2),('Coronal',0,2,1),('Sagittal',1,2,0)]
+    fig,axs=plt.subplots(1,3,figsize=(12,4.8),dpi=150)
+    planes=[]
+    for ax,(name,h,v,fixed) in zip(axs,views):
+        span=24 if index!=6 else 16
+        xx=np.linspace(c[h]-span,c[h]+span,400);yy=np.linspace(c[v]-span,c[v]+span,400)
+        gx,gy=np.meshgrid(xx,yy);ras=np.tile(c,(gx.size,1));ras[:,h]=gx.ravel();ras[:,v]=gy.ravel()
+        image=sample_ct_ras(ras).reshape(gx.shape);ijk=ras@invseg[:3,:3].T+invseg[:3,3]
+        label=map_coordinates(np.asarray(seg[index]),ijk.T,order=0,mode='constant',cval=0,prefilter=False).reshape(gx.shape)
+        bone=map_coordinates(np.asarray(seg[13]),ijk.T,order=0,mode='constant',cval=0,prefilter=False).reshape(gx.shape)
+        ext=[xx[0],xx[-1],yy[0],yy[-1]]
+        ax.imshow(image,cmap='gray',vmin=-300,vmax=1500,origin='lower',extent=ext)
+        if np.any(label):ax.contour(xx,yy,label,levels=[.5],colors=['#ff3b6c'],linewidths=1.0)
+        if np.any(bone):ax.contour(xx,yy,bone,levels=[.5],colors=['#4dceff'],linewidths=.4,alpha=.55)
+        ax.set_title(f'{name} | RAS {"RAS"[fixed]}={c[fixed]:.2f} mm',fontsize=9)
+        ax.set_xlabel(f'{"RAS"[h]} (mm)');ax.set_ylabel(f'{"RAS"[v]} (mm)');ax.tick_params(labelsize=7)
+        planes.append({'name':name,'fixedRASaxis':'RAS'[fixed],'fixedMm':c[fixed],
+          'horizontalRASaxis':'RAS'[h],'verticalRASaxis':'RAS'[v],
+          'horizontalExtentMm':[xx[0],xx[-1]],'verticalExtentMm':[yy[0],yy[-1]],
+          'pixels':[400,400],'labelPixelsInView':int(np.count_nonzero(label)),
+          'finiteCTFraction':float(np.isfinite(image).mean())})
+    fig.suptitle('RIGHT '+s['en']+' | source CT + segmentation, original world coordinates',fontsize=11)
+    fig.text(.5,.025,'Pink: source foramen/canal label. Cyan: source bone label. No fitted registration or edited anatomy.',ha='center',fontsize=8)
+    fig.tight_layout(rect=[0,.09,1,.92]);fn='uw-'+s['en'].replace(' ','-')+'-right-ct.png';fig.savefig(HERE/fn);plt.close(fig)
+    report['slices'].append({'index':index,'en':s['en'],'side':'right','file':fn,
+      'sourceVolumeComponentLabel':target['label'],'sourceComponentVoxelCount':target['voxelCount'],
+      'exactComponentVoxelCentroidRASmm':c,'sourceComponentBBoxVoxelCentersRASmm':target['bboxRASmm'],
+      'centroidMethod':'Arithmetic mean of all original nonzero voxel centres in this connected component, transformed by published source affine.',
+      'planes':planes,'pngSha256':hashlib.sha256((HERE/fn).read_bytes()).hexdigest()})
+(HERE/'uw-right-ct-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps({'slices':[{k:s[k] for k in ['index','file','exactComponentVoxelCentroidRASmm']} for s in report['slices']]}))

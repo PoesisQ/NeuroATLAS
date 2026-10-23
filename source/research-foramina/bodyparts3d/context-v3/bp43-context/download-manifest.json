@@ -1,0 +1,594 @@
+{
+  "source": "DBCLS official public download.cgi",
+  "version": "4.3",
+  "downloadEndpoint": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "officialObjectMapSHA256": "83b4388ac3a3035d5baa43bc1f97f2b4a2d3f1b21e6130c56cddb8e4459675ee",
+  "sourceRows": [
+    {
+      "id": "FJ1732",
+      "bp": "BP20877",
+      "fma": "FMA72670",
+      "en": "Left angular gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_angular_gyrus_Inferior_parietal_lobule_L.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1733",
+      "bp": "BP20955",
+      "fma": "FMA72669",
+      "en": "Right angular gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_angular_gyrus_Inferior_parietal_lobule_R.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1789",
+      "bp": "BP22697",
+      "fma": "FMA72686",
+      "en": "Left middle temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_middle_temporal_gyrus_L.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1790",
+      "bp": "BP20852",
+      "fma": "FMA72685",
+      "en": "Right middle temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_middle_temporal_gyrus_R.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1833",
+      "bp": "BP20885",
+      "fma": "FMA72654",
+      "en": "Left superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_frontal_gyrus_L.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1834",
+      "bp": "BP20808",
+      "fma": "FMA72653",
+      "en": "Right superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_frontal_gyrus_R.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ7462",
+      "bp": "BP29843",
+      "fma": "FMA72674",
+      "en": "Left precuneus",
+      "synonyms": "",
+      "originalName": "left precuneus.obj",
+      "originalGroup": "left precuneus"
+    },
+    {
+      "id": "FJ7462M",
+      "bp": "BP29846",
+      "fma": "FMA72673",
+      "en": "Right precuneus",
+      "synonyms": "",
+      "originalName": "left precuneus.obj",
+      "originalGroup": "left precuneus"
+    },
+    {
+      "id": "FJ7463",
+      "bp": "BP20880",
+      "fma": "FMA72672",
+      "en": "Left superior parietal lobule",
+      "synonyms": "",
+      "originalName": "left superior parietal lobule.obj",
+      "originalGroup": "left superior parietal lobule"
+    },
+    {
+      "id": "FJ7463M",
+      "bp": "BP20869",
+      "fma": "FMA72671",
+      "en": "Right superior parietal lobule",
+      "synonyms": "",
+      "originalName": "left superior parietal lobule.obj",
+      "originalGroup": "left superior parietal lobule"
+    },
+    {
+      "id": "FJ7465",
+      "bp": "BP29833",
+      "fma": "FMA256200",
+      "en": "Left anterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "left anterior orbital gyrus.obj",
+      "originalGroup": "left anterior orbital gyrus"
+    },
+    {
+      "id": "FJ7465M",
+      "bp": "BP29827",
+      "fma": "FMA256198",
+      "en": "Right anterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "left anterior orbital gyrus.obj",
+      "originalGroup": "left anterior orbital gyrus"
+    },
+    {
+      "id": "FJ7466",
+      "bp": "BP29828",
+      "fma": "FMA72757",
+      "en": "Left lateral orbital gyrus",
+      "synonyms": "",
+      "originalName": "left lateral orbital gyrus.obj",
+      "originalGroup": "left lateral orbital gyrus"
+    },
+    {
+      "id": "FJ7466M",
+      "bp": "BP29831",
+      "fma": "FMA72756",
+      "en": "Right lateral orbital gyrus",
+      "synonyms": "",
+      "originalName": "left lateral orbital gyrus.obj",
+      "originalGroup": "left lateral orbital gyrus"
+    },
+    {
+      "id": "FJ7467",
+      "bp": "BP29830",
+      "fma": "FMA72759",
+      "en": "Left medial orbital gyrus",
+      "synonyms": "",
+      "originalName": "left medial orbital gyrus.obj",
+      "originalGroup": "left medial orbital gyrus"
+    },
+    {
+      "id": "FJ7467M",
+      "bp": "BP29834",
+      "fma": "FMA72758",
+      "en": "Right medial orbital gyrus",
+      "synonyms": "",
+      "originalName": "left medial orbital gyrus.obj",
+      "originalGroup": "left medial orbital gyrus"
+    },
+    {
+      "id": "FJ7468",
+      "bp": "BP29829",
+      "fma": "FMA80188",
+      "en": "Left posterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "left posterior orbital gyrus.obj",
+      "originalGroup": "left posterior orbital gyrus"
+    },
+    {
+      "id": "FJ7468M",
+      "bp": "BP29832",
+      "fma": "FMA80187",
+      "en": "Right posterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "left posterior orbital gyrus.obj",
+      "originalGroup": "left posterior orbital gyrus"
+    },
+    {
+      "id": "FJ7469",
+      "bp": "BP29848",
+      "fma": "FMA72660",
+      "en": "Left straight gyrus",
+      "synonyms": "Left rectal gyrus",
+      "originalName": "left straight gyrus.obj",
+      "originalGroup": "left straight gyrus"
+    },
+    {
+      "id": "FJ7469M",
+      "bp": "BP29838",
+      "fma": "FMA72659",
+      "en": "Right straight gyrus",
+      "synonyms": "Right rectal gyrus",
+      "originalName": "left straight gyrus.obj",
+      "originalGroup": "left straight gyrus"
+    },
+    {
+      "id": "FJ7470",
+      "bp": "BP20829",
+      "fma": "FMA72718",
+      "en": "Left cingulate gyrus",
+      "synonyms": "",
+      "originalName": "left cingulate gyrus.obj",
+      "originalGroup": "left cingulate gyrus"
+    },
+    {
+      "id": "FJ7470M",
+      "bp": "BP21974",
+      "fma": "FMA72717",
+      "en": "Right cingulate gyrus",
+      "synonyms": "",
+      "originalName": "left cingulate gyrus.obj",
+      "originalGroup": "left cingulate gyrus"
+    },
+    {
+      "id": "FJ7471",
+      "bp": "BP29835",
+      "fma": "FMA72680",
+      "en": "Left cuneus",
+      "synonyms": "",
+      "originalName": "left cuneus.obj",
+      "originalGroup": "left cuneus"
+    },
+    {
+      "id": "FJ7471M",
+      "bp": "BP29836",
+      "fma": "FMA72679",
+      "en": "Right cuneus",
+      "synonyms": "",
+      "originalName": "left cuneus.obj",
+      "originalGroup": "left cuneus"
+    },
+    {
+      "id": "FJ7472",
+      "bp": "BP20995",
+      "fma": "FMA72690",
+      "en": "Left fusiform gyrus",
+      "synonyms": "",
+      "originalName": "left fusiform gyrus.obj",
+      "originalGroup": "left fusiform gyrus"
+    },
+    {
+      "id": "FJ7472M",
+      "bp": "BP24018",
+      "fma": "FMA72689",
+      "en": "Right fusiform gyrus",
+      "synonyms": "",
+      "originalName": "left fusiform gyrus.obj",
+      "originalGroup": "left fusiform gyrus"
+    },
+    {
+      "id": "FJ7473",
+      "bp": "BP22696",
+      "fma": "FMA72688",
+      "en": "Left inferior temporal gyrus",
+      "synonyms": "",
+      "originalName": "left inferior temporal gyrus.obj",
+      "originalGroup": "left inferior temporal gyrus"
+    },
+    {
+      "id": "FJ7473M",
+      "bp": "BP20982",
+      "fma": "FMA72687",
+      "en": "Right inferior temporal gyrus",
+      "synonyms": "",
+      "originalName": "left inferior temporal gyrus.obj",
+      "originalGroup": "left inferior temporal gyrus"
+    },
+    {
+      "id": "FJ7474",
+      "bp": "BP29841",
+      "fma": "FMA72678",
+      "en": "Left lateral occipital gyrus",
+      "synonyms": "Left middle occipital gyrus",
+      "originalName": "left lateral occipital gyrus.obj",
+      "originalGroup": "left lateral occipital gyrus"
+    },
+    {
+      "id": "FJ7474M",
+      "bp": "BP29840",
+      "fma": "FMA72677",
+      "en": "Right lateral occipital gyrus",
+      "synonyms": "Right middle occipital gyrus",
+      "originalName": "left lateral occipital gyrus.obj",
+      "originalGroup": "left lateral occipital gyrus"
+    },
+    {
+      "id": "FJ7475",
+      "bp": "BP29837",
+      "fma": "FMA72682",
+      "en": "Left lingual gyrus",
+      "synonyms": "",
+      "originalName": "left lingual gyrus.obj",
+      "originalGroup": "left lingual gyrus"
+    },
+    {
+      "id": "FJ7475M",
+      "bp": "BP29845",
+      "fma": "FMA72681",
+      "en": "Right lingual gyrus",
+      "synonyms": "",
+      "originalName": "left lingual gyrus.obj",
+      "originalGroup": "left lingual gyrus"
+    },
+    {
+      "id": "FJ7476",
+      "bp": "BP22707",
+      "fma": "FMA72706",
+      "en": "Left parahippocampal gyrus",
+      "synonyms": "",
+      "originalName": "left parahippocampal gyrus.obj",
+      "originalGroup": "left parahippocampal gyrus"
+    },
+    {
+      "id": "FJ7476M",
+      "bp": "BP20836",
+      "fma": "FMA72705",
+      "en": "Right parahippocampal gyrus",
+      "synonyms": "",
+      "originalName": "left parahippocampal gyrus.obj",
+      "originalGroup": "left parahippocampal gyrus"
+    },
+    {
+      "id": "FJ7478",
+      "bp": "BP29852",
+      "fma": "FMA72676",
+      "en": "Left superior occipital gyrus",
+      "synonyms": "",
+      "originalName": "left superior occipital gyrus.obj",
+      "originalGroup": "left superior occipital gyrus"
+    },
+    {
+      "id": "FJ7478M",
+      "bp": "BP29851",
+      "fma": "FMA72675",
+      "en": "Right superior occipital gyrus",
+      "synonyms": "",
+      "originalName": "left superior occipital gyrus.obj",
+      "originalGroup": "left superior occipital gyrus"
+    }
+  ],
+  "files": [
+    {
+      "id": "FJ1733",
+      "file": "FJ1733_BP23987_FMA72669_Right angular gyrus.obj",
+      "bytes": 239168,
+      "sha256": "c8dd20ce18616ea43c4935733899a96ebf092de1eb65fe97f5dc6fec866cac68"
+    },
+    {
+      "id": "FJ7463",
+      "file": "FJ7463_BP22159_FMA72672_Left superior parietal lobule.obj",
+      "bytes": 820430,
+      "sha256": "9c37400a0047439901bc872d1255b83ff4c84774564c77557efa2c15b3649e6b"
+    },
+    {
+      "id": "FJ7465M",
+      "file": "FJ7465M_BP29916_FMA256198_Right anterior orbital gyrus.obj",
+      "bytes": 692893,
+      "sha256": "09576da7e67c3a3d4d75e95d155138fd45f14b22fd595703f9a51e41c32b935a"
+    },
+    {
+      "id": "FJ1834",
+      "file": "FJ1834_BP23996_FMA72653_Right superior frontal gyrus.obj",
+      "bytes": 437288,
+      "sha256": "aa9948bdcefc28f079768397361f2ea640d81dac7dcf9ede83fb30ead3b964e7"
+    },
+    {
+      "id": "FJ1790",
+      "file": "FJ1790_BP22182_FMA72685_Right middle temporal gyrus.obj",
+      "bytes": 178995,
+      "sha256": "6c77777a0abb4171da95d9f37edfdf7ba3f53d828b9df6a73e77e6c976592397"
+    },
+    {
+      "id": "FJ7469M",
+      "file": "FJ7469M_BP29910_FMA72659_Right straight gyrus.obj",
+      "bytes": 881817,
+      "sha256": "e8815236b093437b264412a5c6776def2e62f022f9eab6f19bf853f84d629045"
+    },
+    {
+      "id": "FJ7475",
+      "file": "FJ7475_BP29917_FMA72682_Left lingual gyrus.obj",
+      "bytes": 646920,
+      "sha256": "78efbe613c543f4b75b5775c9ac8ff9c2998f9028713e681bd8129156a78365a"
+    },
+    {
+      "id": "FJ7473M",
+      "file": "FJ7473M_BP22176_FMA72687_Right inferior temporal gyrus.obj",
+      "bytes": 2084625,
+      "sha256": "c6883a1604ad987b6d0254ee9699c3162c2f27151877610dcbd7d2c80f97c96d"
+    },
+    {
+      "id": "FJ7469",
+      "file": "FJ7469_BP29922_FMA72660_Left straight gyrus.obj",
+      "bytes": 875541,
+      "sha256": "3e4c6f8fcd00333350c77861486cdd84c8eed6c4a9f120c0fff742e6c8211948"
+    },
+    {
+      "id": "FJ7473",
+      "file": "FJ7473_BP22696_FMA72688_Left inferior temporal gyrus.obj",
+      "bytes": 2078459,
+      "sha256": "5c9dc83eb8bef81115e6699f105d2679a2fa980d07d142d9c0028a78861d194f"
+    },
+    {
+      "id": "FJ7475M",
+      "file": "FJ7475M_BP29912_FMA72681_Right lingual gyrus.obj",
+      "bytes": 651750,
+      "sha256": "e0b3ee38b759259e3a1b5f5087e2f2a6eef761d9fa85e47e4dd3992d220c564e"
+    },
+    {
+      "id": "FJ7465",
+      "file": "FJ7465_BP29911_FMA256200_Left anterior orbital gyrus.obj",
+      "bytes": 686711,
+      "sha256": "002e84a975f6c26b5a68094a1576a3aee80f55a11ab645d3adeee091d68962ac"
+    },
+    {
+      "id": "FJ7463M",
+      "file": "FJ7463M_BP22214_FMA72671_Right superior parietal lobule.obj",
+      "bytes": 824508,
+      "sha256": "422948376b4795386e3c2eeedae94530e7b92e530df5c6f1a32ad2338527b82f"
+    },
+    {
+      "id": "FJ7462",
+      "file": "FJ7462_BP29926_FMA72674_Left precuneus.obj",
+      "bytes": 588772,
+      "sha256": "862da9144e77c8f8ba57ddf891e3840de623fd56466f9c108514bbb8a2719675"
+    },
+    {
+      "id": "FJ1833",
+      "file": "FJ1833_BP22376_FMA72654_Left superior frontal gyrus.obj",
+      "bytes": 431914,
+      "sha256": "2e2abf960f62ffa0ae8c26656778be0764bdc2b612c238bdace447a40e8b03dd"
+    },
+    {
+      "id": "FJ1732",
+      "file": "FJ1732_BP21657_FMA72670_Left angular gyrus.obj",
+      "bytes": 236426,
+      "sha256": "b4091377b4dfd33f33a84a9a66f12f47fa534f6535429b2b0c0d4594a5b166cd"
+    },
+    {
+      "id": "FJ7476M",
+      "file": "FJ7476M_BP22184_FMA72705_Right parahippocampal gyrus.obj",
+      "bytes": 563332,
+      "sha256": "541c9b6836ebcea582fbd4d78a98afa499a979edd0dd041f87f0b5c84e76a35e"
+    },
+    {
+      "id": "FJ7468M",
+      "file": "FJ7468M_BP29918_FMA80187_Right posterior orbital gyrus.obj",
+      "bytes": 589596,
+      "sha256": "3cf80e55f9b44de75dd78128068576b0e2625e7217056359f42ca3e5c1c47af4"
+    },
+    {
+      "id": "FJ7470",
+      "file": "FJ7470_BP20829_FMA72718_Left cingulate gyrus.obj",
+      "bytes": 2784791,
+      "sha256": "fc45f2b5c6086d04bce56e6201c967121822b2999291ce92fdc88ef5a863b915"
+    },
+    {
+      "id": "FJ7471",
+      "file": "FJ7471_BP29919_FMA72680_Left cuneus.obj",
+      "bytes": 895853,
+      "sha256": "73c145d98459fe3af73b2024b91630c90f5b70b2ec650e91b7b3ca3655b1274a"
+    },
+    {
+      "id": "FJ7474M",
+      "file": "FJ7474M_BP29928_FMA72677_Right lateral occipital gyrus.obj",
+      "bytes": 1274757,
+      "sha256": "e482b0fce22285a46de2242ca3ec6ebfb40a8000d9ad3f8f3d5c9590deb26266"
+    },
+    {
+      "id": "FJ7478",
+      "file": "FJ7478_BP29923_FMA72676_Left superior occipital gyrus.obj",
+      "bytes": 872282,
+      "sha256": "9a041dfa3d25991caa1f3863cfedd76c7300d3b9f38bedd5b064dc3b2ab5caf1"
+    },
+    {
+      "id": "FJ7472M",
+      "file": "FJ7472M_BP24018_FMA72689_Right fusiform gyrus.obj",
+      "bytes": 1866312,
+      "sha256": "b9c10f3eee2fb2df89c7bc44aa2fc9ed8f83f357e79657e79ad754d0a3bdffcd"
+    },
+    {
+      "id": "FJ7467",
+      "file": "FJ7467_BP29924_FMA72759_Left medial orbital gyrus.obj",
+      "bytes": 646024,
+      "sha256": "77f98495380b4ef0293021e404c1d55f86b03f4ae64e4f4babf092499e03b509"
+    },
+    {
+      "id": "FJ7466",
+      "file": "FJ7466_BP29925_FMA72757_Left lateral orbital gyrus.obj",
+      "bytes": 589848,
+      "sha256": "a1a988a7f55e0901bebbf8bf17c9cf897a850bd4a75362023b0dbef5548c9d8b"
+    },
+    {
+      "id": "FJ7478M",
+      "file": "FJ7478M_BP29921_FMA72675_Right superior occipital gyrus.obj",
+      "bytes": 876708,
+      "sha256": "0f31a80151c865b7650a1326af0faedadc6197e41949ed52919598697f0f572f"
+    },
+    {
+      "id": "FJ7474",
+      "file": "FJ7474_BP29927_FMA72678_Left lateral occipital gyrus.obj",
+      "bytes": 1272061,
+      "sha256": "c70d6edd2319f537e027e6a476af2d0d377d9f22e07a547174fae19d5b0a6108"
+    },
+    {
+      "id": "FJ7471M",
+      "file": "FJ7471M_BP29915_FMA72679_Right cuneus.obj",
+      "bytes": 903278,
+      "sha256": "ca9aa9bd102eaaafb3e45942fc01c5ba6814141dafd244708a6615a35a93dc6c"
+    },
+    {
+      "id": "FJ7467M",
+      "file": "FJ7467M_BP29929_FMA72758_Right medial orbital gyrus.obj",
+      "bytes": 651211,
+      "sha256": "65dd56dc8726f7cddfb5cd788a8eca68ec70a448265d5303d5e7149a78adebdb"
+    },
+    {
+      "id": "FJ7466M",
+      "file": "FJ7466M_BP29920_FMA72756_Right lateral orbital gyrus.obj",
+      "bytes": 593697,
+      "sha256": "a25229cc5a70693fa5e3436df878850c0feac6863a2132dd8f68a44e198c8639"
+    },
+    {
+      "id": "FJ7472",
+      "file": "FJ7472_BP20995_FMA72690_Left fusiform gyrus.obj",
+      "bytes": 1855199,
+      "sha256": "b7010be8c87e1e9080258028c9a223408c02b7f1bcbf61bdfaa0d48715e53ad6"
+    },
+    {
+      "id": "FJ7476",
+      "file": "FJ7476_BP22707_FMA72706_Left parahippocampal gyrus.obj",
+      "bytes": 558891,
+      "sha256": "0328cb7c089ef863c3ee899f048496a98ebb6cf5b439b6d83dba205f89948d05"
+    },
+    {
+      "id": "FJ7462M",
+      "file": "FJ7462M_BP29930_FMA72673_Right precuneus.obj",
+      "bytes": 592772,
+      "sha256": "b79d31c480296763aa56f29aba364f739053ac23a0707947eefd2355e619ad58"
+    },
+    {
+      "id": "FJ1789",
+      "file": "FJ1789_BP22697_FMA72686_Left middle temporal gyrus.obj",
+      "bytes": 174266,
+      "sha256": "6c7165ea255b5d2da30ce1102b0f041e50a047e73c085e8a853e45b05ce5d6bb"
+    },
+    {
+      "id": "FJ7468",
+      "file": "FJ7468_BP29931_FMA80188_Left posterior orbital gyrus.obj",
+      "bytes": 586013,
+      "sha256": "9e8457534de9697799e7b1f9fa8d1db4edd651278b2961e93037d9f4fb32a174"
+    },
+    {
+      "id": "FJ7470M",
+      "file": "FJ7470M_BP23974_FMA72717_Right cingulate gyrus.obj",
+      "bytes": 2803378,
+      "sha256": "f253cd14553fded9c8e468eeb7338f0b9d3fd83654c9ee1d75ff000dad809e9f"
+    }
+  ],
+  "geometryChanged": false,
+  "registrationApplied": false,
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "legacyNoticeURL": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+  "licenseNote": "Current archive CC BY 4.0; legacy viewer CC BY-SA 2.1 Japan. Preserve both source notices.",
+  "excludedExistingIds": [
+    "FJ1744",
+    "FJ1745",
+    "FJ1748",
+    "FJ1749",
+    "FJ1750",
+    "FJ1751",
+    "FJ1754",
+    "FJ1757",
+    "FJ1776",
+    "FJ1782",
+    "FJ1787",
+    "FJ1788",
+    "FJ1797",
+    "FJ1798",
+    "FJ1800",
+    "FJ1801",
+    "FJ1802",
+    "FJ1805",
+    "FJ1823",
+    "FJ1827",
+    "FJ1841",
+    "FJ1842",
+    "FJ7479",
+    "FJ7479M"
+  ],
+  "excludedOverlappingHistoricalIds": [
+    "FJ1746",
+    "FJ1747",
+    "FJ1835",
+    "FJ1836",
+    "FJ1837",
+    "FJ1838",
+    "FJ1839",
+    "FJ1840",
+    "FJ7500",
+    "FJ7500M"
+  ],
+  "interpretation": "4.3 context may share native coordinates with existing 4.3 FJ atlas. The 2018 subset is a separately versioned candidate and MUST NOT be overlaid onto the 4.3 anatomy without independent validation."
+}

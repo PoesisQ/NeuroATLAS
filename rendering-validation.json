@@ -1,0 +1,47 @@
+{
+  "version": "3.2",
+  "sourceGeometryChanged": false,
+  "comparedAgainst": "releases/NeuroAtlas-v3.1-backup.zip",
+  "checks": [
+    {
+      "block": "atlasMetadata",
+      "identicalToV31": true,
+      "sha256": "2b37554c472cd755feaaec8038478a7a6339d867cb9e92dbc0b91aa929661a8c"
+    },
+    {
+      "block": "atlasBinary",
+      "identicalToV31": true,
+      "sha256": "0de7184a15e606389f99477e256b00d791274a40c4a5d65ca744080d4149fd30"
+    },
+    {
+      "block": "nativeMetadata",
+      "identicalToV31": true,
+      "sha256": "9de35296d4e8dbcca872d073afa1696935fe9f3a0d39201bfa0f51f36a6ce2a8"
+    },
+    {
+      "block": "binary:bp3d",
+      "identicalToV31": true,
+      "sha256": "54bb8af619dbc1f51fca4b796638faad1d88500c4a078281b9d7025a6b668736"
+    },
+    {
+      "block": "binary:uw",
+      "identicalToV31": true,
+      "sha256": "28d11c32d784bb784c9f9bcc7d549c36356743ff7f6c8830a432e2b64725c6b5"
+    },
+    {
+      "block": "binary:p41",
+      "identicalToV31": true,
+      "sha256": "cbcb8d9cdea06ebc0f089ee5eec13cc2f4c588df1ae29f8f3eb89259680f1515"
+    },
+    {
+      "block": "binary:bp2018",
+      "identicalToV31": true,
+      "sha256": "7113f36a72054a4ef6201ae014836b81a5550cbd659ca944207d528e1d01ae55"
+    }
+  ],
+  "scope": "Exact comparison of all embedded mesh metadata, all five binary blocks, and native source-space definitions. Rendering changes do not constitute new anatomical validation.",
+  "rendererReferences": [
+    "https://threejs.org/manual/pages/how-to-update-things.html",
+    "https://threejs.org/manual/pages/transparency.html"
+  ]
+}

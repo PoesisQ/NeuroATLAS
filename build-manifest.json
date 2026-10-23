@@ -1,0 +1,610 @@
+{
+  "date": "2026-10-24",
+  "stats": {
+    "structures": 467,
+    "vertices": 912357,
+    "triangles": 1491149,
+    "packed_bytes": 16045378,
+    "gzip_bytes": 8932345,
+    "max_quantization_error_mm": 0.0013570204455619493
+  },
+  "downloads": [
+    {
+      "file": "manifest.json",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/brain-atlas/models/manifest.json",
+      "sha256": "66c32355e02c3ba5fadf3b3bdb61b18c619162d6c5ee2083262e59bed4274d93",
+      "bytes": 232455
+    },
+    {
+      "file": "brain.glb",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/brain-atlas/models/brain.glb",
+      "sha256": "76a49ea4526a4880613aec7a02756bd7301b0b9d0680d7cae33e197b672c5453",
+      "bytes": 4650816
+    },
+    {
+      "file": "ASSET_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/LICENSE",
+      "sha256": "c8ae081bfc6dbc99f98a4ade5ade798eda4be4d1c6c8a34205b9d084a03e8c26",
+      "bytes": 13448
+    },
+    {
+      "file": "UPSTREAM_README.md",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/README.md",
+      "sha256": "853343baf26929ecee41e47a05ea6e653da74badb1d1a6a256cb66900a18e04b",
+      "bytes": 12694
+    },
+    {
+      "file": "export_brain.py.txt",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/scripts/export_brain.py",
+      "sha256": "0f1d763f2a06b4eb521e0409ae22a85e59ddd3ac5ce05c76c0129490f9fcae55",
+      "bytes": 18810
+    },
+    {
+      "file": "three.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js",
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+      "bytes": 669884
+    },
+    {
+      "file": "draco_decoder_nodejs.cjs",
+      "url": "https://cdn.jsdelivr.net/npm/draco3dgltf@1.5.7/draco_decoder_gltf_nodejs.js",
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+      "bytes": 58456
+    },
+    {
+      "file": "draco_decoder_gltf.wasm",
+      "url": "https://cdn.jsdelivr.net/npm/draco3dgltf@1.5.7/draco_decoder_gltf.wasm",
+      "sha256": "712db3449ae2041d6e8a224c395bda6cedb49e51322fae38b7db9beb8b381889",
+      "bytes": 192593
+    },
+    {
+      "file": "body_fetch.mjs.txt",
+      "url": "https://raw.githubusercontent.com/CognitionLabSNUC/open-anatomy-atlas/main/src/data/zanatomy.js",
+      "sha256": "e788e5813fffc536896d2002ed58deda40a646431914ed276e2a83743464bfe8",
+      "bytes": 15184
+    },
+    {
+      "file": "nervous.glb",
+      "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/nervous.glb",
+      "sha256": "c7cde35497f887b319c0a84f1b5b605fa3ce66e23084b5e09d6e3825fa5030d9",
+      "bytes": 3802588
+    },
+    {
+      "file": "skeletal.glb",
+      "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/skeletal.glb",
+      "sha256": "c2b70b31ddec4062cbc5ba969fc24ecfed61d00397a0bca795e2701d997200f8",
+      "bytes": 1863828
+    },
+    {
+      "file": "Z_ANATOMY_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/License.txt",
+      "sha256": "47c73bd1a7557f49fa5a2c02561ce6ca4ac0169066ab76fc6a6351835f5d185f",
+      "bytes": 1746
+    },
+    {
+      "file": "fflate.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js",
+      "sha256": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf",
+      "bytes": 32665
+    },
+    {
+      "file": "THREE_LICENSE.txt",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/LICENSE",
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "bytes": 1081
+    },
+    {
+      "file": "FFLATE_LICENSE.txt",
+      "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/LICENSE",
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+      "bytes": 1069
+    },
+    {
+      "file": "registration.md",
+      "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/docs/registration.md",
+      "sha256": "90559c66ea9c17a14ac300451c9bf069f561eedf97467eb0be9b933d9f14383b",
+      "bytes": 14980
+    }
+  ],
+  "brainproject_tree_sha": "2929e94f521a8ddceab26bc100a98dc06b0da060",
+  "supplement_commit": "8ca3b7421bcfbe88b85859eb1983d5cf79f21749",
+  "version": "3.2",
+  "native_spaces": {
+    "bp3d": {
+      "title": "BodyParts3D 4.3 · 岛叶与内囊",
+      "short": "BP3D 原模型",
+      "overview": "bp3d_overview",
+      "type": "官方解剖网格",
+      "description": "官方双侧岛叶与内囊整体源网格，以及同源邻近核团和脑回。保留源拓扑与比例；统一刚性坐标转换并作 16 位坐标量化，量化误差见记录，非解剖误差。",
+      "limits": "同版本脑回集合提供皮层定位背景。整体内囊、岛叶网格没有独立细分；MRI 与解剖建模结合，未提供逐结构准确度。",
+      "license": "BodyParts3D © DBCLS；官方下载归档页面自 2025-02-27 起标注 CC BY 4.0；旧查看器同时保留 CC BY-SA 2.1 Japan 历史声明。",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "unit": "mm",
+      "sides": [
+        "left",
+        "right",
+        "both"
+      ],
+      "displayTransform": {
+        "linear": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        "subtractNativeCenterMM": [
+          -0.012798309326171875,
+          -90.57965087890625,
+          1575.264892578125
+        ],
+        "scaleFactor": 1,
+        "registrationToOtherSpaces": null
+      },
+      "stats": {
+        "objects": 60,
+        "vertices": 335117,
+        "triangles": 603250,
+        "gzipBytes": 4482178
+      }
+    },
+    "uw": {
+      "title": "UW CT · 颅底孔腔",
+      "short": "UW 颅底 CT",
+      "overview": "uw_overview",
+      "type": "CT 模板手工分割",
+      "description": "6 人 CT 合成模板上的作者手工标签，含圆孔、卵圆孔、棘孔、翼管与同源骨面。这里显示标签的等值面，未移动到原有参考脑。",
+      "limits": "孔腔体积边界不等于独立追踪的骨性孔缘。源标签分辨率 0.46875 × 0.46875 × 1.25 mm；存在部分容积效应，完整管道范围未单独验证。骨面保留源扫描裁切开口。",
+      "license": "Konuthula et al., University of Washington；CC BY-NC-SA 3.0 United States。此来源及派生组件须保留署名、非商业与相同方式共享。",
+      "url": "https://hdl.handle.net/1773/46259",
+      "unit": "mm",
+      "fixed": true,
+      "sides": [
+        "left",
+        "right",
+        "both"
+      ],
+      "displayTransform": {
+        "linear": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "subtractNativeCenterMM": [
+          12.821083857642044,
+          40.0,
+          105.0
+        ],
+        "scaleFactor": 1,
+        "registrationToOtherSpaces": null
+      },
+      "stats": {
+        "objects": 18,
+        "vertices": 457883,
+        "triangles": 919784,
+        "gzipBytes": 4936914,
+        "quantizationMaxAbsErrorMM": 0.0010085259784844425
+      }
+    },
+    "p41": {
+      "title": "NextBrain P41 · 源核团标签",
+      "short": "P41 组织学标签",
+      "overview": "p41_overview",
+      "type": "单标本组织学标签",
+      "description": "P41-16 的人工描绘、AI 插值并按需人工校正的组织学标签，经作者配准至本标本 MRI；逐块保留原生物理坐标。可检查核团标签及原始 MRI 切片。",
+      "limits": "仅源单半球，不镜像补全。块间边界未焊接、补洞或平滑；源标签不保证覆盖完整核团。尤其动眼、EW、滑车核标签很小。背景白质按源标签降采样供定位，目标核团保持原标签采样。论文整体配准误差不能忽略。",
+      "license": "NextBrain / UCL / MGH，原始数据 CC0-1.0；Adrià Casamitjana et al., Nature 2025。",
+      "url": "https://github-pages.ucl.ac.uk/NextBrain/",
+      "unit": "mm",
+      "singleHemisphere": true,
+      "sides": [
+        "single"
+      ],
+      "displayTransform": {
+        "linear": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "subtractNativeCenterMM": [
+          24.52780532836914,
+          -55.14019012451172,
+          -5.019866943359375
+        ],
+        "scaleFactor": 1,
+        "registrationToOtherSpaces": null
+      },
+      "stats": {
+        "objects": 33,
+        "vertices": 289147,
+        "triangles": 573248,
+        "gzipBytes": 3932411,
+        "quantizationMaxAbsErrorMM": 0.0006835668576528064
+      }
+    },
+    "bp2018": {
+      "title": "BodyParts3D 2018 · 精细皮层与岛叶",
+      "short": "BP2018 同源皮层",
+      "overview": "bp2018_overview",
+      "type": "官方分部解剖模型",
+      "description": "20181210i412 官方同版本皮层、岛盖、颞横回、岛叶脑回与有限白质分部。保留所有源三角面，仅统一刚性变换及16位坐标量化；定位背景与局部结构来自相同版本。",
+      "limits": "这是解剖建模图谱，不能称为每个部位经扫描精确分割。只接入可追溯的源对象，排除旧版重叠皮层。A1 用前颞横回作定位参考；内囊后肢与尾状核头在当前2018数据包中缺失，不以其余分部冒充整体。",
+      "license": "BodyParts3D © DBCLS；官方下载归档页面自 2025-02-27 起标注 CC BY 4.0；旧查看器同时保留 CC BY-SA 2.1 Japan 历史声明。",
+      "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+      "unit": "mm",
+      "sides": [
+        "left",
+        "right",
+        "both"
+      ],
+      "displayTransform": {
+        "linear": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "subtractNativeCenterMM": [
+          -0.7256011962890625,
+          -76.9113998413086,
+          1564.9849853515625
+        ],
+        "scaleFactor": 1,
+        "registrationToOtherSpaces": null
+      },
+      "stats": {
+        "objects": 188,
+        "vertices": 765888,
+        "triangles": 1275134,
+        "gzipBytes": 9773559
+      }
+    }
+  },
+  "total_source_objects": 766,
+  "total_vertices": 2760392,
+  "total_triangles": 4862565,
+  "native_geometry_validation": {
+    "spaces": {
+      "bp3d": {
+        "objects": 24,
+        "vertices": 64210,
+        "triangles": 120326,
+        "gzipBytes": 863246,
+        "quantizationMaxAbsErrorMM": 0.0008082280035637268,
+        "bufferBytes": 1107236,
+        "sha256": "ee44ee7ba850249ebdc1a185088bfbd8f627a430dcee8797c4c215e539071882",
+        "rigidTransformDeterminant": 1.0,
+        "smoothingApplied": false,
+        "mirroredCopies": false
+      },
+      "uw": {
+        "objects": 18,
+        "vertices": 457883,
+        "triangles": 919784,
+        "gzipBytes": 4936914,
+        "quantizationMaxAbsErrorMM": 0.0010085259784844425,
+        "bufferBytes": 12979212,
+        "sha256": "19211e50593f92ff1d757fa5750bbd4f0a2f0a5c7cd87bd1cdba04f3b0c0214c",
+        "rigidTransformDeterminant": 1.0,
+        "smoothingApplied": false,
+        "mirroredCopies": false,
+        "removedArrayCaps": {
+          "eyes": 0,
+          "septum": 0,
+          "optic nerves": 0,
+          "internal carotid artery": 0,
+          "nasolacrimal duct": 0,
+          "foramen ovale": 0,
+          "foramen spinosum": 0,
+          "foramen rotundum": 0,
+          "vidian canal": 0,
+          "pterygopalatine fossa": 0,
+          "pituitary": 0,
+          "cavernous sinus": 0,
+          "extraocular muscles": 0,
+          "bone of anterior cranial fossa": 338
+        },
+        "sideAssignment": {
+          "meshBinarySha256": "2ebec1a1e39a8a891d898c02995eedfae51c6aaa727157caa1796ccf3cabaedc",
+          "sourceSpace": "RAS mm",
+          "referencePlaneXmm": 12.821083857642044,
+          "assignmentBandHalfWidthMm": 2.0,
+          "method": "Connected components of original triangle-index graph; each component assigned only if its complete vertex bounding box is outside the septum reference plane +/-2 mm band.",
+          "sideMeaning": "Positive R relative to reference plane is patient right; negative R is patient left.",
+          "anatomicalRegistrationPerformed": false,
+          "verticesModified": false,
+          "facesModified": false,
+          "meshFilesRewritten": false,
+          "interpretation": "Reliable coarse side assignment for these spatially separated components. It does not identify a precise midsagittal plane, establish anatomical boundaries, or improve source segmentation accuracy."
+        }
+      },
+      "p41": {
+        "objects": 33,
+        "vertices": 289147,
+        "triangles": 573248,
+        "gzipBytes": 3932411,
+        "quantizationMaxAbsErrorMM": 0.0006835668576528064,
+        "bufferBytes": 7185516,
+        "sha256": "f7944c2abce17b616752a28158caa8f69f7919d786922f04b5913c2c9681e896",
+        "rigidTransformDeterminant": 1.0,
+        "smoothingApplied": false,
+        "mirroredCopies": false
+      }
+    },
+    "noInterAtlasRegistration": true,
+    "sourceVertexAndTriangleChecks": true,
+    "note": "Geometry checks are not expert anatomical validation."
+  },
+  "context_geometry_validation": {
+    "bp3d_context": {
+      "addedObjects": 36,
+      "maxQuantizationErrorMM": 0.0008846367652353138,
+      "transformIdenticalToExistingBP43": true
+    },
+    "bp2018": {
+      "objects": 188,
+      "includedSourceIds": [
+        "MM270",
+        "MM270M",
+        "MM2850",
+        "MM2850M",
+        "MM2870",
+        "MM2870M",
+        "MM2879",
+        "MM2879M",
+        "MM2915",
+        "MM2915M",
+        "MM2918",
+        "MM2918M",
+        "MM3000",
+        "MM3000M",
+        "MM3031",
+        "MM3031M",
+        "MM3042",
+        "MM3042M",
+        "MM3046",
+        "MM3046M",
+        "MM3048",
+        "MM3048M",
+        "MM3054",
+        "MM3054M",
+        "MM3127",
+        "MM3127M",
+        "MM3143",
+        "MM3143M",
+        "MM3184",
+        "MM3184M",
+        "MM3190",
+        "MM3190M",
+        "MM3210",
+        "MM3210M",
+        "MM3252",
+        "MM3252M",
+        "MM3271",
+        "MM3271M",
+        "MM3272",
+        "MM3272M",
+        "MM3287",
+        "MM3287M",
+        "MM3291",
+        "MM3291M",
+        "MM3292",
+        "MM3292M",
+        "MM3295",
+        "MM3295M",
+        "MM3298",
+        "MM3298M",
+        "MM3299",
+        "MM3299M",
+        "MM3300",
+        "MM3300M",
+        "MM3301",
+        "MM3301M",
+        "MM3303",
+        "MM3303M",
+        "MM3311",
+        "MM3311M",
+        "MM3313",
+        "MM3313M",
+        "MM3317",
+        "MM3317M",
+        "MM3323",
+        "MM3323M",
+        "MM3326",
+        "MM3326M",
+        "MM3333",
+        "MM3333M",
+        "MM3343",
+        "MM3343M",
+        "MM3345",
+        "MM3345M",
+        "MM3351",
+        "MM3351M",
+        "MM3355",
+        "MM3355M",
+        "MM3360",
+        "MM3360M",
+        "MM3398",
+        "MM3398M",
+        "MM3640",
+        "MM3640M",
+        "MM3642",
+        "MM3642M",
+        "MM3643",
+        "MM3643M",
+        "MM3644",
+        "MM3644M",
+        "MM3648",
+        "MM3648M",
+        "MM3668",
+        "MM3668M",
+        "MM3678",
+        "MM3678M",
+        "MM3686",
+        "MM3686M",
+        "MM3689",
+        "MM3689M",
+        "MM3692",
+        "MM3692M",
+        "MM3706",
+        "MM3706M",
+        "MM3707",
+        "MM3707M",
+        "MM3709",
+        "MM3709M",
+        "MM3712",
+        "MM3712M",
+        "MM3713",
+        "MM3713M",
+        "MM3714",
+        "MM3714M",
+        "MM3715",
+        "MM3715M",
+        "MM3716",
+        "MM3716M",
+        "MM3720",
+        "MM3720M",
+        "MM3721",
+        "MM3721M",
+        "MM3723",
+        "MM3723M",
+        "MM3725",
+        "MM3725M",
+        "MM3726",
+        "MM3726M",
+        "MM3729",
+        "MM3729M",
+        "MM3731",
+        "MM3731M",
+        "MM3732",
+        "MM3732M",
+        "MM3733",
+        "MM3733M",
+        "MM3734",
+        "MM3734M",
+        "MM3735",
+        "MM3735M",
+        "MM3737",
+        "MM3737M",
+        "MM3739",
+        "MM3739M",
+        "MM3740",
+        "MM3740M",
+        "MM3745",
+        "MM3745M",
+        "MM3748",
+        "MM3748M",
+        "MM3749",
+        "MM3749M",
+        "MM3771",
+        "MM3771M",
+        "MM3806",
+        "MM3806M",
+        "MM3807",
+        "MM3807M",
+        "MM3811",
+        "MM3811M",
+        "MM3814",
+        "MM3814M",
+        "MM3815",
+        "MM3815M",
+        "MM3818",
+        "MM3818M",
+        "MM3819",
+        "MM3819M",
+        "MM3820",
+        "MM3820M",
+        "MM3821",
+        "MM3821M",
+        "MM3822",
+        "MM3822M",
+        "MM3824",
+        "MM3824M",
+        "MM3825",
+        "MM3825M",
+        "MM3826",
+        "MM3826M",
+        "MM3827",
+        "MM3827M",
+        "MM3829",
+        "MM3829M",
+        "MM3830",
+        "MM3830M",
+        "MM3831",
+        "MM3831M"
+      ],
+      "excludedOverlappingSourceIds": [
+        "CX229",
+        "FJ1837",
+        "FJ1838",
+        "FJ1839",
+        "FJ1840",
+        "MM232",
+        "MM232M",
+        "MM233",
+        "MM233M",
+        "MM235",
+        "MM235M",
+        "MM236",
+        "MM236M",
+        "MM237",
+        "MM237M",
+        "MM3641",
+        "MM3641M"
+      ],
+      "sourceVersion": "20181210i412",
+      "maxQuantizationErrorMM": 0.0007186215593435463,
+      "scaleFactor": 1,
+      "rigidTransformDeterminant": 1,
+      "interVersionRegistration": null,
+      "meshSmoothing": false,
+      "sameVersionContext": true,
+      "a1SourceFacesPerSide": 6118
+    }
+  }
+}

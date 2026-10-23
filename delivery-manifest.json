@@ -1,0 +1,26 @@
+{
+  "zip": "NeuroAtlas-offline.zip",
+  "bytes": 42890736,
+  "html_sha256": "f61cbe2833dc09357f8fecce287152230cfd5b9e1e60609ed96a082231676bb1",
+  "zip_sha256": "6e8b299c07056489c27b6447db3d4ca90d9cacb12fe1ee2b12da3098dcda29e4",
+  "members": [
+    "NeuroAtlas.html",
+    "README.md",
+    "LICENSE.md",
+    "coverage-audit.json",
+    "browser-validation.json",
+    "static-validation.json",
+    "native-validation.json",
+    "context-validation.json",
+    "anatomy-validation.json",
+    "portability-validation.json",
+    "build-manifest.json",
+    "preview.jpg",
+    "preview-focus.jpg",
+    "preview-section.jpg",
+    "preview-evidence.jpg",
+    "preview-transparent.jpg",
+    "rendering-validation.json",
+    "section-validation.json"
+  ]
+}

@@ -1,0 +1,5233 @@
+{
+  "schema": "positions float32 little-endian, indices uint32 little-endian; byte offsets po/io; one segment per source label; parts are not seam-welded",
+  "space": "P41-16 native RAS",
+  "unit": "mm",
+  "coordinateMeaning": "Each registered block NIfTI affine is applied directly; same specimen MRI. No registration to Z-Anatomy or any other atlas.",
+  "source": "https://github.com/UCL/BrainAtlas-P41-16",
+  "commit": "9c29e15e2eef6db902296f53de636d57fc5aa6a1",
+  "license": "CC0-1.0",
+  "datasetDOI": "10.5522/04/24243835.v1",
+  "hemisphere": "Single source donor hemisphere; no mirrored copy. Preserve original native RAS and label identities.",
+  "segments": [
+    {
+      "index": 0,
+      "labelId": 649,
+      "en": "medial_superior_olive",
+      "zh": "上橄榄内侧部",
+      "role": "nucleus-source-label",
+      "po": 0,
+      "io": 15312,
+      "vertexCount": 1276,
+      "triangleCount": 2520,
+      "bboxSurfaceRASmm": [
+        [
+          3.827230453491211,
+          -32.93443298339844,
+          -20.214481353759766
+        ],
+        [
+          5.188731670379639,
+          -31.047407150268555,
+          -15.319438934326172
+        ]
+      ],
+      "centroidRASmm": [
+        4.4269183255344835,
+        -31.948005834693795,
+        -17.91052148452256
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 843,
+          "sourceVolumeMm3": 2.5669751153502847,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              188,
+              64,
+              0
+            ],
+            [
+              225,
+              80,
+              11
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 34,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.1364960437418614,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1276,
+          "triangleCount": 2520
+        }
+      ],
+      "sourceBlockVolumeMm3": 2.5669751153502847,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 1,
+      "labelId": 660,
+      "en": "lateral_superior_olivary_nucleus",
+      "zh": "上橄榄外侧核",
+      "role": "nucleus-source-label",
+      "po": 45552,
+      "io": 55476,
+      "vertexCount": 827,
+      "triangleCount": 1650,
+      "bboxSurfaceRASmm": [
+        [
+          4.06514310836792,
+          -33.1799201965332,
+          -20.3090763092041
+        ],
+        [
+          5.583225727081299,
+          -31.657045364379883,
+          -16.32515525817871
+        ]
+      ],
+      "centroidRASmm": [
+        4.794298833785461,
+        -32.58002455706084,
+        -18.464947647346726
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 395,
+          "sourceVolumeMm3": 1.2027937966350681,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              191,
+              70,
+              3
+            ],
+            [
+              219,
+              86,
+              12
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 1.1167710575507177,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 827,
+          "triangleCount": 1650
+        }
+      ],
+      "sourceBlockVolumeMm3": 1.2027937966350681,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 2,
+      "labelId": 654,
+      "en": "inferior_olive__principal_nucleus",
+      "zh": "下橄榄主核",
+      "role": "nucleus-source-label",
+      "po": 75276,
+      "io": 437064,
+      "vertexCount": 30149,
+      "triangleCount": 62860,
+      "bboxSurfaceRASmm": [
+        [
+          1.1863577365875244,
+          -43.623260498046875,
+          -29.17835807800293
+        ],
+        [
+          5.925875186920166,
+          -31.902753829956055,
+          -20.789264678955078
+        ]
+      ],
+      "centroidRASmm": [
+        3.597223388479379,
+        -37.951053555232996,
+        -24.999441035786358
+      ],
+      "color": [
+        0.24313725490196078,
+        0.30196078431372547,
+        0.5372549019607843
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 6106,
+          "sourceVolumeMm3": 18.59306056266766,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              175,
+              50,
+              19
+            ],
+            [
+              241,
+              106,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 11,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 17.568528493854433,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 14089,
+          "triangleCount": 29330
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 8174,
+          "sourceVolumeMm3": 26.544974182079518,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              54,
+              44,
+              0
+            ],
+            [
+              125,
+              89,
+              17
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 5,
+          "meshOpenEdges": 532,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 22.717682992027648,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 14089,
+          "triangleStart": 29330,
+          "vertexCount": 16060,
+          "triangleCount": 33530
+        }
+      ],
+      "sourceBlockVolumeMm3": 45.13803474474717,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 3,
+      "labelId": 671,
+      "en": "inferior_olive__medial_nucleus",
+      "zh": "下橄榄内侧副核",
+      "role": "nucleus-source-label",
+      "po": 1191384,
+      "io": 1224672,
+      "vertexCount": 2774,
+      "triangleCount": 5546,
+      "bboxSurfaceRASmm": [
+        [
+          1.1043283939361572,
+          -41.03508758544922,
+          -28.892650604248047
+        ],
+        [
+          3.49241042137146,
+          -33.680423736572266,
+          -22.590299606323242
+        ]
+      ],
+      "centroidRASmm": [
+        2.320619707486369,
+        -38.40241470047988,
+        -25.982281483061094
+      ],
+      "color": [
+        0.24313725490196078,
+        0.30196078431372547,
+        0.5372549019607843
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 115,
+          "sourceVolumeMm3": 0.3501804724380578,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              188,
+              55,
+              28
+            ],
+            [
+              215,
+              68,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 5,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.2781144832688588,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 356,
+          "triangleCount": 692
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 1329,
+          "sourceVolumeMm3": 4.3159127340327474,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              63,
+              40,
+              0
+            ],
+            [
+              99,
+              67,
+              15
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 60,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 3.56258533739839,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 356,
+          "triangleStart": 692,
+          "vertexCount": 2418,
+          "triangleCount": 4854
+        }
+      ],
+      "sourceBlockVolumeMm3": 4.666093206470805,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 4,
+      "labelId": 685,
+      "en": "inferior_olive__dorsal_nucleus",
+      "zh": "下橄榄背侧副核",
+      "role": "nucleus-source-label",
+      "po": 1291224,
+      "io": 1307004,
+      "vertexCount": 1315,
+      "triangleCount": 2568,
+      "bboxSurfaceRASmm": [
+        [
+          1.0861810445785522,
+          -41.33856964111328,
+          -24.14384651184082
+        ],
+        [
+          4.456728935241699,
+          -36.22163009643555,
+          -21.348066329956055
+        ]
+      ],
+      "centroidRASmm": [
+        2.7259982654202366,
+        -39.07309272909241,
+        -22.785618229313716
+      ],
+      "color": [
+        0.24313725490196078,
+        0.30196078431372547,
+        0.5372549019607843
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 281,
+          "sourceVolumeMm3": 0.8556583717834282,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              217,
+              55,
+              27
+            ],
+            [
+              248,
+              91,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 7,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.6936366226807552,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 869,
+          "triangleCount": 1722
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 172,
+          "sourceVolumeMm3": 0.5585680889794075,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              98,
+              46,
+              0
+            ],
+            [
+              117,
+              64,
+              3
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 3,
+          "meshOpenEdges": 52,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.36575263596787605,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 869,
+          "triangleStart": 1722,
+          "vertexCount": 446,
+          "triangleCount": 846
+        }
+      ],
+      "sourceBlockVolumeMm3": 1.4142264607628356,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 5,
+      "labelId": 682,
+      "en": "abducens_nucleus",
+      "zh": "外展神经核",
+      "role": "nucleus-source-label",
+      "po": 1337820,
+      "io": 1363488,
+      "vertexCount": 2139,
+      "triangleCount": 4164,
+      "bboxSurfaceRASmm": [
+        [
+          1.6212983131408691,
+          -40.844425201416016,
+          -14.6039457321167
+        ],
+        [
+          4.747433185577393,
+          -36.37184524536133,
+          -11.928239822387695
+        ]
+      ],
+      "centroidRASmm": [
+        3.255714844771679,
+        -38.51713884867844,
+        -13.268207943993563
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 254,
+          "sourceVolumeMm3": 0.8606862364298709,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              283,
+              106,
+              34
+            ],
+            [
+              297,
+              121,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 62,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.40765498378917847,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 276,
+          "triangleCount": 488
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 1121,
+          "sourceVolumeMm3": 3.413498344374459,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              267,
+              46,
+              0
+            ],
+            [
+              303,
+              70,
+              10
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 52,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.6183626782378338,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 276,
+          "triangleStart": 488,
+          "vertexCount": 1863,
+          "triangleCount": 3676
+        }
+      ],
+      "sourceBlockVolumeMm3": 4.27418458080433,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 6,
+      "labelId": 666,
+      "en": "facial_nucleus",
+      "zh": "面神经核",
+      "role": "nucleus-source-label",
+      "po": 1413456,
+      "io": 1454520,
+      "vertexCount": 3422,
+      "triangleCount": 6734,
+      "bboxSurfaceRASmm": [
+        [
+          3.597383499145508,
+          -35.13927459716797,
+          -19.969261169433594
+        ],
+        [
+          6.807465553283691,
+          -32.730751037597656,
+          -14.233985900878906
+        ]
+      ],
+      "centroidRASmm": [
+        5.100336349994276,
+        -34.0829853030988,
+        -16.876807818595125
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 215,
+          "sourceVolumeMm3": 0.728533625324497,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              245,
+              125,
+              34
+            ],
+            [
+              259,
+              139,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 50,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.4467853030392428,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 297,
+          "triangleCount": 542
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 2239,
+          "sourceVolumeMm3": 6.817861545989664,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              203,
+              65,
+              0
+            ],
+            [
+              242,
+              91,
+              13
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 3,
+          "meshOpenEdges": 52,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 5.70629155494336,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 297,
+          "triangleStart": 542,
+          "vertexCount": 3125,
+          "triangleCount": 6192
+        }
+      ],
+      "sourceBlockVolumeMm3": 7.546395171314161,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 7,
+      "labelId": 724,
+      "en": "hypoglossal_nucleus",
+      "zh": "舌下神经核",
+      "role": "nucleus-source-label",
+      "po": 1535328,
+      "io": 1570116,
+      "vertexCount": 2899,
+      "triangleCount": 5790,
+      "bboxSurfaceRASmm": [
+        [
+          0.5604722499847412,
+          -43.91518783569336,
+          -22.14772605895996
+        ],
+        [
+          2.769594669342041,
+          -40.23472213745117,
+          -15.096747398376465
+        ]
+      ],
+      "centroidRASmm": [
+        1.5373394675519434,
+        -42.28229815441325,
+        -18.68388759877891
+      ],
+      "color": [
+        0.2549019607843137,
+        0.32941176470588235,
+        0.5725490196078431
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 1190,
+          "sourceVolumeMm3": 3.623606627837294,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              276,
+              46,
+              15
+            ],
+            [
+              307,
+              74,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 6,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 3.404997275238614,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 2311,
+          "triangleCount": 4626
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 232,
+          "sourceVolumeMm3": 0.7534174223443171,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              131,
+              32,
+              0
+            ],
+            [
+              152,
+              45,
+              5
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 22,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.5739735649949017,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 2311,
+          "triangleStart": 4626,
+          "vertexCount": 588,
+          "triangleCount": 1164
+        }
+      ],
+      "sourceBlockVolumeMm3": 4.3770240501816104,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 8,
+      "labelId": 725,
+      "en": "dorsal_motor_nucleus_of_the_vagus_(vagal_nucleus)",
+      "zh": "迷走神经背侧运动核",
+      "role": "nucleus-source-label",
+      "po": 1639596,
+      "io": 1658040,
+      "vertexCount": 1537,
+      "triangleCount": 3074,
+      "bboxSurfaceRASmm": [
+        [
+          1.0841656923294067,
+          -44.29193878173828,
+          -20.237998962402344
+        ],
+        [
+          2.611919641494751,
+          -39.23862838745117,
+          -17.04218292236328
+        ]
+      ],
+      "centroidRASmm": [
+        1.8148627071287193,
+        -42.263579966328535,
+        -18.254941214465923
+      ],
+      "color": [
+        0.27058823529411763,
+        0.34901960784313724,
+        0.615686274509804
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 802,
+          "sourceVolumeMm3": 2.442128164307151,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              268,
+              53,
+              19
+            ],
+            [
+              308,
+              66,
+              31
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.2940627304059227,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1537,
+          "triangleCount": 3074
+        }
+      ],
+      "sourceBlockVolumeMm3": 2.442128164307151,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 9,
+      "labelId": 693,
+      "en": "ambiguus_nucleus",
+      "zh": "疑核",
+      "role": "nucleus-source-label",
+      "po": 1694928,
+      "io": 1706424,
+      "vertexCount": 958,
+      "triangleCount": 1912,
+      "bboxSurfaceRASmm": [
+        [
+          1.4949228763580322,
+          -39.61942672729492,
+          -21.207632064819336
+        ],
+        [
+          4.181644916534424,
+          -37.00737380981445,
+          -19.405881881713867
+        ]
+      ],
+      "centroidRASmm": [
+        2.9488356460792193,
+        -38.270589790040226,
+        -20.238581418507486
+      ],
+      "color": [
+        0.2784313725490196,
+        0.3607843137254902,
+        0.6627450980392157
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 597,
+          "sourceVolumeMm3": 1.8178934090914827,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              237,
+              55,
+              20
+            ],
+            [
+              257,
+              80,
+              27
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 1.7514098301164196,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 958,
+          "triangleCount": 1912
+        }
+      ],
+      "sourceBlockVolumeMm3": 1.8178934090914827,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 10,
+      "labelId": 717,
+      "en": "solitary_nucleus",
+      "zh": "孤束核",
+      "role": "nucleus-source-label",
+      "po": 1729368,
+      "io": 1761588,
+      "vertexCount": 2685,
+      "triangleCount": 5388,
+      "bboxSurfaceRASmm": [
+        [
+          1.1457597017288208,
+          -43.865997314453125,
+          -22.326345443725586
+        ],
+        [
+          5.01786470413208,
+          -39.41203308105469,
+          -16.748924255371094
+        ]
+      ],
+      "centroidRASmm": [
+        2.6416395310154996,
+        -41.859210442557256,
+        -19.524060055767745
+      ],
+      "color": [
+        0.2784313725490196,
+        0.3607843137254902,
+        0.6627450980392157
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 939,
+          "sourceVolumeMm3": 2.859299683646402,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              271,
+              57,
+              17
+            ],
+            [
+              292,
+              97,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 5,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.647922194848899,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 2093,
+          "triangleCount": 4242
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 264,
+          "sourceVolumeMm3": 0.8573370668056022,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              131,
+              37,
+              0
+            ],
+            [
+              150,
+              53,
+              5
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 40,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.6048126835036375,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 2093,
+          "triangleStart": 4242,
+          "vertexCount": 592,
+          "triangleCount": 1146
+        }
+      ],
+      "sourceBlockVolumeMm3": 3.7166367504520044,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 11,
+      "labelId": 630,
+      "en": "motor_nucleus_of_trigeminal_nerve",
+      "zh": "三叉神经运动核",
+      "role": "nucleus-source-label",
+      "po": 1826244,
+      "io": 1843692,
+      "vertexCount": 1454,
+      "triangleCount": 2900,
+      "bboxSurfaceRASmm": [
+        [
+          4.755426406860352,
+          -36.48420333862305,
+          -15.083362579345703
+        ],
+        [
+          6.535811901092529,
+          -32.89398193359375,
+          -11.134296417236328
+        ]
+      ],
+      "centroidRASmm": [
+        5.69164581819605,
+        -34.338835843575694,
+        -13.21205318786399
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 878,
+          "sourceVolumeMm3": 2.9751280141158527,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              239,
+              118,
+              26
+            ],
+            [
+              279,
+              136,
+              33
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.845375390684341,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1454,
+          "triangleCount": 2900
+        }
+      ],
+      "sourceBlockVolumeMm3": 2.9751280141158527,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 12,
+      "labelId": 659,
+      "en": "principal_sensory_nucleus_of_trigeminal_nerve",
+      "zh": "三叉神经脑桥感觉核",
+      "role": "nucleus-source-label",
+      "po": 1878492,
+      "io": 1914552,
+      "vertexCount": 3005,
+      "triangleCount": 6026,
+      "bboxSurfaceRASmm": [
+        [
+          6.066122531890869,
+          -36.905967712402344,
+          -14.48207950592041
+        ],
+        [
+          8.117646217346191,
+          -32.48634719848633,
+          -8.321683883666992
+        ]
+      ],
+      "centroidRASmm": [
+        7.312268354735198,
+        -35.28109115597881,
+        -11.9024687625179
+      ],
+      "color": [
+        0.25098039215686274,
+        0.3843137254901961,
+        0.5647058823529412
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 1793,
+          "sourceVolumeMm3": 6.075631582357317,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              253,
+              127,
+              16
+            ],
+            [
+              288,
+              153,
+              33
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 5.835046000960503,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 3005,
+          "triangleCount": 6026
+        }
+      ],
+      "sourceBlockVolumeMm3": 6.075631582357317,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 13,
+      "labelId": 669,
+      "en": "spinal_trigeminal_nucleus",
+      "zh": "三叉神经脊束核",
+      "role": "nucleus-source-label",
+      "po": 1986864,
+      "io": 2140560,
+      "vertexCount": 12808,
+      "triangleCount": 25424,
+      "bboxSurfaceRASmm": [
+        [
+          1.8053181171417236,
+          -50.18470764160156,
+          -29.95246124267578
+        ],
+        [
+          7.2927565574646,
+          -34.39020919799805,
+          -13.53615951538086
+        ]
+      ],
+      "centroidRASmm": [
+        4.0525177756814115,
+        -43.8514842157871,
+        -22.721566484389246
+      ],
+      "color": [
+        0.2784313725490196,
+        0.3607843137254902,
+        0.6627450980392157
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 221,
+          "sourceVolumeMm3": 0.7488647962637852,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              256,
+              137,
+              34
+            ],
+            [
+              276,
+              145,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 60,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.43299238856799477,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 290,
+          "triangleCount": 518
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 4631,
+          "sourceVolumeMm3": 14.101615372701266,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              238,
+              69,
+              0
+            ],
+            [
+              282,
+              95,
+              31
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 62,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 10.635395447786564,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 290,
+          "triangleStart": 518,
+          "vertexCount": 5406,
+          "triangleCount": 10752
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 9189,
+          "sourceVolumeMm3": 29.8411754048359,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              129,
+              61,
+              0
+            ],
+            [
+              186,
+              98,
+              28
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 72,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 25.580334805263192,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 5696,
+          "triangleStart": 11270,
+          "vertexCount": 7112,
+          "triangleCount": 14154
+        }
+      ],
+      "sourceBlockVolumeMm3": 44.69165557380095,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 14,
+      "labelId": 645,
+      "en": "mesencephalic_trigeminal_nucleus",
+      "zh": "三叉神经中脑核",
+      "role": "nucleus-source-label",
+      "po": 2445648,
+      "io": 2479176,
+      "vertexCount": 2794,
+      "triangleCount": 5490,
+      "bboxSurfaceRASmm": [
+        [
+          1.9610942602157593,
+          -37.40419387817383,
+          -10.487906455993652
+        ],
+        [
+          7.607717514038086,
+          -26.380319595336914,
+          7.553554534912109
+        ]
+      ],
+      "centroidRASmm": [
+        3.6954064899111465,
+        -32.66684610643787,
+        -3.1620151211867658
+      ],
+      "color": [
+        0.30196078431372547,
+        0.5529411764705883,
+        0.6392156862745098
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 530,
+          "sourceVolumeMm3": 1.795920099637132,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              286,
+              74,
+              2
+            ],
+            [
+              305,
+              121,
+              28
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 15,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 1.536697558220671,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1465,
+          "triangleCount": 2910
+        },
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 442,
+          "sourceVolumeMm3": 1.374187607426616,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              247,
+              54,
+              0
+            ],
+            [
+              286,
+              82,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 22,
+          "meshOpenEdges": 26,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.9003767631642198,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 1465,
+          "triangleStart": 2910,
+          "vertexCount": 1329,
+          "triangleCount": 2580
+        }
+      ],
+      "sourceBlockVolumeMm3": 3.170107707063748,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 15,
+      "labelId": 689,
+      "en": "ventral_cochlear_nucleus",
+      "zh": "耳蜗腹侧核",
+      "role": "nucleus-source-label",
+      "po": 2545056,
+      "io": 2588796,
+      "vertexCount": 3645,
+      "triangleCount": 7270,
+      "bboxSurfaceRASmm": [
+        [
+          7.590481281280518,
+          -41.24063491821289,
+          -19.849374771118164
+        ],
+        [
+          11.283072471618652,
+          -34.87203598022461,
+          -15.991829872131348
+        ]
+      ],
+      "centroidRASmm": [
+        9.787884257043881,
+        -38.46761999129828,
+        -17.961638807930516
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 1770,
+          "sourceVolumeMm3": 5.389734227959672,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              221,
+              110,
+              7
+            ],
+            [
+              289,
+              144,
+              16
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 6,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 5.08548308194208,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 3645,
+          "triangleCount": 7270
+        }
+      ],
+      "sourceBlockVolumeMm3": 5.389734227959672,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 16,
+      "labelId": 731,
+      "en": "dorsal_cochlear_nucleus",
+      "zh": "耳蜗背侧核",
+      "role": "nucleus-source-label",
+      "po": 2676036,
+      "io": 2697972,
+      "vertexCount": 1828,
+      "triangleCount": 3660,
+      "bboxSurfaceRASmm": [
+        [
+          4.367116928100586,
+          -42.230342864990234,
+          -16.322330474853516
+        ],
+        [
+          9.985151290893555,
+          -39.904476165771484,
+          -13.8897705078125
+        ]
+      ],
+      "centroidRASmm": [
+        7.589078448859928,
+        -41.117244804885914,
+        -15.014422435003672
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 956,
+          "sourceVolumeMm3": 2.9110654926155064,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              284,
+              76,
+              7
+            ],
+            [
+              308,
+              131,
+              12
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.76008196782011,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1828,
+          "triangleCount": 3660
+        }
+      ],
+      "sourceBlockVolumeMm3": 2.9110654926155064,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 17,
+      "labelId": 683,
+      "en": "superior_vestibular_nucleus",
+      "zh": "前庭上核",
+      "role": "nucleus-source-label",
+      "po": 2741892,
+      "io": 2755344,
+      "vertexCount": 1121,
+      "triangleCount": 2178,
+      "bboxSurfaceRASmm": [
+        [
+          3.8016934394836426,
+          -41.32775115966797,
+          -14.14804458618164
+        ],
+        [
+          8.21689510345459,
+          -38.22710037231445,
+          -11.7243013381958
+        ]
+      ],
+      "centroidRASmm": [
+        5.428940497150043,
+        -39.90199290431808,
+        -12.608356229312363
+      ],
+      "color": [
+        0.2980392156862745,
+        0.4470588235294118,
+        0.6588235294117647
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 718,
+          "sourceVolumeMm3": 2.186344167048048,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              287,
+              62,
+              0
+            ],
+            [
+              310,
+              110,
+              6
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 70,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 1.2800015587949896,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1121,
+          "triangleCount": 2178
+        }
+      ],
+      "sourceBlockVolumeMm3": 2.186344167048048,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 18,
+      "labelId": 690,
+      "en": "lateral_vestibular_nucleus",
+      "zh": "前庭外侧核",
+      "role": "nucleus-source-label",
+      "po": 2781480,
+      "io": 2806080,
+      "vertexCount": 2050,
+      "triangleCount": 4060,
+      "bboxSurfaceRASmm": [
+        [
+          -0.5291985869407654,
+          -41.60424041748047,
+          -17.096115112304688
+        ],
+        [
+          8.065206527709961,
+          -35.902442932128906,
+          -10.302969932556152
+        ]
+      ],
+      "centroidRASmm": [
+        6.609872409804334,
+        -37.41147125623657,
+        -15.084859836073708
+      ],
+      "color": [
+        0.2784313725490196,
+        0.41568627450980394,
+        0.6039215686274509
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 1205,
+          "sourceVolumeMm3": 3.669282341633562,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              252,
+              20,
+              0
+            ],
+            [
+              325,
+              106,
+              10
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 3,
+          "meshOpenEdges": 58,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.858570968530387,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 2050,
+          "triangleCount": 4060
+        }
+      ],
+      "sourceBlockVolumeMm3": 3.669282341633562,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 19,
+      "labelId": 694,
+      "en": "medial_vestibular_nucleus",
+      "zh": "前庭内侧核",
+      "role": "nucleus-source-label",
+      "po": 2854800,
+      "io": 2935620,
+      "vertexCount": 6735,
+      "triangleCount": 13568,
+      "bboxSurfaceRASmm": [
+        [
+          1.307256817817688,
+          -44.276119232177734,
+          -23.438892364501953
+        ],
+        [
+          6.011891841888428,
+          -32.208858489990234,
+          -11.832280158996582
+        ]
+      ],
+      "centroidRASmm": [
+        3.0150889240274323,
+        -38.80685740649642,
+        -17.147961230229555
+      ],
+      "color": [
+        0.2784313725490196,
+        0.3607843137254902,
+        0.6627450980392157
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 120,
+          "sourceVolumeMm3": 0.40662341878576574,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              285,
+              117,
+              34
+            ],
+            [
+              299,
+              128,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 38,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.23052831545533722,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 214,
+          "triangleCount": 388
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 3623,
+          "sourceVolumeMm3": 11.032207405592029,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              181,
+              49,
+              0
+            ],
+            [
+              312,
+              85,
+              26
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 36,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 9.601388738892465,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 214,
+          "triangleStart": 388,
+          "vertexCount": 6521,
+          "triangleCount": 13180
+        }
+      ],
+      "sourceBlockVolumeMm3": 11.438830824377794,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 20,
+      "labelId": 703,
+      "en": "spinal_(inferior)_vestibular_nucleus",
+      "zh": "前庭下核",
+      "role": "nucleus-source-label",
+      "po": 3098436,
+      "io": 3146964,
+      "vertexCount": 4044,
+      "triangleCount": 8128,
+      "bboxSurfaceRASmm": [
+        [
+          2.3345322608947754,
+          -43.694087982177734,
+          -18.181386947631836
+        ],
+        [
+          6.377381324768066,
+          -38.07981491088867,
+          -13.090380668640137
+        ]
+      ],
+      "centroidRASmm": [
+        4.467905928908315,
+        -41.06884658473976,
+        -15.915689272438737
+      ],
+      "color": [
+        0.2784313725490196,
+        0.3607843137254902,
+        0.6627450980392157
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 2642,
+          "sourceVolumeMm3": 8.045015723316075,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              272,
+              64,
+              3
+            ],
+            [
+              311,
+              94,
+              23
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 7.8044567306689006,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 4044,
+          "triangleCount": 8128
+        }
+      ],
+      "sourceBlockVolumeMm3": 8.045015723316075,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 21,
+      "labelId": 715,
+      "en": "fastigial_(medial)_nucleus",
+      "zh": "小脑顶核",
+      "role": "nucleus-source-label",
+      "po": 3244500,
+      "io": 3264804,
+      "vertexCount": 1692,
+      "triangleCount": 3234,
+      "bboxSurfaceRASmm": [
+        [
+          2.7869608402252197,
+          -52.32350540161133,
+          -3.274616003036499
+        ],
+        [
+          3.9669299125671387,
+          -45.133785247802734,
+          -0.4364703893661499
+        ]
+      ],
+      "centroidRASmm": [
+        3.19598022647585,
+        -48.781333628624985,
+        -1.8750266963020437
+      ],
+      "color": [
+        0.19607843137254902,
+        0.4470588235294118,
+        0.6823529411764706
+      ],
+      "parts": [
+        {
+          "sourceBlock": 5,
+          "sourceFile": "p41-labels/5.nii.gz",
+          "sourceVoxels": 1376,
+          "sourceVolumeMm3": 4.810450094870934,
+          "sourceSpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceAffine": [
+            [
+              -0.005712754558771849,
+              -0.00863679964095354,
+              -0.3489660620689392,
+              18.711193084716797
+            ],
+            [
+              -0.056488171219825745,
+              0.08663002401590347,
+              -0.015310090035200119,
+              -78.21582794189453
+            ],
+            [
+              -0.08239836990833282,
+              -0.04923192411661148,
+              0.028404254466295242,
+              41.04835510253906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              215,
+              468,
+              27
+            ],
+            [
+              251,
+              528,
+              29
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 2,
+          "meshOpenEdges": 156,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 2.456693538975454,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1692,
+          "triangleCount": 3234
+        }
+      ],
+      "sourceBlockVolumeMm3": 4.810450094870934,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 22,
+      "labelId": 721,
+      "en": "dentate_(lateral)_nucleus",
+      "zh": "小脑齿状核",
+      "role": "nucleus-source-label",
+      "po": 3303612,
+      "io": 4516404,
+      "vertexCount": 101066,
+      "triangleCount": 203216,
+      "bboxSurfaceRASmm": [
+        [
+          7.4213666915893555,
+          -61.87115478515625,
+          -11.203847885131836
+        ],
+        [
+          19.25627899169922,
+          -43.222347259521484,
+          0.19029788672924042
+        ]
+      ],
+      "centroidRASmm": [
+        13.276281877421305,
+        -53.63995316729469,
+        -6.226808173095995
+      ],
+      "color": [
+        0.09803921568627451,
+        0.27058823529411763,
+        0.49411764705882355
+      ],
+      "parts": [
+        {
+          "sourceBlock": 3,
+          "sourceFile": "p41-labels/3.nii.gz",
+          "sourceVoxels": 43011,
+          "sourceVolumeMm3": 145.86033148803753,
+          "sourceSpacingMm": [
+            0.1000312864780426,
+            0.10005545616149902,
+            0.339389830827713
+          ],
+          "sourceAffine": [
+            [
+              -0.007979892194271088,
+              -0.007915870286524296,
+              -0.33765843510627747,
+              29.690885543823242
+            ],
+            [
+              -0.043422993272542953,
+              0.09229940176010132,
+              -0.014155450277030468,
+              -80.63190460205078
+            ],
+            [
+              -0.089760921895504,
+              -0.037805475294589996,
+              0.031174741685390472,
+              28.507471084594727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              199,
+              325,
+              16
+            ],
+            [
+              273,
+              494,
+              35
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.1000312864780426,
+            0.10005545616149902,
+            0.339389830827713
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 6,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 145.91784166274815,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 51072,
+          "triangleCount": 103124
+        },
+        {
+          "sourceBlock": 5,
+          "sourceFile": "p41-labels/5.nii.gz",
+          "sourceVoxels": 34269,
+          "sourceVolumeMm3": 119.80328074210176,
+          "sourceSpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceAffine": [
+            [
+              -0.005712754558771849,
+              -0.00863679964095354,
+              -0.3489660620689392,
+              18.711193084716797
+            ],
+            [
+              -0.056488171219825745,
+              0.08663002401590347,
+              -0.015310090035200119,
+              -78.21582794189453
+            ],
+            [
+              -0.08239836990833282,
+              -0.04923192411661148,
+              0.028404254466295242,
+              41.04835510253906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              219,
+              391,
+              0
+            ],
+            [
+              327,
+              580,
+              16
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 14,
+          "meshOpenEdges": 1548,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 94.78263145174763,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 51072,
+          "triangleStart": 103124,
+          "vertexCount": 49994,
+          "triangleCount": 100092
+        }
+      ],
+      "sourceBlockVolumeMm3": 265.6636122301393,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 23,
+      "labelId": 751,
+      "en": "medial_interpositus_(globose)_nucleus",
+      "zh": "小脑球状核",
+      "role": "nucleus-source-label",
+      "po": 6954996,
+      "io": 7021296,
+      "vertexCount": 5525,
+      "triangleCount": 11142,
+      "bboxSurfaceRASmm": [
+        [
+          4.876586437225342,
+          -56.22220993041992,
+          -4.466906547546387
+        ],
+        [
+          8.689138412475586,
+          -49.86236572265625,
+          -1.3339896202087402
+        ]
+      ],
+      "centroidRASmm": [
+        6.89452398697921,
+        -53.44726642677669,
+        -2.775973857749811
+      ],
+      "color": [
+        0.06666666666666667,
+        0.35294117647058826,
+        0.5843137254901961
+      ],
+      "parts": [
+        {
+          "sourceBlock": 5,
+          "sourceFile": "p41-labels/5.nii.gz",
+          "sourceVoxels": 5353,
+          "sourceVolumeMm3": 18.71390941703787,
+          "sourceSpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceAffine": [
+            [
+              -0.005712754558771849,
+              -0.00863679964095354,
+              -0.3489660620689392,
+              18.711193084716797
+            ],
+            [
+              -0.056488171219825745,
+              0.08663002401590347,
+              -0.015310090035200119,
+              -78.21582794189453
+            ],
+            [
+              -0.08239836990833282,
+              -0.04923192411661148,
+              0.028404254466295242,
+              41.04835510253906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              236,
+              436,
+              14
+            ],
+            [
+              285,
+              488,
+              23
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 6,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 18.535469032715763,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 5525,
+          "triangleCount": 11142
+        }
+      ],
+      "sourceBlockVolumeMm3": 18.71390941703787,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 24,
+      "labelId": 752,
+      "en": "lateral_interpositus_(emboliform)_nucleus",
+      "zh": "小脑栓状核",
+      "role": "nucleus-source-label",
+      "po": 7155000,
+      "io": 7226892,
+      "vertexCount": 5991,
+      "triangleCount": 12022,
+      "bboxSurfaceRASmm": [
+        [
+          4.753911972045898,
+          -54.595088958740234,
+          -5.14997673034668
+        ],
+        [
+          9.412497520446777,
+          -43.89733123779297,
+          -0.11854972690343857
+        ]
+      ],
+      "centroidRASmm": [
+        6.962184701571243,
+        -48.45485787365341,
+        -1.7639120313123937
+      ],
+      "color": [
+        0.06666666666666667,
+        0.35294117647058826,
+        0.5843137254901961
+      ],
+      "parts": [
+        {
+          "sourceBlock": 5,
+          "sourceFile": "p41-labels/5.nii.gz",
+          "sourceVoxels": 6451,
+          "sourceVolumeMm3": 22.552480786346216,
+          "sourceSpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceAffine": [
+            [
+              -0.005712754558771849,
+              -0.00863679964095354,
+              -0.3489660620689392,
+              18.711193084716797
+            ],
+            [
+              -0.056488171219825745,
+              0.08663002401590347,
+              -0.015310090035200119,
+              -78.21582794189453
+            ],
+            [
+              -0.08239836990833282,
+              -0.04923192411661148,
+              0.028404254466295242,
+              41.04835510253906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              215,
+              438,
+              10
+            ],
+            [
+              254,
+              550,
+              23
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 1,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 22.279358601815858,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 5991,
+          "triangleCount": 12022
+        }
+      ],
+      "sourceBlockVolumeMm3": 22.552480786346216,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 25,
+      "labelId": 589,
+      "en": "nucleus_coeruleus",
+      "zh": "蓝斑核",
+      "role": "nucleus-source-label",
+      "po": 7371156,
+      "io": 7408500,
+      "vertexCount": 3112,
+      "triangleCount": 6224,
+      "bboxSurfaceRASmm": [
+        [
+          1.2828437089920044,
+          -36.357295989990234,
+          -10.338348388671875
+        ],
+        [
+          4.773219585418701,
+          -31.00359344482422,
+          -0.49480122327804565
+        ]
+      ],
+      "centroidRASmm": [
+        2.859325304417693,
+        -33.69020355522927,
+        -6.251407735270114
+      ],
+      "color": [
+        0.22745098039215686,
+        0.33725490196078434,
+        0.5019607843137255
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 1572,
+          "sourceVolumeMm3": 5.326766786093531,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              276,
+              72,
+              1
+            ],
+            [
+              308,
+              115,
+              26
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 3,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 5.023210706430475,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 3112,
+          "triangleCount": 6224
+        }
+      ],
+      "sourceBlockVolumeMm3": 5.326766786093531,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 26,
+      "labelId": 447,
+      "en": "edinger-westphal_nucleus_(accessory_oculomotor_nucleus)",
+      "zh": "动眼神经副核（局部标签）",
+      "role": "nucleus-source-label",
+      "po": 7483188,
+      "io": 7507356,
+      "vertexCount": 2014,
+      "triangleCount": 3980,
+      "bboxSurfaceRASmm": [
+        [
+          0.40889981389045715,
+          -27.26905059814453,
+          0.7739604115486145
+        ],
+        [
+          6.157361030578613,
+          -17.985816955566406,
+          8.13351058959961
+        ]
+      ],
+      "centroidRASmm": [
+        1.7019142745114355,
+        -19.781246192364467,
+        2.7206983797579007
+      ],
+      "color": [
+        0.33725490196078434,
+        0.6313725490196078,
+        0.7333333333333333
+      ],
+      "parts": [
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 107,
+          "sourceVolumeMm3": 0.3326653257797464,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              241,
+              50,
+              0
+            ],
+            [
+              286,
+              67,
+              5
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 5,
+          "meshOpenEdges": 22,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.1882018520734594,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 308,
+          "triangleCount": 576
+        },
+        {
+          "sourceBlock": 19,
+          "sourceFile": "p41-labels/19.nii.gz",
+          "sourceVoxels": 1157,
+          "sourceVolumeMm3": 3.77343842551603,
+          "sourceSpacingMm": [
+            0.09998823702335358,
+            0.09997416287660599,
+            0.32637012004852295
+          ],
+          "sourceAffine": [
+            [
+              0.056747227907180786,
+              0.08102001249790192,
+              -0.00356535823084414,
+              -23.914087295532227
+            ],
+            [
+              -0.017383435741066933,
+              0.013617963530123234,
+              0.31755200028419495,
+              -28.12913703918457
+            ],
+            [
+              -0.08046872913837433,
+              0.0569661520421505,
+              -0.07526926696300507,
+              8.377094268798828
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              170,
+              174,
+              25
+            ],
+            [
+              191,
+              212,
+              32
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09998823702335358,
+            0.09997416287660599,
+            0.32637012004852295
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 3,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 3.651135928377883,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 308,
+          "triangleStart": 576,
+          "vertexCount": 1706,
+          "triangleCount": 3404
+        }
+      ],
+      "sourceBlockVolumeMm3": 4.106103751295777,
+      "smallSourceLabelCaution": true,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Source local label is very small; it must not be presented as the complete nucleus."
+    },
+    {
+      "index": 27,
+      "labelId": 464,
+      "en": "oculomotor_nucleus",
+      "zh": "动眼神经核（局部标签）",
+      "role": "nucleus-source-label",
+      "po": 7555116,
+      "io": 7561284,
+      "vertexCount": 514,
+      "triangleCount": 992,
+      "bboxSurfaceRASmm": [
+        [
+          3.245048761367798,
+          -27.42457389831543,
+          4.044349670410156
+        ],
+        [
+          4.815188884735107,
+          -23.268430709838867,
+          8.464900970458984
+        ]
+      ],
+      "centroidRASmm": [
+        4.029190621763156,
+        -25.001201330642836,
+        5.5909016306691
+      ],
+      "color": [
+        0.2784313725490196,
+        0.5215686274509804,
+        0.6
+      ],
+      "parts": [
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 203,
+          "sourceVolumeMm3": 0.6311314124606404,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              232,
+              41,
+              0
+            ],
+            [
+              289,
+              56,
+              6
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 4,
+          "meshOpenEdges": 22,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 0.47309553377323305,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 514,
+          "triangleCount": 992
+        }
+      ],
+      "sourceBlockVolumeMm3": 0.6311314124606404,
+      "smallSourceLabelCaution": true,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Source local label is very small; it must not be presented as the complete nucleus."
+    },
+    {
+      "index": 28,
+      "labelId": 520,
+      "en": "trochlear_nucleus",
+      "zh": "滑车神经核（局部标签）",
+      "role": "nucleus-source-label",
+      "po": 7573188,
+      "io": 7589412,
+      "vertexCount": 1352,
+      "triangleCount": 2680,
+      "bboxSurfaceRASmm": [
+        [
+          1.706869125366211,
+          -29.73537826538086,
+          -0.7623612880706787
+        ],
+        [
+          5.39093542098999,
+          -23.364154815673828,
+          4.699316024780273
+        ]
+      ],
+      "centroidRASmm": [
+        3.602265299646304,
+        -26.00223764688504,
+        2.497711439769107
+      ],
+      "color": [
+        0.2784313725490196,
+        0.5215686274509804,
+        0.6
+      ],
+      "parts": [
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 502,
+          "sourceVolumeMm3": 1.5607289116021748,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              215,
+              40,
+              5
+            ],
+            [
+              281,
+              68,
+              22
+            ]
+          ],
+          "displayStride": 1,
+          "displaySpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 11,
+          "meshOpenEdges": 0,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 1.3468541966301828,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1352,
+          "triangleCount": 2680
+        }
+      ],
+      "sourceBlockVolumeMm3": 1.5607289116021748,
+      "smallSourceLabelCaution": true,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Source local label is very small; it must not be presented as the complete nucleus."
+    },
+    {
+      "index": 29,
+      "labelId": 431,
+      "en": "white_matter_of_midbrain",
+      "zh": "中脑白质（源分区）",
+      "role": "context",
+      "po": 7621572,
+      "io": 7640736,
+      "vertexCount": 1597,
+      "triangleCount": 3048,
+      "bboxSurfaceRASmm": [
+        [
+          0.644477367401123,
+          -27.831567764282227,
+          -3.8117523193359375
+        ],
+        [
+          18.67827033996582,
+          -9.398475646972656,
+          12.356917381286621
+        ]
+      ],
+      "centroidRASmm": [
+        7.808978308249587,
+        -16.83997117287969,
+        3.9427919168675123
+      ],
+      "color": [
+        0.9490196078431372,
+        0.9450980392156862,
+        0.9411764705882353
+      ],
+      "parts": [
+        {
+          "sourceBlock": 19,
+          "sourceFile": "p41-labels/19.nii.gz",
+          "sourceVoxels": 12168,
+          "sourceVolumeMm3": 39.68470074475286,
+          "sourceSpacingMm": [
+            0.09998823702335358,
+            0.09997416287660599,
+            0.32637012004852295
+          ],
+          "sourceAffine": [
+            [
+              0.056747227907180786,
+              0.08102001249790192,
+              -0.00356535823084414,
+              -23.914087295532227
+            ],
+            [
+              -0.017383435741066933,
+              0.013617963530123234,
+              0.31755200028419495,
+              -28.12913703918457
+            ],
+            [
+              -0.08046872913837433,
+              0.0569661520421505,
+              -0.07526926696300507,
+              8.377094268798828
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              149,
+              199,
+              0
+            ],
+            [
+              307,
+              391,
+              20
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3999529480934143,
+            0.39989665150642395,
+            1.3054804801940918
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 39,
+          "meshOpenEdges": 86,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 56.52221843254679,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1112,
+          "triangleCount": 2156
+        },
+        {
+          "sourceBlock": 37,
+          "sourceFile": "p41-labels/37.nii.gz",
+          "sourceVoxels": 22075,
+          "sourceVolumeMm3": 70.2072840660002,
+          "sourceSpacingMm": [
+            0.1000039204955101,
+            0.09995074570178986,
+            0.31867653131484985
+          ],
+          "sourceAffine": [
+            [
+              0.014420694671571255,
+              0.09832428395748138,
+              0.0036744740791618824,
+              -9.890898704528809
+            ],
+            [
+              -0.020095445215702057,
+              0.0022727777250111103,
+              0.30911585688591003,
+              -10.460259437561035
+            ],
+            [
+              -0.09689685702323914,
+              0.017813511192798615,
+              -0.07738611102104187,
+              36.422210693359375
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              315,
+              42,
+              16
+            ],
+            [
+              415,
+              166,
+              23
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.4000156819820404,
+            0.3998029828071594,
+            1.2747061252593994
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 5,
+          "meshOpenEdges": 74,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 40.30193256420639,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 1112,
+          "triangleStart": 2156,
+          "vertexCount": 485,
+          "triangleCount": 892
+        }
+      ],
+      "sourceBlockVolumeMm3": 109.89198481075306,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 30,
+      "labelId": 611,
+      "en": "white_matter_of_hindbrain",
+      "zh": "后脑白质（源分区）",
+      "role": "context",
+      "po": 7677312,
+      "io": 8513724,
+      "vertexCount": 69701,
+      "triangleCount": 131970,
+      "bboxSurfaceRASmm": [
+        [
+          -0.18088416755199432,
+          -100.88190460205078,
+          -47.89732360839844
+        ],
+        [
+          49.584808349609375,
+          -11.285750389099121,
+          37.85758972167969
+        ]
+      ],
+      "centroidRASmm": [
+        17.832638585723352,
+        -50.292815748804585,
+        -10.451202708864962
+      ],
+      "color": [
+        0.9490196078431372,
+        0.9450980392156862,
+        0.9411764705882353
+      ],
+      "parts": [
+        {
+          "sourceBlock": 3,
+          "sourceFile": "p41-labels/3.nii.gz",
+          "sourceVoxels": 1283865,
+          "sourceVolumeMm3": 4353.8856219546005,
+          "sourceSpacingMm": [
+            0.1000312864780426,
+            0.10005545616149902,
+            0.339389830827713
+          ],
+          "sourceAffine": [
+            [
+              -0.007979892194271088,
+              -0.007915870286524296,
+              -0.33765843510627747,
+              29.690885543823242
+            ],
+            [
+              -0.043422993272542953,
+              0.09229940176010132,
+              -0.014155450277030468,
+              -80.63190460205078
+            ],
+            [
+              -0.089760921895504,
+              -0.037805475294589996,
+              0.031174741685390472,
+              28.507471084594727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              534,
+              735,
+              35
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.4001251459121704,
+            0.4002218246459961,
+            1.357559323310852
+          ],
+          "sourceBoundaryTouchAxes": [
+            0,
+            1,
+            2
+          ],
+          "labelComponents6Connected": 4308,
+          "meshOpenEdges": 1094,
+          "nonManifoldEdges": 63,
+          "signedSurfaceVolumeMm3": 3502.600122022004,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 22540,
+          "triangleCount": 44012
+        },
+        {
+          "sourceBlock": 5,
+          "sourceFile": "p41-labels/5.nii.gz",
+          "sourceVoxels": 695376,
+          "sourceVolumeMm3": 2431.0112973626237,
+          "sourceSpacingMm": [
+            0.10006517916917801,
+            0.10001568496227264,
+            0.350454717874527
+          ],
+          "sourceAffine": [
+            [
+              -0.005712754558771849,
+              -0.00863679964095354,
+              -0.3489660620689392,
+              18.711193084716797
+            ],
+            [
+              -0.056488171219825745,
+              0.08663002401590347,
+              -0.015310090035200119,
+              -78.21582794189453
+            ],
+            [
+              -0.08239836990833282,
+              -0.04923192411661148,
+              0.028404254466295242,
+              41.04835510253906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              0,
+              49,
+              0
+            ],
+            [
+              546,
+              694,
+              29
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.40026071667671204,
+            0.4000627398490906,
+            1.401818871498108
+          ],
+          "sourceBoundaryTouchAxes": [
+            0,
+            2
+          ],
+          "labelComponents6Connected": 3273,
+          "meshOpenEdges": 3028,
+          "nonManifoldEdges": 111,
+          "signedSurfaceVolumeMm3": 1466.663421734305,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 22540,
+          "triangleStart": 44012,
+          "vertexCount": 22197,
+          "triangleCount": 41904
+        },
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 97783,
+          "sourceVolumeMm3": 331.3404813260711,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              55,
+              46,
+              0
+            ],
+            [
+              216,
+              155,
+              35
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3999391496181488,
+            0.4000988006591797,
+            1.3727197647094727
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 287,
+          "meshOpenEdges": 330,
+          "nonManifoldEdges": 24,
+          "signedSurfaceVolumeMm3": 235.49213410256678,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 44737,
+          "triangleStart": 85916,
+          "vertexCount": 3976,
+          "triangleCount": 8244
+        },
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 99754,
+          "sourceVolumeMm3": 310.1373542788114,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              44,
+              36,
+              18
+            ],
+            [
+              221,
+              157,
+              35
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3997513949871063,
+            0.39975273609161377,
+            1.2481770515441895
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 87,
+          "meshOpenEdges": 342,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 228.85367881633093,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 48713,
+          "triangleStart": 94160,
+          "vertexCount": 1947,
+          "triangleCount": 3608
+        },
+        {
+          "sourceBlock": 15,
+          "sourceFile": "p41-labels/15.nii.gz",
+          "sourceVoxels": 83141,
+          "sourceVolumeMm3": 534.0830374862229,
+          "sourceSpacingMm": [
+            0.10008224099874496,
+            0.09995239228010178,
+            0.6426025032997131
+          ],
+          "sourceAffine": [
+            [
+              -0.007238881196826696,
+              0.014692625030875206,
+              0.6357279419898987,
+              31.731000900268555
+            ],
+            [
+              -0.08444496244192123,
+              -0.05620046705007553,
+              0.01230580173432827,
+              -14.360799789428711
+            ],
+            [
+              -0.05322689190506935,
+              0.0813395082950592,
+              -0.09293291717767715,
+              -30.924100875854492
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              0,
+              221,
+              0
+            ],
+            [
+              528,
+              750,
+              21
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.40032896399497986,
+            0.3998095691204071,
+            2.5704100131988525
+          ],
+          "sourceBoundaryTouchAxes": [
+            0,
+            2
+          ],
+          "labelComponents6Connected": 1282,
+          "meshOpenEdges": 1132,
+          "nonManifoldEdges": 27,
+          "signedSurfaceVolumeMm3": 161.48020787044052,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 50660,
+          "triangleStart": 97768,
+          "vertexCount": 5965,
+          "triangleCount": 10518
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 39293,
+          "sourceVolumeMm3": 119.6490548131183,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              72,
+              40,
+              0
+            ],
+            [
+              240,
+              105,
+              32
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.40001559257507324,
+            0.40014100074768066,
+            1.218285322189331
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 115,
+          "meshOpenEdges": 240,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 71.05772308494245,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 56625,
+          "triangleStart": 108286,
+          "vertexCount": 1490,
+          "triangleCount": 2834
+        },
+        {
+          "sourceBlock": 18,
+          "sourceFile": "p41-labels/18.nii.gz",
+          "sourceVoxels": 291260,
+          "sourceVolumeMm3": 1911.2390023685805,
+          "sourceSpacingMm": [
+            0.09992016851902008,
+            0.09995565563440323,
+            0.6582207083702087
+          ],
+          "sourceAffine": [
+            [
+              -0.011774726212024689,
+              -0.010706651955842972,
+              -0.6511752009391785,
+              42.97214889526367
+            ],
+            [
+              -0.05962230637669563,
+              0.0834881067276001,
+              -0.0142767783254385,
+              -73.78560638427734
+            ],
+            [
+              -0.07931315153837204,
+              -0.05390952527523041,
+              0.0949816107749939,
+              29.389541625976562
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              34,
+              66,
+              0
+            ],
+            [
+              541,
+              753,
+              19
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3996806740760803,
+            0.3998226225376129,
+            2.632882833480835
+          ],
+          "sourceBoundaryTouchAxes": [
+            0,
+            2
+          ],
+          "labelComponents6Connected": 2595,
+          "meshOpenEdges": 2148,
+          "nonManifoldEdges": 45,
+          "signedSurfaceVolumeMm3": 842.8013588591215,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 58115,
+          "triangleStart": 111120,
+          "vertexCount": 10487,
+          "triangleCount": 18702
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 34093,
+          "sourceVolumeMm3": 110.71663870683105,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              23,
+              29,
+              0
+            ],
+            [
+              158,
+              88,
+              28
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.39984941482543945,
+            0.3995933532714844,
+            1.3417096138000488
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 68,
+          "meshOpenEdges": 158,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 70.5751889622391,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 68602,
+          "triangleStart": 129822,
+          "vertexCount": 1099,
+          "triangleCount": 2148
+        }
+      ],
+      "sourceBlockVolumeMm3": 10102.062488296859,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 31,
+      "labelId": 580,
+      "en": "pons",
+      "zh": "脑桥其余组织（源分区）",
+      "role": "context",
+      "po": 10097364,
+      "io": 10145916,
+      "vertexCount": 4046,
+      "triangleCount": 7738,
+      "bboxSurfaceRASmm": [
+        [
+          0.5490518808364868,
+          -42.97209548950195,
+          -22.19206428527832
+        ],
+        [
+          11.177424430847168,
+          -19.32168197631836,
+          2.304589033126831
+        ]
+      ],
+      "centroidRASmm": [
+        5.702010062221423,
+        -33.76311563012271,
+        -10.062995284730976
+      ],
+      "color": [
+        0.6862745098039216,
+        0.7647058823529411,
+        0.8588235294117647
+      ],
+      "parts": [
+        {
+          "sourceBlock": 6,
+          "sourceFile": "p41-labels/6.nii.gz",
+          "sourceVoxels": 42056,
+          "sourceVolumeMm3": 142.50795417045137,
+          "sourceSpacingMm": [
+            0.0999847874045372,
+            0.10002470016479492,
+            0.34317994117736816
+          ],
+          "sourceAffine": [
+            [
+              -0.008251449093222618,
+              0.09656809270381927,
+              -0.07091116160154343,
+              -2.143784761428833
+            ],
+            [
+              -0.08242446184158325,
+              -0.018852194771170616,
+              -0.13719427585601807,
+              -6.44098424911499
+            ],
+            [
+              0.05599178373813629,
+              -0.01800384558737278,
+              -0.30646663904190063,
+              -16.182737350463867
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              202,
+              51,
+              0
+            ],
+            [
+              349,
+              167,
+              35
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3999391496181488,
+            0.4000988006591797,
+            1.3727197647094727
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 41,
+          "meshOpenEdges": 166,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 65.39205858953702,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 1752,
+          "triangleCount": 3482
+        },
+        {
+          "sourceBlock": 7,
+          "sourceFile": "p41-labels/7.nii.gz",
+          "sourceVoxels": 25672,
+          "sourceVolumeMm3": 79.81480601324907,
+          "sourceSpacingMm": [
+            0.09993784874677658,
+            0.09993818402290344,
+            0.31204426288604736
+          ],
+          "sourceAffine": [
+            [
+              0.0009505780762992799,
+              0.09601892530918121,
+              -0.09487660974264145,
+              -0.3927205204963684
+            ],
+            [
+              -0.08374930173158646,
+              -0.015954094007611275,
+              -0.17832280695438385,
+              -2.350114107131958
+            ],
+            [
+              0.05452269688248634,
+              -0.022659968584775925,
+              -0.23784665763378143,
+              -6.299720764160156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              114,
+              31,
+              25
+            ],
+            [
+              308,
+              154,
+              35
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.3997513949871063,
+            0.39975273609161377,
+            1.2481770515441895
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 28,
+          "meshOpenEdges": 200,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 36.398697704391054,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 1752,
+          "triangleStart": 3482,
+          "vertexCount": 762,
+          "triangleCount": 1354
+        },
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 40877,
+          "sourceVolumeMm3": 124.47241019000424,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              154,
+              36,
+              0
+            ],
+            [
+              313,
+              149,
+              18
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.40001559257507324,
+            0.40014100074768066,
+            1.218285322189331
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 46,
+          "meshOpenEdges": 298,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 76.06377939368654,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 2514,
+          "triangleStart": 4836,
+          "vertexCount": 1532,
+          "triangleCount": 2902
+        }
+      ],
+      "sourceBlockVolumeMm3": 346.79517037370465,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    },
+    {
+      "index": 32,
+      "labelId": 662,
+      "en": "myelencephalon_(medulla_oblongata)",
+      "zh": "延髓其余组织（源分区）",
+      "role": "context",
+      "po": 10238772,
+      "io": 10275636,
+      "vertexCount": 3072,
+      "triangleCount": 6092,
+      "bboxSurfaceRASmm": [
+        [
+          -0.008997775614261627,
+          -51.619258880615234,
+          -31.843936920166016
+        ],
+        [
+          7.456308841705322,
+          -28.18628692626953,
+          -16.117145538330078
+        ]
+      ],
+      "centroidRASmm": [
+        3.5812795866926064,
+        -43.08275836293128,
+        -23.43766191905724
+      ],
+      "color": [
+        0.8196078431372549,
+        0.8431372549019608,
+        0.9098039215686274
+      ],
+      "parts": [
+        {
+          "sourceBlock": 16,
+          "sourceFile": "p41-labels/16.nii.gz",
+          "sourceVoxels": 28926,
+          "sourceVolumeMm3": 88.081046484724,
+          "sourceSpacingMm": [
+            0.10000389814376831,
+            0.10003525018692017,
+            0.30457133054733276
+          ],
+          "sourceAffine": [
+            [
+              -0.0006979720201343298,
+              0.0974777489900589,
+              -0.07196248322725296,
+              -1.9872863292694092
+            ],
+            [
+              -0.08803533762693405,
+              -0.011818595230579376,
+              -0.1484622210264206,
+              -12.236766815185547
+            ],
+            [
+              0.047434914857149124,
+              -0.019117018207907677,
+              -0.25601574778556824,
+              -24.696937561035156
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              134,
+              45,
+              19
+            ],
+            [
+              321,
+              121,
+              32
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.40001559257507324,
+            0.40014100074768066,
+            1.218285322189331
+          ],
+          "sourceBoundaryTouchAxes": [],
+          "labelComponents6Connected": 67,
+          "meshOpenEdges": 170,
+          "nonManifoldEdges": 0,
+          "signedSurfaceVolumeMm3": 40.66928713812231,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 0,
+          "triangleStart": 0,
+          "vertexCount": 990,
+          "triangleCount": 1882
+        },
+        {
+          "sourceBlock": 38,
+          "sourceFile": "p41-labels/38.nii.gz",
+          "sourceVoxels": 45576,
+          "sourceVolumeMm3": 148.00755362398533,
+          "sourceSpacingMm": [
+            0.09996235370635986,
+            0.0998983383178711,
+            0.3354274034500122
+          ],
+          "sourceAffine": [
+            [
+              -0.00674611097201705,
+              0.09080179780721664,
+              -0.10827410966157913,
+              -0.8392890095710754
+            ],
+            [
+              -0.0817195251584053,
+              -0.024495920166373253,
+              -0.10670414566993713,
+              -30.156293869018555
+            ],
+            [
+              0.05717413127422333,
+              -0.03368472680449486,
+              -0.299002468585968,
+              -27.089733123779297
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sourceVoxelBounds": [
+            [
+              46,
+              30,
+              0
+            ],
+            [
+              208,
+              102,
+              28
+            ]
+          ],
+          "displayStride": 4,
+          "displaySpacingMm": [
+            0.39984941482543945,
+            0.3995933532714844,
+            1.3417096138000488
+          ],
+          "sourceBoundaryTouchAxes": [
+            2
+          ],
+          "labelComponents6Connected": 99,
+          "meshOpenEdges": 238,
+          "nonManifoldEdges": 3,
+          "signedSurfaceVolumeMm3": 100.09637266699615,
+          "outwardWinding": "gradient ascent plus affine-determinant correction; positive volume asserted for closed parts",
+          "interpolation": "Binary mask 0.5 marching-cubes isosurface",
+          "blockSeamHandling": "No artificial padding beyond source block, no union remeshing, no seam closure, no smoothing.",
+          "vertexStart": 990,
+          "triangleStart": 1882,
+          "vertexCount": 2082,
+          "triangleCount": 4210
+        }
+      ],
+      "sourceBlockVolumeMm3": 236.08860010870933,
+      "smallSourceLabelCaution": false,
+      "completeNucleusClaim": false,
+      "quality": "Donor histology-derived source label; completeness and anatomical boundaries not independently validated.",
+      "warning": "Across-block boundaries remain separate; no complete-boundary guarantee."
+    }
+  ],
+  "binaryBytes": 10348740,
+  "gzipBytes": 5343540,
+  "sha256": "9e2df0e120d138fc0c78d01b79a6b273a267c5a1e68a5b981cc447547ee68b3e",
+  "sourceSpacingNotAccuracy": "0.1 mm in-plane and 0.25/0.5 mm section acquisition are sampling resolutions. Registration and delineation error remain; study reports ~0.99 mm mean landmark error overall.",
+  "contextWarning": "Context white matter and pons/medulla labels are source residual labels, not complete anatomical envelopes. Display context uses stride4 in all 3 block axes; nuclear targets use stride1.",
+  "meshPolicy": "No smoothing, hole filling, disconnected-component deletion, fitting, manual geometry or mirroring. No padding beyond raw block edge. A .5 surface interpolates binary boundary within the sampled voxel grid."
+}

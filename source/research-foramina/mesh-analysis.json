@@ -1,0 +1,2240 @@
+{
+  "source": "Existing decoded Z-Anatomy / BodyParts3D atlas.bin",
+  "sourceCoordinateSpace": "+X left,+Y superior,+Z anterior; mm",
+  "method": "Exact segment/triangle non-coplanar collision sampling; coarse box includes triangles whose bounding boxes intersect inspection window; max 10 distinct collision locations per item",
+  "roiWarning": "Inspection boxes are inherited hand-placed teaching focus coordinates. They are not precise foraminal labels and are not emitted as geometry.",
+  "zeroCollisionMeaning": "No sampled collision does NOT certify an open bony canal or correct anatomical registration. Missing target geometry and coplanar cases limit this test.",
+  "boneMeshClassification": "Whole bone surfaces; no named cranial foramen/canal meshes or independently segmented rims exist in current skeletal.glb.",
+  "items": [
+    {
+      "id": "cribriform",
+      "zh": "筛孔",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1020,
+          "name": "Ethmoid bone",
+          "side": "median",
+          "triangleCount": 10130
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 233,
+          "name": "Olfactory nerve (I)",
+          "side": "left",
+          "triangleCount": 17940
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          6.0,
+          -29.0,
+          53.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 5655,
+      "nerveTrianglesInBox": 17217,
+      "collisionLocations": [
+        [
+          0.9345049858093262,
+          -27.283315658569336,
+          64.27104949951172
+        ],
+        [
+          0.9725989699363708,
+          -27.399349212646484,
+          64.28392028808594
+        ],
+        [
+          0.9512954950332642,
+          -27.31535530090332,
+          64.28272247314453
+        ],
+        [
+          0.9469338059425354,
+          -27.272830963134766,
+          64.17778015136719
+        ],
+        [
+          0.9417349696159363,
+          -27.258941650390625,
+          64.2048110961914
+        ],
+        [
+          0.9848217368125916,
+          -27.37410545349121,
+          63.98106384277344
+        ],
+        [
+          0.9881174564361572,
+          -27.38623809814453,
+          63.97768783569336
+        ],
+        [
+          0.9801508784294128,
+          -27.42940902709961,
+          64.2855224609375
+        ],
+        [
+          1.0191984176635742,
+          -27.583402633666992,
+          64.28788757324219
+        ],
+        [
+          0.9886351823806763,
+          -27.388174057006836,
+          63.9772834777832
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "cribriform",
+      "zh": "筛孔",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1020,
+          "name": "Ethmoid bone",
+          "side": "median",
+          "triangleCount": 10130
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 234,
+          "name": "Olfactory nerve (I)",
+          "side": "right",
+          "triangleCount": 17940
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -6.0,
+          -29.0,
+          53.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 5657,
+      "nerveTrianglesInBox": 17217,
+      "collisionLocations": [
+        [
+          -0.9887455105781555,
+          -27.385948181152344,
+          63.979217529296875
+        ],
+        [
+          -0.9419572353363037,
+          -27.257822036743164,
+          64.20418548583984
+        ],
+        [
+          -0.9421635270118713,
+          -27.25714683532715,
+          64.20233154296875
+        ],
+        [
+          -0.9348869919776917,
+          -27.282772064208984,
+          64.27115631103516
+        ],
+        [
+          -0.9737384915351868,
+          -27.40083885192871,
+          64.28217315673828
+        ],
+        [
+          -0.9519431591033936,
+          -27.31517219543457,
+          64.282470703125
+        ],
+        [
+          -0.9809452891349792,
+          -27.429426193237305,
+          64.28314971923828
+        ],
+        [
+          -1.0439791679382324,
+          -27.592632293701172,
+          63.93581008911133
+        ],
+        [
+          -1.020466685295105,
+          -27.585464477539062,
+          64.28548431396484
+        ],
+        [
+          -1.0331414937973022,
+          -27.63551902770996,
+          64.2862777709961
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "optic_canal",
+      "zh": "视神经管",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 243,
+          "name": "Optic nerve (II)",
+          "side": "left",
+          "triangleCount": 1164
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          15.0,
+          -27.0,
+          39.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1197,
+      "nerveTrianglesInBox": 609,
+      "collisionLocations": [
+        [
+          10.202506065368652,
+          -24.842723846435547,
+          29.030075073242188
+        ],
+        [
+          10.42858600616455,
+          -24.948928833007812,
+          29.25284767150879
+        ],
+        [
+          10.281332015991211,
+          -24.823535919189453,
+          28.960773468017578
+        ],
+        [
+          10.44502067565918,
+          -24.84367561340332,
+          28.973684310913086
+        ],
+        [
+          10.077448844909668,
+          -24.8732967376709,
+          29.139892578125
+        ],
+        [
+          9.574390411376953,
+          -25.512161254882812,
+          29.296628952026367
+        ],
+        [
+          9.581868171691895,
+          -25.546924591064453,
+          29.33727264404297
+        ],
+        [
+          10.027298927307129,
+          -25.187883377075195,
+          29.399137496948242
+        ],
+        [
+          9.753334045410156,
+          -25.195449829101562,
+          29.15401268005371
+        ],
+        [
+          9.803033828735352,
+          -25.159286499023438,
+          29.16469955444336
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "optic_canal",
+      "zh": "视神经管",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 244,
+          "name": "Optic nerve (II)",
+          "side": "right",
+          "triangleCount": 1164
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -15.0,
+          -27.0,
+          39.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1197,
+      "nerveTrianglesInBox": 609,
+      "collisionLocations": [
+        [
+          -9.573233604431152,
+          -25.512746810913086,
+          29.297311782836914
+        ],
+        [
+          -9.58106803894043,
+          -25.54950523376465,
+          29.34029197692871
+        ],
+        [
+          -9.525456428527832,
+          -25.596996307373047,
+          29.335338592529297
+        ],
+        [
+          -9.529095649719238,
+          -25.599578857421875,
+          29.34119987487793
+        ],
+        [
+          -10.076679229736328,
+          -24.873559951782227,
+          29.140493392944336
+        ],
+        [
+          -10.0244779586792,
+          -25.189268112182617,
+          29.39931869506836
+        ],
+        [
+          -9.802815437316895,
+          -25.15898895263672,
+          29.165239334106445
+        ],
+        [
+          -9.752569198608398,
+          -25.1955623626709,
+          29.1544189453125
+        ],
+        [
+          -9.921577453613281,
+          -25.211938858032227,
+          29.32636833190918
+        ],
+        [
+          -9.922123908996582,
+          -25.222749710083008,
+          29.337387084960938
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "sof",
+      "zh": "眶上裂",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 4142
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 162
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 1596
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 829
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 218
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 395
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 2,
+          "name": "Abducens nerve (VI)",
+          "side": "left",
+          "triangleCount": 3288
+        },
+        {
+          "id": 231,
+          "name": "Oculomotor nerve (III)",
+          "side": "left",
+          "triangleCount": 5844
+        },
+        {
+          "id": 239,
+          "name": "Ophthalmic nerve",
+          "side": "left",
+          "triangleCount": 4476
+        },
+        {
+          "id": 411,
+          "name": "Trochlear nerve (IV)",
+          "side": "left",
+          "triangleCount": 2508
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          26.0,
+          -32.0,
+          38.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1650,
+      "nerveTrianglesInBox": 4977,
+      "collisionLocations": [
+        [
+          14.191669464111328,
+          -35.69478225708008,
+          22.31558609008789
+        ],
+        [
+          14.220297813415527,
+          -35.66440963745117,
+          22.41490936279297
+        ],
+        [
+          14.047119140625,
+          -35.8510856628418,
+          21.80814552307129
+        ],
+        [
+          14.659939765930176,
+          -36.15348815917969,
+          22.014719009399414
+        ],
+        [
+          14.815705299377441,
+          -36.05052947998047,
+          22.35377311706543
+        ],
+        [
+          14.745485305786133,
+          -36.092315673828125,
+          22.251893997192383
+        ],
+        [
+          14.566826820373535,
+          -36.2216911315918,
+          21.753299713134766
+        ],
+        [
+          14.338951110839844,
+          -35.51918411254883,
+          22.811248779296875
+        ],
+        [
+          14.423768997192383,
+          -35.39492416381836,
+          23.03833770751953
+        ],
+        [
+          14.305235862731934,
+          -35.568809509277344,
+          22.72065544128418
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "sof",
+      "zh": "眶上裂",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 4142
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 162
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 1596
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 829
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 218
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 395
+        },
+        {
+          "id": 1021,
+          "name": "Frontal bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 3,
+          "name": "Abducens nerve (VI)",
+          "side": "right",
+          "triangleCount": 3288
+        },
+        {
+          "id": 232,
+          "name": "Oculomotor nerve (III)",
+          "side": "right",
+          "triangleCount": 5844
+        },
+        {
+          "id": 240,
+          "name": "Ophthalmic nerve",
+          "side": "right",
+          "triangleCount": 4476
+        },
+        {
+          "id": 412,
+          "name": "Trochlear nerve (IV)",
+          "side": "right",
+          "triangleCount": 2508
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -26.0,
+          -32.0,
+          38.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1650,
+      "nerveTrianglesInBox": 4977,
+      "collisionLocations": [
+        [
+          -14.04569149017334,
+          -35.85026168823242,
+          21.807910919189453
+        ],
+        [
+          -14.190491676330566,
+          -35.69453430175781,
+          22.31452178955078
+        ],
+        [
+          -14.21948528289795,
+          -35.663944244384766,
+          22.414772033691406
+        ],
+        [
+          -14.567806243896484,
+          -36.2221565246582,
+          21.753673553466797
+        ],
+        [
+          -14.659914016723633,
+          -36.15376663208008,
+          22.01413345336914
+        ],
+        [
+          -14.815434455871582,
+          -36.050453186035156,
+          22.353715896606445
+        ],
+        [
+          -14.74551773071289,
+          -36.09235763549805,
+          22.251855850219727
+        ],
+        [
+          -14.33864688873291,
+          -35.51915740966797,
+          22.81110382080078
+        ],
+        [
+          -14.304838180541992,
+          -35.56834030151367,
+          22.7210750579834
+        ],
+        [
+          -14.422224044799805,
+          -35.394378662109375,
+          23.038166046142578
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "rotundum",
+      "zh": "圆孔",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 184,
+          "name": "Maxillary nerve",
+          "side": "left",
+          "triangleCount": 5244
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          23.0,
+          -40.0,
+          31.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1415,
+      "nerveTrianglesInBox": 1156,
+      "collisionLocations": [
+        [
+          16.63215446472168,
+          -39.58032989501953,
+          25.79142951965332
+        ],
+        [
+          16.628271102905273,
+          -39.575157165527344,
+          25.802371978759766
+        ],
+        [
+          16.63813591003418,
+          -39.58827209472656,
+          25.774669647216797
+        ],
+        [
+          16.65544891357422,
+          -39.58968734741211,
+          25.81312370300293
+        ],
+        [
+          16.789522171020508,
+          -39.57541275024414,
+          26.212646484375
+        ],
+        [
+          16.89196014404297,
+          -39.52627944946289,
+          26.228168487548828
+        ],
+        [
+          17.02065086364746,
+          -39.44265365600586,
+          26.300931930541992
+        ],
+        [
+          16.895584106445312,
+          -39.524505615234375,
+          26.228736877441406
+        ],
+        [
+          17.037717819213867,
+          -39.17085266113281,
+          26.51318359375
+        ],
+        [
+          17.003969192504883,
+          -39.289337158203125,
+          26.49307632446289
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "rotundum",
+      "zh": "圆孔",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 185,
+          "name": "Maxillary nerve",
+          "side": "right",
+          "triangleCount": 5244
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -23.0,
+          -40.0,
+          31.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1415,
+      "nerveTrianglesInBox": 1156,
+      "collisionLocations": [
+        [
+          -16.637937545776367,
+          -39.59082794189453,
+          25.76386833190918
+        ],
+        [
+          -16.660188674926758,
+          -39.59209442138672,
+          25.815526962280273
+        ],
+        [
+          -16.6298770904541,
+          -39.58003234863281,
+          25.786832809448242
+        ],
+        [
+          -16.624515533447266,
+          -39.57298278808594,
+          25.801559448242188
+        ],
+        [
+          -17.052507400512695,
+          -39.11941146850586,
+          26.51465606689453
+        ],
+        [
+          -16.99637794494629,
+          -39.03593826293945,
+          26.63619041442871
+        ],
+        [
+          -17.00484275817871,
+          -39.036705017089844,
+          26.578691482543945
+        ],
+        [
+          -17.03533935546875,
+          -39.168827056884766,
+          26.516321182250977
+        ],
+        [
+          -17.039649963378906,
+          -39.15273666381836,
+          26.51930809020996
+        ],
+        [
+          -17.022705078125,
+          -39.44275665283203,
+          26.30034065246582
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "ovale",
+      "zh": "卵圆孔",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 17,
+          "name": "Anterior division of mandibular nerve",
+          "side": "left",
+          "triangleCount": 396
+        },
+        {
+          "id": 276,
+          "name": "Posterior division of mandibular nerve",
+          "side": "left",
+          "triangleCount": 588
+        },
+        {
+          "id": 409,
+          "name": "Trigeminal nerve (V)",
+          "side": "left",
+          "triangleCount": 1560
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          28.0,
+          -45.0,
+          19.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1515,
+      "nerveTrianglesInBox": 1250,
+      "collisionLocations": [],
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "ovale",
+      "zh": "卵圆孔",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 5962
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 429
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 111
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 434
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 68
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 224
+        },
+        {
+          "id": 1027,
+          "name": "Sphenoid bone",
+          "side": "median",
+          "triangleCount": 76
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 18,
+          "name": "Anterior division of mandibular nerve",
+          "side": "right",
+          "triangleCount": 396
+        },
+        {
+          "id": 277,
+          "name": "Posterior division of mandibular nerve",
+          "side": "right",
+          "triangleCount": 588
+        },
+        {
+          "id": 410,
+          "name": "Trigeminal nerve (V)",
+          "side": "right",
+          "triangleCount": 1560
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -28.0,
+          -45.0,
+          19.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1515,
+      "nerveTrianglesInBox": 1250,
+      "collisionLocations": [],
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "iam",
+      "zh": "内耳道",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 140
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 93
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 51
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 101,
+          "name": "Facial nerve (VII)",
+          "side": "left",
+          "triangleCount": 18192
+        },
+        {
+          "id": 429,
+          "name": "Vestibular nerve",
+          "side": "left",
+          "triangleCount": 3120
+        },
+        {
+          "id": 1016,
+          "name": "Cochlear nerve",
+          "side": "left",
+          "triangleCount": 884
+        },
+        {
+          "id": 1017,
+          "name": "Vestibulocochlear nerve (VIII)",
+          "side": "left",
+          "triangleCount": 1768
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          24.0,
+          -50.0,
+          -8.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 4878,
+      "nerveTrianglesInBox": 6349,
+      "collisionLocations": [
+        [
+          20.207408905029297,
+          -46.68740463256836,
+          -4.407973289489746
+        ],
+        [
+          20.338115692138672,
+          -46.541969299316406,
+          -4.4059648513793945
+        ],
+        [
+          20.15713882446289,
+          -46.806705474853516,
+          -4.480071544647217
+        ],
+        [
+          20.07832145690918,
+          -47.02596664428711,
+          -4.6030168533325195
+        ],
+        [
+          20.1256103515625,
+          -46.880252838134766,
+          -4.523856163024902
+        ],
+        [
+          20.098894119262695,
+          -47.054786682128906,
+          -4.654469966888428
+        ],
+        [
+          20.186166763305664,
+          -47.173683166503906,
+          -4.869621753692627
+        ],
+        [
+          20.226999282836914,
+          -47.15482711791992,
+          -4.900906085968018
+        ],
+        [
+          20.448989868164062,
+          -47.05268859863281,
+          -5.071325778961182
+        ],
+        [
+          20.539052963256836,
+          -46.94047546386719,
+          -5.074540615081787
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "iam",
+      "zh": "内耳道",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 140
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 93
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 51
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 102,
+          "name": "Facial nerve (VII)",
+          "side": "right",
+          "triangleCount": 18192
+        },
+        {
+          "id": 430,
+          "name": "Vestibular nerve",
+          "side": "right",
+          "triangleCount": 3120
+        },
+        {
+          "id": 1018,
+          "name": "Cochlear nerve",
+          "side": "right",
+          "triangleCount": 1758
+        },
+        {
+          "id": 1019,
+          "name": "Vestibulocochlear nerve (VIII)",
+          "side": "right",
+          "triangleCount": 1768
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -24.0,
+          -50.0,
+          -8.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 4878,
+      "nerveTrianglesInBox": 7218,
+      "collisionLocations": [
+        [
+          -20.796009063720703,
+          -46.26200866699219,
+          -4.657317161560059
+        ],
+        [
+          -20.776859283447266,
+          -46.23109436035156,
+          -4.598822593688965
+        ],
+        [
+          -20.867467880249023,
+          -46.37778091430664,
+          -4.876044750213623
+        ],
+        [
+          -20.815622329711914,
+          -46.49479293823242,
+          -4.943617343902588
+        ],
+        [
+          -20.717620849609375,
+          -46.7234001159668,
+          -5.079709529876709
+        ],
+        [
+          -20.5390682220459,
+          -46.94035720825195,
+          -5.074442386627197
+        ],
+        [
+          -20.68233871459961,
+          -46.76294708251953,
+          -5.0805792808532715
+        ],
+        [
+          -20.448936462402344,
+          -47.05265426635742,
+          -5.071225166320801
+        ],
+        [
+          -20.227006912231445,
+          -47.15476608276367,
+          -4.900852680206299
+        ],
+        [
+          -20.186113357543945,
+          -47.173648834228516,
+          -4.869521617889404
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "stylomastoid",
+      "zh": "茎乳孔",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 140
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 93
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 51
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 101,
+          "name": "Facial nerve (VII)",
+          "side": "left",
+          "triangleCount": 18192
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          43.0,
+          -75.0,
+          -11.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1733,
+      "nerveTrianglesInBox": 1445,
+      "collisionLocations": [
+        [
+          46.631412506103516,
+          -61.12866973876953,
+          -10.667558670043945
+        ],
+        [
+          46.79938507080078,
+          -61.28741455078125,
+          -10.668600082397461
+        ],
+        [
+          46.6464729309082,
+          -61.14250564575195,
+          -10.667702674865723
+        ],
+        [
+          46.52814483642578,
+          -61.03290557861328,
+          -10.664052963256836
+        ],
+        [
+          46.43159484863281,
+          -60.97142791748047,
+          -10.741109848022461
+        ],
+        [
+          46.26285934448242,
+          -60.95660400390625,
+          -10.86907958984375
+        ],
+        [
+          46.3584098815918,
+          -60.9242057800293,
+          -10.797719955444336
+        ],
+        [
+          46.253108978271484,
+          -61.0206298828125,
+          -10.977483749389648
+        ],
+        [
+          46.257835388183594,
+          -60.9726676940918,
+          -10.913935661315918
+        ],
+        [
+          46.24576950073242,
+          -61.20473861694336,
+          -11.165027618408203
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "stylomastoid",
+      "zh": "茎乳孔",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 140
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 93
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 51
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 102,
+          "name": "Facial nerve (VII)",
+          "side": "right",
+          "triangleCount": 18192
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -43.0,
+          -75.0,
+          -11.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1733,
+      "nerveTrianglesInBox": 1445,
+      "collisionLocations": [
+        [
+          -46.63123321533203,
+          -61.12852096557617,
+          -10.667593955993652
+        ],
+        [
+          -46.52787780761719,
+          -61.03267288208008,
+          -10.664085388183594
+        ],
+        [
+          -46.79935836791992,
+          -61.28740692138672,
+          -10.668636322021484
+        ],
+        [
+          -46.64643478393555,
+          -61.14249038696289,
+          -10.667738914489746
+        ],
+        [
+          -46.24552917480469,
+          -61.20477294921875,
+          -11.165031433105469
+        ],
+        [
+          -46.414886474609375,
+          -61.39277267456055,
+          -11.342811584472656
+        ],
+        [
+          -46.3584098815918,
+          -61.31814193725586,
+          -11.286335945129395
+        ],
+        [
+          -46.252864837646484,
+          -61.02074432373047,
+          -10.977545738220215
+        ],
+        [
+          -46.25049591064453,
+          -61.05125427246094,
+          -11.018203735351562
+        ],
+        [
+          -46.26261520385742,
+          -60.95663070678711,
+          -10.869084358215332
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "jugular",
+      "zh": "颈静脉孔",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 5103
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 346
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 1819
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 67
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 130
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 140
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 93
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 51
+        },
+        {
+          "id": 1028,
+          "name": "Temporal bone",
+          "side": "left",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 4,
+          "name": "Accessory nerve (XI)",
+          "side": "left",
+          "triangleCount": 10248
+        },
+        {
+          "id": 419,
+          "name": "Vagus nerve (X)",
+          "side": "left",
+          "triangleCount": 9684
+        },
+        {
+          "id": 1014,
+          "name": "Glossopharyngeal nerve (IX)",
+          "side": "left",
+          "triangleCount": 11938
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          25.0,
+          -68.0,
+          -22.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1982,
+      "nerveTrianglesInBox": 9682,
+      "collisionLocations": [
+        [
+          18.946935653686523,
+          -58.65126037597656,
+          -13.659687042236328
+        ],
+        [
+          18.961029052734375,
+          -58.63661575317383,
+          -13.660362243652344
+        ],
+        [
+          18.901071548461914,
+          -58.97682189941406,
+          -13.864418983459473
+        ],
+        [
+          18.890836715698242,
+          -59.04939270019531,
+          -13.910042762756348
+        ],
+        [
+          19.11076545715332,
+          -59.166141510009766,
+          -14.224249839782715
+        ],
+        [
+          18.915212631225586,
+          -59.06077194213867,
+          -13.938543319702148
+        ],
+        [
+          18.986370086669922,
+          -58.61028289794922,
+          -13.661576271057129
+        ],
+        [
+          19.3023738861084,
+          -58.47444534301758,
+          -13.616731643676758
+        ],
+        [
+          19.02708625793457,
+          -58.574554443359375,
+          -13.661474227905273
+        ],
+        [
+          19.018922805786133,
+          -58.5764274597168,
+          -13.663141250610352
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "jugular",
+      "zh": "颈静脉孔",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 5103
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 346
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 1819
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 67
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 130
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 13673
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 140
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 93
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 51
+        },
+        {
+          "id": 1029,
+          "name": "Temporal bone",
+          "side": "right",
+          "triangleCount": 137
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 5,
+          "name": "Accessory nerve (XI)",
+          "side": "right",
+          "triangleCount": 10248
+        },
+        {
+          "id": 420,
+          "name": "Vagus nerve (X)",
+          "side": "right",
+          "triangleCount": 30588
+        },
+        {
+          "id": 1015,
+          "name": "Glossopharyngeal nerve (IX)",
+          "side": "right",
+          "triangleCount": 11938
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -25.0,
+          -68.0,
+          -22.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 1982,
+      "nerveTrianglesInBox": 9682,
+      "collisionLocations": [
+        [
+          -18.87940788269043,
+          -59.054595947265625,
+          -13.904528617858887
+        ],
+        [
+          -19.11726951599121,
+          -59.166866302490234,
+          -14.231557846069336
+        ],
+        [
+          -18.91349983215332,
+          -59.0688591003418,
+          -13.943159103393555
+        ],
+        [
+          -18.89687156677246,
+          -58.97093200683594,
+          -13.856578826904297
+        ],
+        [
+          -18.953365325927734,
+          -58.66212844848633,
+          -13.673060417175293
+        ],
+        [
+          -18.969806671142578,
+          -58.64445495605469,
+          -13.67341136932373
+        ],
+        [
+          -18.996421813964844,
+          -58.61585235595703,
+          -13.673980712890625
+        ],
+        [
+          -19.3017578125,
+          -58.47602844238281,
+          -13.617618560791016
+        ],
+        [
+          -19.025386810302734,
+          -58.583736419677734,
+          -13.674095153808594
+        ],
+        [
+          -19.023761749267578,
+          -58.58415985107422,
+          -13.67448902130127
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "foramen_magnum",
+      "zh": "枕骨大孔",
+      "side": "median",
+      "boneSources": [
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 5103
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 346
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 1819
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 67
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 130
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 1013,
+          "name": "White matter of spinal cord",
+          "side": "median",
+          "triangleCount": 1540
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          0.0,
+          -77.0,
+          -32.0
+        ],
+        "halfWidthMm": 24
+      },
+      "boneTrianglesInBox": 1447,
+      "nerveTrianglesInBox": 569,
+      "collisionLocations": [],
+      "status": "no-collision-found-in-coarse-window-still-unverified",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "hypoglossal_canal",
+      "zh": "舌下神经管",
+      "side": "left",
+      "boneSources": [
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 5103
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 346
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 1819
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 67
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 130
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 124,
+          "name": "Hypoglossal nerve (XII)",
+          "side": "left",
+          "triangleCount": 10848
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          14.0,
+          -73.0,
+          -19.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 903,
+      "nerveTrianglesInBox": 6970,
+      "collisionLocations": [
+        [
+          9.6709566116333,
+          -60.74882125854492,
+          -9.565603256225586
+        ],
+        [
+          9.769533157348633,
+          -60.759857177734375,
+          -9.61802864074707
+        ],
+        [
+          9.56727123260498,
+          -60.74030303955078,
+          -9.512587547302246
+        ],
+        [
+          9.523392677307129,
+          -60.801292419433594,
+          -9.534673690795898
+        ],
+        [
+          9.43863582611084,
+          -60.920249938964844,
+          -9.578129768371582
+        ],
+        [
+          9.453057289123535,
+          -60.98356628417969,
+          -9.628325462341309
+        ],
+        [
+          9.892349243164062,
+          -60.823482513427734,
+          -9.71772289276123
+        ],
+        [
+          9.91624927520752,
+          -60.84613037109375,
+          -9.744200706481934
+        ],
+        [
+          9.831232070922852,
+          -60.769142150878906,
+          -9.652481079101562
+        ],
+        [
+          9.796690940856934,
+          -60.76394271850586,
+          -9.633193969726562
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    },
+    {
+      "id": "hypoglossal_canal",
+      "zh": "舌下神经管",
+      "side": "right",
+      "boneSources": [
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 5103
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 346
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 1819
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 67
+        },
+        {
+          "id": 1024,
+          "name": "Occipital bone",
+          "side": "median",
+          "triangleCount": 130
+        }
+      ],
+      "nerveSources": [
+        {
+          "id": 125,
+          "name": "Hypoglossal nerve (XII)",
+          "side": "right",
+          "triangleCount": 10848
+        }
+      ],
+      "inspectionBox": {
+        "centerMm": [
+          -14.0,
+          -73.0,
+          -19.0
+        ],
+        "halfWidthMm": 16
+      },
+      "boneTrianglesInBox": 903,
+      "nerveTrianglesInBox": 6970,
+      "collisionLocations": [
+        [
+          -9.439136505126953,
+          -60.919830322265625,
+          -9.578067779541016
+        ],
+        [
+          -9.453665733337402,
+          -60.98361587524414,
+          -9.62863826751709
+        ],
+        [
+          -9.524524688720703,
+          -60.79998779296875,
+          -9.534289360046387
+        ],
+        [
+          -9.567756652832031,
+          -60.73989486694336,
+          -9.512529373168945
+        ],
+        [
+          -9.67179012298584,
+          -60.74844741821289,
+          -9.565723419189453
+        ],
+        [
+          -9.770630836486816,
+          -60.75948715209961,
+          -9.618271827697754
+        ],
+        [
+          -9.797520637512207,
+          -60.76353073120117,
+          -9.633285522460938
+        ],
+        [
+          -9.831720352172852,
+          -60.768680572509766,
+          -9.652384757995605
+        ],
+        [
+          -9.89305591583252,
+          -60.82325744628906,
+          -9.717889785766602
+        ],
+        [
+          -9.917057991027832,
+          -60.84602355957031,
+          -9.744494438171387
+        ]
+      ],
+      "status": "source-surface-intersection-detected-not-validated",
+      "rimStatus": "No independently labeled true rim. Display parent bone surface as context; do not fabricate or label an ROI as precise rim."
+    }
+  ]
+}

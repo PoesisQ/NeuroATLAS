@@ -1,0 +1,132 @@
+{
+  "method": "Exact ray/triangle intersections along source X axis at fixed source Y,Z; no geometry deformation",
+  "note": "Intervals and centroids are useful geometric consistency checks, not a complete anatomical validation.",
+  "sections": [
+    {
+      "nativeYmm": -110,
+      "nativeZmm": 1558,
+      "crossings": {
+        "Left insula": [
+          31.449243231513186,
+          42.46551555899515
+        ],
+        "Right insula": [
+          -43.80852091489835,
+          -32.74817132188641
+        ],
+        "Left internal capsule": [
+          13.100417695952855,
+          17.290929239577473
+        ],
+        "Right internal capsule": [
+          -18.58219620633787,
+          -14.426563596552114
+        ],
+        "Left caudate nucleus": [
+          4.378298279472411,
+          12.86184229094239
+        ],
+        "Left globus pallidus": [],
+        "Left putamen": [
+          17.64846824346139,
+          29.84493268746915
+        ],
+        "Left thalamus": [],
+        "Right caudate nucleus": [
+          -14.06950940691015,
+          -5.669233761531317
+        ],
+        "Right globus pallidus": [],
+        "Right putamen": [
+          -31.150149455306167,
+          -18.960717631421872
+        ],
+        "Right thalamus": []
+      }
+    },
+    {
+      "nativeYmm": -90,
+      "nativeZmm": 1558,
+      "crossings": {
+        "Left insula": [
+          33.160998547451086,
+          43.659790593526644
+        ],
+        "Right insula": [
+          -44.9472817190959,
+          -34.44651798315787
+        ],
+        "Left internal capsule": [
+          16.515633890174172,
+          20.748950067502328
+        ],
+        "Right internal capsule": [
+          -22.03624673084004,
+          -17.816423003931977
+        ],
+        "Left caudate nucleus": [],
+        "Left globus pallidus": [
+          20.655012601365904,
+          26.937210597636366
+        ],
+        "Left putamen": [
+          27.507773610512526,
+          34.027648477543345
+        ],
+        "Left thalamus": [
+          1.2912767888617664,
+          16.559939441791144
+        ],
+        "Right caudate nucleus": [],
+        "Right globus pallidus": [
+          -28.241289647980597,
+          -21.960031777677944
+        ],
+        "Right putamen": [
+          -35.32712341230687,
+          -28.826123476949533
+        ],
+        "Right thalamus": [
+          -17.73526857123025,
+          -2.599968342714572
+        ]
+      }
+    },
+    {
+      "nativeYmm": -75,
+      "nativeZmm": 1558,
+      "crossings": {
+        "Left insula": [
+          32.50463471289294,
+          38.58975912021445
+        ],
+        "Right insula": [
+          -39.87008223137602,
+          -33.97871595327905
+        ],
+        "Left internal capsule": [
+          21.64503116702588,
+          28.722236647424854
+        ],
+        "Right internal capsule": [
+          -30.04561543581988,
+          -22.96078152981625
+        ],
+        "Left caudate nucleus": [],
+        "Left globus pallidus": [],
+        "Left putamen": [],
+        "Left thalamus": [
+          2.516667931348326,
+          21.74927180023939
+        ],
+        "Right caudate nucleus": [],
+        "Right globus pallidus": [],
+        "Right putamen": [],
+        "Right thalamus": [
+          -22.9692778764435,
+          -3.877972297746438
+        ]
+      }
+    }
+  ]
+}

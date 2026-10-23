@@ -1,0 +1,12 @@
+{
+  "html_bytes": 57833463,
+  "sha256": "f61cbe2833dc09357f8fecce287152230cfd5b9e1e60609ed96a082231676bb1",
+  "external_asset_attributes": [],
+  "remote_css_resources": false,
+  "application_network_calls": false,
+  "classic_inline_scripts": true,
+  "binary_data_inlined": true,
+  "license_inlined": true,
+  "file_protocol_browser_test": "Not performed: built-in browser URL security policy allows HTTP/HTTPS only. No bypass attempted.",
+  "scope": "Static dependency audit plus HTTP browser run; not a test of every browser or GPU."
+}

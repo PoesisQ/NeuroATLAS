@@ -1,0 +1,34 @@
+{
+  "version": "3.2",
+  "course": 205,
+  "tours": 10,
+  "tourSteps": 94,
+  "distinctNames": 427,
+  "sourceObjects": 766,
+  "nativeObjects": 299,
+  "vertices": 2760392,
+  "triangles": 4862565,
+  "missingNames": [],
+  "missingRelations": [],
+  "untranslated": [],
+  "maxQuantizationErrorMM": 0.0013570204455619493,
+  "bufferBytes": {
+    "legacy": 16045378,
+    "bp3d": 5630260,
+    "uw": 12979212,
+    "p41": 7185516,
+    "bp2018": 12246312
+  },
+  "tests": [
+    "unique term and mesh ids",
+    "source name references",
+    "relationship and tour references",
+    "Chinese coverage",
+    "buffer alignment and bounds",
+    "all triangle indices",
+    "finite mesh bounds",
+    "native evidence for every object",
+    "single hemisphere P41 preserved",
+    "native precentral/postcentral picking prefers the specific gyrus"
+  ]
+}

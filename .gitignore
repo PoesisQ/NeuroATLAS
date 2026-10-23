@@ -1,0 +1,48 @@
+# Local research downloads and extraction caches. The packed build inputs stay tracked.
+/source/builddeps/
+/source/v3-base/
+/releases/
+/.repo-check-*/
+*-working.json
+
+# Intermediate exports are reproducible from upstream, and duplicate the packed inputs.
+*.bin
+/source/atlas.bin.gz
+/source/meshes.bin.gz
+/source/*.glb
+
+# Preserve research scripts, metadata, validation reports and attribution; omit scans,
+# meshes, downloaded archives, copied papers and generated research previews.
+/source/research-atlas/**
+!/source/research-atlas/**/
+!/source/research-atlas/**/*.py
+!/source/research-atlas/**/*.json
+!/source/research-atlas/**/*.csv
+!/source/research-atlas/**/*README*
+!/source/research-atlas/**/*readme*
+!/source/research-atlas/**/*LICENSE*
+!/source/research-atlas/**/*ATTRIBUTION*
+/source/research-foramina/**
+!/source/research-foramina/**/
+!/source/research-foramina/**/*.py
+!/source/research-foramina/**/*.json
+!/source/research-foramina/**/*.csv
+!/source/research-foramina/**/*README*
+!/source/research-foramina/**/*readme*
+!/source/research-foramina/**/*LICENSE*
+!/source/research-foramina/**/*ATTRIBUTION*
+
+# Local runtime and credentials.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db

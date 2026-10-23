@@ -1,0 +1,11 @@
+[
+  {
+    "bundle": "bp2018-full",
+    "sourceVersion": "20181210i412",
+    "objects": 205,
+    "vertices": 779983,
+    "triangles": 1297188,
+    "compressedBytes": 12920790,
+    "binarySha256": "65ce01855a287376b5b529a082ea0be84ab9aab9ae46a0b748029bcdb1dbbc63"
+  }
+]

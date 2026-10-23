@@ -1,0 +1,40 @@
+{
+    "Name": "NextBrain Data Extension",
+    "BIDSVersion": "1.4.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Juan Eugenio Iglesias",
+        "Adrià Casamitjana",
+        "Brain L Edlow",
+        "Martina Bocchetta",
+        "Dorit Kliemann",
+        "Matteo Mancini",
+        "Loïc Peter",
+        "Eleanor Robinson",
+        "Roberto Annunziata",
+        "Juri Althonayan",
+        "Shauna Crampsie",
+        "Emily Blackburn",
+        "Benjamin Billot",
+        "Alessia Atzeni",
+        "Oula Puonti",
+        "Yaël Balbastre",
+        "Peter Schmidt",
+        "James Hughes",
+        "Jean C Augustinack",
+        "Lilla Zöllei",
+        "David L Thomas",
+        "Catherine Strand",
+        "Janice L Holton",
+        "Zane Jaunmuktane"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005422.v1.0.1",
+    "HowToAcknowledge": "Casamitjana, Adrià, et al. \"A next-generation, histological atlas of the human brain and its application to automated brain MRI segmentation\" Submitted (2024).",
+    "Funding": [
+        "This work was primarily funded by the European Research Council (Starting Grant 677697, project \\BUNGEE-TOOLS\")."
+    ],
+    "ReferencesAndLinks": [
+        "Webpage: https://github-pages.ucl.ac.uk/NextBrain/"
+    ]
+}

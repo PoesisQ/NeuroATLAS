@@ -1,0 +1,969 @@
+{
+  "role": "research-only; excluded from the delivered core geometry",
+  "sourceVersion": "20181210i412",
+  "files": [
+    {
+      "id": "MM2838M",
+      "file": "MM2838M_BP107462_FMA73002_Magnocellular part of right medial dorsal nucleus.obj",
+      "bytes": 69613,
+      "sha256": "f20d340aee58b3b1f1ae6544be061ad1d93108cafd1ce54bae4be8109e0e53b7"
+    },
+    {
+      "id": "MM2800",
+      "file": "MM2800_BP106952_FMA73066_Medial part of left ventral lateral nucleus.obj",
+      "bytes": 117954,
+      "sha256": "a99542d3187f223d3837bd4958bfc39d1eb74b267d539958166e1e9383ba24c3"
+    },
+    {
+      "id": "MM2802M",
+      "file": "MM2802M_BP107458_FMA72988_Right paratenial nucleus.obj",
+      "bytes": 150008,
+      "sha256": "597f1fe3f83f0ecfe4d718949a6ff0338d1a6fe1fbd4da2b5a8fced8036a6bde"
+    },
+    {
+      "id": "FJ7559M",
+      "file": "FJ7559M_BP106525_FMA73079_Caudal part of right ventral posterolateral nucleus.obj",
+      "bytes": 240101,
+      "sha256": "0e26473b5c56338debd5fcbbc7c50f1a6afa9d9be80f2706c0c37d59bb9d44bf"
+    },
+    {
+      "id": "MM2800M",
+      "file": "MM2800M_BP106951_FMA73065_Medial part of right ventral lateral nucleus.obj",
+      "bytes": 118959,
+      "sha256": "3757d049336e5131a55346879555cc28d1ea9d34cca0f4f82e5e2cc3e630f135"
+    },
+    {
+      "id": "MM2802",
+      "file": "MM2802_BP107459_FMA72989_Left paratenial nucleus.obj",
+      "bytes": 148859,
+      "sha256": "bb9eb3364dd8a32aeb467552ea278a4bae3f1e2187167a17a187956a2902ddd3"
+    },
+    {
+      "id": "FJ7559",
+      "file": "FJ7559_BP106526_FMA73080_Caudal part of left ventral posterolateral nucleus.obj",
+      "bytes": 237988,
+      "sha256": "dc5e64aeb8266f40e8b622738d2259c21153945585f483ed73fd4b56a8c60524"
+    },
+    {
+      "id": "MM2838",
+      "file": "MM2838_BP107463_FMA73003_Magnocellular part of left medial dorsal nucleus.obj",
+      "bytes": 69107,
+      "sha256": "3a76c3bdb1af9e00222da0dbb9efb82c38bcdb86b857feaa30fb3cb588d0bfaa"
+    },
+    {
+      "id": "MM2824",
+      "file": "MM2824_BP106948_FMA73062_Oral part of left ventral lateral nucleus.obj",
+      "bytes": 569522,
+      "sha256": "d3500992a8f2bd37308dbdbd1a9e398769280c2927e61a18b34537f7bd917a55"
+    },
+    {
+      "id": "MM2836M",
+      "file": "MM2836M_BP108120_FMA73323_Right thalamic reticular nucleus.obj",
+      "bytes": 1264440,
+      "sha256": "bab12af715a148e7a2bfacc87c61e8e843499e9a81a6c268ec9fa5276fd01f78"
+    },
+    {
+      "id": "MM2837M",
+      "file": "MM2837M_BP107460_FMA73000_Paralaminar part of right medial dorsal nucleus.obj",
+      "bytes": 68755,
+      "sha256": "b5d85f919a46951bd862a33d2aaaaa2b030d024068b61d041d73081e7db36dab"
+    },
+    {
+      "id": "MM2807",
+      "file": "MM2807_BP107485_FMA73310_Left medial geniculate body.obj",
+      "bytes": 192224,
+      "sha256": "41e027647c34226e130288da5db50497c2ef34cfa6d6ff075bf3e926173e82e1"
+    },
+    {
+      "id": "FJ7561",
+      "file": "FJ7561_BP106528_FMA73085_Parvicellular part of left ventral posteromedial nucleus.obj",
+      "bytes": 142338,
+      "sha256": "111db408c55737ca0d17f82261d6d83f63930621cd60eb6d4b8671b527f99a20"
+    },
+    {
+      "id": "FJ7558",
+      "file": "FJ7558_BP106524_FMA73078_Oral part of left ventral posterolateral nucleus.obj",
+      "bytes": 123961,
+      "sha256": "766af0552542ec4b1be137f989c5650184d2edd239d785f6d030b911658f41b6"
+    },
+    {
+      "id": "FJ7558M",
+      "file": "FJ7558M_BP106523_FMA73077_Oral part of right ventral posterolateral nucleus.obj",
+      "bytes": 125382,
+      "sha256": "3dfdabb3953f95f4b1498ff9a120564c34a52a3764d6b03eedafc246e01e6104"
+    },
+    {
+      "id": "FJ7561M",
+      "file": "FJ7561M_BP106527_FMA73083_Parvicellular part of right ventral posteromedial nucleus.obj",
+      "bytes": 143209,
+      "sha256": "1ea8193ba8b6b9104520f8ed32e7ab5aa33415156c915fb520dc2e137843bbb9"
+    },
+    {
+      "id": "MM2837",
+      "file": "MM2837_BP107461_FMA73001_Paralaminar part of left medial dorsal nucleus.obj",
+      "bytes": 67837,
+      "sha256": "800193d3c1de4e09d589e8f7a770f43d85b2f7e154393406ac6978282b02cc7d"
+    },
+    {
+      "id": "MM2836",
+      "file": "MM2836_BP108121_FMA73324_Left thalamic reticular nucleus.obj",
+      "bytes": 1258430,
+      "sha256": "58d6c0e226159fdb6894a72986d0779907d693dad31ec0af323ab905d9ece5aa"
+    },
+    {
+      "id": "MM2807M",
+      "file": "MM2807M_BP107484_FMA73309_Right medial geniculate body.obj",
+      "bytes": 193645,
+      "sha256": "2ef9418a55bc6d3a53d4b28c3f8231cc3c5187334eb84ff3e000017f00e780b2"
+    },
+    {
+      "id": "MM2824M",
+      "file": "MM2824M_BP106947_FMA73061_Oral part of right ventral lateral nucleus.obj",
+      "bytes": 573721,
+      "sha256": "db044e7a66899baa76bf2dfbac254f5d14f4e781443165c42df6af3ee4d2711a"
+    },
+    {
+      "id": "MM2842M",
+      "file": "MM2842M_BP107464_FMA73006_Parvicellular part of right medial dorsal nucleus.obj",
+      "bytes": 376245,
+      "sha256": "13fac211fec7c55a453e80ee1262fb861a221280b6a728416bb3bad382f40450"
+    },
+    {
+      "id": "MM2840",
+      "file": "MM2840_BP107473_FMA73046_Left centromedian nucleus.obj",
+      "bytes": 269964,
+      "sha256": "aeefbd2910ecdcabaa057588eb2e9327d9e45a392bfe4493972389a7392a09ff"
+    },
+    {
+      "id": "MM2791",
+      "file": "MM2791_BP107453_FMA72983_Left anterodorsal nucleus.obj",
+      "bytes": 101820,
+      "sha256": "3cd6cebade191423dc103e9d8e0d09840392b1ea6a6722ca848d184254b747b4"
+    },
+    {
+      "id": "MM2843",
+      "file": "MM2843_BP107491_FMA73516_Left limitans nucleus.obj",
+      "bytes": 492967,
+      "sha256": "5fc053ff9ced416207816c4925e22f0b9f137b008672e4079237e9c311bc07e7"
+    },
+    {
+      "id": "MM2795M",
+      "file": "MM2795M_BP106943_FMA73033_Right central dorsal nucleus.obj",
+      "bytes": 78077,
+      "sha256": "79bcd964d6e2411589cb324bbc7bb41daad4daeda0bf70bd0a26fd36d250d4da"
+    },
+    {
+      "id": "MM2823M",
+      "file": "MM2823M_BP107476_FMA73049_Right ventral anterior nucleus.obj",
+      "bytes": 624258,
+      "sha256": "d9effc54928ac1816698fe62cf3cc677c55bbc437e277aa701a11d1e949259ed"
+    },
+    {
+      "id": "MM2789M",
+      "file": "MM2789M_BP106945_FMA73035_Right central lateral nucleus.obj",
+      "bytes": 22491,
+      "sha256": "57e10ec399ea453dd1902491c65ac182b6bf96b25bb300849da0723a5daa61de"
+    },
+    {
+      "id": "MM2813M",
+      "file": "MM2813M_BP107482_FMA73303_Right lateral geniculate body.obj",
+      "bytes": 239571,
+      "sha256": "06df6237e499e835d6d151ffad8fc6b0020ab6307424ccaa3c10ade2b86c2dfb"
+    },
+    {
+      "id": "MM2810M",
+      "file": "MM2810M_BP107466_FMA73015_Right lateral dorsal nucleus.obj",
+      "bytes": 247074,
+      "sha256": "b3ddd9848e167361ab3dba9a50d2c03f3dd1c686d1b2f2ec198b1d5e9d78b5ab"
+    },
+    {
+      "id": "MM2812",
+      "file": "MM2812_BP106940_FMA73030_Left medial pulvinar nucleus.obj",
+      "bytes": 276094,
+      "sha256": "e8f7eee5fb555dc84b1db2a8549ddd0ef7d073f40ddc374d6a664f3ad1442304"
+    },
+    {
+      "id": "MM2789",
+      "file": "MM2789_BP106946_FMA73036_Left central lateral nucleus.obj",
+      "bytes": 22340,
+      "sha256": "da7f7be9bdbe7c131dcb11b94f5f556707aec5f67e06b2483fe3bcba2c917aa8"
+    },
+    {
+      "id": "MM2813",
+      "file": "MM2813_BP107483_FMA73304_Left lateral geniculate body.obj",
+      "bytes": 237831,
+      "sha256": "ef322a8b9f1ae65539f65cde1e435a32659e2e07f47ea5d6d1f5864e93a2aff7"
+    },
+    {
+      "id": "MM2812M",
+      "file": "MM2812M_BP106939_FMA73029_Right medial pulvinar nucleus.obj",
+      "bytes": 277598,
+      "sha256": "706d1152f13665996228fac1c8b7c817d7a36e3171916b9cdea5e26da445b78c"
+    },
+    {
+      "id": "MM2810",
+      "file": "MM2810_BP107467_FMA73016_Left lateral dorsal nucleus.obj",
+      "bytes": 244987,
+      "sha256": "af3ea51203f011ef8d87f29957e4bc404bd080d004b664f861aef7c2c35edf63"
+    },
+    {
+      "id": "MM2795",
+      "file": "MM2795_BP106944_FMA73034_Left central dorsal nucleus.obj",
+      "bytes": 77373,
+      "sha256": "d8ffb2749ded52807fa1f926854a80e6f1233d7a9283567089ae6e6eebf5d54e"
+    },
+    {
+      "id": "MM2823",
+      "file": "MM2823_BP107477_FMA73050_Left ventral anterior nucleus.obj",
+      "bytes": 620986,
+      "sha256": "8e59c222d142854d5b471ae6b61934a0297f10a0ba38c8136f239a65cdaa7345"
+    },
+    {
+      "id": "MM2840M",
+      "file": "MM2840M_BP107472_FMA73045_Right centromedian nucleus.obj",
+      "bytes": 272144,
+      "sha256": "2bb72636f95e5f00619b4d2e15261a3b4fe28f133a8bc08a62a1b494b933f156"
+    },
+    {
+      "id": "MM2791M",
+      "file": "MM2791M_BP107452_FMA72982_Right anterodorsal nucleus.obj",
+      "bytes": 102879,
+      "sha256": "7fcf33f6ba1e2ab17b7ad676ab0e8b27fb005ce74a7265e9852a0fd0c91ec574"
+    },
+    {
+      "id": "MM2842",
+      "file": "MM2842_BP107465_FMA73008_Parvicellular part of left medial dorsal nucleus.obj",
+      "bytes": 376348,
+      "sha256": "dfd457335fda64176e4bcdb68d826347de81acc86865e83532aba154780cc35b"
+    },
+    {
+      "id": "MM2843M",
+      "file": "MM2843M_BP107490_FMA73515_Right limitans nucleus.obj",
+      "bytes": 496901,
+      "sha256": "826eb2aac510bea4feccbb94ee4603455c64b4a57699ad63fce0f46c5feaf3f2"
+    },
+    {
+      "id": "MM2817M",
+      "file": "MM2817M_BP107456_FMA72986_Right anteroventral nucleus.obj",
+      "bytes": 473996,
+      "sha256": "682f92376c4c46f4bf1d8a2597aa3343b88d9563e219da92f0bbabc4a3d2c297"
+    },
+    {
+      "id": "MM2841M",
+      "file": "MM2841M_BP106955_FMA73073_Right ventral posteroinferior nucleus.obj",
+      "bytes": 255713,
+      "sha256": "8f7b09e81ef1b22d90f9d08266d34dadd8c198e1d77a4bd05fc0f965e467f221"
+    },
+    {
+      "id": "MM2792",
+      "file": "MM2792_BP106960_FMA73082_Left ventral posteromedial nucleus.obj",
+      "bytes": 89954,
+      "sha256": "8e11325253bb189f032a0187a6b9c7e39aed5303eb35ac97ca8314615d44dd07"
+    },
+    {
+      "id": "MM2790M",
+      "file": "MM2790M_BP107454_FMA72984_Right anteromedial nucleus.obj",
+      "bytes": 112864,
+      "sha256": "eb01f47311c7d225d2c7c605c617a77839ce8f36a2ebd68532113914e24d30d1"
+    },
+    {
+      "id": "MM2819",
+      "file": "MM2819_BP106954_FMA73068_Pars postrema of left ventral lateral nucleus.obj",
+      "bytes": 499464,
+      "sha256": "3178692080c63a5700efeb6feddb5f78c0be7d77de499fe6b6cc36300941cdfb"
+    },
+    {
+      "id": "MM2793M",
+      "file": "MM2793M_BP107474_FMA73047_Right parafascicular nucleus.obj",
+      "bytes": 61991,
+      "sha256": "0699585deaf4d9e0dd17869ea63dd2f2dfa6c939dbf697ef77b68211068df9f4"
+    },
+    {
+      "id": "MM2821",
+      "file": "MM2821_BP106950_FMA73064_Caudal part of left ventral lateral nucleus.obj",
+      "bytes": 514650,
+      "sha256": "ddeee515c5aaac8104dce2a001d9eb0a3ebb864728aa3a3cd6c808909c59ab98"
+    },
+    {
+      "id": "MM2815M",
+      "file": "MM2815M_BP106937_FMA73026_Right lateral pulvinar nucleus.obj",
+      "bytes": 369722,
+      "sha256": "d6063a328d8d673c94a260471cdeee0b3b8416d96b7f8578690e2d85b6e4592f"
+    },
+    {
+      "id": "MM2826M",
+      "file": "MM2826M_BP106935_FMA73021_Right oral pulvinar nucleus.obj",
+      "bytes": 577078,
+      "sha256": "9af32482f2d3ba72e987934b24884da7cbb10f7af2faed057c9a61b7e974f259"
+    },
+    {
+      "id": "MM2827M",
+      "file": "MM2827M_BP106957_FMA73075_Right ventral posterolateral nucleus.obj",
+      "bytes": 658659,
+      "sha256": "4ca7d4eaf55205b06cb40e923efcf4bf631154debcba87f60e0d44fe0c673b74"
+    },
+    {
+      "id": "MM2798M",
+      "file": "MM2798M_BP106941_FMA73031_Right inferior pulvinar nucleus.obj",
+      "bytes": 112247,
+      "sha256": "44fbd69a78073dbee060898fb858b2973e809cd90146f247af1735ff307e596d"
+    },
+    {
+      "id": "MM2804M",
+      "file": "MM2804M_BP107468_FMA73017_Right lateral posterior nucleus.obj",
+      "bytes": 203385,
+      "sha256": "7419b521d266141442dc9ca709c0a0749f9884aed43c5e30ffb5c6b62516a444"
+    },
+    {
+      "id": "MM2804",
+      "file": "MM2804_BP107469_FMA73018_Left lateral posterior nucleus.obj",
+      "bytes": 201640,
+      "sha256": "746b0c113b7a3a57dff8a32425ab7ca13ccea6c0b613d6afd5d23d31e700936c"
+    },
+    {
+      "id": "MM2815",
+      "file": "MM2815_BP106938_FMA73027_Left lateral pulvinar nucleus.obj",
+      "bytes": 368266,
+      "sha256": "08f51cdd43bf8b339625ebf5899d4b57ac8a59bbacdb4b392f3598fa11018bf0"
+    },
+    {
+      "id": "MM2826",
+      "file": "MM2826_BP106936_FMA73022_Left oral pulvinar nucleus.obj",
+      "bytes": 572591,
+      "sha256": "3a82e66a5c6af04dd1f87870392fda7d1abd6f58e397c31b860a627dd64a62f6"
+    },
+    {
+      "id": "MM2827",
+      "file": "MM2827_BP106958_FMA73076_Left ventral posterolateral nucleus.obj",
+      "bytes": 656459,
+      "sha256": "bae1d84a2dfc6c7b7f693b01435016f44a4ac8979094fcd2fcad1d14d094e035"
+    },
+    {
+      "id": "MM2798",
+      "file": "MM2798_BP106942_FMA73032_Left inferior pulvinar nucleus.obj",
+      "bytes": 111290,
+      "sha256": "48136baf2e0ad14c81b5f8304b85c6cc5a41a35323bd3952f5ed8bcf2b633fa7"
+    },
+    {
+      "id": "MM2821M",
+      "file": "MM2821M_BP106949_FMA73063_Caudal part of right ventral lateral nucleus.obj",
+      "bytes": 519768,
+      "sha256": "ace002dea13b3251320b7ab418855a40353e6634517f4d70b971ddf6dc22ec16"
+    },
+    {
+      "id": "MM2817",
+      "file": "MM2817_BP107457_FMA72987_Left anteroventral nucleus.obj",
+      "bytes": 470679,
+      "sha256": "51c565c7d80ea57b61440031eb36d75064b770fbaa3d3cf2302a660e205ee054"
+    },
+    {
+      "id": "MM2792M",
+      "file": "MM2792M_BP106959_FMA73081_Right ventral posteromedial nucleus.obj",
+      "bytes": 90949,
+      "sha256": "1160d26504bd978c8454bdbcaed71794b79166d77a335a523241265e8ac86d15"
+    },
+    {
+      "id": "MM2841",
+      "file": "MM2841_BP106956_FMA73074_Left ventral posteroinferior nucleus.obj",
+      "bytes": 253592,
+      "sha256": "83c6ce2741721b9e7e161c744af0031e57508fd89500548dd0b3b840d217f716"
+    },
+    {
+      "id": "MM2790",
+      "file": "MM2790_BP107455_FMA72985_Left anteromedial nucleus.obj",
+      "bytes": 111551,
+      "sha256": "46475ab056821ee772c392d2bbb1c8bc5384062e0ead7cd1f4b917ff6edd54c2"
+    },
+    {
+      "id": "MM2793",
+      "file": "MM2793_BP107475_FMA73048_Left parafascicular nucleus.obj",
+      "bytes": 61544,
+      "sha256": "5529d1baac2a77653c66b16765dc4c0ea62d5e88a8636ce7a4526efc5bf3fb10"
+    },
+    {
+      "id": "MM2819M",
+      "file": "MM2819M_BP106953_FMA73067_Pars postrema of right ventral lateral nucleus.obj",
+      "bytes": 501539,
+      "sha256": "6dd172ed7cd50a87ac2ed5e5394bf33adff7f9d8f15bfc2cb7853841e3c5e052"
+    }
+  ],
+  "sourceRows": [
+    {
+      "id": "FJ7558",
+      "bp": "BP106524",
+      "fma": "FMA73078",
+      "en": "Oral part of left ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "VLPE(ventral posterolateral thalamic nucleus external part).obj",
+      "originalGroup": "VLPE(ventral posterolateral thalamic nucleus external part)"
+    },
+    {
+      "id": "FJ7558M",
+      "bp": "BP106523",
+      "fma": "FMA73077",
+      "en": "Oral part of right ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "VLPE(ventral posterolateral thalamic nucleus external part).obj",
+      "originalGroup": "VLPE(ventral posterolateral thalamic nucleus external part)"
+    },
+    {
+      "id": "FJ7559",
+      "bp": "BP106526",
+      "fma": "FMA73080",
+      "en": "Caudal part of left ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "VLPI(ventral posterolateral thalamic nucleus internal part).obj",
+      "originalGroup": "VLPI(ventral posterolateral thalamic nucleus internal part)"
+    },
+    {
+      "id": "FJ7559M",
+      "bp": "BP106525",
+      "fma": "FMA73079",
+      "en": "Caudal part of right ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "VLPI(ventral posterolateral thalamic nucleus internal part).obj",
+      "originalGroup": "VLPI(ventral posterolateral thalamic nucleus internal part)"
+    },
+    {
+      "id": "FJ7561",
+      "bp": "BP106528",
+      "fma": "FMA73085",
+      "en": "Parvicellular part of left ventral posteromedial nucleus",
+      "synonyms": "",
+      "originalName": "VPMcp.obj",
+      "originalGroup": "VPMcp"
+    },
+    {
+      "id": "FJ7561M",
+      "bp": "BP106527",
+      "fma": "FMA73083",
+      "en": "Parvicellular part of right ventral posteromedial nucleus",
+      "synonyms": "",
+      "originalName": "VPMcp.obj",
+      "originalGroup": "VPMcp"
+    },
+    {
+      "id": "MM2789",
+      "bp": "BP106946",
+      "fma": "FMA73036",
+      "en": "Left central lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#5-Central Lateral (no name in MAI).obj",
+      "originalGroup": "THAL3-IL#5-Central Lateral (no name in MAI)"
+    },
+    {
+      "id": "MM2789M",
+      "bp": "BP106945",
+      "fma": "FMA73035",
+      "en": "Right central lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#5-Central Lateral (no name in MAI).obj",
+      "originalGroup": "THAL3-IL#5-Central Lateral (no name in MAI)"
+    },
+    {
+      "id": "MM2790",
+      "bp": "BP107455",
+      "fma": "FMA72985",
+      "en": "Left anteromedial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#1-AM.obj",
+      "originalGroup": "THAL3-A#1-AM"
+    },
+    {
+      "id": "MM2790M",
+      "bp": "BP107454",
+      "fma": "FMA72984",
+      "en": "Right anteromedial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#1-AM.obj",
+      "originalGroup": "THAL3-A#1-AM"
+    },
+    {
+      "id": "MM2791",
+      "bp": "BP107453",
+      "fma": "FMA72983",
+      "en": "Left anterodorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#3-AD.obj",
+      "originalGroup": "THAL3-A#3-AD"
+    },
+    {
+      "id": "MM2791M",
+      "bp": "BP107452",
+      "fma": "FMA72982",
+      "en": "Right anterodorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#3-AD.obj",
+      "originalGroup": "THAL3-A#3-AD"
+    },
+    {
+      "id": "MM2792",
+      "bp": "BP106960",
+      "fma": "FMA73082",
+      "en": "Left ventral posteromedial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#3-VPM.obj",
+      "originalGroup": "THAL3-B#3-VPM"
+    },
+    {
+      "id": "MM2792M",
+      "bp": "BP106959",
+      "fma": "FMA73081",
+      "en": "Right ventral posteromedial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#3-VPM.obj",
+      "originalGroup": "THAL3-B#3-VPM"
+    },
+    {
+      "id": "MM2793",
+      "bp": "BP107475",
+      "fma": "FMA73048",
+      "en": "Left parafascicular nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#2-PF (parafascicular).obj",
+      "originalGroup": "THAL3-IL#2-PF (parafascicular)"
+    },
+    {
+      "id": "MM2793M",
+      "bp": "BP107474",
+      "fma": "FMA73047",
+      "en": "Right parafascicular nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#2-PF (parafascicular).obj",
+      "originalGroup": "THAL3-IL#2-PF (parafascicular)"
+    },
+    {
+      "id": "MM2795",
+      "bp": "BP106944",
+      "fma": "FMA73034",
+      "en": "Left central dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#4-Central Dorsal (cucuralis).obj",
+      "originalGroup": "THAL3-IL#4-Central Dorsal (cucuralis)"
+    },
+    {
+      "id": "MM2795M",
+      "bp": "BP106943",
+      "fma": "FMA73033",
+      "en": "Right central dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#4-Central Dorsal (cucuralis).obj",
+      "originalGroup": "THAL3-IL#4-Central Dorsal (cucuralis)"
+    },
+    {
+      "id": "MM2798",
+      "bp": "BP106942",
+      "fma": "FMA73032",
+      "en": "Left inferior pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#7-intergeniculate.obj",
+      "originalGroup": "THAL3-PUL#7-intergeniculate"
+    },
+    {
+      "id": "MM2798M",
+      "bp": "BP106941",
+      "fma": "FMA73031",
+      "en": "Right inferior pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#7-intergeniculate.obj",
+      "originalGroup": "THAL3-PUL#7-intergeniculate"
+    },
+    {
+      "id": "MM2800",
+      "bp": "BP106952",
+      "fma": "FMA73066",
+      "en": "Medial part of left ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#1-VM.obj",
+      "originalGroup": "THAL3-B#1-VM"
+    },
+    {
+      "id": "MM2800M",
+      "bp": "BP106951",
+      "fma": "FMA73065",
+      "en": "Medial part of right ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#1-VM.obj",
+      "originalGroup": "THAL3-B#1-VM"
+    },
+    {
+      "id": "MM2802",
+      "bp": "BP107459",
+      "fma": "FMA72989",
+      "en": "Left paratenial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-MIDLINE#4-PT (paratenial).obj",
+      "originalGroup": "THAL3-MIDLINE#4-PT (paratenial)"
+    },
+    {
+      "id": "MM2802M",
+      "bp": "BP107458",
+      "fma": "FMA72988",
+      "en": "Right paratenial nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-MIDLINE#4-PT (paratenial).obj",
+      "originalGroup": "THAL3-MIDLINE#4-PT (paratenial)"
+    },
+    {
+      "id": "MM2804",
+      "bp": "BP107469",
+      "fma": "FMA73018",
+      "en": "Left lateral posterior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#4-LP.obj",
+      "originalGroup": "THAL3-D#4-LP"
+    },
+    {
+      "id": "MM2804M",
+      "bp": "BP107468",
+      "fma": "FMA73017",
+      "en": "Right lateral posterior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#4-LP.obj",
+      "originalGroup": "THAL3-D#4-LP"
+    },
+    {
+      "id": "MM2807",
+      "bp": "BP107485",
+      "fma": "FMA73310",
+      "en": "Left medial geniculate body",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#5-geniculate med.obj",
+      "originalGroup": "THAL3-PUL#5-geniculate med"
+    },
+    {
+      "id": "MM2807M",
+      "bp": "BP107484",
+      "fma": "FMA73309",
+      "en": "Right medial geniculate body",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#5-geniculate med.obj",
+      "originalGroup": "THAL3-PUL#5-geniculate med"
+    },
+    {
+      "id": "MM2810",
+      "bp": "BP107467",
+      "fma": "FMA73016",
+      "en": "Left lateral dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#1-DSF.obj",
+      "originalGroup": "THAL3-D#1-DSF"
+    },
+    {
+      "id": "MM2810M",
+      "bp": "BP107466",
+      "fma": "FMA73015",
+      "en": "Right lateral dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#1-DSF.obj",
+      "originalGroup": "THAL3-D#1-DSF"
+    },
+    {
+      "id": "MM2812",
+      "bp": "BP106940",
+      "fma": "FMA73030",
+      "en": "Left medial pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#1-med.obj",
+      "originalGroup": "THAL3-PUL#1-med"
+    },
+    {
+      "id": "MM2812M",
+      "bp": "BP106939",
+      "fma": "FMA73029",
+      "en": "Right medial pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#1-med.obj",
+      "originalGroup": "THAL3-PUL#1-med"
+    },
+    {
+      "id": "MM2813",
+      "bp": "BP107483",
+      "fma": "FMA73304",
+      "en": "Left lateral geniculate body",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#6-geniculate lat.obj",
+      "originalGroup": "THAL3-PUL#6-geniculate lat"
+    },
+    {
+      "id": "MM2813M",
+      "bp": "BP107482",
+      "fma": "FMA73303",
+      "en": "Right lateral geniculate body",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#6-geniculate lat.obj",
+      "originalGroup": "THAL3-PUL#6-geniculate lat"
+    },
+    {
+      "id": "MM2815",
+      "bp": "BP106938",
+      "fma": "FMA73027",
+      "en": "Left lateral pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#2-lat.obj",
+      "originalGroup": "THAL3-PUL#2-lat"
+    },
+    {
+      "id": "MM2815M",
+      "bp": "BP106937",
+      "fma": "FMA73026",
+      "en": "Right lateral pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#2-lat.obj",
+      "originalGroup": "THAL3-PUL#2-lat"
+    },
+    {
+      "id": "MM2817",
+      "bp": "BP107457",
+      "fma": "FMA72987",
+      "en": "Left anteroventral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#2-APr(AV).obj",
+      "originalGroup": "THAL3-A#2-APr(AV)"
+    },
+    {
+      "id": "MM2817M",
+      "bp": "BP107456",
+      "fma": "FMA72986",
+      "en": "Right anteroventral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-A#2-APr(AV).obj",
+      "originalGroup": "THAL3-A#2-APr(AV)"
+    },
+    {
+      "id": "MM2819",
+      "bp": "BP106954",
+      "fma": "FMA73068",
+      "en": "Pars postrema of left ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#4-VLPE.obj",
+      "originalGroup": "THAL3-L#4-VLPE"
+    },
+    {
+      "id": "MM2819M",
+      "bp": "BP106953",
+      "fma": "FMA73067",
+      "en": "Pars postrema of right ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#4-VLPE.obj",
+      "originalGroup": "THAL3-L#4-VLPE"
+    },
+    {
+      "id": "MM2821",
+      "bp": "BP106950",
+      "fma": "FMA73064",
+      "en": "Caudal part of left ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#3-VLPI.obj",
+      "originalGroup": "THAL3-L#3-VLPI"
+    },
+    {
+      "id": "MM2821M",
+      "bp": "BP106949",
+      "fma": "FMA73063",
+      "en": "Caudal part of right ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#3-VLPI.obj",
+      "originalGroup": "THAL3-L#3-VLPI"
+    },
+    {
+      "id": "MM2823",
+      "bp": "BP107477",
+      "fma": "FMA73050",
+      "en": "Left ventral anterior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#1-VA.obj",
+      "originalGroup": "THAL3-L#1-VA"
+    },
+    {
+      "id": "MM2823M",
+      "bp": "BP107476",
+      "fma": "FMA73049",
+      "en": "Right ventral anterior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#1-VA.obj",
+      "originalGroup": "THAL3-L#1-VA"
+    },
+    {
+      "id": "MM2824",
+      "bp": "BP106948",
+      "fma": "FMA73062",
+      "en": "Oral part of left ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#2-VLA.obj",
+      "originalGroup": "THAL3-L#2-VLA"
+    },
+    {
+      "id": "MM2824M",
+      "bp": "BP106947",
+      "fma": "FMA73061",
+      "en": "Oral part of right ventral lateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#2-VLA.obj",
+      "originalGroup": "THAL3-L#2-VLA"
+    },
+    {
+      "id": "MM2826",
+      "bp": "BP106936",
+      "fma": "FMA73022",
+      "en": "Left oral pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#3-ant.obj",
+      "originalGroup": "THAL3-PUL#3-ant"
+    },
+    {
+      "id": "MM2826M",
+      "bp": "BP106935",
+      "fma": "FMA73021",
+      "en": "Right oral pulvinar nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PUL#3-ant.obj",
+      "originalGroup": "THAL3-PUL#3-ant"
+    },
+    {
+      "id": "MM2827",
+      "bp": "BP106958",
+      "fma": "FMA73076",
+      "en": "Left ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#5-VPL.obj",
+      "originalGroup": "THAL3-L#5-VPL"
+    },
+    {
+      "id": "MM2827M",
+      "bp": "BP106957",
+      "fma": "FMA73075",
+      "en": "Right ventral posterolateral nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-L#5-VPL.obj",
+      "originalGroup": "THAL3-L#5-VPL"
+    },
+    {
+      "id": "MM2836",
+      "bp": "BP108121",
+      "fma": "FMA73324",
+      "en": "Left thalamic reticular nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PERI#2-reticular.obj",
+      "originalGroup": "THAL3-PERI#2-reticular"
+    },
+    {
+      "id": "MM2836M",
+      "bp": "BP108120",
+      "fma": "FMA73323",
+      "en": "Right thalamic reticular nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-PERI#2-reticular.obj",
+      "originalGroup": "THAL3-PERI#2-reticular"
+    },
+    {
+      "id": "MM2837",
+      "bp": "BP107461",
+      "fma": "FMA73001",
+      "en": "Paralaminar part of left medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDpl (MDmf).obj",
+      "originalGroup": "THAL3-D#3-MDpl (MDmf)"
+    },
+    {
+      "id": "MM2837M",
+      "bp": "BP107460",
+      "fma": "FMA73000",
+      "en": "Paralaminar part of right medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDpl (MDmf).obj",
+      "originalGroup": "THAL3-D#3-MDpl (MDmf)"
+    },
+    {
+      "id": "MM2838",
+      "bp": "BP107463",
+      "fma": "FMA73003",
+      "en": "Magnocellular part of left medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDmc.obj",
+      "originalGroup": "THAL3-D#3-MDmc"
+    },
+    {
+      "id": "MM2838M",
+      "bp": "BP107462",
+      "fma": "FMA73002",
+      "en": "Magnocellular part of right medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDmc.obj",
+      "originalGroup": "THAL3-D#3-MDmc"
+    },
+    {
+      "id": "MM2840",
+      "bp": "BP107473",
+      "fma": "FMA73046",
+      "en": "Left centromedian nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#1-CM.obj",
+      "originalGroup": "THAL3-IL#1-CM"
+    },
+    {
+      "id": "MM2840M",
+      "bp": "BP107472",
+      "fma": "FMA73045",
+      "en": "Right centromedian nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-IL#1-CM.obj",
+      "originalGroup": "THAL3-IL#1-CM"
+    },
+    {
+      "id": "MM2841",
+      "bp": "BP106956",
+      "fma": "FMA73074",
+      "en": "Left ventral posteroinferior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#2-VPI.obj",
+      "originalGroup": "THAL3-B#2-VPI"
+    },
+    {
+      "id": "MM2841M",
+      "bp": "BP106955",
+      "fma": "FMA73073",
+      "en": "Right ventral posteroinferior nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#2-VPI.obj",
+      "originalGroup": "THAL3-B#2-VPI"
+    },
+    {
+      "id": "MM2842",
+      "bp": "BP107465",
+      "fma": "FMA73008",
+      "en": "Parvicellular part of left medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDpc.obj",
+      "originalGroup": "THAL3-D#3-MDpc"
+    },
+    {
+      "id": "MM2842M",
+      "bp": "BP107464",
+      "fma": "FMA73006",
+      "en": "Parvicellular part of right medial dorsal nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-D#3-MDpc.obj",
+      "originalGroup": "THAL3-D#3-MDpc"
+    },
+    {
+      "id": "MM2843",
+      "bp": "BP107491",
+      "fma": "FMA73516",
+      "en": "Left limitans nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#5-Lim.obj",
+      "originalGroup": "THAL3-B#5-Lim"
+    },
+    {
+      "id": "MM2843M",
+      "bp": "BP107490",
+      "fma": "FMA73515",
+      "en": "Right limitans nucleus",
+      "synonyms": "",
+      "originalName": "THAL3-B#5-Lim.obj",
+      "originalGroup": "THAL3-B#5-Lim"
+    }
+  ],
+  "reason": "Core scope is cortical orientation, Heschl-insula continuity and finite capsule/basal context; no expansion into all thalamic subnuclei."
+}

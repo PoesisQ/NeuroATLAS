@@ -1,0 +1,195 @@
+{
+  "source": "https://lifesciencedb.jp/bp3d",
+  "requested": [
+    {
+      "fj_id": "FJ1744",
+      "bp_id": "BP20792",
+      "fma_id": "FMA256237",
+      "name": "Left inferior frontal gyrus",
+      "faces": "3290",
+      "verts": "1927",
+      "bytes": "218285",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ1745",
+      "bp_id": "BP20872",
+      "fma_id": "FMA256237",
+      "name": "Right inferior frontal gyrus",
+      "faces": "3292",
+      "verts": "1928",
+      "bytes": "219872",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ1835",
+      "bp_id": "BP20880",
+      "fma_id": "FMA256237",
+      "name": "Left superior parietal lobule",
+      "faces": "5364",
+      "verts": "3181",
+      "bytes": "366550",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ1836",
+      "bp_id": "BP20869",
+      "fma_id": "FMA256237",
+      "name": "Right superior parietal lobule",
+      "faces": "5640",
+      "verts": "3241",
+      "bytes": "383193",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ1841",
+      "bp_id": "BP20820",
+      "fma_id": "FMA256237",
+      "name": "Left supramarginal gyrus",
+      "faces": "2344",
+      "verts": "1323",
+      "bytes": "149523",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ1842",
+      "bp_id": "BP20873",
+      "fma_id": "FMA256237",
+      "name": "Right supramarginal gyrus",
+      "faces": "2314",
+      "verts": "1368",
+      "bytes": "152058",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ7463",
+      "bp_id": "BP20880",
+      "fma_id": "FMA256237",
+      "name": "Left superior parietal lobule",
+      "faces": "11632",
+      "verts": "7090",
+      "bytes": "820430",
+      "mtime": "1779787489"
+    },
+    {
+      "fj_id": "FJ7463M",
+      "bp_id": "BP20869",
+      "fma_id": "FMA256237",
+      "name": "Right superior parietal lobule",
+      "faces": "11632",
+      "verts": "7044",
+      "bytes": "824508",
+      "mtime": "1779787489"
+    }
+  ],
+  "files": [
+    {
+      "fj_id": "FJ1744",
+      "bp_id": "BP20792",
+      "fma_id": "FMA256237",
+      "name": "Left inferior frontal gyrus",
+      "faces": "3290",
+      "verts": "1927",
+      "bytes": "218285",
+      "mtime": "1779787486",
+      "file": "FJ1744_BP22402_FMA72658_Left inferior frontal gyrus.obj",
+      "sha256": "52fbd7c171a48cc746e221e2caf7285dd3236d1997471a83a1d871be477e410a",
+      "actualBytes": 218285
+    },
+    {
+      "fj_id": "FJ1836",
+      "bp_id": "BP20869",
+      "fma_id": "FMA256237",
+      "name": "Right superior parietal lobule",
+      "faces": "5640",
+      "verts": "3241",
+      "bytes": "383193",
+      "mtime": "1779787486",
+      "file": "FJ1836_BP22214_FMA72671_Right superior parietal lobule.obj",
+      "sha256": "03ecd1c245b7a1e7b554f8d6debd9de32ec3c9626749014c49a470d93adfb17e",
+      "actualBytes": 383193
+    },
+    {
+      "fj_id": "FJ7463M",
+      "bp_id": "BP20869",
+      "fma_id": "FMA256237",
+      "name": "Right superior parietal lobule",
+      "faces": "11632",
+      "verts": "7044",
+      "bytes": "824508",
+      "mtime": "1779787489",
+      "file": "FJ7463M_BP22214_FMA72671_Right superior parietal lobule.obj",
+      "sha256": "422948376b4795386e3c2eeedae94530e7b92e530df5c6f1a32ad2338527b82f",
+      "actualBytes": 824508
+    },
+    {
+      "fj_id": "FJ1745",
+      "bp_id": "BP20872",
+      "fma_id": "FMA256237",
+      "name": "Right inferior frontal gyrus",
+      "faces": "3292",
+      "verts": "1928",
+      "bytes": "219872",
+      "mtime": "1779787486",
+      "file": "FJ1745_BP22397_FMA72657_Right inferior frontal gyrus.obj",
+      "sha256": "b4d47e04b64092abc56e522a3e1e49f74bed6afebaf1061a6567d842b724c464",
+      "actualBytes": 219872
+    },
+    {
+      "fj_id": "FJ1841",
+      "bp_id": "BP20820",
+      "fma_id": "FMA256237",
+      "name": "Left supramarginal gyrus",
+      "faces": "2344",
+      "verts": "1323",
+      "bytes": "149523",
+      "mtime": "1779787486",
+      "file": "FJ1841_BP22180_FMA72668_Left supramarginal gyrus.obj",
+      "sha256": "2217ead15bb83b7556f1efca934afa2f308f1d9d606ba86cfd72b40a3ea7b7e6",
+      "actualBytes": 149523
+    },
+    {
+      "fj_id": "FJ1842",
+      "bp_id": "BP20873",
+      "fma_id": "FMA256237",
+      "name": "Right supramarginal gyrus",
+      "faces": "2314",
+      "verts": "1368",
+      "bytes": "152058",
+      "mtime": "1779787486",
+      "file": "FJ1842_BP22255_FMA72667_Right supramarginal gyrus.obj",
+      "sha256": "f341ba331d13d72ecbe311e73f681b122bedb4d896263958327e236e50c06999",
+      "actualBytes": 152058
+    },
+    {
+      "fj_id": "FJ1835",
+      "bp_id": "BP20880",
+      "fma_id": "FMA256237",
+      "name": "Left superior parietal lobule",
+      "faces": "5364",
+      "verts": "3181",
+      "bytes": "366550",
+      "mtime": "1779787486",
+      "file": "FJ1835_BP22159_FMA72672_Left superior parietal lobule.obj",
+      "sha256": "a4b4c047928796b62147f8d8337e3d504569ebb11d409afe6b3221adcfc22666",
+      "actualBytes": 366550
+    },
+    {
+      "fj_id": "FJ7463",
+      "bp_id": "BP20880",
+      "fma_id": "FMA256237",
+      "name": "Left superior parietal lobule",
+      "faces": "11632",
+      "verts": "7090",
+      "bytes": "820430",
+      "mtime": "1779787489",
+      "file": "FJ7463_BP22159_FMA72672_Left superior parietal lobule.obj",
+      "sha256": "9c37400a0047439901bc872d1255b83ff4c84774564c77557efa2c15b3649e6b",
+      "actualBytes": 820430
+    }
+  ],
+  "officialManifestSha256": "b93912e504f34a638564bafed41d4b585d9a6c9ffe43c3e21752f06370753898",
+  "downloadMethod": "Public viewer download.cgi with listed object IDs; originals retained unchanged",
+  "sourceLicensePage": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "licenseNote": "Official archive license changed 2025-02-27 to CC BY 4.0; legacy viewer/docs carry CC BY-SA 2.1 Japan. Preserve both source notices."
+}

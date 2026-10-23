@@ -1,0 +1,1288 @@
+{
+  "source": "DBCLS BodyParts3D/Anatomography, official download.cgi originals",
+  "unit": "mm",
+  "axes": "+X patient left,+Y posterior,+Z superior",
+  "sourceCoordinatesPreserved": true,
+  "surfacesSmoothed": false,
+  "surfacesMirrored": false,
+  "sourceType": "Anatomical atlas incorporating MRI and anatomical art; per-structure image resolution/validation is not supplied.",
+  "limits": [
+    "No claustrum, external capsule, extreme capsule or circular insular sulcus element found in inspected 4.3 discovery manifest.",
+    "Downloaded superior parietal lobule has overlapping old/new element variants; excluded from packed scene rather than superimposed.",
+    "Internal capsule is a whole labeled atlas structure; anterior limb, genu, posterior/retrolenticular/sublenticular subdivisions are not independently labeled.",
+    "Insula is source-labeled whole structure, not separately labeled short/long gyri, limen or central insular sulcus.",
+    "Cortical context is a selection of same-source gyri, not a closed complete hemisphere shell.",
+    "Centroid ordering is only a gross consistency check, not a full anatomy or surface-contact validation.",
+    "Data not co-registered to existing Z-Anatomy scene; do not paste into it based on matching names."
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "id": "FJ1744",
+      "sourceFile": "FJ1744_BP22402_FMA72658_Left inferior frontal gyrus.obj",
+      "en": "Left inferior frontal gyrus",
+      "zh": "左侧额下回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72658",
+      "bp": "BP22402",
+      "sha256": "52fbd7c171a48cc746e221e2caf7285dd3236d1997471a83a1d871be477e410a",
+      "vertexCount": 1927,
+      "triangleCount": 3290,
+      "bboxNativeMm": [
+        [
+          25.942399978637695,
+          -152.92799377441406,
+          1546.9000244140625
+        ],
+        [
+          60.916099548339844,
+          -89.67849731445312,
+          1607.0699462890625
+        ]
+      ],
+      "centroidNativeMm": [
+        41.69956588745117,
+        -119.45272827148438,
+        1573.514404296875
+      ],
+      "po": 0,
+      "io": 23124,
+      "bboxDimensionsMm": [
+        34.97370147705078,
+        63.24949645996094,
+        60.169921875
+      ],
+      "originalPolygonSizes": {
+        "3": 3290
+      },
+      "topology": {
+        "sourceVertices": 1927,
+        "exactUniquePositions": 1649,
+        "triangles": 3290,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 4
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 1,
+      "id": "FJ1745",
+      "sourceFile": "FJ1745_BP22397_FMA72657_Right inferior frontal gyrus.obj",
+      "en": "Right inferior frontal gyrus",
+      "zh": "右侧额下回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72657",
+      "bp": "BP22397",
+      "sha256": "b4d47e04b64092abc56e522a3e1e49f74bed6afebaf1061a6567d842b724c464",
+      "vertexCount": 1928,
+      "triangleCount": 3292,
+      "bboxNativeMm": [
+        [
+          -62.211700439453125,
+          -152.9709930419922,
+          1546.47998046875
+        ],
+        [
+          -27.258100509643555,
+          -89.88580322265625,
+          1607.06005859375
+        ]
+      ],
+      "centroidNativeMm": [
+        -42.97355651855469,
+        -119.5506362915039,
+        1573.537109375
+      ],
+      "po": 62604,
+      "io": 85740,
+      "bboxDimensionsMm": [
+        34.95359802246094,
+        63.08518981933594,
+        60.580078125
+      ],
+      "originalPolygonSizes": {
+        "3": 3292
+      },
+      "topology": {
+        "sourceVertices": 1928,
+        "exactUniquePositions": 1650,
+        "triangles": 3292,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 4
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 2,
+      "id": "FJ1748",
+      "sourceFile": "FJ1748_BP23978_FMA72978_Left insula.obj",
+      "en": "Left insula",
+      "zh": "左侧岛叶",
+      "side": "left",
+      "role": "cortex-atlas",
+      "fma": "FMA72978",
+      "bp": "BP23978",
+      "sha256": "941d824f461433d486be6291a55e5b9aad880f759e16b616a04fecae3d2d3a38",
+      "vertexCount": 1250,
+      "triangleCount": 2448,
+      "bboxNativeMm": [
+        [
+          25.015499114990234,
+          -122.27100372314453,
+          1545.530029296875
+        ],
+        [
+          44.27939987182617,
+          -70.6417007446289,
+          1580.0999755859375
+        ]
+      ],
+      "centroidNativeMm": [
+        36.184326171875,
+        -98.93885040283203,
+        1564.490478515625
+      ],
+      "po": 125244,
+      "io": 140244,
+      "bboxDimensionsMm": [
+        19.263900756835938,
+        51.629302978515625,
+        34.5699462890625
+      ],
+      "originalPolygonSizes": {
+        "3": 2448
+      },
+      "topology": {
+        "sourceVertices": 1250,
+        "exactUniquePositions": 1226,
+        "triangles": 2448,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 3,
+      "id": "FJ1749",
+      "sourceFile": "FJ1749_BP21973_FMA72977_Right insula.obj",
+      "en": "Right insula",
+      "zh": "右侧岛叶",
+      "side": "right",
+      "role": "cortex-atlas",
+      "fma": "FMA72977",
+      "bp": "BP21973",
+      "sha256": "c724379de905744b0a6ffea5a20376af1a521bd577e9abdca9665dfd3daf39e0",
+      "vertexCount": 1261,
+      "triangleCount": 2448,
+      "bboxNativeMm": [
+        [
+          -45.590301513671875,
+          -122.4229965209961,
+          1545.5799560546875
+        ],
+        [
+          -26.344600677490234,
+          -70.67539978027344,
+          1580.06005859375
+        ]
+      ],
+      "centroidNativeMm": [
+        -37.4177131652832,
+        -99.01970672607422,
+        1564.0877685546875
+      ],
+      "po": 169620,
+      "io": 184752,
+      "bboxDimensionsMm": [
+        19.24570083618164,
+        51.747596740722656,
+        34.4801025390625
+      ],
+      "originalPolygonSizes": {
+        "3": 2448
+      },
+      "topology": {
+        "sourceVertices": 1261,
+        "exactUniquePositions": 1226,
+        "triangles": 2448,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 4,
+      "id": "FJ1750",
+      "sourceFile": "FJ1750_BP22348_FMA72907_Left internal capsule.obj",
+      "en": "Left internal capsule",
+      "zh": "左侧内囊",
+      "side": "left",
+      "role": "white-matter-atlas",
+      "fma": "FMA72907",
+      "bp": "BP22348",
+      "sha256": "cb931c008468da46fedbfeb3658cf558a057943ea175d7fbb0de3a42774c585f",
+      "vertexCount": 5375,
+      "triangleCount": 10740,
+      "bboxNativeMm": [
+        [
+          6.816579818725586,
+          -118.68000030517578,
+          1543.8599853515625
+        ],
+        [
+          29.71419906616211,
+          -64.51100158691406,
+          1577.1099853515625
+        ]
+      ],
+      "centroidNativeMm": [
+        19.571229934692383,
+        -91.36859893798828,
+        1561.2769775390625
+      ],
+      "po": 214128,
+      "io": 278628,
+      "bboxDimensionsMm": [
+        22.897619247436523,
+        54.16899871826172,
+        33.25
+      ],
+      "originalPolygonSizes": {
+        "3": 10740
+      },
+      "topology": {
+        "sourceVertices": 5375,
+        "exactUniquePositions": 5372,
+        "triangles": 10740,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 5,
+      "id": "FJ1751",
+      "sourceFile": "FJ1751_BP22231_FMA72906_Right internal capsule.obj",
+      "en": "Right internal capsule",
+      "zh": "右侧内囊",
+      "side": "right",
+      "role": "white-matter-atlas",
+      "fma": "FMA72906",
+      "bp": "BP22231",
+      "sha256": "9730c79f00ae16b6291626dbf6a01839628758883f2637223796487bdbd1ee63",
+      "vertexCount": 5376,
+      "triangleCount": 10742,
+      "bboxNativeMm": [
+        [
+          -31.03809928894043,
+          -118.69499969482422,
+          1543.8499755859375
+        ],
+        [
+          -8.13107967376709,
+          -64.50029754638672,
+          1577.1099853515625
+        ]
+      ],
+      "centroidNativeMm": [
+        -20.811002731323242,
+        -91.97188568115234,
+        1561.3685302734375
+      ],
+      "po": 407508,
+      "io": 472020,
+      "bboxDimensionsMm": [
+        22.907020568847656,
+        54.1947021484375,
+        33.260009765625
+      ],
+      "originalPolygonSizes": {
+        "3": 10742
+      },
+      "topology": {
+        "sourceVertices": 5376,
+        "exactUniquePositions": 5373,
+        "triangles": 10742,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 6,
+      "id": "FJ1754",
+      "sourceFile": "FJ1754_BP23921_FMA72827_Left caudate nucleus.obj",
+      "en": "Left caudate nucleus",
+      "zh": "左侧尾状核",
+      "side": "left",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72827",
+      "bp": "BP23921",
+      "sha256": "e14317d10dc2ee6ee38dc920973154049936c48e6151b6b619953af7d0878cd1",
+      "vertexCount": 1334,
+      "triangleCount": 2544,
+      "bboxNativeMm": [
+        [
+          1.903309941291809,
+          -123.94200134277344,
+          1540.260009765625
+        ],
+        [
+          33.684898376464844,
+          -60.35660171508789,
+          1577.3199462890625
+        ]
+      ],
+      "centroidNativeMm": [
+        18.143373489379883,
+        -93.61742401123047,
+        1556.8739013671875
+      ],
+      "po": 600924,
+      "io": 616932,
+      "bboxDimensionsMm": [
+        31.781587600708008,
+        63.58539962768555,
+        37.0599365234375
+      ],
+      "originalPolygonSizes": {
+        "3": 2544
+      },
+      "topology": {
+        "sourceVertices": 1334,
+        "exactUniquePositions": 1274,
+        "triangles": 2544,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 7,
+      "id": "FJ1757",
+      "sourceFile": "FJ1757_BP20205_FMA72831_Left globus pallidus.obj",
+      "en": "Left globus pallidus",
+      "zh": "左侧苍白球",
+      "side": "left",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72831",
+      "bp": "BP20205",
+      "sha256": "1431210b8185f3aba17d92456f847662ba5eb81ec764dfbfb021622815ac67e9",
+      "vertexCount": 3542,
+      "triangleCount": 7080,
+      "bboxNativeMm": [
+        [
+          12.283300399780273,
+          -109.50199890136719,
+          1546.31005859375
+        ],
+        [
+          29.0216007232666,
+          -80.2228012084961,
+          1563.6099853515625
+        ]
+      ],
+      "centroidNativeMm": [
+        21.94431495666504,
+        -96.35526275634766,
+        1554.3350830078125
+      ],
+      "po": 647460,
+      "io": 689964,
+      "bboxDimensionsMm": [
+        16.738300323486328,
+        29.279197692871094,
+        17.2999267578125
+      ],
+      "originalPolygonSizes": {
+        "3": 7080
+      },
+      "topology": {
+        "sourceVertices": 3542,
+        "exactUniquePositions": 3542,
+        "triangles": 7080,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 8,
+      "id": "FJ1776",
+      "sourceFile": "FJ1776_BP20313_FMA72829_Left putamen.obj",
+      "en": "Left putamen",
+      "zh": "左侧壳核",
+      "side": "left",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72829",
+      "bp": "BP20313",
+      "sha256": "a0abd6e6f017a26517d29d4c0d00a34adfeb6ae89dfb2e9c74493aa8146db731",
+      "vertexCount": 3642,
+      "triangleCount": 7056,
+      "bboxNativeMm": [
+        [
+          16.18899917602539,
+          -118.36799621582031,
+          1545.4300537109375
+        ],
+        [
+          34.44449996948242,
+          -75.52680206298828,
+          1571.5400390625
+        ]
+      ],
+      "centroidNativeMm": [
+        26.360307693481445,
+        -96.69334411621094,
+        1556.6700439453125
+      ],
+      "po": 774924,
+      "io": 818628,
+      "bboxDimensionsMm": [
+        18.25550079345703,
+        42.84119415283203,
+        26.1099853515625
+      ],
+      "originalPolygonSizes": {
+        "3": 7056
+      },
+      "topology": {
+        "sourceVertices": 3642,
+        "exactUniquePositions": 3530,
+        "triangles": 7056,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 9,
+      "id": "FJ1782",
+      "sourceFile": "FJ1782_BP21462_FMA258716_Left thalamus.obj",
+      "en": "Left thalamus",
+      "zh": "左侧丘脑",
+      "side": "left",
+      "role": "deep-grey-atlas",
+      "fma": "FMA258716",
+      "bp": "BP21462",
+      "sha256": "5ec986cc2be7519115ac6e1dfc8679de7164d56dbbae32ded69d584cb3fddf63",
+      "vertexCount": 853,
+      "triangleCount": 1702,
+      "bboxNativeMm": [
+        [
+          -0.09246879816055298,
+          -98.39569854736328,
+          1542.0699462890625
+        ],
+        [
+          23.373600006103516,
+          -61.806800842285156,
+          1565.75
+        ]
+      ],
+      "centroidNativeMm": [
+        11.9595365524292,
+        -78.10417175292969,
+        1553.516357421875
+      ],
+      "po": 903300,
+      "io": 913536,
+      "bboxDimensionsMm": [
+        23.466068267822266,
+        36.588897705078125,
+        23.6800537109375
+      ],
+      "originalPolygonSizes": {
+        "3": 1702
+      },
+      "topology": {
+        "sourceVertices": 853,
+        "exactUniquePositions": 853,
+        "triangles": 1702,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": false
+    },
+    {
+      "index": 10,
+      "id": "FJ1787",
+      "sourceFile": "FJ1787_BP22367_FMA72656_Left middle frontal gyrus.obj",
+      "en": "Left middle frontal gyrus",
+      "zh": "左侧额中回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72656",
+      "bp": "BP22367",
+      "sha256": "e6ca6e379b91d5f203c15f9f064e3958e390f91f819458f5fc4f37a4ce52344a",
+      "vertexCount": 1973,
+      "triangleCount": 3416,
+      "bboxNativeMm": [
+        [
+          14.599900245666504,
+          -159.1719970703125,
+          1560.4200439453125
+        ],
+        [
+          49.143001556396484,
+          -74.19930267333984,
+          1622.3900146484375
+        ]
+      ],
+      "centroidNativeMm": [
+        29.76311683654785,
+        -122.20700073242188,
+        1591.7864990234375
+      ],
+      "po": 933960,
+      "io": 957636,
+      "bboxDimensionsMm": [
+        34.5431022644043,
+        84.97269439697266,
+        61.969970703125
+      ],
+      "originalPolygonSizes": {
+        "3": 3416
+      },
+      "topology": {
+        "sourceVertices": 1973,
+        "exactUniquePositions": 1710,
+        "triangles": 3416,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 11,
+      "id": "FJ1788",
+      "sourceFile": "FJ1788_BP20959_FMA72655_Right middle frontal gyrus.obj",
+      "en": "Right middle frontal gyrus",
+      "zh": "右侧额中回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72655",
+      "bp": "BP20959",
+      "sha256": "6a615bb30f034dfea5e954aef0f6a182e7aa32cf19e2bfd307c2a9a091ed3461",
+      "vertexCount": 1960,
+      "triangleCount": 3326,
+      "bboxNativeMm": [
+        [
+          -50.51340103149414,
+          -159.1999969482422,
+          1560.4300537109375
+        ],
+        [
+          -15.933300018310547,
+          -73.83830261230469,
+          1622.300048828125
+        ]
+      ],
+      "centroidNativeMm": [
+        -31.26690673828125,
+        -120.99327850341797,
+        1592.2587890625
+      ],
+      "po": 998628,
+      "io": 1022148,
+      "bboxDimensionsMm": [
+        34.580101013183594,
+        85.3616943359375,
+        61.8699951171875
+      ],
+      "originalPolygonSizes": {
+        "3": 3326
+      },
+      "topology": {
+        "sourceVertices": 1960,
+        "exactUniquePositions": 1665,
+        "triangles": 3326,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 12,
+      "id": "FJ1797",
+      "sourceFile": "FJ1797_BP22179_FMA72666_Left postcentral gyrus.obj",
+      "en": "Left postcentral gyrus",
+      "zh": "左侧中央后回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72666",
+      "bp": "BP22179",
+      "sha256": "b15debc6839323f9465abd0ffbdb3e589c567110c77000a25de09ef85d086a9c",
+      "vertexCount": 2033,
+      "triangleCount": 3604,
+      "bboxNativeMm": [
+        [
+          0.6096490025520325,
+          -87.91670227050781,
+          1563.9000244140625
+        ],
+        [
+          67.18370056152344,
+          -24.270999908447266,
+          1623.6800537109375
+        ]
+      ],
+      "centroidNativeMm": [
+        33.961524963378906,
+        -56.86103439331055,
+        1594.7542724609375
+      ],
+      "po": 1062060,
+      "io": 1086456,
+      "bboxDimensionsMm": [
+        66.57405090332031,
+        63.64570236206055,
+        59.780029296875
+      ],
+      "originalPolygonSizes": {
+        "3": 3604
+      },
+      "topology": {
+        "sourceVertices": 2033,
+        "exactUniquePositions": 1804,
+        "triangles": 3604,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 13,
+      "id": "FJ1798",
+      "sourceFile": "FJ1798_BP22140_FMA72665_Right postcentral gyrus.obj",
+      "en": "Right postcentral gyrus",
+      "zh": "右侧中央后回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72665",
+      "bp": "BP22140",
+      "sha256": "654bfc5d371b721596ef891e528905caa810031541de3da6d53045be2a119484",
+      "vertexCount": 2045,
+      "triangleCount": 3604,
+      "bboxNativeMm": [
+        [
+          -68.39749908447266,
+          -87.76789855957031,
+          1564.1400146484375
+        ],
+        [
+          -1.7481000423431396,
+          -24.257299423217773,
+          1623.68994140625
+        ]
+      ],
+      "centroidNativeMm": [
+        -34.86555480957031,
+        -56.29402160644531,
+        1595.391845703125
+      ],
+      "po": 1129704,
+      "io": 1154244,
+      "bboxDimensionsMm": [
+        66.64939880371094,
+        63.510597229003906,
+        59.5499267578125
+      ],
+      "originalPolygonSizes": {
+        "3": 3604
+      },
+      "topology": {
+        "sourceVertices": 2045,
+        "exactUniquePositions": 1804,
+        "triangles": 3604,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 14,
+      "id": "FJ1800",
+      "sourceFile": "FJ1800_BP22183_FMA72662_Left precentral gyrus.obj",
+      "en": "Left precentral gyrus",
+      "zh": "左侧中央前回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72662",
+      "bp": "BP22183",
+      "sha256": "8d2f96c138a533222e1f70ea80c07ba0699e0985fa46e6f394bc64326c168d9c",
+      "vertexCount": 2336,
+      "triangleCount": 4042,
+      "bboxNativeMm": [
+        [
+          0.5947189927101135,
+          -104.83899688720703,
+          1560.699951171875
+        ],
+        [
+          62.885398864746094,
+          -39.27259826660156,
+          1626.68994140625
+        ]
+      ],
+      "centroidNativeMm": [
+        32.30061340332031,
+        -72.0782470703125,
+        1596.0775146484375
+      ],
+      "po": 1197492,
+      "io": 1225524,
+      "bboxDimensionsMm": [
+        62.290679931640625,
+        65.56639862060547,
+        65.989990234375
+      ],
+      "originalPolygonSizes": {
+        "3": 4042
+      },
+      "topology": {
+        "sourceVertices": 2336,
+        "exactUniquePositions": 2023,
+        "triangles": 4042,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 15,
+      "id": "FJ1801",
+      "sourceFile": "FJ1801_BP22215_FMA72661_Right precentral gyrus.obj",
+      "en": "Right precentral gyrus",
+      "zh": "右侧中央前回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72661",
+      "bp": "BP22215",
+      "sha256": "9520c6260fdad81f12bb0a7d3ff4288a9ca82e894c612cb2ce2856a8a204dece",
+      "vertexCount": 2382,
+      "triangleCount": 4042,
+      "bboxNativeMm": [
+        [
+          -64.1509017944336,
+          -104.65799713134766,
+          1560.550048828125
+        ],
+        [
+          -1.6214900016784668,
+          -39.34590148925781,
+          1626.550048828125
+        ]
+      ],
+      "centroidNativeMm": [
+        -33.12759780883789,
+        -72.00285339355469,
+        1595.886962890625
+      ],
+      "po": 1274028,
+      "io": 1302612,
+      "bboxDimensionsMm": [
+        62.52941131591797,
+        65.31209564208984,
+        66.0
+      ],
+      "originalPolygonSizes": {
+        "3": 4042
+      },
+      "topology": {
+        "sourceVertices": 2382,
+        "exactUniquePositions": 2023,
+        "triangles": 4042,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 16,
+      "id": "FJ1802",
+      "sourceFile": "FJ1802_BP20207_FMA72826_Right caudate nucleus.obj",
+      "en": "Right caudate nucleus",
+      "zh": "右侧尾状核",
+      "side": "right",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72826",
+      "bp": "BP20207",
+      "sha256": "d26243a9a0c620f661c199e33539b4c7e00ea2fa949bec15ff66e7e6b9442dde",
+      "vertexCount": 1334,
+      "triangleCount": 2570,
+      "bboxNativeMm": [
+        [
+          -35.0093994140625,
+          -123.93199920654297,
+          1540.27001953125
+        ],
+        [
+          -3.200819969177246,
+          -60.37099838256836,
+          1577.3499755859375
+        ]
+      ],
+      "centroidNativeMm": [
+        -19.306440353393555,
+        -93.69143676757812,
+        1556.9022216796875
+      ],
+      "po": 1351116,
+      "io": 1367124,
+      "bboxDimensionsMm": [
+        31.808578491210938,
+        63.56100082397461,
+        37.0799560546875
+      ],
+      "originalPolygonSizes": {
+        "3": 2570
+      },
+      "topology": {
+        "sourceVertices": 1334,
+        "exactUniquePositions": 1287,
+        "triangles": 2570,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 17,
+      "id": "FJ1805",
+      "sourceFile": "FJ1805_BP20297_FMA72830_Right globus pallidus.obj",
+      "en": "Right globus pallidus",
+      "zh": "右侧苍白球",
+      "side": "right",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72830",
+      "bp": "BP20297",
+      "sha256": "3c41d95b54f41c2480a054c29a5254dbe08022ef763137d36942ea72d90a87a4",
+      "vertexCount": 2674,
+      "triangleCount": 5344,
+      "bboxNativeMm": [
+        [
+          -30.32740020751953,
+          -109.49600219726562,
+          1546.31005859375
+        ],
+        [
+          -13.593999862670898,
+          -80.22480010986328,
+          1563.6099853515625
+        ]
+      ],
+      "centroidNativeMm": [
+        -23.44196891784668,
+        -95.98800659179688,
+        1554.21142578125
+      ],
+      "po": 1397964,
+      "io": 1430052,
+      "bboxDimensionsMm": [
+        16.733400344848633,
+        29.271202087402344,
+        17.2999267578125
+      ],
+      "originalPolygonSizes": {
+        "3": 5344
+      },
+      "topology": {
+        "sourceVertices": 2674,
+        "exactUniquePositions": 2674,
+        "triangles": 5344,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 18,
+      "id": "FJ1823",
+      "sourceFile": "FJ1823_BP20196_FMA72828_Right putamen.obj",
+      "en": "Right putamen",
+      "zh": "右侧壳核",
+      "side": "right",
+      "role": "deep-grey-atlas",
+      "fma": "FMA72828",
+      "bp": "BP20196",
+      "sha256": "ebcd224e3abccee31cfb3fa6d1dc80be2fbb9de0e51dc487ce622aab85deaaf3",
+      "vertexCount": 3690,
+      "triangleCount": 7064,
+      "bboxNativeMm": [
+        [
+          -35.752498626708984,
+          -118.36599731445312,
+          1545.4300537109375
+        ],
+        [
+          -17.47450065612793,
+          -75.52749633789062,
+          1571.5400390625
+        ]
+      ],
+      "centroidNativeMm": [
+        -27.67818832397461,
+        -96.73617553710938,
+        1556.635986328125
+      ],
+      "po": 1494180,
+      "io": 1538460,
+      "bboxDimensionsMm": [
+        18.277997970581055,
+        42.8385009765625,
+        26.1099853515625
+      ],
+      "originalPolygonSizes": {
+        "3": 7064
+      },
+      "topology": {
+        "sourceVertices": 3690,
+        "exactUniquePositions": 3534,
+        "triangles": 7064,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 19,
+      "id": "FJ1827",
+      "sourceFile": "FJ1827_BP21533_FMA258714_Right thalamus.obj",
+      "en": "Right thalamus",
+      "zh": "右侧丘脑",
+      "side": "right",
+      "role": "deep-grey-atlas",
+      "fma": "FMA258714",
+      "bp": "BP21533",
+      "sha256": "9b4d914f47a49a2c77a0bb99e84fa11494a1dba124120a5646e2615d38527756",
+      "vertexCount": 381,
+      "triangleCount": 758,
+      "bboxNativeMm": [
+        [
+          -24.60540008544922,
+          -98.36689758300781,
+          1542.1300048828125
+        ],
+        [
+          -1.2477500438690186,
+          -61.87049865722656,
+          1565.719970703125
+        ]
+      ],
+      "centroidNativeMm": [
+        -12.93968677520752,
+        -78.30438232421875,
+        1553.300537109375
+      ],
+      "po": 1623228,
+      "io": 1627800,
+      "bboxDimensionsMm": [
+        23.357650756835938,
+        36.49639892578125,
+        23.5899658203125
+      ],
+      "originalPolygonSizes": {
+        "3": 758
+      },
+      "topology": {
+        "sourceVertices": 381,
+        "exactUniquePositions": 381,
+        "triangles": 758,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 20,
+      "id": "FJ1841",
+      "sourceFile": "FJ1841_BP22180_FMA72668_Left supramarginal gyrus.obj",
+      "en": "Left supramarginal gyrus",
+      "zh": "左侧缘上回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72668",
+      "bp": "BP22180",
+      "sha256": "2217ead15bb83b7556f1efca934afa2f308f1d9d606ba86cfd72b40a3ea7b7e6",
+      "vertexCount": 1323,
+      "triangleCount": 2344,
+      "bboxNativeMm": [
+        [
+          23.149499893188477,
+          -73.1167984008789,
+          1561.239990234375
+        ],
+        [
+          68.78630065917969,
+          -35.45989990234375,
+          1602.8199462890625
+        ]
+      ],
+      "centroidNativeMm": [
+        48.703033447265625,
+        -53.37800598144531,
+        1579.41162109375
+      ],
+      "po": 1636896,
+      "io": 1652772,
+      "bboxDimensionsMm": [
+        45.636802673339844,
+        37.656898498535156,
+        41.5799560546875
+      ],
+      "originalPolygonSizes": {
+        "3": 2344
+      },
+      "topology": {
+        "sourceVertices": 1323,
+        "exactUniquePositions": 1174,
+        "triangles": 2344,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 21,
+      "id": "FJ1842",
+      "sourceFile": "FJ1842_BP22255_FMA72667_Right supramarginal gyrus.obj",
+      "en": "Right supramarginal gyrus",
+      "zh": "右侧缘上回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72667",
+      "bp": "BP22255",
+      "sha256": "f341ba331d13d72ecbe311e73f681b122bedb4d896263958327e236e50c06999",
+      "vertexCount": 1368,
+      "triangleCount": 2314,
+      "bboxNativeMm": [
+        [
+          -69.7052001953125,
+          -73.12590026855469,
+          1561.3699951171875
+        ],
+        [
+          -24.39189910888672,
+          -35.4275016784668,
+          1602.449951171875
+        ]
+      ],
+      "centroidNativeMm": [
+        -49.44544219970703,
+        -53.72539138793945,
+        1578.6571044921875
+      ],
+      "po": 1680900,
+      "io": 1697316,
+      "bboxDimensionsMm": [
+        45.31330108642578,
+        37.69839859008789,
+        41.0799560546875
+      ],
+      "originalPolygonSizes": {
+        "3": 2314
+      },
+      "topology": {
+        "sourceVertices": 1368,
+        "exactUniquePositions": 1159,
+        "triangles": 2314,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 2
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 22,
+      "id": "FJ7479",
+      "sourceFile": "FJ7479_BP29914_FMA72684_Left superior temporal gyrus.obj",
+      "en": "Left superior temporal gyrus",
+      "zh": "左侧颞上回",
+      "side": "left",
+      "role": "cortical-context",
+      "fma": "FMA72684",
+      "bp": "BP29914",
+      "sha256": "81446a29e939e6afe5d1889d3dd564c43ef719e6a2fb955d917828a90a51e607",
+      "vertexCount": 7115,
+      "triangleCount": 13278,
+      "bboxNativeMm": [
+        [
+          26.747800827026367,
+          -127.90599822998047,
+          1523.8399658203125
+        ],
+        [
+          69.67960357666016,
+          -21.959299087524414,
+          1572.9300537109375
+        ]
+      ],
+      "centroidNativeMm": [
+        50.484130859375,
+        -76.5755615234375,
+        1554.491455078125
+      ],
+      "po": 1725084,
+      "io": 1810464,
+      "bboxDimensionsMm": [
+        42.931800842285156,
+        105.94670104980469,
+        49.090087890625
+      ],
+      "originalPolygonSizes": {
+        "3": 13278
+      },
+      "topology": {
+        "sourceVertices": 7115,
+        "exactUniquePositions": 6639,
+        "triangles": 13278,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 0
+      },
+      "leftRightCoordinateCheck": true
+    },
+    {
+      "index": 23,
+      "id": "FJ7479M",
+      "sourceFile": "FJ7479M_BP29913_FMA72683_Right superior temporal gyrus.obj",
+      "en": "Right superior temporal gyrus",
+      "zh": "右侧颞上回",
+      "side": "right",
+      "role": "cortical-context",
+      "fma": "FMA72683",
+      "bp": "BP29913",
+      "sha256": "161625f7a1434cb04b02c8b930781ec68c57d1fa00b51665f40d3a0393bc4f55",
+      "vertexCount": 7108,
+      "triangleCount": 13278,
+      "bboxNativeMm": [
+        [
+          -69.66459655761719,
+          -127.87699890136719,
+          1523.8800048828125
+        ],
+        [
+          -26.76460075378418,
+          -21.984399795532227,
+          1572.9000244140625
+        ]
+      ],
+      "centroidNativeMm": [
+        -50.47362518310547,
+        -76.60759735107422,
+        1554.4649658203125
+      ],
+      "po": 1969800,
+      "io": 2055096,
+      "bboxDimensionsMm": [
+        42.899993896484375,
+        105.8926010131836,
+        49.02001953125
+      ],
+      "originalPolygonSizes": {
+        "3": 13278
+      },
+      "topology": {
+        "sourceVertices": 7108,
+        "exactUniquePositions": 6639,
+        "triangles": 13278,
+        "boundaryEdgesAfterExactPositionMerge": 0,
+        "nonmanifoldEdgesAfterExactPositionMerge": 0,
+        "eulerCharacteristicAfterExactPositionMerge": 0
+      },
+      "leftRightCoordinateCheck": true
+    }
+  ],
+  "grossRelationshipChecks": [
+    {
+      "side": "left",
+      "absoluteCentroidXmm": {
+        "insula": 36.184326171875,
+        "internal capsule": 19.571229934692383,
+        "caudate nucleus": 18.143373489379883,
+        "putamen": 26.360307693481445,
+        "globus pallidus": 21.94431495666504,
+        "thalamus": 11.9595365524292
+      },
+      "checks": [
+        {
+          "claim": "thalamus medial to capsule",
+          "pass": true
+        },
+        {
+          "claim": "capsule medial to globus pallidus",
+          "pass": true
+        },
+        {
+          "claim": "globus pallidus medial to putamen",
+          "pass": true
+        },
+        {
+          "claim": "putamen medial to insula",
+          "pass": true
+        },
+        {
+          "claim": "caudate centroid medial to capsule",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "absoluteCentroidXmm": {
+        "insula": 37.4177131652832,
+        "internal capsule": 20.811002731323242,
+        "caudate nucleus": 19.306440353393555,
+        "putamen": 27.67818832397461,
+        "globus pallidus": 23.44196891784668,
+        "thalamus": 12.93968677520752
+      },
+      "checks": [
+        {
+          "claim": "thalamus medial to capsule",
+          "pass": true
+        },
+        {
+          "claim": "capsule medial to globus pallidus",
+          "pass": true
+        },
+        {
+          "claim": "globus pallidus medial to putamen",
+          "pass": true
+        },
+        {
+          "claim": "putamen medial to insula",
+          "pass": true
+        },
+        {
+          "claim": "caudate centroid medial to capsule",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+Original viewer, educational text, teaching diagrams, and build scripts:
+MIT License
+
+Copyright (c) 2026 NeuroAtlas contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The MIT license does not relicense any anatomy meshes or source-derived
+anatomical metadata. Those remain under CC BY-SA 4.0 with the attribution
+chain in ASSET_LICENSE.txt and Z_ANATOMY_LICENSE.txt.
+
+Asset attribution:
+BodyParts3D, (c) The Database Center for Life Science licensed under
+CC Attribution-Share Alike 2.1 Japan.
+Z-Anatomy contributors, CC BY-SA 4.0.
+Brain Project contributors (itayinbarr/brainproject), asset export and metadata,
+CC BY-SA 4.0.
+Cranial Nerves and Foramina, University of Dundee, CAHID, CC BY 4.0.
+
+Upstream registered derivatives include:
+CIT168 subcortical atlas, Pauli, Nili & Tyszka 2018, CC BY 4.0,
+https://osf.io/jkzwp/
+CIT168 amygdala atlas, Tyszka & Pauli 2016, CC BY-SA 4.0,
+https://osf.io/hksa6/
+Najdenovska et al. 2018 thalamic atlas, CC BY-SA 4.0,
+https://doi.org/10.5281/zenodo.1405484
+Neudorfer et al. 2020 hypothalamic atlas, CC BY 4.0,
+https://doi.org/10.5281/zenodo.3942115
+HCP1065 population-averaged tract templates, Yeh 2022, CC BY-SA 4.0,
+as attributed in the upstream Brain Project registration document.
+
+Modifications in this distribution: common coordinate translation and unit
+conversion, 16-bit per-mesh coordinate packing, cervical cropping, source name
+curation and category corrections, source-derived spatial teaching partitions,
+and separate, explicitly marked educational annotations. Registered atlas
+structures and pathway tubes are approximate; they are not clinical models.

@@ -1,0 +1,25 @@
+* text=auto
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+
+# Keep the released self-contained HTML byte-for-byte identical to its validation hash.
+/NeuroAtlas.html -text
+*.zip -text
+*.gz -text
+*.bin -text
+*.wasm -text
+*.jpg -text
+*.png -text
+
+# Retain original research metadata bytes used by the provenance hash reports.
+/source/research-atlas/** -text
+/source/research-foramina/** -text

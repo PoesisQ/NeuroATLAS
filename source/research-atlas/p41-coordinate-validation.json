@@ -1,0 +1,2409 @@
+{
+  "method": "Transform author ontology MRI voxel locations into each native label block using only NIfTI headers. Compare nearest present same-label voxel. Display matrices are independently checked for the same slice coordinate.",
+  "coordinateProof": "Native block and MRI NIfTI affines agree with author display matrices after only in-plane rotations and optional section-order reversal (blocks 9 and 15). No guessed registration.",
+  "notAnatomicalValidation": "This tests coordinate/data consistency, not the accuracy or completeness of anatomical boundaries. Author ontology points need not fall within nonconvex masks.",
+  "MRIandOwnershipAffineMaxDifference": 7.62939453125e-06,
+  "matrixChecks": [
+    {
+      "block": 1,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        4.097464164581586e-18,
+        1.2525520069552846e-18,
+        0.9999999999999998,
+        5.473271045275396e-07
+      ],
+      "maxZCoordinateTransformError": 5.473271045275396e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 2,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        2.3127914221228903e-18,
+        4.4904332194336806e-18,
+        0.9999999999999999,
+        1.4679802120554086e-06
+      ],
+      "maxZCoordinateTransformError": 1.4679802120554086e-06,
+      "inPlaneMatrixDeterminant": -1.0000000000000004
+    },
+    {
+      "block": 3,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        7.540382864576436e-18,
+        3.942199345202378e-18,
+        1.0,
+        2.5462735209202947e-07
+      ],
+      "maxZCoordinateTransformError": 2.5462735209202947e-07,
+      "inPlaneMatrixDeterminant": 0.9999999999999999
+    },
+    {
+      "block": 4,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.8392476496320776e-18,
+        -1.3715661066616676e-18,
+        1.0,
+        6.447326938996412e-07
+      ],
+      "maxZCoordinateTransformError": 6.447326938996412e-07,
+      "inPlaneMatrixDeterminant": -1.0000000000000004
+    },
+    {
+      "block": 5,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.0352459427600611e-17,
+        -7.927499092583191e-18,
+        1.0000000000000002,
+        1.8048868781761485e-06
+      ],
+      "maxZCoordinateTransformError": 1.8048868781761485e-06,
+      "inPlaneMatrixDeterminant": 1.0
+    },
+    {
+      "block": 6,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -4.353086921057472e-17,
+        4.588502523662298e-18,
+        1.0,
+        -2.6296743271814194e-07
+      ],
+      "maxZCoordinateTransformError": 2.6296743271814194e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 7,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        2.2906117900145943e-17,
+        -4.770496136080178e-18,
+        0.9999999999999999,
+        1.306211174778582e-07
+      ],
+      "maxZCoordinateTransformError": 1.306211174778582e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 8,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -3.9269902780932055e-19,
+        -2.281932492593285e-20,
+        1.0,
+        0.0
+      ],
+      "maxZCoordinateTransformError": 3.9269902780932055e-19,
+      "inPlaneMatrixDeterminant": -1.0000000000000004
+    },
+    {
+      "block": 9,
+      "nativeToDisplaySliceReversed": true,
+      "nativeZFromDisplayZ": [
+        8.150711852018694e-17,
+        -1.8633291758194662e-18,
+        -0.9999999999999999,
+        17.00000305013076
+      ],
+      "maxZCoordinateTransformError": 3.0501307612951223e-06,
+      "inPlaneMatrixDeterminant": 1.0000000000000002
+    },
+    {
+      "block": 10,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -7.147660280826732e-17,
+        8.302692748650031e-18,
+        0.9999999999999999,
+        1.9213149755614722e-06
+      ],
+      "maxZCoordinateTransformError": 1.9213149755614722e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 11,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -5.240129902847288e-18,
+        1.5066375394398865e-19,
+        1.0,
+        -9.458385932248348e-07
+      ],
+      "maxZCoordinateTransformError": 9.458385932248348e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 12,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.1925092853369003e-18,
+        1.091780136994557e-21,
+        1.0,
+        1.320116211900313e-07
+      ],
+      "maxZCoordinateTransformError": 1.320116211900313e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 13,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        8.573461570965241e-17,
+        -9.112624004827053e-17,
+        1.0000000000000002,
+        -1.9532417496748167e-06
+      ],
+      "maxZCoordinateTransformError": 1.9532417496748167e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    },
+    {
+      "block": 14,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.2954587311644405e-16,
+        -4.348712976054606e-18,
+        1.0000000000000002,
+        6.812108495068969e-07
+      ],
+      "maxZCoordinateTransformError": 6.812108495068969e-07,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 15,
+      "nativeToDisplaySliceReversed": true,
+      "nativeZFromDisplayZ": [
+        -8.58278723734309e-18,
+        -9.022235483827373e-20,
+        -1.0,
+        20.999998387186466
+      ],
+      "maxZCoordinateTransformError": 1.6128135342796668e-06,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 16,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -4.592622496048507e-17,
+        -1.103040929380194e-17,
+        1.0,
+        -9.03411148556188e-07
+      ],
+      "maxZCoordinateTransformError": 9.03411148556188e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 17,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -7.722867520113621e-18,
+        1.6075307487040241e-18,
+        1.0,
+        1.4379351114257588e-06
+      ],
+      "maxZCoordinateTransformError": 1.4379351114257588e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 18,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        6.976516328385376e-19,
+        9.169617287965207e-19,
+        1.0,
+        0.0
+      ],
+      "maxZCoordinateTransformError": 9.169617287965207e-19,
+      "inPlaneMatrixDeterminant": 1.0000000000000002
+    },
+    {
+      "block": 19,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.4689450396718376e-17,
+        2.0187338453129248e-18,
+        0.9999999999999999,
+        -1.4623634854160628e-06
+      ],
+      "maxZCoordinateTransformError": 1.4623634854160628e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999994
+    },
+    {
+      "block": 20,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        5.226755586497145e-18,
+        -7.716435144333649e-19,
+        0.9999999999999999,
+        3.352046462623548e-07
+      ],
+      "maxZCoordinateTransformError": 3.352046462623548e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 21,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        5.562720305783887e-17,
+        -3.477894233819479e-17,
+        1.0,
+        -3.3949606859096093e-07
+      ],
+      "maxZCoordinateTransformError": 3.3949606859096093e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    },
+    {
+      "block": 22,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        3.0103557989289385e-17,
+        -7.453026354814602e-18,
+        1.0,
+        3.50732853959812e-06
+      ],
+      "maxZCoordinateTransformError": 3.50732853959812e-06,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 23,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        7.919765440007757e-18,
+        2.9490734457832334e-18,
+        1.0,
+        -3.3348774763908295e-07
+      ],
+      "maxZCoordinateTransformError": 3.3348774763908295e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    },
+    {
+      "block": 24,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -5.1057644946577575e-18,
+        3.946991295171319e-18,
+        0.9999999999999999,
+        2.538478383939946e-06
+      ],
+      "maxZCoordinateTransformError": 2.538478383939946e-06,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 25,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.085718982817648e-17,
+        -1.7496819532368655e-18,
+        1.0,
+        7.526689387304941e-07
+      ],
+      "maxZCoordinateTransformError": 7.526689387304941e-07,
+      "inPlaneMatrixDeterminant": -0.9999999999999999
+    },
+    {
+      "block": 26,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.0020316083997141e-17,
+        1.848844231831241e-17,
+        1.0000000000000002,
+        0.0
+      ],
+      "maxZCoordinateTransformError": 2.220446049250313e-16,
+      "inPlaneMatrixDeterminant": -1.0000000000000004
+    },
+    {
+      "block": 27,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -6.366172641963807e-19,
+        -9.163879596023874e-18,
+        1.0,
+        -1.7734054722495785e-06
+      ],
+      "maxZCoordinateTransformError": 1.7734054722495785e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    },
+    {
+      "block": 28,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        2.982421694950501e-17,
+        8.88770299333189e-19,
+        1.0,
+        7.105427357601002e-14
+      ],
+      "maxZCoordinateTransformError": 7.105427357601002e-14,
+      "inPlaneMatrixDeterminant": -0.9999999999999996
+    },
+    {
+      "block": 29,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -4.031795878166115e-17,
+        4.946101467045713e-17,
+        1.0,
+        -1.1030172544224115e-06
+      ],
+      "maxZCoordinateTransformError": 1.1030172544224115e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999999
+    },
+    {
+      "block": 30,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -6.64398946546333e-17,
+        -1.188465869044002e-17,
+        0.9999999999999999,
+        2.2807530655200026e-06
+      ],
+      "maxZCoordinateTransformError": 2.2807530655200026e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999999
+    },
+    {
+      "block": 31,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -3.062084163135631e-17,
+        8.048171124913228e-19,
+        1.0,
+        -2.715494611393865e-07
+      ],
+      "maxZCoordinateTransformError": 2.715494611393865e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 33,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -2.3840968180306195e-18,
+        8.348961097414331e-19,
+        1.0,
+        2.6040198974897066e-07
+      ],
+      "maxZCoordinateTransformError": 2.6040198974897066e-07,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 34,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -7.750339226969167e-18,
+        5.622201732426127e-19,
+        0.9999999999999998,
+        -1.6374846509847885e-06
+      ],
+      "maxZCoordinateTransformError": 1.6374846509847885e-06,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 35,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.171856746616699e-17,
+        3.063762106808035e-19,
+        1.0,
+        1.0897819038291345e-06
+      ],
+      "maxZCoordinateTransformError": 1.0897819038291345e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    },
+    {
+      "block": 36,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.1878483855531925e-17,
+        1.689293236897046e-17,
+        1.0,
+        -1.8159726877797766e-06
+      ],
+      "maxZCoordinateTransformError": 1.8159726877797766e-06,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 37,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -5.872537964674178e-18,
+        4.967385087887874e-19,
+        1.0000000000000002,
+        4.579592314257752e-07
+      ],
+      "maxZCoordinateTransformError": 4.579592314257752e-07,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 38,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.1893583581123988e-17,
+        6.77084899955736e-18,
+        0.9999999999999999,
+        -1.0406636477000575e-06
+      ],
+      "maxZCoordinateTransformError": 1.0406636477000575e-06,
+      "inPlaneMatrixDeterminant": -1.0000000000000002
+    },
+    {
+      "block": 39,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.744462494408635e-17,
+        -6.849794537752295e-18,
+        1.0,
+        -4.056376212702162e-07
+      ],
+      "maxZCoordinateTransformError": 4.056376212702162e-07,
+      "inPlaneMatrixDeterminant": -1.0
+    },
+    {
+      "block": 40,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        1.8415447860544682e-17,
+        2.5881070871459578e-18,
+        0.9999999999999999,
+        -1.4405148647256283e-06
+      ],
+      "maxZCoordinateTransformError": 1.4405148647256283e-06,
+      "inPlaneMatrixDeterminant": -0.9999999999999997
+    },
+    {
+      "block": 41,
+      "nativeToDisplaySliceReversed": false,
+      "nativeZFromDisplayZ": [
+        -1.5746555875697152e-17,
+        -3.530192089278181e-20,
+        1.0000000000000002,
+        5.684341886080802e-14
+      ],
+      "maxZCoordinateTransformError": 5.684341886080802e-14,
+      "inPlaneMatrixDeterminant": -0.9999999999999998
+    }
+  ],
+  "ontologyChecks": [
+    {
+      "block": 2,
+      "id": 68,
+      "name": "septum_pellucidum",
+      "nearestVoxelLabel": 68,
+      "distanceToSameLabelMm": 0.03766443188276098,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 103,
+      "name": "medial_septal_nucleus",
+      "nearestVoxelLabel": 103,
+      "distanceToSameLabelMm": 0.03903399034766548,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 113,
+      "name": "lateral_olfactory_stria",
+      "nearestVoxelLabel": 113,
+      "distanceToSameLabelMm": 0.0353602920015665,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 125,
+      "name": "lateral_olfactory_area",
+      "nearestVoxelLabel": 125,
+      "distanceToSameLabelMm": 0.031016373245256957,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 48,
+      "name": "head_of_caudate",
+      "nearestVoxelLabel": 48,
+      "distanceToSameLabelMm": 0.03342357780567793,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 100,
+      "name": "olfactory_tubercle",
+      "nearestVoxelLabel": 100,
+      "distanceToSameLabelMm": 0.05174864283283951,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 101,
+      "name": "core_of_nucleus_accumbens",
+      "nearestVoxelLabel": 101,
+      "distanceToSameLabelMm": 0.02939842251848791,
+      "pointInLabel": true
+    },
+    {
+      "block": 2,
+      "id": 147,
+      "name": "preoptic_region_of_hth",
+      "nearestVoxelLabel": 147,
+      "distanceToSameLabelMm": 0.020395912292866334,
+      "pointInLabel": true
+    },
+    {
+      "block": 3,
+      "id": 611,
+      "name": "white_matter_of_hindbrain",
+      "nearestVoxelLabel": 611,
+      "distanceToSameLabelMm": 0.026079514864054736,
+      "pointInLabel": true
+    },
+    {
+      "block": 3,
+      "id": 721,
+      "name": "dentate_(lateral)_nucleus",
+      "nearestVoxelLabel": 721,
+      "distanceToSameLabelMm": 0.05499053910866369,
+      "pointInLabel": true
+    },
+    {
+      "block": 3,
+      "id": 595,
+      "name": "molecular_layer_of_pva",
+      "nearestVoxelLabel": 597,
+      "distanceToSameLabelMm": 0.10565308297533832,
+      "pointInLabel": false
+    },
+    {
+      "block": 3,
+      "id": 597,
+      "name": "granular_cell_layer_of_pva",
+      "nearestVoxelLabel": 611,
+      "distanceToSameLabelMm": 0.06556296350872479,
+      "pointInLabel": false
+    },
+    {
+      "block": 3,
+      "id": 611,
+      "name": "white_matter_of_hindbrain",
+      "nearestVoxelLabel": 611,
+      "distanceToSameLabelMm": 0.026079514864054736,
+      "pointInLabel": true
+    },
+    {
+      "block": 5,
+      "id": 715,
+      "name": "fastigial_(medial)_nucleus",
+      "nearestVoxelLabel": 715,
+      "distanceToSameLabelMm": 0.04238639626040268,
+      "pointInLabel": true
+    },
+    {
+      "block": 5,
+      "id": 751,
+      "name": "medial_interpositus_(globose)_nucleus",
+      "nearestVoxelLabel": 751,
+      "distanceToSameLabelMm": 0.04884251562951637,
+      "pointInLabel": true
+    },
+    {
+      "block": 5,
+      "id": 752,
+      "name": "lateral_interpositus_(emboliform)_nucleus",
+      "nearestVoxelLabel": 752,
+      "distanceToSameLabelMm": 0.046701915948247,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 414,
+      "name": "pontine_nucleus",
+      "nearestVoxelLabel": 414,
+      "distanceToSameLabelMm": 1.636055714495358e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 546,
+      "name": "lateral_parabrachial_nucleus",
+      "nearestVoxelLabel": 546,
+      "distanceToSameLabelMm": 1.636055714495358e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 580,
+      "name": "pons",
+      "nearestVoxelLabel": 531,
+      "distanceToSameLabelMm": 0.09998490062447886,
+      "pointInLabel": false
+    },
+    {
+      "block": 6,
+      "id": 581,
+      "name": "medial_parabrachial_nucleus",
+      "nearestVoxelLabel": 581,
+      "distanceToSameLabelMm": 1.6360557343146567e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 599,
+      "name": "ventral_nucleus_of_lateral_lemniscus",
+      "nearestVoxelLabel": 599,
+      "distanceToSameLabelMm": 1.636055714495358e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 630,
+      "name": "motor_nucleus_of_trigeminal_nerve",
+      "nearestVoxelLabel": 630,
+      "distanceToSameLabelMm": 1.6360556809238936e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 6,
+      "id": 659,
+      "name": "principal_sensory_nucleus_of_trigeminal_nerve",
+      "nearestVoxelLabel": 659,
+      "distanceToSameLabelMm": 1.6360557877054303e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 7,
+      "id": 436,
+      "name": "interpeduncular_nucleus",
+      "nearestVoxelLabel": 436,
+      "distanceToSameLabelMm": 5.574267493663639e-08,
+      "pointInLabel": true
+    },
+    {
+      "block": 7,
+      "id": 535,
+      "name": "root_of_trochlear_nerve",
+      "nearestVoxelLabel": 535,
+      "distanceToSameLabelMm": 5.5742661640650557e-08,
+      "pointInLabel": true
+    },
+    {
+      "block": 7,
+      "id": 541,
+      "name": "central_nucleus_of_inferior_colliculus",
+      "nearestVoxelLabel": 541,
+      "distanceToSameLabelMm": 5.574267493663639e-08,
+      "pointInLabel": true
+    },
+    {
+      "block": 7,
+      "id": 844,
+      "name": "reticular_formation_/_cuneiform_area",
+      "nearestVoxelLabel": 591,
+      "distanceToSameLabelMm": 0.09993781515465942,
+      "pointInLabel": false
+    },
+    {
+      "block": 7,
+      "id": 352,
+      "name": "substantia_nigra__compact_part",
+      "nearestVoxelLabel": 352,
+      "distanceToSameLabelMm": 5.5742661640650557e-08,
+      "pointInLabel": true
+    },
+    {
+      "block": 13,
+      "id": 50,
+      "name": "anterior_horn_of_lateral_ventricle",
+      "nearestVoxelLabel": 50,
+      "distanceToSameLabelMm": 0.04250239392941146,
+      "pointInLabel": true
+    },
+    {
+      "block": 16,
+      "id": 677,
+      "name": "spinal_trigeminal_tract",
+      "nearestVoxelLabel": 677,
+      "distanceToSameLabelMm": 4.820152119407924e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 16,
+      "id": 687,
+      "name": "solitary_tract",
+      "nearestVoxelLabel": 687,
+      "distanceToSameLabelMm": 4.820152153077567e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 16,
+      "id": 693,
+      "name": "ambiguus_nucleus",
+      "nearestVoxelLabel": 693,
+      "distanceToSameLabelMm": 4.820152184790877e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 16,
+      "id": 725,
+      "name": "dorsal_motor_nucleus_of_the_vagus_(vagal_nucleus)",
+      "nearestVoxelLabel": 725,
+      "distanceToSameLabelMm": 4.820152184790877e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 16,
+      "id": 726,
+      "name": "external_(accessory/lateral)_cuneate_nucleus",
+      "nearestVoxelLabel": 726,
+      "distanceToSameLabelMm": 4.820152248492067e-07,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 506,
+      "name": "pineal_body",
+      "nearestVoxelLabel": 506,
+      "distanceToSameLabelMm": 0.0329485859673142,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 199,
+      "name": "fornix",
+      "nearestVoxelLabel": 199,
+      "distanceToSameLabelMm": 0.044372609135375,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 254,
+      "name": "reticular_nucleus_of_thalamus",
+      "nearestVoxelLabel": 254,
+      "distanceToSameLabelMm": 0.040357561294975856,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 313,
+      "name": "parvocellular_(central)_division_of_md",
+      "nearestVoxelLabel": 313,
+      "distanceToSameLabelMm": 0.05587636765652335,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 380,
+      "name": "multiform_(lateral)_division_of_md",
+      "nearestVoxelLabel": 380,
+      "distanceToSameLabelMm": 0.038222686702460394,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 423,
+      "name": "ventral_posterior_medial_nucleus",
+      "nearestVoxelLabel": 423,
+      "distanceToSameLabelMm": 0.04579014573155812,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 424,
+      "name": "ventral_posterior_inferior_nucleus",
+      "nearestVoxelLabel": 424,
+      "distanceToSameLabelMm": 0.05297053638744198,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 425,
+      "name": "lateral_division_of_central_lateral_nucleus",
+      "nearestVoxelLabel": 380,
+      "distanceToSameLabelMm": 0.12844874998711003,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 430,
+      "name": "lateral_habenular_nucleus",
+      "nearestVoxelLabel": 430,
+      "distanceToSameLabelMm": 0.04685895779563136,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 441,
+      "name": "lateral_posterior_nucleus_of_thalamus",
+      "nearestVoxelLabel": 441,
+      "distanceToSameLabelMm": 0.03572066238816985,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 442,
+      "name": "basal_ventral_medial_nucleus",
+      "nearestVoxelLabel": 442,
+      "distanceToSameLabelMm": 0.04578222281385923,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 443,
+      "name": "dorsal_division_of_central_lateral_nucleus",
+      "nearestVoxelLabel": 443,
+      "distanceToSameLabelMm": 0.05910529045319717,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 444,
+      "name": "medial_habenular_nucleus",
+      "nearestVoxelLabel": 444,
+      "distanceToSameLabelMm": 0.012057972549696792,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 454,
+      "name": "anterior_nucleus_of_pulvinar",
+      "nearestVoxelLabel": 454,
+      "distanceToSameLabelMm": 0.047062270777691595,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 458,
+      "name": "caudal_division_of_ventral_posterior_lateral_nucleus",
+      "nearestVoxelLabel": 458,
+      "distanceToSameLabelMm": 0.06281267052962311,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 478,
+      "name": "posterior_nucleus_of_thalamus",
+      "nearestVoxelLabel": 478,
+      "distanceToSameLabelMm": 0.04470278807250328,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 479,
+      "name": "centromedian_nucleus_of_thalamus",
+      "nearestVoxelLabel": 479,
+      "distanceToSameLabelMm": 0.020376958158797642,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 484,
+      "name": "dorsal_lateral_geniculate_nucleus",
+      "nearestVoxelLabel": 484,
+      "distanceToSameLabelMm": 0.049451223544651285,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 492,
+      "name": "limitans_nucleus",
+      "nearestVoxelLabel": 492,
+      "distanceToSameLabelMm": 0.030594246243288534,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 493,
+      "name": "habenular_commissure",
+      "nearestVoxelLabel": 493,
+      "distanceToSameLabelMm": 0.016021386043203988,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 504,
+      "name": "dorsal_medial_geniculate_nucleus",
+      "nearestVoxelLabel": 504,
+      "distanceToSameLabelMm": 0.0615318118340883,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 505,
+      "name": "ventral_medial_geniculate_nucleus",
+      "nearestVoxelLabel": 505,
+      "distanceToSameLabelMm": 0.03406753645630061,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 508,
+      "name": "medial_nucleus_of_pulvinar",
+      "nearestVoxelLabel": 508,
+      "distanceToSameLabelMm": 0.0500124595227278,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 510,
+      "name": "magnocellular_(medial)_nucleus",
+      "nearestVoxelLabel": 510,
+      "distanceToSameLabelMm": 0.03767900405818825,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 512,
+      "name": "suprageniculate_nucleus_of_thalamus",
+      "nearestVoxelLabel": 512,
+      "distanceToSameLabelMm": 0.06219634292542644,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 519,
+      "name": "inferior_nucleus_of_pulvinar",
+      "nearestVoxelLabel": 519,
+      "distanceToSameLabelMm": 0.05688724084991323,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 811,
+      "name": "superficial_pulvinar_nucleus",
+      "nearestVoxelLabel": 811,
+      "distanceToSameLabelMm": 0.04377822301467021,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 343,
+      "name": "stratum_lacunosum-moleculare_of_rostral_ca1",
+      "nearestVoxelLabel": 343,
+      "distanceToSameLabelMm": 0.04336476163989992,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 344,
+      "name": "stratum_radiatum_of_rostral_ca1",
+      "nearestVoxelLabel": 343,
+      "distanceToSameLabelMm": 0.0825065576428608,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 345,
+      "name": "stratum_pyramidale_of_rostral_ca1",
+      "nearestVoxelLabel": 344,
+      "distanceToSameLabelMm": 0.12418232616541715,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 346,
+      "name": "stratum_oriens_of_rostral_ca1",
+      "nearestVoxelLabel": 345,
+      "distanceToSameLabelMm": 0.16494100416871166,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 347,
+      "name": "rostral_subiculum",
+      "nearestVoxelLabel": 347,
+      "distanceToSameLabelMm": 0.05599862726525971,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 372,
+      "name": "stratum_lacunosum-moleculare_of_uncal_ca3",
+      "nearestVoxelLabel": 372,
+      "distanceToSameLabelMm": 0.030279627862316163,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 373,
+      "name": "stratum_lucidum__of_uncal_ca3",
+      "nearestVoxelLabel": 404,
+      "distanceToSameLabelMm": 0.11387699243287788,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 374,
+      "name": "stratum_pyramidale_of_uncal_ca3",
+      "nearestVoxelLabel": 373,
+      "distanceToSameLabelMm": 0.12518903102203685,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 375,
+      "name": "stratum_oriens_of_uncal_ca3",
+      "nearestVoxelLabel": 374,
+      "distanceToSameLabelMm": 0.07106503931016342,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 404,
+      "name": "molecular_layer_of_rostral_dentate_gyrus",
+      "nearestVoxelLabel": 404,
+      "distanceToSameLabelMm": 0.0478360761008093,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 405,
+      "name": "granular_layer_of_rostral_dentate_gyrus",
+      "nearestVoxelLabel": 404,
+      "distanceToSameLabelMm": 0.16432167564892294,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 407,
+      "name": "polyform_layer_of_rostral_dentate_gyrus",
+      "nearestVoxelLabel": 407,
+      "distanceToSameLabelMm": 0.012411536876697628,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 408,
+      "name": "stratum_lacunosum-moleculare_of_rostral_ca2",
+      "nearestVoxelLabel": 408,
+      "distanceToSameLabelMm": 0.049440563694167744,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 418,
+      "name": "stratum_lacunosum-moleculare_of_rostral_ca3",
+      "nearestVoxelLabel": 418,
+      "distanceToSameLabelMm": 0.03353523198355263,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 419,
+      "name": "stratum_lucidum__of_rostral_ca3",
+      "nearestVoxelLabel": 418,
+      "distanceToSameLabelMm": 0.08993368123694422,
+      "pointInLabel": false
+    },
+    {
+      "block": 19,
+      "id": 420,
+      "name": "stratum_pyramidale_of_rostral_ca3",
+      "nearestVoxelLabel": 420,
+      "distanceToSameLabelMm": 0.049097128185102104,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 421,
+      "name": "stratum_oriens_of_rostral_ca3",
+      "nearestVoxelLabel": 421,
+      "distanceToSameLabelMm": 0.043524748138166036,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 432,
+      "name": "pyramidal_cells_of_rostral_ca4",
+      "nearestVoxelLabel": 432,
+      "distanceToSameLabelMm": 0.037132247334961226,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 461,
+      "name": "fimbria",
+      "nearestVoxelLabel": 461,
+      "distanceToSameLabelMm": 0.049755327451364725,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 384,
+      "name": "midbrain_(mesencephalon)",
+      "nearestVoxelLabel": 384,
+      "distanceToSameLabelMm": 0.04165343831929483,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 451,
+      "name": "interstitial_nucleus_of_cajal",
+      "nearestVoxelLabel": 451,
+      "distanceToSameLabelMm": 0.029141277089686703,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 468,
+      "name": "precommissural_nucleus",
+      "nearestVoxelLabel": 468,
+      "distanceToSameLabelMm": 0.04363269526933789,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 469,
+      "name": "interstitial_nucleus_of_posterior_commissure",
+      "nearestVoxelLabel": 469,
+      "distanceToSameLabelMm": 0.04611354433159766,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 470,
+      "name": "subcommissural_organ",
+      "nearestVoxelLabel": 470,
+      "distanceToSameLabelMm": 0.030134579946250968,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 472,
+      "name": "posterior_commissure",
+      "nearestVoxelLabel": 472,
+      "distanceToSameLabelMm": 0.04358145417020941,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 496,
+      "name": "pretectal_region",
+      "nearestVoxelLabel": 496,
+      "distanceToSameLabelMm": 0.040594406313101815,
+      "pointInLabel": true
+    },
+    {
+      "block": 19,
+      "id": 498,
+      "name": "peripeduncular_nucleus",
+      "nearestVoxelLabel": 498,
+      "distanceToSameLabelMm": 0.04848136257582053,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 393,
+      "name": "tail_of_caudate",
+      "nearestVoxelLabel": 393,
+      "distanceToSameLabelMm": 0.026583423032747272,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 517,
+      "name": "lateral_nucleus_of_pulvinar",
+      "nearestVoxelLabel": 517,
+      "distanceToSameLabelMm": 0.03365438842453038,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 578,
+      "name": "pulvinar_of_thalamus",
+      "nearestVoxelLabel": 7,
+      "distanceToSameLabelMm": 0.13177203704253884,
+      "pointInLabel": false
+    },
+    {
+      "block": 27,
+      "id": 813,
+      "name": "diffuse_pulvinar_nucleus",
+      "nearestVoxelLabel": 813,
+      "distanceToSameLabelMm": 0.05216088030500591,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 526,
+      "name": "brachium_of_superior_colliculus",
+      "nearestVoxelLabel": 526,
+      "distanceToSameLabelMm": 0.019224359164236822,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 558,
+      "name": "molecular_layer_of_caudal_dentate_gyrus",
+      "nearestVoxelLabel": 558,
+      "distanceToSameLabelMm": 0.04056492944606924,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 559,
+      "name": "granular_layer_of_caudal_dentate_gyrus",
+      "nearestVoxelLabel": 559,
+      "distanceToSameLabelMm": 0.05716366704593875,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 561,
+      "name": "polyform_layer_of_caudal_dentate_gyrus",
+      "nearestVoxelLabel": 561,
+      "distanceToSameLabelMm": 0.010237025457061157,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 562,
+      "name": "stratum_lacunosum-moleculare_of_caudal_ca1",
+      "nearestVoxelLabel": 562,
+      "distanceToSameLabelMm": 0.04479425526721486,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 563,
+      "name": "stratum_radiatum_of_caudal_ca1",
+      "nearestVoxelLabel": 563,
+      "distanceToSameLabelMm": 0.03259165059734365,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 564,
+      "name": "stratum_pyramidale_of_caudal_ca1",
+      "nearestVoxelLabel": 564,
+      "distanceToSameLabelMm": 0.016952598614579307,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 565,
+      "name": "stratum_oriens_of_caudal_ca1",
+      "nearestVoxelLabel": 564,
+      "distanceToSameLabelMm": 0.11216879893961765,
+      "pointInLabel": false
+    },
+    {
+      "block": 27,
+      "id": 566,
+      "name": "stratum_lacunosum-moleculare_of_caudal_ca2",
+      "nearestVoxelLabel": 566,
+      "distanceToSameLabelMm": 0.03314164943785095,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 567,
+      "name": "stratum_radiatum_of_caudal_ca2",
+      "nearestVoxelLabel": 567,
+      "distanceToSameLabelMm": 0.030506630988709607,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 568,
+      "name": "stratum_pyramidale_of_caudal_ca2",
+      "nearestVoxelLabel": 568,
+      "distanceToSameLabelMm": 0.05517155545659003,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 569,
+      "name": "stratum_oriens_of_caudal_ca2",
+      "nearestVoxelLabel": 569,
+      "distanceToSameLabelMm": 0.04454326278466548,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 571,
+      "name": "stratum_lacunosum-moleculare_of_caudal_ca3",
+      "nearestVoxelLabel": 571,
+      "distanceToSameLabelMm": 0.027839740976865004,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 572,
+      "name": "stratum_lucidum__of_caudal_ca3",
+      "nearestVoxelLabel": 572,
+      "distanceToSameLabelMm": 0.054790634163121195,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 573,
+      "name": "stratum_pyramidale_of_caudal_ca3",
+      "nearestVoxelLabel": 573,
+      "distanceToSameLabelMm": 0.052516403240443245,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 574,
+      "name": "stratum_oriens_of_caudal_ca3",
+      "nearestVoxelLabel": 574,
+      "distanceToSameLabelMm": 0.05148767749440389,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 575,
+      "name": "pyramidal_cells_of_caudal_ca4",
+      "nearestVoxelLabel": 575,
+      "distanceToSameLabelMm": 0.05539328697581011,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 576,
+      "name": "caudal_subiculum",
+      "nearestVoxelLabel": 576,
+      "distanceToSameLabelMm": 0.031006769696688738,
+      "pointInLabel": true
+    },
+    {
+      "block": 27,
+      "id": 526,
+      "name": "brachium_of_superior_colliculus",
+      "nearestVoxelLabel": 526,
+      "distanceToSameLabelMm": 0.019224359164236822,
+      "pointInLabel": true
+    },
+    {
+      "block": 35,
+      "id": 99,
+      "name": "anterior_olfactory_nucleus",
+      "nearestVoxelLabel": 99,
+      "distanceToSameLabelMm": 0.026215065978562126,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 184,
+      "name": "stria_terminalis",
+      "nearestVoxelLabel": 370,
+      "distanceToSameLabelMm": 0.1676481582890678,
+      "pointInLabel": false
+    },
+    {
+      "block": 37,
+      "id": 349,
+      "name": "posteroventral_putamen",
+      "nearestVoxelLabel": 349,
+      "distanceToSameLabelMm": 0.043375360308103475,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 218,
+      "name": "thalamus",
+      "nearestVoxelLabel": 218,
+      "distanceToSameLabelMm": 0.04182167437532651,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 222,
+      "name": "parvocellular_division_of_va",
+      "nearestVoxelLabel": 222,
+      "distanceToSameLabelMm": 0.028986756565689456,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 225,
+      "name": "paraventricular_nucleus",
+      "nearestVoxelLabel": 225,
+      "distanceToSameLabelMm": 0.023251384712453554,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 226,
+      "name": "zona_incerta",
+      "nearestVoxelLabel": 226,
+      "distanceToSameLabelMm": 0.039625332942426296,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 253,
+      "name": "reuniens_nucleus_(medioventral_nucleus)_of_thalamus",
+      "nearestVoxelLabel": 253,
+      "distanceToSameLabelMm": 0.02547312070421662,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 274,
+      "name": "ventral_medial_nucleus_of_thalamus",
+      "nearestVoxelLabel": 274,
+      "distanceToSameLabelMm": 0.022551934238186893,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 276,
+      "name": "mammillothalamic_tract",
+      "nearestVoxelLabel": 276,
+      "distanceToSameLabelMm": 0.046938247343424375,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 282,
+      "name": "magnocellular_(medial)_division_of_md",
+      "nearestVoxelLabel": 312,
+      "distanceToSameLabelMm": 0.08880452259633052,
+      "pointInLabel": false
+    },
+    {
+      "block": 37,
+      "id": 283,
+      "name": "magnocellular_division_of_va",
+      "nearestVoxelLabel": 283,
+      "distanceToSameLabelMm": 0.051800864806808435,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 284,
+      "name": "central_medial_nucleus_of_thalamus",
+      "nearestVoxelLabel": 284,
+      "distanceToSameLabelMm": 0.05249529004477314,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 285,
+      "name": "paracentral_nucleus_of_thalamus",
+      "nearestVoxelLabel": 313,
+      "distanceToSameLabelMm": 0.16192636663591523,
+      "pointInLabel": false
+    },
+    {
+      "block": 37,
+      "id": 303,
+      "name": "central_dorsal_nucleus_of_thalamus",
+      "nearestVoxelLabel": 303,
+      "distanceToSameLabelMm": 0.023957621071145185,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 312,
+      "name": "central_part_of_medial_division_of_md",
+      "nearestVoxelLabel": 312,
+      "distanceToSameLabelMm": 0.0499781629598215,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 314,
+      "name": "rostral_division_of_vl",
+      "nearestVoxelLabel": 314,
+      "distanceToSameLabelMm": 0.047833459463418944,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 322,
+      "name": "thalamic_fasciculus",
+      "nearestVoxelLabel": 322,
+      "distanceToSameLabelMm": 0.039928053822743476,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 350,
+      "name": "dorsal_subdivision_of_vlc",
+      "nearestVoxelLabel": 350,
+      "distanceToSameLabelMm": 0.05043670426181365,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 378,
+      "name": "lateral_dorsal_nucleus_of_thalamus",
+      "nearestVoxelLabel": 378,
+      "distanceToSameLabelMm": 0.03191961672511313,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 379,
+      "name": "densocelllular_(paralamellar)_division_of_md",
+      "nearestVoxelLabel": 379,
+      "distanceToSameLabelMm": 0.026650493128301485,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 381,
+      "name": "ventral_subdivision_of_vlc",
+      "nearestVoxelLabel": 381,
+      "distanceToSameLabelMm": 0.023380673538890413,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 382,
+      "name": "medial_subdivision_of_vlc_(area_x)",
+      "nearestVoxelLabel": 382,
+      "distanceToSameLabelMm": 0.06109266066106595,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 394,
+      "name": "rostral_division_of_ventral_posterior_lateral_nucleus",
+      "nearestVoxelLabel": 394,
+      "distanceToSameLabelMm": 0.01340020886974755,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 395,
+      "name": "parvocellular_division_of_vpm",
+      "nearestVoxelLabel": 395,
+      "distanceToSameLabelMm": 0.05793148297238735,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 396,
+      "name": "lateral_division_of_centromedian_nucleus_of_thalamus",
+      "nearestVoxelLabel": 396,
+      "distanceToSameLabelMm": 0.03278190094772163,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 397,
+      "name": "medial_division_of_centromedian_nucleus_of_thalamus",
+      "nearestVoxelLabel": 397,
+      "distanceToSameLabelMm": 0.02873072232489073,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 398,
+      "name": "parafascicular_nucleus_of_thalamus",
+      "nearestVoxelLabel": 398,
+      "distanceToSameLabelMm": 0.051417413152328256,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 399,
+      "name": "periventricular_area_of_thalamus",
+      "nearestVoxelLabel": 399,
+      "distanceToSameLabelMm": 0.009559013117089583,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 400,
+      "name": "nucleus_of_the_field_of_forel",
+      "nearestVoxelLabel": 400,
+      "distanceToSameLabelMm": 0.029752378423006362,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 426,
+      "name": "subparafascicular_nucleus_of_thalamus",
+      "nearestVoxelLabel": 426,
+      "distanceToSameLabelMm": 0.0456553274193667,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 320,
+      "name": "amygdalohippocampal_transition_area",
+      "nearestVoxelLabel": 320,
+      "distanceToSameLabelMm": 0.015501690347731372,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 339,
+      "name": "stratum_lacunosum-moleculare_of_uncal_ca1",
+      "nearestVoxelLabel": 339,
+      "distanceToSameLabelMm": 0.056367742794187256,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 340,
+      "name": "stratum_radiatum_of_uncal_ca1",
+      "nearestVoxelLabel": 340,
+      "distanceToSameLabelMm": 0.03912463942692576,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 341,
+      "name": "stratum_pyramidale_of_uncal_ca1",
+      "nearestVoxelLabel": 341,
+      "distanceToSameLabelMm": 0.06653507943120171,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 342,
+      "name": "stratum_oriens_of_uncal_ca1",
+      "nearestVoxelLabel": 342,
+      "distanceToSameLabelMm": 0.037818889732845216,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 354,
+      "name": "alveus",
+      "nearestVoxelLabel": 354,
+      "distanceToSameLabelMm": 0.06389932280293653,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 364,
+      "name": "molecular_layer_of_uncal_dentate_gyrus",
+      "nearestVoxelLabel": 364,
+      "distanceToSameLabelMm": 0.05983245137505172,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 365,
+      "name": "granular_layer_of_uncal_dentate_gyrus",
+      "nearestVoxelLabel": 364,
+      "distanceToSameLabelMm": 0.13104978463408876,
+      "pointInLabel": false
+    },
+    {
+      "block": 37,
+      "id": 367,
+      "name": "polyform_layer_of_uncal_dentate_gyrus",
+      "nearestVoxelLabel": 367,
+      "distanceToSameLabelMm": 0.043533101099908884,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 368,
+      "name": "stratum_lacunosum-moleculare_of_uncal_ca2",
+      "nearestVoxelLabel": 368,
+      "distanceToSameLabelMm": 0.02314404666158514,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 369,
+      "name": "stratum_radiatum_of_uncal_ca2",
+      "nearestVoxelLabel": 369,
+      "distanceToSameLabelMm": 0.021573316305355642,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 370,
+      "name": "stratum_pyramidale_of_uncal_ca2",
+      "nearestVoxelLabel": 370,
+      "distanceToSameLabelMm": 0.046771164339979486,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 371,
+      "name": "stratum_oriens_of_uncal_ca2",
+      "nearestVoxelLabel": 371,
+      "distanceToSameLabelMm": 0.05612081189869533,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 409,
+      "name": "stratum_radiatum_of_rostral_ca2",
+      "nearestVoxelLabel": 409,
+      "distanceToSameLabelMm": 0.062144120855703006,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 410,
+      "name": "stratum_pyramidale_of_rostral_ca2",
+      "nearestVoxelLabel": 410,
+      "distanceToSameLabelMm": 0.02913866082550734,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 411,
+      "name": "stratum_oriens_of_rostral_ca2",
+      "nearestVoxelLabel": 411,
+      "distanceToSameLabelMm": 0.0442144635941822,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 422,
+      "name": "pyramidal_cells_of_uncal_ca4",
+      "nearestVoxelLabel": 422,
+      "distanceToSameLabelMm": 0.04623610764509743,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 277,
+      "name": "medial_subdivision_of_central_nucleus",
+      "nearestVoxelLabel": 277,
+      "distanceToSameLabelMm": 0.014604922085464244,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 278,
+      "name": "lateral_subdivision_of_central_nucleus",
+      "nearestVoxelLabel": 278,
+      "distanceToSameLabelMm": 0.011712171180688362,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 279,
+      "name": "rostral_subdivision_of_medial_nucleus",
+      "nearestVoxelLabel": 279,
+      "distanceToSameLabelMm": 0.0521850958287098,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 295,
+      "name": "amygdalostriatal_transition_area",
+      "nearestVoxelLabel": 295,
+      "distanceToSameLabelMm": 0.048395684518218664,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 275,
+      "name": "posterior_hypothalamic_nucleus",
+      "nearestVoxelLabel": 275,
+      "distanceToSameLabelMm": 0.03856060892763881,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 297,
+      "name": "lateral__hypothalamic_area__posterior_part",
+      "nearestVoxelLabel": 297,
+      "distanceToSameLabelMm": 0.046337901788498705,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 298,
+      "name": "mammillary_peduncle",
+      "nearestVoxelLabel": 298,
+      "distanceToSameLabelMm": 0.05785486293756172,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 304,
+      "name": "supramammillary_nucleus",
+      "nearestVoxelLabel": 304,
+      "distanceToSameLabelMm": 0.03504677105720435,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 305,
+      "name": "lateral_part_of_medial_mammillary_nucleus",
+      "nearestVoxelLabel": 305,
+      "distanceToSameLabelMm": 0.043379659973745134,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 306,
+      "name": "medial_part_of_medial_mammillary_nucleus",
+      "nearestVoxelLabel": 306,
+      "distanceToSameLabelMm": 0.03877216484580202,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 307,
+      "name": "basal_division_of_medial_mammillary_nucleus",
+      "nearestVoxelLabel": 307,
+      "distanceToSameLabelMm": 0.03698496528234903,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 309,
+      "name": "lenticular_fasciculus",
+      "nearestVoxelLabel": 309,
+      "distanceToSameLabelMm": 0.04499833742659985,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 310,
+      "name": "substantia_nigra__reticular_part",
+      "nearestVoxelLabel": 310,
+      "distanceToSameLabelMm": 0.019933599470953342,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 385,
+      "name": "red_nucleus",
+      "nearestVoxelLabel": 385,
+      "distanceToSameLabelMm": 0.044957487465660355,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 401,
+      "name": "parabrachial_pigmented_nucleus",
+      "nearestVoxelLabel": 401,
+      "distanceToSameLabelMm": 0.05382236282672845,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 431,
+      "name": "white_matter_of_midbrain",
+      "nearestVoxelLabel": 431,
+      "distanceToSameLabelMm": 0.013098502539970233,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 315,
+      "name": "medial_portion_of_sth",
+      "nearestVoxelLabel": 315,
+      "distanceToSameLabelMm": 0.027871106289354686,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 316,
+      "name": "laterodorsal_portion_of_sth",
+      "nearestVoxelLabel": 316,
+      "distanceToSameLabelMm": 0.03368812591248788,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 321,
+      "name": "lateroventral_portion_of_sth",
+      "nearestVoxelLabel": 321,
+      "distanceToSameLabelMm": 0.06248630403692382,
+      "pointInLabel": true
+    },
+    {
+      "block": 37,
+      "id": 433,
+      "name": "parasubthalamic_nucleus",
+      "nearestVoxelLabel": 403,
+      "distanceToSameLabelMm": 0.10969715098565505,
+      "pointInLabel": false
+    },
+    {
+      "block": 38,
+      "id": 655,
+      "name": "amiculum_of_the_olive",
+      "nearestVoxelLabel": 654,
+      "distanceToSameLabelMm": 0.09996272128242926,
+      "pointInLabel": false
+    },
+    {
+      "block": 38,
+      "id": 662,
+      "name": "myelencephalon_(medulla_oblongata)",
+      "nearestVoxelLabel": 695,
+      "distanceToSameLabelMm": 0.09989818206830055,
+      "pointInLabel": false
+    },
+    {
+      "block": 41,
+      "id": 7,
+      "name": "white_matter_of_forebrain",
+      "nearestVoxelLabel": 7,
+      "distanceToSameLabelMm": 0.029582161638954337,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 102,
+      "name": "claustrum",
+      "nearestVoxelLabel": 102,
+      "distanceToSameLabelMm": 0.020345318905162002,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 120,
+      "name": "ventral_pallidus",
+      "nearestVoxelLabel": 120,
+      "distanceToSameLabelMm": 0.012684998490900441,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 130,
+      "name": "anterior_commissure",
+      "nearestVoxelLabel": 130,
+      "distanceToSameLabelMm": 0.028690452881214315,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 174,
+      "name": "temporal_claustrum",
+      "nearestVoxelLabel": 174,
+      "distanceToSameLabelMm": 0.033942462325517286,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 108,
+      "name": "basal_nucleus_of_meynert",
+      "nearestVoxelLabel": 108,
+      "distanceToSameLabelMm": 0.038439567424528594,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 111,
+      "name": "diagonal_band",
+      "nearestVoxelLabel": 111,
+      "distanceToSameLabelMm": 0.010364726179107539,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 117,
+      "name": "bed_nucleus_of_stria_terminalis",
+      "nearestVoxelLabel": 117,
+      "distanceToSameLabelMm": 0.04598899859592519,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 128,
+      "name": "substantia_innominata",
+      "nearestVoxelLabel": 128,
+      "distanceToSameLabelMm": 0.03348125170739427,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 157,
+      "name": "layer_iii_of_piriform_cortex",
+      "nearestVoxelLabel": 0,
+      "distanceToSameLabelMm": 0.12144772853598904,
+      "pointInLabel": false
+    },
+    {
+      "block": 41,
+      "id": 190,
+      "name": "magnocellular_division_of_reticular_nucleus",
+      "nearestVoxelLabel": 218,
+      "distanceToSameLabelMm": 0.14266378390317422,
+      "pointInLabel": false
+    },
+    {
+      "block": 41,
+      "id": 191,
+      "name": "parvocellular_division_of_reticular_nucleus_(perireticular_nucleus)",
+      "nearestVoxelLabel": 191,
+      "distanceToSameLabelMm": 0.04375062939654698,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 201,
+      "name": "stria_medullaris_of_thalamus",
+      "nearestVoxelLabel": 201,
+      "distanceToSameLabelMm": 0.0472978682773627,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 219,
+      "name": "anterodorsal_nucleus_of_thalamus",
+      "nearestVoxelLabel": 219,
+      "distanceToSameLabelMm": 0.04057267352406373,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 220,
+      "name": "anteroventral_nucleus_of_thalamus",
+      "nearestVoxelLabel": 220,
+      "distanceToSameLabelMm": 0.03949402866261226,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 221,
+      "name": "parataenial_nucleus_of_thalamus",
+      "nearestVoxelLabel": 225,
+      "distanceToSameLabelMm": 0.10783151748196723,
+      "pointInLabel": false
+    },
+    {
+      "block": 41,
+      "id": 223,
+      "name": "fasciculosus_nucleus_of_thalamus",
+      "nearestVoxelLabel": 223,
+      "distanceToSameLabelMm": 0.019079448554224224,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 224,
+      "name": "rhomboid_(central)_nucleus_of_thalamus",
+      "nearestVoxelLabel": 224,
+      "distanceToSameLabelMm": 0.03996599858514914,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 246,
+      "name": "inferior_thalamic_peduncle",
+      "nearestVoxelLabel": 246,
+      "distanceToSameLabelMm": 0.02844947528787759,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 252,
+      "name": "anteromedial_nucleus_of_thalamus",
+      "nearestVoxelLabel": 252,
+      "distanceToSameLabelMm": 0.04132058008191309,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 118,
+      "name": "body_of_caudate",
+      "nearestVoxelLabel": 118,
+      "distanceToSameLabelMm": 0.03750104825936304,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 79,
+      "name": "putamen",
+      "nearestVoxelLabel": 79,
+      "distanceToSameLabelMm": 0.022157290442060055,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 119,
+      "name": "external_segment_of_globus_pallidus",
+      "nearestVoxelLabel": 119,
+      "distanceToSameLabelMm": 0.033716677087243525,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 206,
+      "name": "internal_segment_of_globus_pallidus",
+      "nearestVoxelLabel": 206,
+      "distanceToSameLabelMm": 0.031111586997734916,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 214,
+      "name": "amygdaloid_complex",
+      "nearestVoxelLabel": 214,
+      "distanceToSameLabelMm": 0.05381037603762834,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 215,
+      "name": "anterior_amygdaloid_area",
+      "nearestVoxelLabel": 215,
+      "distanceToSameLabelMm": 0.03482198250240243,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 216,
+      "name": "basolateral_nucleus_(basal_nucleus)",
+      "nearestVoxelLabel": 216,
+      "distanceToSameLabelMm": 0.006590244645074918,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 217,
+      "name": "ventral_division_of_basomedial_nucleus",
+      "nearestVoxelLabel": 217,
+      "distanceToSameLabelMm": 0.0613415659457052,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 238,
+      "name": "ventral_subdivision_of_coa",
+      "nearestVoxelLabel": 238,
+      "distanceToSameLabelMm": 0.01802884726659696,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 240,
+      "name": "paralaminar_nucleus",
+      "nearestVoxelLabel": 240,
+      "distanceToSameLabelMm": 0.04976753281548085,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 242,
+      "name": "amygdalocortical_(corticoamygdaloid)_transition_area",
+      "nearestVoxelLabel": 242,
+      "distanceToSameLabelMm": 0.019264845306564908,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 301,
+      "name": "amygdalohippocampal_area",
+      "nearestVoxelLabel": 301,
+      "distanceToSameLabelMm": 0.05433145231501844,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 377,
+      "name": "lateral_nucleus",
+      "nearestVoxelLabel": 377,
+      "distanceToSameLabelMm": 0.027012462380625244,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 149,
+      "name": "lateral_preoptic_area",
+      "nearestVoxelLabel": 149,
+      "distanceToSameLabelMm": 0.04726458025583219,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 150,
+      "name": "median_preoptic_nucleus",
+      "nearestVoxelLabel": 150,
+      "distanceToSameLabelMm": 0.04645399312286235,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 160,
+      "name": "suprachiasmatic_nucleus",
+      "nearestVoxelLabel": 160,
+      "distanceToSameLabelMm": 0.016259022743609918,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 181,
+      "name": "supraoptic_region_of_hth",
+      "nearestVoxelLabel": 181,
+      "distanceToSameLabelMm": 0.04246018466509847,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 192,
+      "name": "medial_preoptic_nucleus",
+      "nearestVoxelLabel": 192,
+      "distanceToSameLabelMm": 0.052105681836282725,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 193,
+      "name": "anterior_hypothalamic_nucleus",
+      "nearestVoxelLabel": 193,
+      "distanceToSameLabelMm": 0.02431119211150852,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 194,
+      "name": "paraventricular_nucleus_of_hypothalamus",
+      "nearestVoxelLabel": 194,
+      "distanceToSameLabelMm": 0.051723121399600946,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 196,
+      "name": "supraoptic_nucleus",
+      "nearestVoxelLabel": 196,
+      "distanceToSameLabelMm": 0.019880207601347157,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 207,
+      "name": "periventricular_nucleus__supraoptic_portion",
+      "nearestVoxelLabel": 0,
+      "distanceToSameLabelMm": 0.10446378624259275,
+      "pointInLabel": false
+    },
+    {
+      "block": 41,
+      "id": 227,
+      "name": "periventricular_nucleus__tuberal_portion",
+      "nearestVoxelLabel": 227,
+      "distanceToSameLabelMm": 0.04151979670039519,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 228,
+      "name": "juxtaparaventricular_lateral_hypothalamic_area",
+      "nearestVoxelLabel": 228,
+      "distanceToSameLabelMm": 0.045972532241218625,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 229,
+      "name": "dorsomedial_hypothalamic_nucleus",
+      "nearestVoxelLabel": 229,
+      "distanceToSameLabelMm": 0.034417443233321354,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 230,
+      "name": "lateral_hypothalamic_area__tuberal_part",
+      "nearestVoxelLabel": 230,
+      "distanceToSameLabelMm": 0.04681793325889265,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 232,
+      "name": "pallidohypothalamic_area",
+      "nearestVoxelLabel": 232,
+      "distanceToSameLabelMm": 0.03258926354369838,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 234,
+      "name": "medial_corticohypothalamic_tract",
+      "nearestVoxelLabel": 234,
+      "distanceToSameLabelMm": 0.04793856933436755,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 243,
+      "name": "dorsal_part_of_ventromedial_hypothalamic_nucleus",
+      "nearestVoxelLabel": 243,
+      "distanceToSameLabelMm": 0.017699474136013568,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 244,
+      "name": "ventral_part_of_ventromedial_hypothalamic_nucleus",
+      "nearestVoxelLabel": 244,
+      "distanceToSameLabelMm": 0.020880796570175976,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 245,
+      "name": "arcuate_nucleus_of_hypothalamus",
+      "nearestVoxelLabel": 245,
+      "distanceToSameLabelMm": 0.03511398220173473,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 255,
+      "name": "central_part_of_ventromedial_hypothalamic_nucleus",
+      "nearestVoxelLabel": 255,
+      "distanceToSameLabelMm": 0.05334525857605883,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 256,
+      "name": "tuberomammillary_nucleus",
+      "nearestVoxelLabel": 256,
+      "distanceToSameLabelMm": 0.05388024913960711,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 268,
+      "name": "lateral_tuberal_nuclei",
+      "nearestVoxelLabel": 268,
+      "distanceToSameLabelMm": 0.048438732486429215,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 308,
+      "name": "lateral_mammillary_nucleus",
+      "nearestVoxelLabel": 308,
+      "distanceToSameLabelMm": 0.06473207482143904,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 843,
+      "name": "infundibular_stalk",
+      "nearestVoxelLabel": 843,
+      "distanceToSameLabelMm": 0.056911824131398864,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 208,
+      "name": "optic_tract",
+      "nearestVoxelLabel": 208,
+      "distanceToSameLabelMm": 0.04080984449199261,
+      "pointInLabel": true
+    },
+    {
+      "block": 41,
+      "id": 209,
+      "name": "supraoptic_dicussation",
+      "nearestVoxelLabel": 209,
+      "distanceToSameLabelMm": 0.010249228153477322,
+      "pointInLabel": true
+    }
+  ],
+  "summary": {
+    "points": 239,
+    "exactMatches": 213,
+    "within1mm": 239,
+    "within2mm": 239,
+    "maxDisplayZError": 3.50732853959812e-06
+  }
+}

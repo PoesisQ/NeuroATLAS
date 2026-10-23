@@ -1,0 +1,72 @@
+{
+  "spaces": {
+    "bp3d": {
+      "objects": 24,
+      "vertices": 64210,
+      "triangles": 120326,
+      "gzipBytes": 863246,
+      "quantizationMaxAbsErrorMM": 0.0008082280035637268,
+      "bufferBytes": 1107236,
+      "sha256": "ee44ee7ba850249ebdc1a185088bfbd8f627a430dcee8797c4c215e539071882",
+      "rigidTransformDeterminant": 1.0,
+      "smoothingApplied": false,
+      "mirroredCopies": false
+    },
+    "uw": {
+      "objects": 18,
+      "vertices": 457883,
+      "triangles": 919784,
+      "gzipBytes": 4936914,
+      "quantizationMaxAbsErrorMM": 0.0010085259784844425,
+      "bufferBytes": 12979212,
+      "sha256": "19211e50593f92ff1d757fa5750bbd4f0a2f0a5c7cd87bd1cdba04f3b0c0214c",
+      "rigidTransformDeterminant": 1.0,
+      "smoothingApplied": false,
+      "mirroredCopies": false,
+      "removedArrayCaps": {
+        "eyes": 0,
+        "septum": 0,
+        "optic nerves": 0,
+        "internal carotid artery": 0,
+        "nasolacrimal duct": 0,
+        "foramen ovale": 0,
+        "foramen spinosum": 0,
+        "foramen rotundum": 0,
+        "vidian canal": 0,
+        "pterygopalatine fossa": 0,
+        "pituitary": 0,
+        "cavernous sinus": 0,
+        "extraocular muscles": 0,
+        "bone of anterior cranial fossa": 338
+      },
+      "sideAssignment": {
+        "meshBinarySha256": "2ebec1a1e39a8a891d898c02995eedfae51c6aaa727157caa1796ccf3cabaedc",
+        "sourceSpace": "RAS mm",
+        "referencePlaneXmm": 12.821083857642044,
+        "assignmentBandHalfWidthMm": 2.0,
+        "method": "Connected components of original triangle-index graph; each component assigned only if its complete vertex bounding box is outside the septum reference plane +/-2 mm band.",
+        "sideMeaning": "Positive R relative to reference plane is patient right; negative R is patient left.",
+        "anatomicalRegistrationPerformed": false,
+        "verticesModified": false,
+        "facesModified": false,
+        "meshFilesRewritten": false,
+        "interpretation": "Reliable coarse side assignment for these spatially separated components. It does not identify a precise midsagittal plane, establish anatomical boundaries, or improve source segmentation accuracy."
+      }
+    },
+    "p41": {
+      "objects": 33,
+      "vertices": 289147,
+      "triangles": 573248,
+      "gzipBytes": 3932411,
+      "quantizationMaxAbsErrorMM": 0.0006835668576528064,
+      "bufferBytes": 7185516,
+      "sha256": "f7944c2abce17b616752a28158caa8f69f7919d786922f04b5913c2c9681e896",
+      "rigidTransformDeterminant": 1.0,
+      "smoothingApplied": false,
+      "mirroredCopies": false
+    }
+  },
+  "noInterAtlasRegistration": true,
+  "sourceVertexAndTriangleChecks": true,
+  "note": "Geometry checks are not expert anatomical validation."
+}

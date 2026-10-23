@@ -1,0 +1,3414 @@
+{
+  "source": "DBCLS official public download.cgi",
+  "version": "20181210i412",
+  "downloadEndpoint": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "officialObjectMapSHA256": "1fa9a59633ed013054ff768e90767e8eca81d2adefab3e0f1ae6993d68efd0e5",
+  "sourceRows": [
+    {
+      "id": "CX229",
+      "bp": "BP99604",
+      "fma": "FMA72704",
+      "en": "Left anterior accessory gyrus",
+      "synonyms": "",
+      "originalName": "left_anterior_accessory_gyrus.obj",
+      "originalGroup": "left_anterior_accessory_gyrus"
+    },
+    {
+      "id": "FJ1837",
+      "bp": "BP99007",
+      "fma": "FMA72801",
+      "en": "Anterior part of left superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_temporal_gyrus_ant_L.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1838",
+      "bp": "BP99006",
+      "fma": "FMA72800",
+      "en": "Anterior part of right superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_temporal_gyrus_ant_R.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1839",
+      "bp": "BP99009",
+      "fma": "FMA72805",
+      "en": "Posterior part of left superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_temporal_gyrus_post_L.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "FJ1840",
+      "bp": "BP99008",
+      "fma": "FMA72804",
+      "en": "Posterior part of right superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "110425-brain_superior_temporal_gyrus_post_R.obj",
+      "originalGroup": "DBCLS__FUJIEDA_1110425-brain_obj"
+    },
+    {
+      "id": "MM232",
+      "bp": "BP98957",
+      "fma": "FMA72721",
+      "en": "Left first posterior central gyrus",
+      "synonyms": "",
+      "originalName": "FIRST POSTERIOR CENTRAL GYRUS (LONG).obj",
+      "originalGroup": "FIRST POSTERIOR CENTRAL GYRUS (LONG)"
+    },
+    {
+      "id": "MM232M",
+      "bp": "BP98956",
+      "fma": "FMA72720",
+      "en": "Right first posterior central gyrus",
+      "synonyms": "",
+      "originalName": "FIRST POSTERIOR CENTRAL GYRUS (LONG).obj",
+      "originalGroup": "FIRST POSTERIOR CENTRAL GYRUS (LONG)"
+    },
+    {
+      "id": "MM233",
+      "bp": "BP98959",
+      "fma": "FMA72723",
+      "en": "Left second posterior central gyrus",
+      "synonyms": "",
+      "originalName": "SECOND POSTERIOR CENTRAL GYRUS (LONG).obj",
+      "originalGroup": "SECOND POSTERIOR CENTRAL GYRUS (LONG)"
+    },
+    {
+      "id": "MM233M",
+      "bp": "BP98958",
+      "fma": "FMA72722",
+      "en": "Right second posterior central gyrus",
+      "synonyms": "",
+      "originalName": "SECOND POSTERIOR CENTRAL GYRUS (LONG).obj",
+      "originalGroup": "SECOND POSTERIOR CENTRAL GYRUS (LONG)"
+    },
+    {
+      "id": "MM235",
+      "bp": "BP98963",
+      "fma": "FMA72728",
+      "en": "Left second short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT SECOND.obj",
+      "originalGroup": "INSULA SHORT SECOND"
+    },
+    {
+      "id": "MM235M",
+      "bp": "BP98962",
+      "fma": "FMA72726",
+      "en": "Right second short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT SECOND.obj",
+      "originalGroup": "INSULA SHORT SECOND"
+    },
+    {
+      "id": "MM236",
+      "bp": "BP98961",
+      "fma": "FMA72725",
+      "en": "Left first short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT FIRST.obj",
+      "originalGroup": "INSULA SHORT FIRST"
+    },
+    {
+      "id": "MM236M",
+      "bp": "BP98960",
+      "fma": "FMA72724",
+      "en": "Right first short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT FIRST.obj",
+      "originalGroup": "INSULA SHORT FIRST"
+    },
+    {
+      "id": "MM237",
+      "bp": "BP98965",
+      "fma": "FMA72730",
+      "en": "Left intermediate short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT INTERMED.obj",
+      "originalGroup": "INSULA SHORT INTERMED"
+    },
+    {
+      "id": "MM237M",
+      "bp": "BP98964",
+      "fma": "FMA72729",
+      "en": "Right intermediate short gyrus of insula",
+      "synonyms": "",
+      "originalName": "INSULA SHORT INTERMED.obj",
+      "originalGroup": "INSULA SHORT INTERMED"
+    },
+    {
+      "id": "MM270",
+      "bp": "BP99608",
+      "fma": "FMA72737",
+      "en": "Left presubiculum",
+      "synonyms": "",
+      "originalName": "PRECUBICULUM.obj",
+      "originalGroup": "PRECUBICULUM"
+    },
+    {
+      "id": "MM270M",
+      "bp": "BP99607",
+      "fma": "FMA72736",
+      "en": "Right presubiculum",
+      "synonyms": "",
+      "originalName": "PRECUBICULUM.obj",
+      "originalGroup": "PRECUBICULUM"
+    },
+    {
+      "id": "MM2850",
+      "bp": "BP101871",
+      "fma": "FMA72855",
+      "en": "Tail of left caudate nucleus",
+      "synonyms": "Left caudate nuclear tail",
+      "originalName": "BG-CAUDATE-TAIL.obj",
+      "originalGroup": "BG-CAUDATE-TAIL"
+    },
+    {
+      "id": "MM2850M",
+      "bp": "BP101870",
+      "fma": "FMA72854",
+      "en": "Tail of right caudate nucleus",
+      "synonyms": "Right caudate nuclear tail",
+      "originalName": "BG-CAUDATE-TAIL.obj",
+      "originalGroup": "BG-CAUDATE-TAIL"
+    },
+    {
+      "id": "MM2870",
+      "bp": "BP101869",
+      "fma": "FMA72853",
+      "en": "Body of left caudate nucleus",
+      "synonyms": "Left caudate nuclear body",
+      "originalName": "BG-caudate-body.obj",
+      "originalGroup": "BG-caudate-body"
+    },
+    {
+      "id": "MM2870M",
+      "bp": "BP101868",
+      "fma": "FMA72852",
+      "en": "Body of right caudate nucleus",
+      "synonyms": "Right caudate nuclear body",
+      "originalName": "BG-caudate-body.obj",
+      "originalGroup": "BG-caudate-body"
+    },
+    {
+      "id": "MM2879",
+      "bp": "BP101873",
+      "fma": "FMA72857",
+      "en": "Left lateral globus pallidus",
+      "synonyms": "",
+      "originalName": "BG-GP-#3.obj",
+      "originalGroup": "BG-GP-#3"
+    },
+    {
+      "id": "MM2879M",
+      "bp": "BP101872",
+      "fma": "FMA72856",
+      "en": "Right lateral globus pallidus",
+      "synonyms": "",
+      "originalName": "GP-#3.obj",
+      "originalGroup": "GP-#3"
+    },
+    {
+      "id": "MM2915",
+      "bp": "BP101875",
+      "fma": "FMA72859",
+      "en": "Left medial globus pallidus",
+      "synonyms": "",
+      "originalName": "BG-GP-#1.obj",
+      "originalGroup": "BG-GP-#1"
+    },
+    {
+      "id": "MM2915M",
+      "bp": "BP101874",
+      "fma": "FMA72858",
+      "en": "Right medial globus pallidus",
+      "synonyms": "",
+      "originalName": "GP-#1.obj",
+      "originalGroup": "GP-#1"
+    },
+    {
+      "id": "MM2918",
+      "bp": "BP101915",
+      "fma": "FMA72948",
+      "en": "Medial medullary lamina of left globus pallidus",
+      "synonyms": "",
+      "originalName": "BG-GP-#2.obj",
+      "originalGroup": "BG-GP-#2"
+    },
+    {
+      "id": "MM2918M",
+      "bp": "BP101914",
+      "fma": "FMA72947",
+      "en": "Medial medullary lamina of right globus pallidus",
+      "synonyms": "",
+      "originalName": "GP-#2.obj",
+      "originalGroup": "GP-#2"
+    },
+    {
+      "id": "MM3000",
+      "bp": "BP98953",
+      "fma": "FMA72712",
+      "en": "Left fasciolar gyrus",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA3-fasciolar gyrus.obj",
+      "originalGroup": "HIPP-AMMON-CA3-fasciolar gyrus"
+    },
+    {
+      "id": "MM3000M",
+      "bp": "BP98952",
+      "fma": "FMA72711",
+      "en": "Right fasciolar gyrus",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA3-fasciolar gyrus.obj",
+      "originalGroup": "HIPP-AMMON-CA3-fasciolar gyrus"
+    },
+    {
+      "id": "MM3031",
+      "bp": "BP99144",
+      "fma": "FMA275097",
+      "en": "Left fasciola cinerea",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-faciola cinerea-dentate gyrus.obj",
+      "originalGroup": "HIPP-AMMON-faciola cinerea-dentate gyrus"
+    },
+    {
+      "id": "MM3031M",
+      "bp": "BP99143",
+      "fma": "FMA275095",
+      "en": "Right fasciola cinerea",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-faciola cinerea-dentate gyrus.obj",
+      "originalGroup": "HIPP-AMMON-faciola cinerea-dentate gyrus"
+    },
+    {
+      "id": "MM3042",
+      "bp": "BP98695",
+      "fma": "FMA75741-L",
+      "en": "LEFT ca4 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA4.obj",
+      "originalGroup": "HIPP-AMMON-CA4"
+    },
+    {
+      "id": "MM3042M",
+      "bp": "BP98694",
+      "fma": "FMA75741-R",
+      "en": "RIGHT ca4 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA4.obj",
+      "originalGroup": "HIPP-AMMON-CA4"
+    },
+    {
+      "id": "MM3046",
+      "bp": "BP98955",
+      "fma": "FMA72716",
+      "en": "Dentate gyrus of left hippocampus",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-dentate gyrus-proper.obj",
+      "originalGroup": "HIPP-AMMON-dentate gyrus-proper"
+    },
+    {
+      "id": "MM3046M",
+      "bp": "BP98954",
+      "fma": "FMA72715",
+      "en": "Dentate gyrus of right hippocampus",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-dentate gyrus-proper.obj",
+      "originalGroup": "HIPP-AMMON-dentate gyrus-proper"
+    },
+    {
+      "id": "MM3048",
+      "bp": "BP98689",
+      "fma": "FMA74042-L",
+      "en": "LEFT ca1 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA1-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA1-proper"
+    },
+    {
+      "id": "MM3048M",
+      "bp": "BP98688",
+      "fma": "FMA74042-R",
+      "en": "RIGHT ca1 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA1-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA1-proper"
+    },
+    {
+      "id": "MM3054",
+      "bp": "BP98651",
+      "fma": "FMA274965",
+      "en": "Anterior segment of left uncus",
+      "synonyms": "",
+      "originalName": "AMY-ambient gyrus.obj",
+      "originalGroup": "AMY-ambient gyrus"
+    },
+    {
+      "id": "MM3054M",
+      "bp": "BP98650",
+      "fma": "FMA274963",
+      "en": "Anterior segment of right uncus",
+      "synonyms": "",
+      "originalName": "AMY-ambient gyrus.obj",
+      "originalGroup": "AMY-ambient gyrus"
+    },
+    {
+      "id": "MM3127",
+      "bp": "BP98975",
+      "fma": "FMA72753",
+      "en": "Opercular part of left inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-11-FRONT4-IFG opercular.obj",
+      "originalGroup": "CORTEX4-11-FRONT4-IFG opercular"
+    },
+    {
+      "id": "MM3127M",
+      "bp": "BP98974",
+      "fma": "FMA72752",
+      "en": "Opercular part of right inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-FRONT4-IFG opercular.obj",
+      "originalGroup": "CORTEX2-FRONT4-IFG opercular"
+    },
+    {
+      "id": "MM3143",
+      "bp": "BP103282",
+      "fma": "FMA74887-L",
+      "en": "LEFT orbital operculum",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA OP BOp basal operculum.obj",
+      "originalGroup": "CORTEX2-INSULA OP BOp basal operculum"
+    },
+    {
+      "id": "MM3143M",
+      "bp": "BP103283",
+      "fma": "FMA74887-R",
+      "en": "RIGHT orbital operculum",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA OP BOp basal operculum.obj",
+      "originalGroup": "CORTEX2-INSULA OP BOp basal operculum"
+    },
+    {
+      "id": "MM3184",
+      "bp": "BP99591",
+      "fma": "FMA72680",
+      "en": "Left cuneus",
+      "synonyms": "",
+      "originalName": "CORTEX2-OCC-m2-cuneus2.obj",
+      "originalGroup": "CORTEX2-OCC-m2-cuneus2"
+    },
+    {
+      "id": "MM3184M",
+      "bp": "BP99590",
+      "fma": "FMA72679",
+      "en": "Right cuneus",
+      "synonyms": "",
+      "originalName": "CORTEX2-OCC-m2-cuneus2.obj",
+      "originalGroup": "CORTEX2-OCC-m2-cuneus2"
+    },
+    {
+      "id": "MM3190",
+      "bp": "BP99728",
+      "fma": "FMA274561",
+      "en": "Left gyrus descendens of Ecker",
+      "synonyms": "",
+      "originalName": "CORTEX2-OCC6-DECKER-2.obj",
+      "originalGroup": "CORTEX2-OCC6-DECKER-2"
+    },
+    {
+      "id": "MM3190M",
+      "bp": "BP99727",
+      "fma": "FMA274559",
+      "en": "Right gyrus descendens of Ecker",
+      "synonyms": "",
+      "originalName": "CORTEX2-OCC6-DECKER-2.obj",
+      "originalGroup": "CORTEX2-OCC6-DECKER-2"
+    },
+    {
+      "id": "MM3210",
+      "bp": "BP99583",
+      "fma": "FMA72672",
+      "en": "Left superior parietal lobule",
+      "synonyms": "",
+      "originalName": "CORTEX2-PARIET4-superior parietal .obj",
+      "originalGroup": "CORTEX2-PARIET4-superior parietal"
+    },
+    {
+      "id": "MM3210M",
+      "bp": "BP99582",
+      "fma": "FMA72671",
+      "en": "Right superior parietal lobule",
+      "synonyms": "",
+      "originalName": "CORTEX2-PARIET4-superior parietal .obj",
+      "originalGroup": "CORTEX2-PARIET4-superior parietal"
+    },
+    {
+      "id": "MM3252",
+      "bp": "BP99606",
+      "fma": "FMA72708",
+      "en": "Left paraterminal gyrus",
+      "synonyms": "Left subcallosal gyrus",
+      "originalName": "OLF-paraterminal gyrus.obj",
+      "originalGroup": "OLF-paraterminal gyrus"
+    },
+    {
+      "id": "MM3252M",
+      "bp": "BP99605",
+      "fma": "FMA72707",
+      "en": "Right paraterminal gyrus",
+      "synonyms": "Right subcallosal gyrus",
+      "originalName": "OLF-paraterminal gyrus.obj",
+      "originalGroup": "OLF-paraterminal gyrus"
+    },
+    {
+      "id": "MM3272",
+      "bp": "BP101913",
+      "fma": "FMA72946",
+      "en": "Lateral medullary lamina of left globus pallidus",
+      "synonyms": "",
+      "originalName": "BG-GP-#4.obj",
+      "originalGroup": "BG-GP-#4"
+    },
+    {
+      "id": "MM3272M",
+      "bp": "BP101912",
+      "fma": "FMA72945",
+      "en": "Lateral medullary lamina of right globus pallidus",
+      "synonyms": "",
+      "originalName": "BG-GP-#4.obj",
+      "originalGroup": "BG-GP-#4"
+    },
+    {
+      "id": "MM3287",
+      "bp": "BP100359",
+      "fma": "FMA274757",
+      "en": "Apex of left insula",
+      "synonyms": "Apex of anterior lobule of left insula",
+      "originalName": "CORTEX4-19-INSULA gyrus apex.obj",
+      "originalGroup": "CORTEX4-19-INSULA gyrus apex"
+    },
+    {
+      "id": "MM3287M",
+      "bp": "BP100358",
+      "fma": "FMA274754",
+      "en": "Apex of right insula",
+      "synonyms": "Apex of anterior lobule of right insula",
+      "originalName": "CORTEX2-INSULA gyrus apex.obj",
+      "originalGroup": "CORTEX2-INSULA gyrus apex"
+    },
+    {
+      "id": "MM3291",
+      "bp": "BP105570",
+      "fma": "FMA275407",
+      "en": "Left central insular sulcus",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA sulcus central.obj",
+      "originalGroup": "CORTEX2-INSULA sulcus central"
+    },
+    {
+      "id": "MM3291M",
+      "bp": "BP105569",
+      "fma": "FMA275405",
+      "en": "Right central insular sulcus",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA sulcus central.obj",
+      "originalGroup": "CORTEX2-INSULA sulcus central"
+    },
+    {
+      "id": "MM3292",
+      "bp": "BP103286",
+      "fma": "FMA74886-L",
+      "en": "LEFT frontal operculum",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA Op frontal operculum.obj",
+      "originalGroup": "CORTEX2-INSULA Op frontal operculum"
+    },
+    {
+      "id": "MM3292M",
+      "bp": "BP103285",
+      "fma": "FMA74886-R",
+      "en": "RIGHT frontal operculum",
+      "synonyms": "",
+      "originalName": "CORTEX2-INSULA Op frontal operculum.obj",
+      "originalGroup": "CORTEX2-INSULA Op frontal operculum"
+    },
+    {
+      "id": "MM3295",
+      "bp": "BP105033",
+      "fma": "FMA71045-L",
+      "en": "LEFT planum temporale (pt)",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-Planum temporale (PT).obj",
+      "originalGroup": "CORTEX2-TEMP-STG-Planum temporale (PT)"
+    },
+    {
+      "id": "MM3295M",
+      "bp": "BP105032",
+      "fma": "FMA71045-R",
+      "en": "RIGHT planum temporale (pt)",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-Planum temporale (PT).obj",
+      "originalGroup": "CORTEX2-TEMP-STG-Planum temporale (PT)"
+    },
+    {
+      "id": "MM3298",
+      "bp": "BP105024",
+      "fma": "FMA71043-L",
+      "en": "LEFT planum polare (pp)",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-Planum Polare (PP).obj",
+      "originalGroup": "CORTEX2-TEMP-STG-Planum Polare (PP)"
+    },
+    {
+      "id": "MM3298M",
+      "bp": "BP105025",
+      "fma": "FMA71043-R",
+      "en": "RIGHT planum polare (pp)",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-Planum Polare (PP).obj",
+      "originalGroup": "CORTEX2-TEMP-STG-Planum Polare (PP)"
+    },
+    {
+      "id": "MM3299",
+      "bp": "BP99599",
+      "fma": "FMA72692",
+      "en": "Left anterior transverse temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-TTG1 .obj",
+      "originalGroup": "CORTEX2-TEMP-STG-TTG1"
+    },
+    {
+      "id": "MM3299M",
+      "bp": "BP99598",
+      "fma": "FMA72691",
+      "en": "Right anterior transverse temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-TTG1 .obj",
+      "originalGroup": "CORTEX2-TEMP-STG-TTG1"
+    },
+    {
+      "id": "MM3300",
+      "bp": "BP99601",
+      "fma": "FMA72694",
+      "en": "Left posterior transverse temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-TTG2.obj",
+      "originalGroup": "CORTEX2-TEMP-STG-TTG2"
+    },
+    {
+      "id": "MM3300M",
+      "bp": "BP99600",
+      "fma": "FMA72693",
+      "en": "Right posterior transverse temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP-STG-TTG2.obj",
+      "originalGroup": "CORTEX2-TEMP-STG-TTG2"
+    },
+    {
+      "id": "MM3301",
+      "bp": "BP100364",
+      "fma": "FMA275909",
+      "en": "Left parietal operculum",
+      "synonyms": "Left Rolandic operculum",
+      "originalName": "CORTEX2-INSULA OP POp (parietal operculum).obj",
+      "originalGroup": "CORTEX2-INSULA OP POp (parietal operculum)"
+    },
+    {
+      "id": "MM3301M",
+      "bp": "BP100363",
+      "fma": "FMA275906",
+      "en": "Right parietal operculum",
+      "synonyms": "Right Rolandic operculum",
+      "originalName": "CORTEX2-INSULA OP POp (parietal operculum).obj",
+      "originalGroup": "CORTEX2-INSULA OP POp (parietal operculum)"
+    },
+    {
+      "id": "MM3303",
+      "bp": "BP99595",
+      "fma": "FMA72686",
+      "en": "Left middle temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP3-MTG up.obj",
+      "originalGroup": "CORTEX2-TEMP3-MTG up"
+    },
+    {
+      "id": "MM3303M",
+      "bp": "BP99594",
+      "fma": "FMA72685",
+      "en": "Right middle temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP3-MTG up.obj",
+      "originalGroup": "CORTEX2-TEMP3-MTG up"
+    },
+    {
+      "id": "MM3311",
+      "bp": "BP98951",
+      "fma": "FMA72668",
+      "en": "Left supramarginal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-PARIET6-supramarginal.obj",
+      "originalGroup": "CORTEX2-PARIET6-supramarginal"
+    },
+    {
+      "id": "MM3311M",
+      "bp": "BP98950",
+      "fma": "FMA72667",
+      "en": "Right supramarginal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-PARIET6-supramarginal.obj",
+      "originalGroup": "CORTEX2-PARIET6-supramarginal"
+    },
+    {
+      "id": "MM3313",
+      "bp": "BP99597",
+      "fma": "FMA72688",
+      "en": "Left inferior temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP1-ITG.obj",
+      "originalGroup": "CORTEX2-TEMP1-ITG"
+    },
+    {
+      "id": "MM3313M",
+      "bp": "BP99596",
+      "fma": "FMA72687",
+      "en": "Right inferior temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP1-ITG.obj",
+      "originalGroup": "CORTEX2-TEMP1-ITG"
+    },
+    {
+      "id": "MM3317",
+      "bp": "BP99593",
+      "fma": "FMA72684",
+      "en": "Left superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP2-STG.obj",
+      "originalGroup": "CORTEX2-TEMP2-STG"
+    },
+    {
+      "id": "MM3317M",
+      "bp": "BP99592",
+      "fma": "FMA72683",
+      "en": "Right superior temporal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX2-TEMP2-STG.obj",
+      "originalGroup": "CORTEX2-TEMP2-STG"
+    },
+    {
+      "id": "MM3323",
+      "bp": "BP101899",
+      "fma": "FMA72905",
+      "en": "Left auditory radiation",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-acoustic radiation.obj",
+      "originalGroup": "WHITE-PROJ-acoustic radiation"
+    },
+    {
+      "id": "MM3323M",
+      "bp": "BP101898",
+      "fma": "FMA72904",
+      "en": "Right auditory radiation",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-acoustic radiation.obj",
+      "originalGroup": "WHITE-PROJ-acoustic radiation"
+    },
+    {
+      "id": "MM3326",
+      "bp": "BP100222",
+      "fma": "FMA72919",
+      "en": "Sublenticular part of left internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#6-post-sublenticular.obj",
+      "originalGroup": "WHITE-IC-#6-post-sublenticular"
+    },
+    {
+      "id": "MM3326M",
+      "bp": "BP100221",
+      "fma": "FMA72918",
+      "en": "Sublenticular part of right internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#6-post-sublenticular.obj",
+      "originalGroup": "WHITE-IC-#6-post-sublenticular"
+    },
+    {
+      "id": "MM3333",
+      "bp": "BP100220",
+      "fma": "FMA72917",
+      "en": "Retrolenticular part of left internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#5-post-retrolenticular.obj",
+      "originalGroup": "WHITE-IC-#5-post-retrolenticular"
+    },
+    {
+      "id": "MM3333M",
+      "bp": "BP100219",
+      "fma": "FMA72916",
+      "en": "Retrolenticular part of right internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#5-post-retrolenticular.obj",
+      "originalGroup": "WHITE-IC-#5-post-retrolenticular"
+    },
+    {
+      "id": "MM3343",
+      "bp": "BP100863",
+      "fma": "FMA72911",
+      "en": "Genu of left internal capsule",
+      "synonyms": "Left internal capsule genu",
+      "originalName": "WHITE-IC-#2-genu.obj",
+      "originalGroup": "WHITE-IC-#2-genu"
+    },
+    {
+      "id": "MM3343M",
+      "bp": "BP100862",
+      "fma": "FMA72910",
+      "en": "Genu of right internal capsule",
+      "synonyms": "Right internal capsule genu",
+      "originalName": "WHITE-IC-#2-genu.obj",
+      "originalGroup": "WHITE-IC-#2-genu"
+    },
+    {
+      "id": "MM3345",
+      "bp": "BP100861",
+      "fma": "FMA72909",
+      "en": "Anterior limb of left internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#1-anterior.obj",
+      "originalGroup": "WHITE-IC-#1-anterior"
+    },
+    {
+      "id": "MM3345M",
+      "bp": "BP100860",
+      "fma": "FMA72908",
+      "en": "Anterior limb of right internal capsule",
+      "synonyms": "",
+      "originalName": "WHITE-IC-#1-anterior.obj",
+      "originalGroup": "WHITE-IC-#1-anterior"
+    },
+    {
+      "id": "MM3351",
+      "bp": "BP101903",
+      "fma": "FMA72923",
+      "en": "Left extreme capsule",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-extreme CAPSULE.obj",
+      "originalGroup": "WHITE-PROJ-extreme CAPSULE"
+    },
+    {
+      "id": "MM3351M",
+      "bp": "BP101902",
+      "fma": "FMA72922",
+      "en": "Right extreme capsule",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-extreme CAPSULE.obj",
+      "originalGroup": "WHITE-PROJ-extreme CAPSULE"
+    },
+    {
+      "id": "MM3355",
+      "bp": "BP101901",
+      "fma": "FMA72921",
+      "en": "Left external capsule",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-EXTERNAL CAPSULE.obj",
+      "originalGroup": "WHITE-PROJ-EXTERNAL CAPSULE"
+    },
+    {
+      "id": "MM3355M",
+      "bp": "BP101900",
+      "fma": "FMA72920",
+      "en": "Right external capsule",
+      "synonyms": "",
+      "originalName": "WHITE-PROJ-EXTERNAL CAPSULE.obj",
+      "originalGroup": "WHITE-PROJ-EXTERNAL CAPSULE"
+    },
+    {
+      "id": "MM3360",
+      "bp": "BP101865",
+      "fma": "FMA72835",
+      "en": "Left claustrum",
+      "synonyms": "",
+      "originalName": "CLAUSTRUM.obj",
+      "originalGroup": "CLAUSTRUM"
+    },
+    {
+      "id": "MM3360M",
+      "bp": "BP101864",
+      "fma": "FMA72834",
+      "en": "Right claustrum",
+      "synonyms": "",
+      "originalName": "CLAUSTRUM.obj",
+      "originalGroup": "CLAUSTRUM"
+    },
+    {
+      "id": "MM3398",
+      "bp": "BP105536",
+      "fma": "FMA275285",
+      "en": "Circular sulcus of left insula",
+      "synonyms": "",
+      "originalName": "SULC22-circular sulcus 2.obj",
+      "originalGroup": "SULC22-circular sulcus 2"
+    },
+    {
+      "id": "MM3398M",
+      "bp": "BP105535",
+      "fma": "FMA275283",
+      "en": "Circular sulcus of right insula",
+      "synonyms": "",
+      "originalName": "SULC22-circular sulcus 2.obj",
+      "originalGroup": "SULC22-circular sulcus 2"
+    },
+    {
+      "id": "MM3640",
+      "bp": "BP98691",
+      "fma": "FMA74045-L",
+      "en": "LEFT ca3 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA3-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA3-proper"
+    },
+    {
+      "id": "MM3640M",
+      "bp": "BP98690",
+      "fma": "FMA74045-R",
+      "en": "RIGHT ca3 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA3-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA3-proper"
+    },
+    {
+      "id": "MM3641",
+      "bp": "BP99141",
+      "fma": "FMA274991",
+      "en": "Right band of Giacomini",
+      "synonyms": "",
+      "originalName": "hipp-AMMON-dentate gyrus-band of Giacomini.obj",
+      "originalGroup": "hipp-AMMON-dentate gyrus-band of Giacomini"
+    },
+    {
+      "id": "MM3641M",
+      "bp": "BP99142",
+      "fma": "FMA274993",
+      "en": "Left band of Giacomini",
+      "synonyms": "",
+      "originalName": "hipp-AMMON-dentate gyrus-band of Giacomini.obj",
+      "originalGroup": "hipp-AMMON-dentate gyrus-band of Giacomini"
+    },
+    {
+      "id": "MM3642",
+      "bp": "BP98653",
+      "fma": "FMA274986",
+      "en": "Apex of left uncus",
+      "synonyms": "Left uncal apex",
+      "originalName": "hipp-UNCUS-gyrus-intralimbic.obj",
+      "originalGroup": "hipp-UNCUS-gyrus-intralimbic"
+    },
+    {
+      "id": "MM3642M",
+      "bp": "BP98652",
+      "fma": "FMA274983",
+      "en": "Apex of right uncus",
+      "synonyms": "Right uncal apex",
+      "originalName": "hipp-UNCUS-gyrus-intralimbic.obj",
+      "originalGroup": "hipp-UNCUS-gyrus-intralimbic"
+    },
+    {
+      "id": "MM3643",
+      "bp": "BP98693",
+      "fma": "FMA74044-L",
+      "en": "LEFT ca2 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA2-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA2-proper"
+    },
+    {
+      "id": "MM3643M",
+      "bp": "BP98692",
+      "fma": "FMA74044-R",
+      "en": "RIGHT ca2 field",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-CA2-proper.obj",
+      "originalGroup": "HIPP-AMMON-CA2-proper"
+    },
+    {
+      "id": "MM3644",
+      "bp": "BP99139",
+      "fma": "FMA274979",
+      "en": "Left gyrus uncinatus",
+      "synonyms": "",
+      "originalName": "HIPP-UNCUS-gyrus-Uncinate.obj",
+      "originalGroup": "HIPP-UNCUS-gyrus-Uncinate"
+    },
+    {
+      "id": "MM3644M",
+      "bp": "BP99138",
+      "fma": "FMA274977",
+      "en": "Right gyrus uncinatus",
+      "synonyms": "",
+      "originalName": "HIPP-UNCUS-gyrus-Uncinate.obj",
+      "originalGroup": "HIPP-UNCUS-gyrus-Uncinate"
+    },
+    {
+      "id": "MM3648",
+      "bp": "BP99717",
+      "fma": "FMA272419",
+      "en": "Left subiculum",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-subiculum.obj",
+      "originalGroup": "HIPP-AMMON-subiculum"
+    },
+    {
+      "id": "MM3648M",
+      "bp": "BP99716",
+      "fma": "FMA272417",
+      "en": "Right subiculum",
+      "synonyms": "",
+      "originalName": "HIPP-AMMON-subiculum.obj",
+      "originalGroup": "HIPP-AMMON-subiculum"
+    },
+    {
+      "id": "MM3668",
+      "bp": "BP99013",
+      "fma": "FMA72825",
+      "en": "Posterior part of left angular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-42-PARIET2-angular posterior part .obj",
+      "originalGroup": "CORTEX4-42-PARIET2-angular posterior part"
+    },
+    {
+      "id": "MM3668M",
+      "bp": "BP99012",
+      "fma": "FMA72824",
+      "en": "Posterior part of right angular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-42-PARIET2-angular posterior part .obj",
+      "originalGroup": "CORTEX4-42-PARIET2-angular posterior part"
+    },
+    {
+      "id": "MM3678",
+      "bp": "BP99011",
+      "fma": "FMA72823",
+      "en": "Anterior part of left angular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-41-PARIET5-angular superior part.obj",
+      "originalGroup": "CORTEX4-41-PARIET5-angular superior part"
+    },
+    {
+      "id": "MM3678M",
+      "bp": "BP99010",
+      "fma": "FMA72822",
+      "en": "Anterior part of right angular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-41-PARIET5-angular superior part.obj",
+      "originalGroup": "CORTEX4-41-PARIET5-angular superior part"
+    },
+    {
+      "id": "MM3686",
+      "bp": "BP99721",
+      "fma": "FMA273133",
+      "en": "Left inferior occipital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-53-OCC5-IOG 2.obj",
+      "originalGroup": "CORTEX4-53-OCC5-IOG 2"
+    },
+    {
+      "id": "MM3686M",
+      "bp": "BP99720",
+      "fma": "FMA273131",
+      "en": "Right inferior occipital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-53-OCC5-IOG 2.obj",
+      "originalGroup": "CORTEX4-53-OCC5-IOG 2"
+    },
+    {
+      "id": "MM3689",
+      "bp": "BP99589",
+      "fma": "FMA72678",
+      "en": "Left lateral occipital gyrus",
+      "synonyms": "Left middle occipital gyrus",
+      "originalName": "CORTEX4-52-OCC4-MOG 2.obj",
+      "originalGroup": "CORTEX4-52-OCC4-MOG 2"
+    },
+    {
+      "id": "MM3689M",
+      "bp": "BP99588",
+      "fma": "FMA72677",
+      "en": "Right lateral occipital gyrus",
+      "synonyms": "Right middle occipital gyrus",
+      "originalName": "CORTEX4-52-OCC4-MOG 2.obj",
+      "originalGroup": "CORTEX4-52-OCC4-MOG 2"
+    },
+    {
+      "id": "MM3692",
+      "bp": "BP99587",
+      "fma": "FMA72676",
+      "en": "Left superior occipital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-51-OCC2-SOG 2.obj",
+      "originalGroup": "CORTEX4-51-OCC2-SOG 2"
+    },
+    {
+      "id": "MM3692M",
+      "bp": "BP99586",
+      "fma": "FMA72675",
+      "en": "Right superior occipital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-51-OCC2-SOG 2.obj",
+      "originalGroup": "CORTEX4-51-OCC2-SOG 2"
+    },
+    {
+      "id": "MM3706",
+      "bp": "BP98983",
+      "fma": "FMA72763",
+      "en": "Anterior part of left superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG anterior part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG anterior part"
+    },
+    {
+      "id": "MM3706M",
+      "bp": "BP98982",
+      "fma": "FMA72762",
+      "en": "Anterior part of right superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG anterior part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG anterior part"
+    },
+    {
+      "id": "MM3707",
+      "bp": "BP99581",
+      "fma": "FMA72660",
+      "en": "Left straight gyrus",
+      "synonyms": "Left rectal gyrus",
+      "originalName": "CORTEX4-05-front-orbital5-rectus.obj",
+      "originalGroup": "CORTEX4-05-front-orbital5-rectus"
+    },
+    {
+      "id": "MM3707M",
+      "bp": "BP99580",
+      "fma": "FMA72659",
+      "en": "Right straight gyrus",
+      "synonyms": "Right rectal gyrus",
+      "originalName": "CORTEX4-05-front-orbital5-rectus.obj",
+      "originalGroup": "CORTEX4-05-front-orbital5-rectus"
+    },
+    {
+      "id": "MM3709",
+      "bp": "BP99003",
+      "fma": "FMA72785",
+      "en": "Middle part of left postcentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-39.3-PARIET1-postcentral middle.obj",
+      "originalGroup": "CORTEX4-39.3-PARIET1-postcentral middle"
+    },
+    {
+      "id": "MM3709M",
+      "bp": "BP99002",
+      "fma": "FMA72784",
+      "en": "Middle part of right postcentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-39.3-PARIET1-postcentral middle.obj",
+      "originalGroup": "CORTEX4-39.3-PARIET1-postcentral middle"
+    },
+    {
+      "id": "MM3712",
+      "bp": "BP98985",
+      "fma": "FMA72765",
+      "en": "Middle part of left superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG middle part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG middle part"
+    },
+    {
+      "id": "MM3712M",
+      "bp": "BP98984",
+      "fma": "FMA72764",
+      "en": "Middle part of right superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG middle part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG middle part"
+    },
+    {
+      "id": "MM3713",
+      "bp": "BP99116",
+      "fma": "FMA256200",
+      "en": "Left anterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-03-front-orbital3-anterior.obj",
+      "originalGroup": "CORTEX4-03-front-orbital3-anterior"
+    },
+    {
+      "id": "MM3713M",
+      "bp": "BP99115",
+      "fma": "FMA256198",
+      "en": "Right anterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-03-front-orbital3-anterior.obj",
+      "originalGroup": "CORTEX4-03-front-orbital3-anterior"
+    },
+    {
+      "id": "MM3714",
+      "bp": "BP98989",
+      "fma": "FMA72771",
+      "en": "Anterior part of left middle frontal gyrus",
+      "synonyms": "Rostral part of left middle frontal gyrus",
+      "originalName": "CORTEX4-09-FRONT2-MFG anterior.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG anterior"
+    },
+    {
+      "id": "MM3714M",
+      "bp": "BP98988",
+      "fma": "FMA72770",
+      "en": "Anterior part of right middle frontal gyrus",
+      "synonyms": "Rostral part of right middle frontal gyrus",
+      "originalName": "CORTEX4-09-FRONT2-MFG anterior.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG anterior"
+    },
+    {
+      "id": "MM3715",
+      "bp": "BP98991",
+      "fma": "FMA72773",
+      "en": "Middle part of left middle frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-09-FRONT2-MFG middle.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG middle"
+    },
+    {
+      "id": "MM3715M",
+      "bp": "BP98990",
+      "fma": "FMA72772",
+      "en": "Middle part of right middle frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-09-FRONT2-MFG middle.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG middle"
+    },
+    {
+      "id": "MM3716",
+      "bp": "BP98993",
+      "fma": "FMA72775",
+      "en": "Posterior part of left middle frontal gyrus",
+      "synonyms": "Caudal part of left middle frontal gyrus",
+      "originalName": "CORTEX4-09-FRONT2-MFG superior.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG superior"
+    },
+    {
+      "id": "MM3716M",
+      "bp": "BP98992",
+      "fma": "FMA72774",
+      "en": "Posterior part of right middle frontal gyrus",
+      "synonyms": "Caudal part of right middle frontal gyrus",
+      "originalName": "CORTEX4-09-FRONT2-MFG superior.obj",
+      "originalGroup": "CORTEX4-09-FRONT2-MFG superior"
+    },
+    {
+      "id": "MM3720",
+      "bp": "BP100295",
+      "fma": "FMA81257",
+      "en": "Left paracentral lobule",
+      "synonyms": "",
+      "originalName": "CORTEX4-47-PARIET-medial-paracentral lobule.obj",
+      "originalGroup": "CORTEX4-47-PARIET-medial-paracentral lobule"
+    },
+    {
+      "id": "MM3720M",
+      "bp": "BP100294",
+      "fma": "FMA81256",
+      "en": "Right paracentral lobule",
+      "synonyms": "",
+      "originalName": "CORTEX4-47-PARIET-medial-paracentral lobule.obj",
+      "originalGroup": "CORTEX4-47-PARIET-medial-paracentral lobule"
+    },
+    {
+      "id": "MM3721",
+      "bp": "BP98987",
+      "fma": "FMA72767",
+      "en": "Posterior part of left superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG superior part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG superior part"
+    },
+    {
+      "id": "MM3721M",
+      "bp": "BP98986",
+      "fma": "FMA72766",
+      "en": "Posterior part of right superior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-08-FRONT1-SFG superior part.obj",
+      "originalGroup": "CORTEX4-08-FRONT1-SFG superior part"
+    },
+    {
+      "id": "MM3723",
+      "bp": "BP99005",
+      "fma": "FMA72787",
+      "en": "Ventral part of left postcentral gyrus",
+      "synonyms": "Inferior part of left postcentral gyrus",
+      "originalName": "CORTEX4-39.0-PARIET1-postcentral vent.obj",
+      "originalGroup": "CORTEX4-39.0-PARIET1-postcentral vent"
+    },
+    {
+      "id": "MM3723M",
+      "bp": "BP99004",
+      "fma": "FMA72786",
+      "en": "Ventral part of right postcentral gyrus",
+      "synonyms": "Inferior part of right postcentral gyrus",
+      "originalName": "CORTEX4-39.0-PARIET1-postcentral vent.obj",
+      "originalGroup": "CORTEX4-39.0-PARIET1-postcentral vent"
+    },
+    {
+      "id": "MM3725",
+      "bp": "BP98971",
+      "fma": "FMA72749",
+      "en": "Isthmus of left cingulate gyrus",
+      "synonyms": "Left cingulate gyrus isthmus",
+      "originalName": "cortex4-medial side-cingulate isthmus.obj",
+      "originalGroup": "cortex4-medial side-cingulate isthmus"
+    },
+    {
+      "id": "MM3725M",
+      "bp": "BP98970",
+      "fma": "FMA72748",
+      "en": "Isthmus of right cingulate gyrus",
+      "synonyms": "Right cingulate gyrus isthmus",
+      "originalName": "cortex4-medial side-cingulate isthmus.obj",
+      "originalGroup": "cortex4-medial side-cingulate isthmus"
+    },
+    {
+      "id": "MM3726",
+      "bp": "BP98995",
+      "fma": "FMA72777",
+      "en": "Dorsal part of left precentral gyrus",
+      "synonyms": "Superior part of left precentral gyrus",
+      "originalName": "CORTEX4-38.6-PARIET9-precentral dorsal.obj",
+      "originalGroup": "CORTEX4-38.6-PARIET9-precentral dorsal"
+    },
+    {
+      "id": "MM3726M",
+      "bp": "BP98994",
+      "fma": "FMA72776",
+      "en": "Dorsal part of right precentral gyrus",
+      "synonyms": "Superior part of right precentral gyrus",
+      "originalName": "CORTEX4-38.6-PARIET9-precentral dorsal.obj",
+      "originalGroup": "CORTEX4-38.6-PARIET9-precentral dorsal"
+    },
+    {
+      "id": "MM3729",
+      "bp": "BP98981",
+      "fma": "FMA72759",
+      "en": "Left medial orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-02-front-orbital2- medial.obj",
+      "originalGroup": "CORTEX4-02-front-orbital2- medial"
+    },
+    {
+      "id": "MM3729M",
+      "bp": "BP98980",
+      "fma": "FMA72758",
+      "en": "Right medial orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-02-front-orbital2- medial.obj",
+      "originalGroup": "CORTEX4-02-front-orbital2- medial"
+    },
+    {
+      "id": "MM3731",
+      "bp": "BP98997",
+      "fma": "FMA72779",
+      "en": "Middle part of left precentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-38.3-PARIET9-precentral middle.obj",
+      "originalGroup": "CORTEX4-38.3-PARIET9-precentral middle"
+    },
+    {
+      "id": "MM3731M",
+      "bp": "BP98996",
+      "fma": "FMA72778",
+      "en": "Middle part of right precentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-38.3-PARIET9-precentral middle.obj",
+      "originalGroup": "CORTEX4-38.3-PARIET9-precentral middle"
+    },
+    {
+      "id": "MM3732",
+      "bp": "BP99001",
+      "fma": "FMA72783",
+      "en": "Dorsal part of left postcentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-39.6-PARIET1-postcentral dorsal.obj",
+      "originalGroup": "CORTEX4-39.6-PARIET1-postcentral dorsal"
+    },
+    {
+      "id": "MM3732M",
+      "bp": "BP99000",
+      "fma": "FMA72782",
+      "en": "Dorsal part of right postcentral gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-39.6-PARIET1-postcentral dorsal.obj",
+      "originalGroup": "CORTEX4-39.6-PARIET1-postcentral dorsal"
+    },
+    {
+      "id": "MM3733",
+      "bp": "BP99585",
+      "fma": "FMA72674",
+      "en": "Left precuneus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-PRE Cuneum.obj",
+      "originalGroup": "cortex4-medial side-PRE Cuneum"
+    },
+    {
+      "id": "MM3733M",
+      "bp": "BP99584",
+      "fma": "FMA72673",
+      "en": "Right precuneus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-PRE Cuneum.obj",
+      "originalGroup": "cortex4-medial side-PRE Cuneum"
+    },
+    {
+      "id": "MM3734",
+      "bp": "BP98979",
+      "fma": "FMA72757",
+      "en": "Left lateral orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-04-front-orbital4-lateral.obj",
+      "originalGroup": "CORTEX4-04-front-orbital4-lateral"
+    },
+    {
+      "id": "MM3734M",
+      "bp": "BP98978",
+      "fma": "FMA72756",
+      "en": "Right lateral orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-04-front-orbital4-lateral.obj",
+      "originalGroup": "CORTEX4-04-front-orbital4-lateral"
+    },
+    {
+      "id": "MM3735",
+      "bp": "BP99726",
+      "fma": "FMA274508",
+      "en": "Left frontomarginal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-14-FRONT6-frontpolar-frontomarginal.obj",
+      "originalGroup": "CORTEX4-14-FRONT6-frontpolar-frontomarginal"
+    },
+    {
+      "id": "MM3735M",
+      "bp": "BP99725",
+      "fma": "FMA274506",
+      "en": "Right frontomarginal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-14-FRONT6-frontpolar-frontomarginal.obj",
+      "originalGroup": "CORTEX4-14-FRONT6-frontpolar-frontomarginal"
+    },
+    {
+      "id": "MM3737",
+      "bp": "BP99120",
+      "fma": "FMA274418",
+      "en": "Left inferior transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-15-FRONT6-frontpolar-transverse frontopolar-inf.obj",
+      "originalGroup": "CORTEX4-15-FRONT6-frontpolar-transverse frontopolar-inf"
+    },
+    {
+      "id": "MM3737M",
+      "bp": "BP99119",
+      "fma": "FMA274416",
+      "en": "Right inferior transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-15-FRONT6-frontpolar-transverse frontopolar-inf.obj",
+      "originalGroup": "CORTEX4-15-FRONT6-frontpolar-transverse frontopolar-inf"
+    },
+    {
+      "id": "MM3739",
+      "bp": "BP98977",
+      "fma": "FMA72755",
+      "en": "Orbital part of left inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-12-FRONT5-IFG orbital.obj",
+      "originalGroup": "CORTEX4-12-FRONT5-IFG orbital"
+    },
+    {
+      "id": "MM3739M",
+      "bp": "BP98976",
+      "fma": "FMA72754",
+      "en": "Orbital part of right inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-12-FRONT5-IFG orbital.obj",
+      "originalGroup": "CORTEX4-12-FRONT5-IFG orbital"
+    },
+    {
+      "id": "MM3740",
+      "bp": "BP99734",
+      "fma": "FMA274639",
+      "en": "Occipital segment of left fusiform gyrus",
+      "synonyms": "Left O4 gyrus",
+      "originalName": "cortex4-fusiform tail.obj",
+      "originalGroup": "cortex4-fusiform tail"
+    },
+    {
+      "id": "MM3740M",
+      "bp": "BP99733",
+      "fma": "FMA274637",
+      "en": "Occipital segment of right fusiform gyrus",
+      "synonyms": "Right O4 gyrus",
+      "originalName": "cortex4-fusiform tail.obj",
+      "originalGroup": "cortex4-fusiform tail"
+    },
+    {
+      "id": "MM3745",
+      "bp": "BP98999",
+      "fma": "FMA72781",
+      "en": "Ventral part of left precentral gyrus",
+      "synonyms": "Inferior part of left precentral gyrus",
+      "originalName": "CORTEX4-38.0-PARIET9-precentral ventral.obj",
+      "originalGroup": "CORTEX4-38.0-PARIET9-precentral ventral"
+    },
+    {
+      "id": "MM3745M",
+      "bp": "BP98998",
+      "fma": "FMA72780",
+      "en": "Ventral part of right precentral gyrus",
+      "synonyms": "Inferior part of right precentral gyrus",
+      "originalName": "CORTEX4-38.0-PARIET9-precentral ventral.obj",
+      "originalGroup": "CORTEX4-38.0-PARIET9-precentral ventral"
+    },
+    {
+      "id": "MM3748",
+      "bp": "BP99719",
+      "fma": "FMA273107",
+      "en": "Left medial frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-13-FRONT2-Medial(inside) frontal gyrus.obj",
+      "originalGroup": "CORTEX4-13-FRONT2-Medial(inside) frontal gyrus"
+    },
+    {
+      "id": "MM3748M",
+      "bp": "BP99718",
+      "fma": "FMA273105",
+      "en": "Right medial frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-13-FRONT2-Medial(inside) frontal gyrus.obj",
+      "originalGroup": "CORTEX4-13-FRONT2-Medial(inside) frontal gyrus"
+    },
+    {
+      "id": "MM3749",
+      "bp": "BP99732",
+      "fma": "FMA274630",
+      "en": "Temporal segment of left fusiform gyrus",
+      "synonyms": "Left T4 gyrus",
+      "originalName": "cortex4-fusiform head.obj",
+      "originalGroup": "cortex4-fusiform head"
+    },
+    {
+      "id": "MM3749M",
+      "bp": "BP99731",
+      "fma": "FMA274628",
+      "en": "Temporal segment of right fusiform gyrus",
+      "synonyms": "Right T4 gyrus",
+      "originalName": "cortex4-fusiform head.obj",
+      "originalGroup": "cortex4-fusiform head"
+    },
+    {
+      "id": "MM3771",
+      "bp": "BP105534",
+      "fma": "FMA275281",
+      "en": "Left lateral sulcus",
+      "synonyms": "",
+      "originalName": "SULC05-SYlvian.obj",
+      "originalGroup": "SULC05-SYlvian"
+    },
+    {
+      "id": "MM3771M",
+      "bp": "BP105533",
+      "fma": "FMA275279",
+      "en": "Right lateral sulcus",
+      "synonyms": "",
+      "originalName": "SULC05-SYlvian.obj",
+      "originalGroup": "SULC05-SYlvian"
+    },
+    {
+      "id": "MM3806",
+      "bp": "BP99126",
+      "fma": "FMA274624",
+      "en": "Inferior segment of left lingual gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-lingual inf.obj",
+      "originalGroup": "cortex4-lingual inf"
+    },
+    {
+      "id": "MM3806M",
+      "bp": "BP99125",
+      "fma": "FMA274622",
+      "en": "Inferior segment of right lingual gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-lingual inf.obj",
+      "originalGroup": "cortex4-lingual inf"
+    },
+    {
+      "id": "MM3807",
+      "bp": "BP99124",
+      "fma": "FMA274620",
+      "en": "Superior segment of left lingual gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-lingual sup.obj",
+      "originalGroup": "cortex4-lingual sup"
+    },
+    {
+      "id": "MM3807M",
+      "bp": "BP99123",
+      "fma": "FMA274618",
+      "en": "Superior segment of right lingual gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-lingual sup.obj",
+      "originalGroup": "cortex4-lingual sup"
+    },
+    {
+      "id": "MM3811",
+      "bp": "BP100361",
+      "fma": "FMA274764",
+      "en": "Pole of left insula",
+      "synonyms": "",
+      "originalName": "CORTEX4-22-INSULA gyrus POLE.obj",
+      "originalGroup": "CORTEX4-22-INSULA gyrus POLE"
+    },
+    {
+      "id": "MM3811M",
+      "bp": "BP100360",
+      "fma": "FMA274762",
+      "en": "Pole of right insula",
+      "synonyms": "",
+      "originalName": "CORTEX4-22-INSULA gyrus POLE.obj",
+      "originalGroup": "CORTEX4-22-INSULA gyrus POLE"
+    },
+    {
+      "id": "MM3814",
+      "bp": "BP99603",
+      "fma": "FMA72702",
+      "en": "Left accessory short gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-18-INSULA gyrus accessory gyrus.obj",
+      "originalGroup": "CORTEX4-18-INSULA gyrus accessory gyrus"
+    },
+    {
+      "id": "MM3814M",
+      "bp": "BP99602",
+      "fma": "FMA72701",
+      "en": "Right accessory short gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-18-INSULA gyrus accessory gyrus.obj",
+      "originalGroup": "CORTEX4-18-INSULA gyrus accessory gyrus"
+    },
+    {
+      "id": "MM3815",
+      "bp": "BP99132",
+      "fma": "FMA274721",
+      "en": "Left posterior short insular gyrus",
+      "synonyms": "Left precentral gyrus of insula",
+      "originalName": "CORTEX4-25-INSULA gyrus short post.obj",
+      "originalGroup": "CORTEX4-25-INSULA gyrus short post"
+    },
+    {
+      "id": "MM3815M",
+      "bp": "BP99131",
+      "fma": "FMA274719",
+      "en": "Right posterior short insular gyrus",
+      "synonyms": "Right precentral gyrus of insula",
+      "originalName": "CORTEX4-25-INSULA gyrus short post.obj",
+      "originalGroup": "CORTEX4-25-INSULA gyrus short post"
+    },
+    {
+      "id": "MM3818",
+      "bp": "BP99043",
+      "fma": "FMA80188",
+      "en": "Left posterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-01-front-orbital1 posterior.obj",
+      "originalGroup": "CORTEX4-01-front-orbital1 posterior"
+    },
+    {
+      "id": "MM3818M",
+      "bp": "BP99042",
+      "fma": "FMA80187",
+      "en": "Right posterior orbital gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-01-front-orbital1 posterior.obj",
+      "originalGroup": "CORTEX4-01-front-orbital1 posterior"
+    },
+    {
+      "id": "MM3819",
+      "bp": "BP99130",
+      "fma": "FMA274715",
+      "en": "Left middle short insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-24-INSULA gyrus short mid.obj",
+      "originalGroup": "CORTEX4-24-INSULA gyrus short mid"
+    },
+    {
+      "id": "MM3819M",
+      "bp": "BP99129",
+      "fma": "FMA274713",
+      "en": "Right middle short insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-24-INSULA gyrus short mid.obj",
+      "originalGroup": "CORTEX4-24-INSULA gyrus short mid"
+    },
+    {
+      "id": "MM3820",
+      "bp": "BP99128",
+      "fma": "FMA274709",
+      "en": "Left anterior short insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-23-INSULA gyrus short ant.obj",
+      "originalGroup": "CORTEX4-23-INSULA gyrus short ant"
+    },
+    {
+      "id": "MM3820M",
+      "bp": "BP99127",
+      "fma": "FMA274707",
+      "en": "RIght anterior short insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-23-INSULA gyrus short ant.obj",
+      "originalGroup": "CORTEX4-23-INSULA gyrus short ant"
+    },
+    {
+      "id": "MM3821",
+      "bp": "BP99134",
+      "fma": "FMA274727",
+      "en": "Left anterior long insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-20-INSULA gyrus Long Ant.obj",
+      "originalGroup": "CORTEX4-20-INSULA gyrus Long Ant"
+    },
+    {
+      "id": "MM3821M",
+      "bp": "BP99133",
+      "fma": "FMA274725",
+      "en": "Right anterior long insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-20-INSULA gyrus Long Ant.obj",
+      "originalGroup": "CORTEX4-20-INSULA gyrus Long Ant"
+    },
+    {
+      "id": "MM3822",
+      "bp": "BP99136",
+      "fma": "FMA274733",
+      "en": "Left posterior long insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-21-INSULA gyrus Long Post.obj",
+      "originalGroup": "CORTEX4-21-INSULA gyrus Long Post"
+    },
+    {
+      "id": "MM3822M",
+      "bp": "BP99135",
+      "fma": "FMA274731",
+      "en": "Right posterior long insular gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-21-INSULA gyrus Long Post.obj",
+      "originalGroup": "CORTEX4-21-INSULA gyrus Long Post"
+    },
+    {
+      "id": "MM3824",
+      "bp": "BP98973",
+      "fma": "FMA72751",
+      "en": "Triangular part of left inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-10-FRONT3-IFG triangular.obj",
+      "originalGroup": "CORTEX4-10-FRONT3-IFG triangular"
+    },
+    {
+      "id": "MM3824M",
+      "bp": "BP98972",
+      "fma": "FMA72750",
+      "en": "Triangular part of right inferior frontal gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-10-FRONT3-IFG triangular.obj",
+      "originalGroup": "CORTEX4-10-FRONT3-IFG triangular"
+    },
+    {
+      "id": "MM3825",
+      "bp": "BP99118",
+      "fma": "FMA274412",
+      "en": "Left superior transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-17-FRONT6-frontpolar-transverse frontopolar-sup.obj",
+      "originalGroup": "CORTEX4-17-FRONT6-frontpolar-transverse frontopolar-sup"
+    },
+    {
+      "id": "MM3825M",
+      "bp": "BP99117",
+      "fma": "FMA274410",
+      "en": "Right superior transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-17-FRONT6-frontpolar-transverse frontopolar-sup.obj",
+      "originalGroup": "CORTEX4-17-FRONT6-frontpolar-transverse frontopolar-sup"
+    },
+    {
+      "id": "MM3826",
+      "bp": "BP99122",
+      "fma": "FMA274424",
+      "en": "Left middle transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-16-FRONT6-frontpolar-transverse frontopolar-mid.obj",
+      "originalGroup": "CORTEX4-16-FRONT6-frontpolar-transverse frontopolar-mid"
+    },
+    {
+      "id": "MM3826M",
+      "bp": "BP99121",
+      "fma": "FMA274422",
+      "en": "Right middle transverse frontopolar gyrus",
+      "synonyms": "",
+      "originalName": "CORTEX4-16-FRONT6-frontpolar-transverse frontopolar-mid.obj",
+      "originalGroup": "CORTEX4-16-FRONT6-frontpolar-transverse frontopolar-mid"
+    },
+    {
+      "id": "MM3827",
+      "bp": "BP98967",
+      "fma": "FMA72745",
+      "en": "Left anterior cingulate gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-cingulate anterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate anterior"
+    },
+    {
+      "id": "MM3827M",
+      "bp": "BP98966",
+      "fma": "FMA72744",
+      "en": "Right anterior cingulate gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-cingulate anterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate anterior"
+    },
+    {
+      "id": "MM3829",
+      "bp": "BP98969",
+      "fma": "FMA72747",
+      "en": "Left posterior cingulate gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-cingulate posterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate posterior"
+    },
+    {
+      "id": "MM3829M",
+      "bp": "BP98968",
+      "fma": "FMA72746",
+      "en": "Right posterior cingulate gyrus",
+      "synonyms": "",
+      "originalName": "cortex4-medial side-cingulate posterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate posterior"
+    },
+    {
+      "id": "MM3830",
+      "bp": "BP98655",
+      "fma": "FMA306073",
+      "en": "Left anterior middle cingulate gyrus",
+      "synonyms": "Left anterior part of middle cingulate gyrus",
+      "originalName": "cortex4-medial side-cingulate middle anterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate middle anterior"
+    },
+    {
+      "id": "MM3830M",
+      "bp": "BP98654",
+      "fma": "FMA306070",
+      "en": "Right anterior middle cingulate gyrus",
+      "synonyms": "Right anterior part of middle cingulate gyrus",
+      "originalName": "cortex4-medial side-cingulate middle anterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate middle anterior"
+    },
+    {
+      "id": "MM3831",
+      "bp": "BP98657",
+      "fma": "FMA306079",
+      "en": "Left posterior middle cingulate gyrus",
+      "synonyms": "Left posterior part of middle cingulate gyrus",
+      "originalName": "cortex4-medial side-cingulate middle posterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate middle posterior"
+    },
+    {
+      "id": "MM3831M",
+      "bp": "BP98656",
+      "fma": "FMA306076",
+      "en": "Right posterior middle cingulate gyrus",
+      "synonyms": "Right posterior part of middle cingulate gyrus",
+      "originalName": "cortex4-medial side-cingulate middle posterior.obj",
+      "originalGroup": "cortex4-medial side-cingulate middle posterior"
+    },
+    {
+      "id": "MM3271",
+      "bp": "BP106308",
+      "fma": "FMA72829-P",
+      "en": "PROPER PART OF left putamen",
+      "synonyms": "",
+      "originalName": "BG-putamen proper.obj",
+      "originalGroup": "BG-putamen proper"
+    },
+    {
+      "id": "MM3271M",
+      "bp": "BP106307",
+      "fma": "FMA72828-P",
+      "en": "PROPER PART OF right putamen",
+      "synonyms": "",
+      "originalName": "BG-putamen proper.obj",
+      "originalGroup": "BG-putamen proper"
+    }
+  ],
+  "files": [
+    {
+      "id": "CX229",
+      "file": "CX229_BP99604_FMA72704_Left anterior accessory gyrus.obj",
+      "bytes": 125054,
+      "sha256": "9535543e2dec995c023987c8d4d7798f80805cd2b9705a30c1a1f71e5c81f49e"
+    },
+    {
+      "id": "FJ1837",
+      "file": "FJ1837_BP99007_FMA72801_Anterior part of left superior temporal gyrus.obj",
+      "bytes": 113864,
+      "sha256": "4a7881c3584b9b3ea46dcca3c37bbe6c5f9eb53f58b17212dfdb067058f9109f"
+    },
+    {
+      "id": "FJ1838",
+      "file": "FJ1838_BP99006_FMA72800_Anterior part of right superior temporal gyrus.obj",
+      "bytes": 120134,
+      "sha256": "da40db32e77a91a1a070c19d9a1b35ea06cf3835aa1b231ff233c49ddb908111"
+    },
+    {
+      "id": "FJ1839",
+      "file": "FJ1839_BP99009_FMA72805_Posterior part of left superior temporal gyrus.obj",
+      "bytes": 138927,
+      "sha256": "53cc11d7421d31f114458641e711927618193ed3ab1834330732344cce988feb"
+    },
+    {
+      "id": "FJ1840",
+      "file": "FJ1840_BP99008_FMA72804_Posterior part of right superior temporal gyrus.obj",
+      "bytes": 141053,
+      "sha256": "614df57423fbb2e3770faac856e3978e1e883d1c8b739a2b2e93238fc889a18a"
+    },
+    {
+      "id": "MM232",
+      "file": "MM232_BP98957_FMA72721_Left first posterior central gyrus.obj",
+      "bytes": 89142,
+      "sha256": "860d0d7788084ae1e9e779833c285e2babae1671a34e8254178936cf5d1c4181"
+    },
+    {
+      "id": "MM232M",
+      "file": "MM232M_BP98956_FMA72720_Right first posterior central gyrus.obj",
+      "bytes": 89550,
+      "sha256": "1ccb5f920dae3df53701bb3b966bf9591ba99443bdebfe65feb6022d93c88844"
+    },
+    {
+      "id": "MM233",
+      "file": "MM233_BP98959_FMA72723_Left second posterior central gyrus.obj",
+      "bytes": 153269,
+      "sha256": "779b179aa0063d9d31adb54301ea03821a5fa48fa5f4f2144f0f67e06ed354db"
+    },
+    {
+      "id": "MM233M",
+      "file": "MM233M_BP98958_FMA72722_Right second posterior central gyrus.obj",
+      "bytes": 154437,
+      "sha256": "765d16519819626852d94286f4d2aadb7dc94eabec0b79c5e706c2db2b3ddbbe"
+    },
+    {
+      "id": "MM235",
+      "file": "MM235_BP98963_FMA72728_Left second short gyrus of insula.obj",
+      "bytes": 11992,
+      "sha256": "9850c1ef020500f52ed67326e706c793a4e953b6755936e68032f0fd021a051b"
+    },
+    {
+      "id": "MM235M",
+      "file": "MM235M_BP98962_FMA72726_Right second short gyrus of insula.obj",
+      "bytes": 12359,
+      "sha256": "1f56988aeb40c853df6a73d7439aed93788c1f99d304c312296efc2951a9face"
+    },
+    {
+      "id": "MM236",
+      "file": "MM236_BP98961_FMA72725_Left first short gyrus of insula.obj",
+      "bytes": 43470,
+      "sha256": "1621f5bf0439aa43e00649bc89285c203a8ff4e63213f50cde91f1784fb19070"
+    },
+    {
+      "id": "MM236M",
+      "file": "MM236M_BP98960_FMA72724_Right first short gyrus of insula.obj",
+      "bytes": 43900,
+      "sha256": "ed380e08584c91581dd43c50edd3e92d37ec57b8eaba8cb0c1d22657f4fd19c8"
+    },
+    {
+      "id": "MM237",
+      "file": "MM237_BP98965_FMA72730_Left intermediate short gyrus of insula.obj",
+      "bytes": 14376,
+      "sha256": "f899dc5164f4c43c262a52774b827f8f0d2b7023e159967fc02c06fdc2fb6bb6"
+    },
+    {
+      "id": "MM237M",
+      "file": "MM237M_BP98964_FMA72729_Right intermediate short gyrus of insula.obj",
+      "bytes": 14603,
+      "sha256": "822405f9d41a46f3f3227e83f40cec0c041d0a3caaba41d6cc8a2f24cb573e55"
+    },
+    {
+      "id": "MM270",
+      "file": "MM270_BP99608_FMA72737_Left presubiculum.obj",
+      "bytes": 63055,
+      "sha256": "5e54541268b4b88575a29766c24297f65acddc65ebc70b3e7474191aeaddba7e"
+    },
+    {
+      "id": "MM270M",
+      "file": "MM270M_BP99607_FMA72736_Right presubiculum.obj",
+      "bytes": 63347,
+      "sha256": "e4cda93bc87ebe296a66704bd8cde6f89612f7f6fb56bde31f40dedd60abbf64"
+    },
+    {
+      "id": "MM2850",
+      "file": "MM2850_BP106510_FMA72855_Tail of left caudate nucleus.obj",
+      "bytes": 100417,
+      "sha256": "1aa56b7477cbf05ae38fd5fc2833c8376fbc44cbf505d10f3526a538978a341d"
+    },
+    {
+      "id": "MM2850M",
+      "file": "MM2850M_BP106509_FMA72854_Tail of right caudate nucleus.obj",
+      "bytes": 101297,
+      "sha256": "95f6fbb78766fe665a8ff71dac8dd64637cd7940f9ed5b334bc95d0f725c6055"
+    },
+    {
+      "id": "MM2870",
+      "file": "MM2870_BP106508_FMA72853_Body of left caudate nucleus.obj",
+      "bytes": 362818,
+      "sha256": "34740af0fe758c2a9cd9d42ce22390f966140dca3025ae8729b811a26db30901"
+    },
+    {
+      "id": "MM2870M",
+      "file": "MM2870M_BP106507_FMA72852_Body of right caudate nucleus.obj",
+      "bytes": 365100,
+      "sha256": "107de8dc955cec910bad180dba15334aaf2df1ec120bdacd3521a4dd0ebf5756"
+    },
+    {
+      "id": "MM2879",
+      "file": "MM2879_BP106356_FMA72857_Left lateral globus pallidus.obj",
+      "bytes": 968672,
+      "sha256": "f28d1bcfd7418a5a034bcf0eb1b67c4761d702477da51ce6eb94e5bf200613fe"
+    },
+    {
+      "id": "MM2879M",
+      "file": "MM2879M_BP106355_FMA72856_Right lateral globus pallidus.obj",
+      "bytes": 971169,
+      "sha256": "b6f5ea8f4c36911ec98d5b6d3615273df64b8419d4e726c03ab81cf9e7b35698"
+    },
+    {
+      "id": "MM2915",
+      "file": "MM2915_BP106358_FMA72859_Left medial globus pallidus.obj",
+      "bytes": 110107,
+      "sha256": "fafd4780bcf87b2dae7a702b2be40bb19f9a89d487d8502031ff1963c6d9f527"
+    },
+    {
+      "id": "MM2915M",
+      "file": "MM2915M_BP106357_FMA72858_Right medial globus pallidus.obj",
+      "bytes": 110944,
+      "sha256": "d5ff10be639f953378424b227ec284c77679303c3c873f90c601fc149dd70d67"
+    },
+    {
+      "id": "MM2918",
+      "file": "MM2918_BP106366_FMA72948_Medial medullary lamina of left globus pallidus.obj",
+      "bytes": 542671,
+      "sha256": "4b28cad5685b0cc306bacc94f482f35f6459938949268ff216bf2406c2227a68"
+    },
+    {
+      "id": "MM2918M",
+      "file": "MM2918M_BP106365_FMA72947_Medial medullary lamina of right globus pallidus.obj",
+      "bytes": 546632,
+      "sha256": "a5bb7a56246eaa46a8c813418ed88a03e7ae20ae8a34d3865c4e556edcd7f45d"
+    },
+    {
+      "id": "MM3000",
+      "file": "MM3000_BP98953_FMA72712_Left fasciolar gyrus.obj",
+      "bytes": 109318,
+      "sha256": "231c8c036685a1e0e8a7e1e8d0791226617062700b5fd6eb3379d1fe8b2c9195"
+    },
+    {
+      "id": "MM3000M",
+      "file": "MM3000M_BP98952_FMA72711_Right fasciolar gyrus.obj",
+      "bytes": 110305,
+      "sha256": "3934cba72469aa9dc0f2920cb68db9f0f3b82d0328c8347af77368d33fabb894"
+    },
+    {
+      "id": "MM3031",
+      "file": "MM3031_BP99144_FMA275097_Left fasciola cinerea.obj",
+      "bytes": 300523,
+      "sha256": "728aaf70807511de0dd6f545a98ce0edb414590e706aa7775a7cc5d820964d17"
+    },
+    {
+      "id": "MM3031M",
+      "file": "MM3031M_BP99143_FMA275095_Right fasciola cinerea.obj",
+      "bytes": 302887,
+      "sha256": "84a1a2d4a431165f1f1460e2a00b90d0a10ad71ce7a14f9f1f4b1fa2075b9b96"
+    },
+    {
+      "id": "MM3042",
+      "file": "MM3042_BP98695_FMA75741-L_LEFT ca4 field.obj",
+      "bytes": 551875,
+      "sha256": "47f6ae39fcd54229a2450b7cced02e00c93dfa2dffdd5d71aeb9d5efdd21abe6"
+    },
+    {
+      "id": "MM3042M",
+      "file": "MM3042M_BP98694_FMA75741-R_RIGHT ca4 field.obj",
+      "bytes": 556192,
+      "sha256": "4c8ea649ed1609bfa9d723814d1c6cef30f52e14325ea5cb773f54abc9389445"
+    },
+    {
+      "id": "MM3046",
+      "file": "MM3046_BP98955_FMA72716_Dentate gyrus of left hippocampus.obj",
+      "bytes": 757723,
+      "sha256": "ffef117c57718b394262cfea1876187d34f7c6dcf6a26e182cdeda216fd85e6f"
+    },
+    {
+      "id": "MM3046M",
+      "file": "MM3046M_BP98954_FMA72715_Dentate gyrus of right hippocampus.obj",
+      "bytes": 759571,
+      "sha256": "98604024fda81a263864d4776357376f8c0a267cfe9cefc3eb8faf49fb6949a8"
+    },
+    {
+      "id": "MM3048",
+      "file": "MM3048_BP98689_FMA74042-L_LEFT ca1 field.obj",
+      "bytes": 818064,
+      "sha256": "3c7fc35d6baad1f5ace7e81aa799add7f44fc246df9e39a1a317a1c55e477fdb"
+    },
+    {
+      "id": "MM3048M",
+      "file": "MM3048M_BP98688_FMA74042-R_RIGHT ca1 field.obj",
+      "bytes": 821238,
+      "sha256": "938d9f21a3aa8d486ca6d58ab3425b4dc349c5393f209500affc3f739a07aabf"
+    },
+    {
+      "id": "MM3054",
+      "file": "MM3054_BP98651_FMA274965_Anterior segment of left uncus.obj",
+      "bytes": 348266,
+      "sha256": "de9f34ebb03a7480f65910c94beabcff5c7eba7f71303904d16d5d5749da630a"
+    },
+    {
+      "id": "MM3054M",
+      "file": "MM3054M_BP98650_FMA274963_Anterior segment of right uncus.obj",
+      "bytes": 351473,
+      "sha256": "68f0b79bf9a0228ca74299a93ce93c22f187a6ca271083f31f77f9b93142d182"
+    },
+    {
+      "id": "MM3127",
+      "file": "MM3127_BP98975_FMA72753_Opercular part of left inferior frontal gyrus.obj",
+      "bytes": 638414,
+      "sha256": "7616ac238f106c0c0139eed53b35cf93504c4a7fea4e9f4782f18d1132d32735"
+    },
+    {
+      "id": "MM3127M",
+      "file": "MM3127M_BP98974_FMA72752_Opercular part of right inferior frontal gyrus.obj",
+      "bytes": 639144,
+      "sha256": "0cc7b38a8281d8eff583cf9862afd3260030854cb661174eebfe475939038c5f"
+    },
+    {
+      "id": "MM3143",
+      "file": "MM3143_BP103282_FMA74887-L_LEFT orbital operculum.obj",
+      "bytes": 201167,
+      "sha256": "8c3c4626319b3b446e9414f43c4c79d6e6188ffcf1f6b6be7e3cea708aa1ea2c"
+    },
+    {
+      "id": "MM3143M",
+      "file": "MM3143M_BP103283_FMA74887-R_RIGHT orbital operculum.obj",
+      "bytes": 202708,
+      "sha256": "4773fe0bc45ea2885d70e678b7110ec70c48ba553351ee4c23ca6d4eb3bbd3c4"
+    },
+    {
+      "id": "MM3184",
+      "file": "MM3184_BP99591_FMA72680_Left cuneus.obj",
+      "bytes": 661293,
+      "sha256": "ec8ad4fd6c05c68401684b69c02288f52bd329a3e2d2fb8027eeeee1c6c7e1bd"
+    },
+    {
+      "id": "MM3184M",
+      "file": "MM3184M_BP99590_FMA72679_Right cuneus.obj",
+      "bytes": 665000,
+      "sha256": "3969330b0d65b3984829aebd6b4b203e13df68ffb4ab1c6dae7953a0aa7ab52a"
+    },
+    {
+      "id": "MM3190",
+      "file": "MM3190_BP99728_FMA274561_Left gyrus descendens of Ecker.obj",
+      "bytes": 683269,
+      "sha256": "6e79ce2704329f02deb22dc2aa73e552c4bee4a5e897e4f46961c4d8a3509e4b"
+    },
+    {
+      "id": "MM3190M",
+      "file": "MM3190M_BP99727_FMA274559_Right gyrus descendens of Ecker.obj",
+      "bytes": 685715,
+      "sha256": "232433e70ab0e3c4750305742815eadff2564b4294223326b74873ffea813304"
+    },
+    {
+      "id": "MM3210",
+      "file": "MM3210_BP99583_FMA72672_Left superior parietal lobule.obj",
+      "bytes": 904459,
+      "sha256": "3d6891ed728298d5715da71c7f95e084bdd0958d4a433c222662e2668492e8c4"
+    },
+    {
+      "id": "MM3210M",
+      "file": "MM3210M_BP99582_FMA72671_Right superior parietal lobule.obj",
+      "bytes": 907826,
+      "sha256": "09c82baf8ce25407995ba4ca68270993876a07c3753852c3f83404060c847540"
+    },
+    {
+      "id": "MM3252",
+      "file": "MM3252_BP99606_FMA72708_Left paraterminal gyrus.obj",
+      "bytes": 57291,
+      "sha256": "6179a90fce9e8fed168f3d3dd48e9d5921ce0115f61a2b529e7aa38432ce3da2"
+    },
+    {
+      "id": "MM3252M",
+      "file": "MM3252M_BP99605_FMA72707_Right paraterminal gyrus.obj",
+      "bytes": 57790,
+      "sha256": "33da04fa9b93f9b0992076b9740f49b7bb2c078af03c3777157fa01d6281851e"
+    },
+    {
+      "id": "MM3272",
+      "file": "MM3272_BP106364_FMA72946_Lateral medullary lamina of left globus pallidus.obj",
+      "bytes": 1340073,
+      "sha256": "247e3d3ef1a0c1790ed93453f0222da916c687d0ec3c0ea044eb443ff99088d9"
+    },
+    {
+      "id": "MM3272M",
+      "file": "MM3272M_BP106363_FMA72945_Lateral medullary lamina of right globus pallidus.obj",
+      "bytes": 1344400,
+      "sha256": "c1c568c644fc805ebc99b8c954525a3593c2452096370e283a0351da2b969b46"
+    },
+    {
+      "id": "MM3287",
+      "file": "MM3287_BP100359_FMA274757_Apex of left insula.obj",
+      "bytes": 53200,
+      "sha256": "dab33ebe50b997ca5704a3117c82c6ad5e483c367edf366f075ad3cdf36e2998"
+    },
+    {
+      "id": "MM3287M",
+      "file": "MM3287M_BP100358_FMA274754_Apex of right insula.obj",
+      "bytes": 53703,
+      "sha256": "f377da1081d320710c58f93e6d0eca5f1252808409f76d73cadb3ee733d72106"
+    },
+    {
+      "id": "MM3291",
+      "file": "MM3291_BP105570_FMA275407_Left central insular sulcus.obj",
+      "bytes": 308751,
+      "sha256": "23778d93330176498b2f68fcea201ff0f73dff07d3c26f3c1a8d62d36b5d765d"
+    },
+    {
+      "id": "MM3291M",
+      "file": "MM3291M_BP105569_FMA275405_Right central insular sulcus.obj",
+      "bytes": 311636,
+      "sha256": "b2c69188e8088ffbd95f5eeadc9939c755e1c987039af42a5f1f25a6e764a11a"
+    },
+    {
+      "id": "MM3292",
+      "file": "MM3292_BP103286_FMA74886-L_LEFT frontal operculum.obj",
+      "bytes": 271936,
+      "sha256": "53e3a194cb82fb2538152fa42644bfcc0257168a417e992d93472464add6af8c"
+    },
+    {
+      "id": "MM3292M",
+      "file": "MM3292M_BP103285_FMA74886-R_RIGHT frontal operculum.obj",
+      "bytes": 271809,
+      "sha256": "20f541771346ae7d67449cd4460e0772b751b465b6442af768a07af975db3a0d"
+    },
+    {
+      "id": "MM3295",
+      "file": "MM3295_BP105033_FMA71045-L_LEFT planum temporale (pt).obj",
+      "bytes": 274335,
+      "sha256": "ae3f14a6459adbab41b69b424a2de7f72c7c7727157e6ba312984aad62d44699"
+    },
+    {
+      "id": "MM3295M",
+      "file": "MM3295M_BP105032_FMA71045-R_RIGHT planum temporale (pt).obj",
+      "bytes": 275248,
+      "sha256": "f7a56a61784ea1773ca49f3325ddccd1898089452afce5330031a2016d144d30"
+    },
+    {
+      "id": "MM3298",
+      "file": "MM3298_BP105024_FMA71043-L_LEFT planum polare (pp).obj",
+      "bytes": 365497,
+      "sha256": "4a8c215481d41e357fb6dd8aa7abd29313e672a4f56ed0348b9669f9dd39da11"
+    },
+    {
+      "id": "MM3298M",
+      "file": "MM3298M_BP105025_FMA71043-R_RIGHT planum polare (pp).obj",
+      "bytes": 368382,
+      "sha256": "32577689fffe77c130f28cd0956f1e7006b610231e88980b15b63270a03479fc"
+    },
+    {
+      "id": "MM3299",
+      "file": "MM3299_BP99599_FMA72692_Left anterior transverse temporal gyrus.obj",
+      "bytes": 415477,
+      "sha256": "85e16ed194155fa813275eea09973e7c298bebf8b48baa1c9467ac6dace82ba6"
+    },
+    {
+      "id": "MM3299M",
+      "file": "MM3299M_BP99598_FMA72691_Right anterior transverse temporal gyrus.obj",
+      "bytes": 419333,
+      "sha256": "8b241adaaf1510ade728865cf66590b21c64417550478ca6cb3fdd1dde16bbd3"
+    },
+    {
+      "id": "MM3300",
+      "file": "MM3300_BP99601_FMA72694_Left posterior transverse temporal gyrus.obj",
+      "bytes": 426270,
+      "sha256": "1e9b4cbf834c5e80d843796850e939d98eb22f1f52614e62dafb69fd61f512fb"
+    },
+    {
+      "id": "MM3300M",
+      "file": "MM3300M_BP99600_FMA72693_Right posterior transverse temporal gyrus.obj",
+      "bytes": 428646,
+      "sha256": "1946811138e821eedb8fa5d90f904750854e036525ea73cda56386d76689e448"
+    },
+    {
+      "id": "MM3301",
+      "file": "MM3301_BP100364_FMA275909_Left parietal operculum.obj",
+      "bytes": 464533,
+      "sha256": "94f7191fac7b785964e086d2a72d94e720c591e943b8adecc3cd83646aa1b281"
+    },
+    {
+      "id": "MM3301M",
+      "file": "MM3301M_BP100363_FMA275906_Right parietal operculum.obj",
+      "bytes": 466676,
+      "sha256": "0a71acf0daad7723d1fed5fd0a673e9d4c86416943a7c33c2db23dbedc85e1d3"
+    },
+    {
+      "id": "MM3303",
+      "file": "MM3303_BP99595_FMA72686_Left middle temporal gyrus.obj",
+      "bytes": 505049,
+      "sha256": "ef835ca21a59a5727e7dcd61bb2d0283d2f76b23aa2786fb54da39fb43324b5c"
+    },
+    {
+      "id": "MM3303M",
+      "file": "MM3303M_BP99594_FMA72685_Right middle temporal gyrus.obj",
+      "bytes": 504139,
+      "sha256": "d11b758059022385927b66266c0d120e7660540d176d799729aeda6493ef9083"
+    },
+    {
+      "id": "MM3311",
+      "file": "MM3311_BP98951_FMA72668_Left supramarginal gyrus.obj",
+      "bytes": 776910,
+      "sha256": "794238ae582dd095f906c7dda8a23f193677c7fc7afeb325f924fbe3f7912fd0"
+    },
+    {
+      "id": "MM3311M",
+      "file": "MM3311M_BP98950_FMA72667_Right supramarginal gyrus.obj",
+      "bytes": 784061,
+      "sha256": "ff754423d04cf0fd43befcca863d66228c9a600321538b9e78cb19022a93e93a"
+    },
+    {
+      "id": "MM3313",
+      "file": "MM3313_BP99597_FMA72688_Left inferior temporal gyrus.obj",
+      "bytes": 990287,
+      "sha256": "b1c6dde2d02ac04e3afc6df1fc19b63978ac9b52d2272bb67f409ec91d9f300b"
+    },
+    {
+      "id": "MM3313M",
+      "file": "MM3313M_BP99596_FMA72687_Right inferior temporal gyrus.obj",
+      "bytes": 991233,
+      "sha256": "1c22a87e63542b3ea899cf70033ae7421f607e4739b238882f22527dfed867e1"
+    },
+    {
+      "id": "MM3317",
+      "file": "MM3317_BP99593_FMA72684_Left superior temporal gyrus.obj",
+      "bytes": 1209322,
+      "sha256": "3b64ed11a82a1ef0b19b70f00ddc3cd0e7f17975a99aa8165becd75e32a411a8"
+    },
+    {
+      "id": "MM3317M",
+      "file": "MM3317M_BP99592_FMA72683_Right superior temporal gyrus.obj",
+      "bytes": 1213827,
+      "sha256": "7ab4ae5f3d49356f293ba49ebc7c0058afe71bfe7834fd3c9ad3a900a1757f67"
+    },
+    {
+      "id": "MM3323",
+      "file": "MM3323_BP111769_FMA72905_Left auditory radiation.obj",
+      "bytes": 168642,
+      "sha256": "8ec7dffd9234b6094504fbc667821994cebf2744b2199410a81831da6dda0fa3"
+    },
+    {
+      "id": "MM3323M",
+      "file": "MM3323M_BP111768_FMA72904_Right auditory radiation.obj",
+      "bytes": 169683,
+      "sha256": "5e9fa1f755a516ae702c66c1b6b47d2dbebfc3ae25a78866c40cffe40092f2bb"
+    },
+    {
+      "id": "MM3326",
+      "file": "MM3326_BP106522_FMA72919_Sublenticular part of left internal capsule.obj",
+      "bytes": 119075,
+      "sha256": "4c88587f6443dd69eebbf71b5174fd9f6803a6eb71af7707c4a865feec9464ae"
+    },
+    {
+      "id": "MM3326M",
+      "file": "MM3326M_BP106521_FMA72918_Sublenticular part of right internal capsule.obj",
+      "bytes": 119620,
+      "sha256": "925e833e2756d9384518490061c8565840f2fc439e193b6ea4979b02265d975c"
+    },
+    {
+      "id": "MM3333",
+      "file": "MM3333_BP106520_FMA72917_Retrolenticular part of left internal capsule.obj",
+      "bytes": 285837,
+      "sha256": "4bc73f8e32199ef9a6569151d8c72554b2ab6ee6b39c795295569777a7df7b94"
+    },
+    {
+      "id": "MM3333M",
+      "file": "MM3333M_BP106519_FMA72916_Retrolenticular part of right internal capsule.obj",
+      "bytes": 286825,
+      "sha256": "b684064bd70edf91e5f9b8f61a9b32eb760028635847a38a7437df8ee9e62771"
+    },
+    {
+      "id": "MM3343",
+      "file": "MM3343_BP106928_FMA72911_Genu of left internal capsule.obj",
+      "bytes": 454297,
+      "sha256": "5f6795b185d81324b2751dbf31cd35ad7584258cb433e2091e79f12c202f4e25"
+    },
+    {
+      "id": "MM3343M",
+      "file": "MM3343M_BP106927_FMA72910_Genu of right internal capsule.obj",
+      "bytes": 455811,
+      "sha256": "6be2f96bd41453470efec3d493b994e96055f19d5fc587a4b8d8a95857fe3cad"
+    },
+    {
+      "id": "MM3345",
+      "file": "MM3345_BP106926_FMA72909_Anterior limb of left internal capsule.obj",
+      "bytes": 385254,
+      "sha256": "fbec03740ace554f019211f042e29618dec65b3cc7041194fce567603fe6b5b8"
+    },
+    {
+      "id": "MM3345M",
+      "file": "MM3345M_BP106925_FMA72908_Anterior limb of right internal capsule.obj",
+      "bytes": 385626,
+      "sha256": "6ff8ebbad634b07d8320955c15b1e381cf6f703d13c5e5f4dc0310fd545acfb4"
+    },
+    {
+      "id": "MM3351",
+      "file": "MM3351_BP111771_FMA72923_Left extreme capsule.obj",
+      "bytes": 567491,
+      "sha256": "9f100ffa32e5afdaff1d55e75a1febd3ccfcc54a6ebfa56d0fdd8c1672ae191d"
+    },
+    {
+      "id": "MM3351M",
+      "file": "MM3351M_BP111770_FMA72922_Right extreme capsule.obj",
+      "bytes": 571727,
+      "sha256": "695f98a3c92fcf554a56980bf0670d3cad072d04ce7582e6b20e150488ef06c0"
+    },
+    {
+      "id": "MM3355",
+      "file": "MM3355_BP107451_FMA72921_Left external capsule.obj",
+      "bytes": 594964,
+      "sha256": "113fd4ada333f3556a7b772c2223b0eac08c356d3b5f656d903b8031d9c3c96f"
+    },
+    {
+      "id": "MM3355M",
+      "file": "MM3355M_BP107450_FMA72920_Right external capsule.obj",
+      "bytes": 598748,
+      "sha256": "88b06bbc12b0f7b8f190e211faa41c2718c0d42f7d0150d7697af626578860a8"
+    },
+    {
+      "id": "MM3360",
+      "file": "MM3360_BP106912_FMA72835_Left claustrum.obj",
+      "bytes": 267308,
+      "sha256": "550089227e29e93a5163aa0da995d2770f6794a9301577ed23f392381ebcc14e"
+    },
+    {
+      "id": "MM3360M",
+      "file": "MM3360M_BP106911_FMA72834_Right claustrum.obj",
+      "bytes": 269248,
+      "sha256": "12f1d740b20079c3c80de5cf1c87d708b32f0e92f6b2df74caa6a51e8422b438"
+    },
+    {
+      "id": "MM3398",
+      "file": "MM3398_BP105536_FMA275285_Circular sulcus of left insula.obj",
+      "bytes": 228214,
+      "sha256": "9d018c334e00d7e29db9b1f738456027fa0112b89d53aaa858a6e2d340e7c4d0"
+    },
+    {
+      "id": "MM3398M",
+      "file": "MM3398M_BP105535_FMA275283_Circular sulcus of right insula.obj",
+      "bytes": 230246,
+      "sha256": "fb069fd9343af159b2b1daa391e756a1176552dff5a70315b9916131786c7eaf"
+    },
+    {
+      "id": "MM3640",
+      "file": "MM3640_BP98691_FMA74045-L_LEFT ca3 field.obj",
+      "bytes": 410057,
+      "sha256": "523e5227543e022e67e812af679abf0492d77bc09f276eeb8d6a8adeb2ee6ee5"
+    },
+    {
+      "id": "MM3640M",
+      "file": "MM3640M_BP98690_FMA74045-R_RIGHT ca3 field.obj",
+      "bytes": 411189,
+      "sha256": "19cf12e1563e2745afdc55d5831f8fb1b7848ea1658030728ad81dd8ceff27a9"
+    },
+    {
+      "id": "MM3641",
+      "file": "MM3641_BP99141_FMA274991_Right band of Giacomini.obj",
+      "bytes": 109551,
+      "sha256": "d84bc6d2b2d6f42d4bd2cb1800b15276e3eeeabb56109988aa59cea8aac81582"
+    },
+    {
+      "id": "MM3641M",
+      "file": "MM3641M_BP99142_FMA274993_Left band of Giacomini.obj",
+      "bytes": 110310,
+      "sha256": "98bf5b3a936fac1e751ae1787fe56025bf5d3a36aa8dfaa1c338bff40ebe28e5"
+    },
+    {
+      "id": "MM3642",
+      "file": "MM3642_BP98653_FMA274986_Apex of left uncus.obj",
+      "bytes": 135167,
+      "sha256": "ece60a0275882e761ed7d97f136667012ffab1c2f10b66389b6597e3c408374b"
+    },
+    {
+      "id": "MM3642M",
+      "file": "MM3642M_BP98652_FMA274983_Apex of right uncus.obj",
+      "bytes": 135845,
+      "sha256": "eddcf48c91ab6f69110df47b3926012a317ea3191d8416435785cb4ec294cf6e"
+    },
+    {
+      "id": "MM3643",
+      "file": "MM3643_BP98693_FMA74044-L_LEFT ca2 field.obj",
+      "bytes": 261480,
+      "sha256": "8dc026bf296f37692298272e96ce5c1f95c9fd23730bc97160d6a9eb3bc82af5"
+    },
+    {
+      "id": "MM3643M",
+      "file": "MM3643M_BP98692_FMA74044-R_RIGHT ca2 field.obj",
+      "bytes": 263458,
+      "sha256": "f9289bb234a544a806d450621dcbc082ad973efe2fb9211f7cc1d5130a1ecdc3"
+    },
+    {
+      "id": "MM3644",
+      "file": "MM3644_BP99139_FMA274979_Left gyrus uncinatus.obj",
+      "bytes": 270379,
+      "sha256": "a2ca252abce70203943e4261bd4b7b25e4a272aa719bafe08d3ce17bee100ed4"
+    },
+    {
+      "id": "MM3644M",
+      "file": "MM3644M_BP99138_FMA274977_Right gyrus uncinatus.obj",
+      "bytes": 273077,
+      "sha256": "f68b34bf688ffd37fb895bdc39090ad8e2e25b515e8b9281ea4d3e78a4150142"
+    },
+    {
+      "id": "MM3648",
+      "file": "MM3648_BP99717_FMA272419_Left subiculum.obj",
+      "bytes": 1102639,
+      "sha256": "34b000dc1482986e898c3755b93e0728a5a50206fc6cee35266fc44bf8e45a72"
+    },
+    {
+      "id": "MM3648M",
+      "file": "MM3648M_BP99716_FMA272417_Right subiculum.obj",
+      "bytes": 1110143,
+      "sha256": "f46566f3821bc593adf673b12c4b1ce644593a7d35b73e19bc405b5ad3edd59c"
+    },
+    {
+      "id": "MM3668",
+      "file": "MM3668_BP99013_FMA72825_Posterior part of left angular gyrus.obj",
+      "bytes": 305255,
+      "sha256": "2b62cd5569b986b090732d35859a340c6470648cc24295ca25ac9392aa616f86"
+    },
+    {
+      "id": "MM3668M",
+      "file": "MM3668M_BP99012_FMA72824_Posterior part of right angular gyrus.obj",
+      "bytes": 306840,
+      "sha256": "f481d118fa60c2e8fc8aab72d4b2d9729d84df615d10af9be3b7a1cd815ce866"
+    },
+    {
+      "id": "MM3678",
+      "file": "MM3678_BP99011_FMA72823_Anterior part of left angular gyrus.obj",
+      "bytes": 391569,
+      "sha256": "65d064e9884143c8e3ba39b202e61447f58c4d44052a22a634184f0db96f34f2"
+    },
+    {
+      "id": "MM3678M",
+      "file": "MM3678M_BP99010_FMA72822_Anterior part of right angular gyrus.obj",
+      "bytes": 393719,
+      "sha256": "666cc885b89e9cd493b3da7315c86390f36f59cb3fe81eb14b7ede775066279b"
+    },
+    {
+      "id": "MM3686",
+      "file": "MM3686_BP99721_FMA273133_Left inferior occipital gyrus.obj",
+      "bytes": 733642,
+      "sha256": "0fe86f9de2bf43778489007bf40625d56a7e2361055c6a9e55266c30980126b8"
+    },
+    {
+      "id": "MM3686M",
+      "file": "MM3686M_BP99720_FMA273131_Right inferior occipital gyrus.obj",
+      "bytes": 735024,
+      "sha256": "0b48edd668b1ea87764d822f3efe3b0c5c008f1f73d00efaadae54ea2f8cdab4"
+    },
+    {
+      "id": "MM3689",
+      "file": "MM3689_BP99589_FMA72678_Left lateral occipital gyrus.obj",
+      "bytes": 675412,
+      "sha256": "fba5e1ea736cb9e76c1be9f02aa4b36df432d5b59b4862cf91e43bd529f6b3a6"
+    },
+    {
+      "id": "MM3689M",
+      "file": "MM3689M_BP99588_FMA72677_Right lateral occipital gyrus.obj",
+      "bytes": 679281,
+      "sha256": "5afe3324c7d2a8cc7a048a461cf3d02d416ca24247db71acf4cc558f937ccbb2"
+    },
+    {
+      "id": "MM3692",
+      "file": "MM3692_BP99587_FMA72676_Left superior occipital gyrus.obj",
+      "bytes": 858598,
+      "sha256": "f3bae8600f3a90746922d618a38b7488cd858e2875ac586a8e2a581a68965567"
+    },
+    {
+      "id": "MM3692M",
+      "file": "MM3692M_BP99586_FMA72675_Right superior occipital gyrus.obj",
+      "bytes": 860761,
+      "sha256": "8bcc88fb7e8cafcd6f50db9e4e54958af89df9ade512134a53f62c3a0b4944c9"
+    },
+    {
+      "id": "MM3706",
+      "file": "MM3706_BP98983_FMA72763_Anterior part of left superior frontal gyrus.obj",
+      "bytes": 245487,
+      "sha256": "7313a9903aa0dee2af6cdeca0b11d4434db5562b3bfd280420457b9407256a3e"
+    },
+    {
+      "id": "MM3706M",
+      "file": "MM3706M_BP98982_FMA72762_Anterior part of right superior frontal gyrus.obj",
+      "bytes": 245437,
+      "sha256": "fe495eb3c15e9565d7be1ea4390cf0d86e9cfdc33a8a15fd78c6109cb6f1ec26"
+    },
+    {
+      "id": "MM3707",
+      "file": "MM3707_BP99581_FMA72660_Left straight gyrus.obj",
+      "bytes": 231419,
+      "sha256": "dbd2f395bd8932ca746c76d0c516398785f03e872c803b3360d10c308586deff"
+    },
+    {
+      "id": "MM3707M",
+      "file": "MM3707M_BP99580_FMA72659_Right straight gyrus.obj",
+      "bytes": 232904,
+      "sha256": "bb6f9d45091670639af4172d6a3f11291cf29f18b3a192df8faa57cec8a76cdc"
+    },
+    {
+      "id": "MM3709",
+      "file": "MM3709_BP99003_FMA72785_Middle part of left postcentral gyrus.obj",
+      "bytes": 231742,
+      "sha256": "2103330e12f43d3c0d4cad10c2097ce459451502e6735df28431ed1fcbca7794"
+    },
+    {
+      "id": "MM3709M",
+      "file": "MM3709M_BP99002_FMA72784_Middle part of right postcentral gyrus.obj",
+      "bytes": 232332,
+      "sha256": "b64f68776c8595d531ddd60d93b51aa7389f5909c329e0108b5f80cf2f7a88b1"
+    },
+    {
+      "id": "MM3712",
+      "file": "MM3712_BP98985_FMA72765_Middle part of left superior frontal gyrus.obj",
+      "bytes": 277501,
+      "sha256": "790c7442f99cbbcb399ebc5b2fea202e48c1d553464e7dd230e385b1c33f5028"
+    },
+    {
+      "id": "MM3712M",
+      "file": "MM3712M_BP98984_FMA72764_Middle part of right superior frontal gyrus.obj",
+      "bytes": 279959,
+      "sha256": "6dff813ee8edd699b08b47a1cd6df3cccb5aabbb87d89cde66033241b61f02bc"
+    },
+    {
+      "id": "MM3713",
+      "file": "MM3713_BP99116_FMA256200_Left anterior orbital gyrus.obj",
+      "bytes": 302409,
+      "sha256": "85c462402e1acb9be0c9897f13caaa260b6de7bd8f9f9b0ea696d45cf684e93a"
+    },
+    {
+      "id": "MM3713M",
+      "file": "MM3713M_BP99115_FMA256198_Right anterior orbital gyrus.obj",
+      "bytes": 303349,
+      "sha256": "4d3ecd8bd6bcbffd7362a22a234906f5088c28f0aad586bd835e9a1a1f80664f"
+    },
+    {
+      "id": "MM3714",
+      "file": "MM3714_BP98989_FMA72771_Anterior part of left middle frontal gyrus.obj",
+      "bytes": 275046,
+      "sha256": "79a68f440ddf309e974a4401c906ccb77ea1938428300fbd783d448901b5e912"
+    },
+    {
+      "id": "MM3714M",
+      "file": "MM3714M_BP98988_FMA72770_Anterior part of right middle frontal gyrus.obj",
+      "bytes": 275615,
+      "sha256": "9b1183386e990cb67b160c4f35476fe3232ae3e97bd39af863cf1028b5c42559"
+    },
+    {
+      "id": "MM3715",
+      "file": "MM3715_BP98991_FMA72773_Middle part of left middle frontal gyrus.obj",
+      "bytes": 263884,
+      "sha256": "37e8d85b60fb0badf56fe568ac2d3696c03b51ad9cddce3b73b7f34f348cceba"
+    },
+    {
+      "id": "MM3715M",
+      "file": "MM3715M_BP98990_FMA72772_Middle part of right middle frontal gyrus.obj",
+      "bytes": 265712,
+      "sha256": "ab54ba48f0498881840c725e8ebf905a54ae11d05305a9c0ab88d3fb38956342"
+    },
+    {
+      "id": "MM3716",
+      "file": "MM3716_BP98993_FMA72775_Posterior part of left middle frontal gyrus.obj",
+      "bytes": 282984,
+      "sha256": "0f5929d58181daabf48e3715a21fa737f6a845a41f16964f76cc9b9ba3347e5d"
+    },
+    {
+      "id": "MM3716M",
+      "file": "MM3716M_BP98992_FMA72774_Posterior part of right middle frontal gyrus.obj",
+      "bytes": 284491,
+      "sha256": "a7c6b0bf0c151c52035d58852b4fb8d1d90376f1e2cc54efd2693225520d18f6"
+    },
+    {
+      "id": "MM3720",
+      "file": "MM3720_BP111808_FMA81257_Left paracentral lobule.obj",
+      "bytes": 302153,
+      "sha256": "26ca2c95329e812dd67e72bed7b7095bae2e8a10ed084a7af4c6e3944b4501ed"
+    },
+    {
+      "id": "MM3720M",
+      "file": "MM3720M_BP111807_FMA81256_Right paracentral lobule.obj",
+      "bytes": 304526,
+      "sha256": "b7ba3d9ac98ec6cc26e8f21a9f51de431cfe4e58e5a221cc6c5083b3fee4c059"
+    },
+    {
+      "id": "MM3721",
+      "file": "MM3721_BP98987_FMA72767_Posterior part of left superior frontal gyrus.obj",
+      "bytes": 344180,
+      "sha256": "1e41b0914151fc8b8c83ab23acfa8c4abde17fc94e20eb1808c806961fe1c712"
+    },
+    {
+      "id": "MM3721M",
+      "file": "MM3721M_BP98986_FMA72766_Posterior part of right superior frontal gyrus.obj",
+      "bytes": 345657,
+      "sha256": "fedaf5050741b8b94d69a8fa68d49e3c952a054c274fcc7863f9478b50fa6fe5"
+    },
+    {
+      "id": "MM3723",
+      "file": "MM3723_BP99005_FMA72787_Ventral part of left postcentral gyrus.obj",
+      "bytes": 328717,
+      "sha256": "72a705b72a91f7aa237593aa8b7928ca701b3749513bdca4dedef91b3c4a5229"
+    },
+    {
+      "id": "MM3723M",
+      "file": "MM3723M_BP99004_FMA72786_Ventral part of right postcentral gyrus.obj",
+      "bytes": 330442,
+      "sha256": "d8cfbed0a4ae9564d8ddc232d6112e430850787ee29bb37cc2090d9b26db205a"
+    },
+    {
+      "id": "MM3725",
+      "file": "MM3725_BP98971_FMA72749_Isthmus of left cingulate gyrus.obj",
+      "bytes": 369940,
+      "sha256": "8c1094ca371784c5a22b0e036716d2d0c54334a7c81c9c8824a0441572bea67d"
+    },
+    {
+      "id": "MM3725M",
+      "file": "MM3725M_BP98970_FMA72748_Isthmus of right cingulate gyrus.obj",
+      "bytes": 371954,
+      "sha256": "1d1a3541c71eba1681dcf69f3605722a366f2db1c0f1827a576d71db9a8982c4"
+    },
+    {
+      "id": "MM3726",
+      "file": "MM3726_BP98995_FMA72777_Dorsal part of left precentral gyrus.obj",
+      "bytes": 351276,
+      "sha256": "b663c5f572721bb7f37d0d20924e6f2c75b35137f249918295c76fad8994f8d2"
+    },
+    {
+      "id": "MM3726M",
+      "file": "MM3726M_BP98994_FMA72776_Dorsal part of right precentral gyrus.obj",
+      "bytes": 353318,
+      "sha256": "acd19382b17205054d25cd2970f88207e3e00293612035d0c311498e69670157"
+    },
+    {
+      "id": "MM3729",
+      "file": "MM3729_BP98981_FMA72759_Left medial orbital gyrus.obj",
+      "bytes": 449776,
+      "sha256": "4e6c332482e01af3dbab4ab5fb5cf28c431865d550c768125b06bcf08dcc8101"
+    },
+    {
+      "id": "MM3729M",
+      "file": "MM3729M_BP98980_FMA72758_Right medial orbital gyrus.obj",
+      "bytes": 452757,
+      "sha256": "a067728f2db89cd8024060e83da659f387cb684b9a36d44bb5f1e9cc3d472c2a"
+    },
+    {
+      "id": "MM3731",
+      "file": "MM3731_BP98997_FMA72779_Middle part of left precentral gyrus.obj",
+      "bytes": 432567,
+      "sha256": "3a6e9b5a3c1ca96eb28f1c7b13f43d425cf5c4bad4b440d27bd7c7347e82c285"
+    },
+    {
+      "id": "MM3731M",
+      "file": "MM3731M_BP98996_FMA72778_Middle part of right precentral gyrus.obj",
+      "bytes": 434700,
+      "sha256": "a71e652ce7f7db1115ac12b9ba9c545c3bb7dfda37f194bc0300af71b99376a2"
+    },
+    {
+      "id": "MM3732",
+      "file": "MM3732_BP99001_FMA72783_Dorsal part of left postcentral gyrus.obj",
+      "bytes": 438813,
+      "sha256": "974fc9d8e654d5ab96c3f3144393876d10db5b061307776c9f798c0cb080b104"
+    },
+    {
+      "id": "MM3732M",
+      "file": "MM3732M_BP99000_FMA72782_Dorsal part of right postcentral gyrus.obj",
+      "bytes": 441888,
+      "sha256": "8c3708126f5cf0b3173ce5f29dc910933be76f8ca999956961b921629e96fcd1"
+    },
+    {
+      "id": "MM3733",
+      "file": "MM3733_BP99585_FMA72674_Left precuneus.obj",
+      "bytes": 498008,
+      "sha256": "8cf7d746d0a7a3e137d9081e7ee22eb221929bb0cff7ae3e3ebb1227f0d5e70c"
+    },
+    {
+      "id": "MM3733M",
+      "file": "MM3733M_BP99584_FMA72673_Right precuneus.obj",
+      "bytes": 500344,
+      "sha256": "089b22d9c9acc1d80fdc8355405e420d6b26a3373b8c1d5b4c0684ba64e4917c"
+    },
+    {
+      "id": "MM3734",
+      "file": "MM3734_BP98979_FMA72757_Left lateral orbital gyrus.obj",
+      "bytes": 567847,
+      "sha256": "42a7a0f8c4c31bb992f07176cc82971632544df77831a9788f18bccb8328c14c"
+    },
+    {
+      "id": "MM3734M",
+      "file": "MM3734M_BP98978_FMA72756_Right lateral orbital gyrus.obj",
+      "bytes": 567419,
+      "sha256": "4276274b65973372f06c61af9a1addaf27130f7fa72cf109a7ac9f515d2e0eb6"
+    },
+    {
+      "id": "MM3735",
+      "file": "MM3735_BP99726_FMA274508_Left frontomarginal gyrus.obj",
+      "bytes": 557315,
+      "sha256": "a88193622ffcbcab4f4f5e215234fd1104cc40fe1ad9ccae2ce068a636c35844"
+    },
+    {
+      "id": "MM3735M",
+      "file": "MM3735M_BP99725_FMA274506_Right frontomarginal gyrus.obj",
+      "bytes": 559699,
+      "sha256": "797f57db1f10777236f1656ca096c1546f8b2c497ac34922291353e3e385c080"
+    },
+    {
+      "id": "MM3737",
+      "file": "MM3737_BP99120_FMA274418_Left inferior transverse frontopolar gyrus.obj",
+      "bytes": 624895,
+      "sha256": "286eeca7860d2ca8034ae7d370b5e06e923034c5b16f60af1ba8c9a1231c1af7"
+    },
+    {
+      "id": "MM3737M",
+      "file": "MM3737M_BP99119_FMA274416_Right inferior transverse frontopolar gyrus.obj",
+      "bytes": 627262,
+      "sha256": "a53332f0898cfe6218f075790b18b23b0dcaaa2ba7ecd8e84e4135ccd175b459"
+    },
+    {
+      "id": "MM3739",
+      "file": "MM3739_BP98977_FMA72755_Orbital part of left inferior frontal gyrus.obj",
+      "bytes": 693855,
+      "sha256": "7fa3a6bc94b44ea8c775c23a3074b531b8971f51c0e538beb1e1c265a5663b2b"
+    },
+    {
+      "id": "MM3739M",
+      "file": "MM3739M_BP98976_FMA72754_Orbital part of right inferior frontal gyrus.obj",
+      "bytes": 696560,
+      "sha256": "3c77d1389999e4e40bf878467bb85e484b44149da3c490c262ed9eb320356776"
+    },
+    {
+      "id": "MM3740",
+      "file": "MM3740_BP99734_FMA274639_Occipital segment of left fusiform gyrus.obj",
+      "bytes": 707057,
+      "sha256": "73674d9a1c883f1da0f17f175afaa34a69ebf127c7b5bdeeae6999d876cfc0cb"
+    },
+    {
+      "id": "MM3740M",
+      "file": "MM3740M_BP99733_FMA274637_Occipital segment of right fusiform gyrus.obj",
+      "bytes": 711171,
+      "sha256": "68abb5e8e4dbf7a1d1b40ab88dd1dc2747fe3236fe6f317b33fc798e952a7983"
+    },
+    {
+      "id": "MM3745",
+      "file": "MM3745_BP98999_FMA72781_Ventral part of left precentral gyrus.obj",
+      "bytes": 835580,
+      "sha256": "f8336fd4fca80d8860e23136180053b317ae4392aafa5bac78ed87027715bcda"
+    },
+    {
+      "id": "MM3745M",
+      "file": "MM3745M_BP98998_FMA72780_Ventral part of right precentral gyrus.obj",
+      "bytes": 838183,
+      "sha256": "1418be978add0df0f3037b9d8976e44531abda9e26840043a623b33fd382e76a"
+    },
+    {
+      "id": "MM3748",
+      "file": "MM3748_BP99719_FMA273107_Left medial frontal gyrus.obj",
+      "bytes": 1024353,
+      "sha256": "9f0b59cc7fe64676426b66ed23a9b271b7699d0d022658a3deecfdd2197b06d3"
+    },
+    {
+      "id": "MM3748M",
+      "file": "MM3748M_BP99718_FMA273105_Right medial frontal gyrus.obj",
+      "bytes": 1027814,
+      "sha256": "44a41b86c19d4fd51fd21f9708c82565e1112c2d9326901b34181829d28913fc"
+    },
+    {
+      "id": "MM3749",
+      "file": "MM3749_BP99732_FMA274630_Temporal segment of left fusiform gyrus.obj",
+      "bytes": 1190533,
+      "sha256": "d3e7aeeace8c6bec5fe43c8498a309f7d4a1384ba49e135090430c39e179392b"
+    },
+    {
+      "id": "MM3749M",
+      "file": "MM3749M_BP99731_FMA274628_Temporal segment of right fusiform gyrus.obj",
+      "bytes": 1194996,
+      "sha256": "c17080e4722a73382880f043f7b98b4c1edbeaa242342bce7204582072ba9c48"
+    },
+    {
+      "id": "MM3771",
+      "file": "MM3771_BP105534_FMA275281_Left lateral sulcus.obj",
+      "bytes": 82828,
+      "sha256": "fa3c1b9d82d60cb87ad6fcc87e6e1b81310b63d1bf4e6dafbd3b5a438bbc7c8f"
+    },
+    {
+      "id": "MM3771M",
+      "file": "MM3771M_BP105533_FMA275279_Right lateral sulcus.obj",
+      "bytes": 83708,
+      "sha256": "60859c3c85b27148ff8271d9dc88ff2a1bdf9afd1294e91ce1de39ec63be0c11"
+    },
+    {
+      "id": "MM3806",
+      "file": "MM3806_BP99126_FMA274624_Inferior segment of left lingual gyrus.obj",
+      "bytes": 441115,
+      "sha256": "9586ce716af83c38801115fbeebf373cfb4fe16be0381d763e86adf2ecab9a26"
+    },
+    {
+      "id": "MM3806M",
+      "file": "MM3806M_BP99125_FMA274622_Inferior segment of right lingual gyrus.obj",
+      "bytes": 445520,
+      "sha256": "b689b87573635ff7b648f151f327d3a71f147ba6acf76b26fb88ead4336ecae0"
+    },
+    {
+      "id": "MM3807",
+      "file": "MM3807_BP99124_FMA274620_Superior segment of left lingual gyrus.obj",
+      "bytes": 485327,
+      "sha256": "98b9ca7593539b9eb06ca0d4b3d8818e7c9b06941841ea57617d6bbb091a4771"
+    },
+    {
+      "id": "MM3807M",
+      "file": "MM3807M_BP99123_FMA274618_Superior segment of right lingual gyrus.obj",
+      "bytes": 485822,
+      "sha256": "a8ae6ed411408c2a5527e45bebfaf7493f71a84f04b517a7eb1367ba912d1f1b"
+    },
+    {
+      "id": "MM3811",
+      "file": "MM3811_BP100361_FMA274764_Pole of left insula.obj",
+      "bytes": 154395,
+      "sha256": "41d6f59342dac1d87a1fb9cae27a398141129b050a8a4f0204816b2304575b73"
+    },
+    {
+      "id": "MM3811M",
+      "file": "MM3811M_BP100360_FMA274762_Pole of right insula.obj",
+      "bytes": 154219,
+      "sha256": "a84175246a2c7c28cad748782b8b9541f577c4f848745aa8c7c05ffdd804459b"
+    },
+    {
+      "id": "MM3814",
+      "file": "MM3814_BP99603_FMA72702_Left accessory short gyrus.obj",
+      "bytes": 239151,
+      "sha256": "de378c4a31b2cb5fd54936714f26d87f5533f3b8f6d3fc2ede976628f2e7fe1e"
+    },
+    {
+      "id": "MM3814M",
+      "file": "MM3814M_BP99602_FMA72701_Right accessory short gyrus.obj",
+      "bytes": 239353,
+      "sha256": "97f7aa1a51d2f0ba29ee5d142a0b4a0c8cdeb7d55d67507e6ff3a02786c781d3"
+    },
+    {
+      "id": "MM3815",
+      "file": "MM3815_BP99132_FMA274721_Left posterior short insular gyrus.obj",
+      "bytes": 398093,
+      "sha256": "a9531782c1c6c2807b475156d3e2fc649d7cfc4fcb7694d6d0bba15a556706e2"
+    },
+    {
+      "id": "MM3815M",
+      "file": "MM3815M_BP99131_FMA274719_Right posterior short insular gyrus.obj",
+      "bytes": 400301,
+      "sha256": "523a798daf7da0cde8fd3d95dc31e191e1de4c43ed4fabc054ff061ff36681ef"
+    },
+    {
+      "id": "MM3818",
+      "file": "MM3818_BP99043_FMA80188_Left posterior orbital gyrus.obj",
+      "bytes": 371963,
+      "sha256": "b8bf15a0c809c850229e9110200fe1728b9445f9b3c18928335d777bf90c94eb"
+    },
+    {
+      "id": "MM3818M",
+      "file": "MM3818M_BP99042_FMA80187_Right posterior orbital gyrus.obj",
+      "bytes": 373848,
+      "sha256": "258bed04dff6f80dbc426c02eadaff3d2cf3dcf192bafc428980de326d151dbe"
+    },
+    {
+      "id": "MM3819",
+      "file": "MM3819_BP99130_FMA274715_Left middle short insular gyrus.obj",
+      "bytes": 540962,
+      "sha256": "28e5f48055ceca63f829c9d66f1eab6564b199fd4bec3f3cb037afaa8fc446f5"
+    },
+    {
+      "id": "MM3819M",
+      "file": "MM3819M_BP99129_FMA274713_Right middle short insular gyrus.obj",
+      "bytes": 545640,
+      "sha256": "35bb73daffdf62a8fc199b698ab18b8a839070688e0b852d30d5c4faec882395"
+    },
+    {
+      "id": "MM3820",
+      "file": "MM3820_BP99128_FMA274709_Left anterior short insular gyrus.obj",
+      "bytes": 561009,
+      "sha256": "8400b0905caf7ae82a72754b7c4456735b62d8f2fdeb30296b57d7004227a5fd"
+    },
+    {
+      "id": "MM3820M",
+      "file": "MM3820M_BP99127_FMA274707_RIght anterior short insular gyrus.obj",
+      "bytes": 564370,
+      "sha256": "9c0c3b259442ca4283c98027d55e1a13047f301345f9206377128bbe776f5a88"
+    },
+    {
+      "id": "MM3821",
+      "file": "MM3821_BP99134_FMA274727_Left anterior long insular gyrus.obj",
+      "bytes": 552891,
+      "sha256": "0eb772afdd4e45bd78bc8582dc46568fc7d2e6cf808a643be67723efe0b20cdb"
+    },
+    {
+      "id": "MM3821M",
+      "file": "MM3821M_BP99133_FMA274725_Right anterior long insular gyrus.obj",
+      "bytes": 555805,
+      "sha256": "df173e076b0b89a997fefeb3cfe286d141ec385a9981c1f1ad8737fb7626eaab"
+    },
+    {
+      "id": "MM3822",
+      "file": "MM3822_BP99136_FMA274733_Left posterior long insular gyrus.obj",
+      "bytes": 530429,
+      "sha256": "a9079be89fec3b51f4703cca28639f39d0a0198c8fc3ba0c7636a1f9e82b02c5"
+    },
+    {
+      "id": "MM3822M",
+      "file": "MM3822M_BP99135_FMA274731_Right posterior long insular gyrus.obj",
+      "bytes": 533419,
+      "sha256": "3d38ca887ecdbd5d83521acff93c18ff3007090df8ebd4a17d88d90d102c7cb0"
+    },
+    {
+      "id": "MM3824",
+      "file": "MM3824_BP98973_FMA72751_Triangular part of left inferior frontal gyrus.obj",
+      "bytes": 992094,
+      "sha256": "cb025207bccca83a9f70534070f4f2323144eb5a08271cad8a90afe423b55dd5"
+    },
+    {
+      "id": "MM3824M",
+      "file": "MM3824M_BP98972_FMA72750_Triangular part of right inferior frontal gyrus.obj",
+      "bytes": 996721,
+      "sha256": "0b33a9966850d63e195594f0044cf2e41fcdf615fc97bb98f1fd78b0bb156907"
+    },
+    {
+      "id": "MM3825",
+      "file": "MM3825_BP99118_FMA274412_Left superior transverse frontopolar gyrus.obj",
+      "bytes": 487473,
+      "sha256": "e383e28dcbc5f31aa3dfbf05dfffc67e045088a98ddeb602974da6ecb0854c1b"
+    },
+    {
+      "id": "MM3825M",
+      "file": "MM3825M_BP99117_FMA274410_Right superior transverse frontopolar gyrus.obj",
+      "bytes": 488756,
+      "sha256": "5a1121851b40957894602708d6ec9bf98f4d95cbca5ad83a5fdd2201dcd80d5c"
+    },
+    {
+      "id": "MM3826",
+      "file": "MM3826_BP99122_FMA274424_Left middle transverse frontopolar gyrus.obj",
+      "bytes": 381971,
+      "sha256": "4e1a2c07f135f5b0e79d11a7940b7e7e8debda8c1e72011f93e1c263beb53a20"
+    },
+    {
+      "id": "MM3826M",
+      "file": "MM3826M_BP99121_FMA274422_Right middle transverse frontopolar gyrus.obj",
+      "bytes": 384422,
+      "sha256": "85f1910b03aa1344218d69d6b9c8d8b7bc4c6b8fff663b52172cf604dcef5fcb"
+    },
+    {
+      "id": "MM3827",
+      "file": "MM3827_BP98967_FMA72745_Left anterior cingulate gyrus.obj",
+      "bytes": 213658,
+      "sha256": "0cba44cb9af0f45c966a13a9bdfafd634b1bc13410a04beee75fc8c654ae8e32"
+    },
+    {
+      "id": "MM3827M",
+      "file": "MM3827M_BP98966_FMA72744_Right anterior cingulate gyrus.obj",
+      "bytes": 215160,
+      "sha256": "4280e37176bb498ba2c732704b91efa46e793be680026bc626a2e52989e7d95d"
+    },
+    {
+      "id": "MM3829",
+      "file": "MM3829_BP98969_FMA72747_Left posterior cingulate gyrus.obj",
+      "bytes": 278307,
+      "sha256": "0e467574ca496f0c8a63f0222c1f6d99d3826bd2b971f1429f05bb2067ac806c"
+    },
+    {
+      "id": "MM3829M",
+      "file": "MM3829M_BP98968_FMA72746_Right posterior cingulate gyrus.obj",
+      "bytes": 281635,
+      "sha256": "966f7ab8abc9cc35e7f010d72b93f8b0b0294f39c95b11b2a25a7412dfd78390"
+    },
+    {
+      "id": "MM3830",
+      "file": "MM3830_BP98655_FMA306073_Left anterior middle cingulate gyrus.obj",
+      "bytes": 332220,
+      "sha256": "f08a0d7e508766583b38178ef80b26f703232a9945d69152c10acda780419cab"
+    },
+    {
+      "id": "MM3830M",
+      "file": "MM3830M_BP98654_FMA306070_Right anterior middle cingulate gyrus.obj",
+      "bytes": 334997,
+      "sha256": "c992fc38518e6603d1eb47a26391fc7c98a531f4c72e9d4e43107f7c2904cf7f"
+    },
+    {
+      "id": "MM3831",
+      "file": "MM3831_BP98657_FMA306079_Left posterior middle cingulate gyrus.obj",
+      "bytes": 373454,
+      "sha256": "3997fd9bc19f6b826fde62e849da8706983791203ed677747486d5723d53cc26"
+    },
+    {
+      "id": "MM3831M",
+      "file": "MM3831M_BP98656_FMA306076_Right posterior middle cingulate gyrus.obj",
+      "bytes": 375140,
+      "sha256": "c0134f800f8e3407bc4841398ae3c12fc3003f2368798236eb15a570e680953c"
+    },
+    {
+      "id": "MM3271",
+      "file": "MM3271_BP106308_FMA72829-P_PROPER PART OF left putamen.obj",
+      "bytes": 1161791,
+      "sha256": "fdf3327319434445da698cf1ba6c3f3d3107e54936a0d03401aa10157c617238"
+    },
+    {
+      "id": "MM3271M",
+      "file": "MM3271M_BP106307_FMA72828-P_PROPER PART OF right putamen.obj",
+      "bytes": 1165355,
+      "sha256": "7e038ead30c29e4f09fd061d9051a0c841e7f53e6e8ed54a0d579b9dced5778c"
+    }
+  ],
+  "missingRequestedIds": [],
+  "sourceCorticalCompound": {
+    "fma": "FMA61820",
+    "relation": "is_a",
+    "ids": [
+      "CX229",
+      "FJ1837",
+      "FJ1838",
+      "FJ1839",
+      "FJ1840",
+      "MM232",
+      "MM232M",
+      "MM233",
+      "MM233M",
+      "MM235",
+      "MM235M",
+      "MM236",
+      "MM236M",
+      "MM237",
+      "MM237M",
+      "MM270",
+      "MM270M",
+      "MM3000",
+      "MM3000M",
+      "MM3031",
+      "MM3031M",
+      "MM3042",
+      "MM3042M",
+      "MM3046",
+      "MM3046M",
+      "MM3048",
+      "MM3048M",
+      "MM3054",
+      "MM3054M",
+      "MM3127",
+      "MM3127M",
+      "MM3184",
+      "MM3184M",
+      "MM3190",
+      "MM3190M",
+      "MM3210",
+      "MM3210M",
+      "MM3252",
+      "MM3252M",
+      "MM3287",
+      "MM3287M",
+      "MM3299",
+      "MM3299M",
+      "MM3300",
+      "MM3300M",
+      "MM3301",
+      "MM3301M",
+      "MM3303",
+      "MM3303M",
+      "MM3311",
+      "MM3311M",
+      "MM3313",
+      "MM3313M",
+      "MM3317",
+      "MM3317M",
+      "MM3640",
+      "MM3640M",
+      "MM3641",
+      "MM3641M",
+      "MM3642",
+      "MM3642M",
+      "MM3643",
+      "MM3643M",
+      "MM3644",
+      "MM3644M",
+      "MM3648",
+      "MM3648M",
+      "MM3668",
+      "MM3668M",
+      "MM3678",
+      "MM3678M",
+      "MM3686",
+      "MM3686M",
+      "MM3689",
+      "MM3689M",
+      "MM3692",
+      "MM3692M",
+      "MM3706",
+      "MM3706M",
+      "MM3707",
+      "MM3707M",
+      "MM3709",
+      "MM3709M",
+      "MM3712",
+      "MM3712M",
+      "MM3713",
+      "MM3713M",
+      "MM3714",
+      "MM3714M",
+      "MM3715",
+      "MM3715M",
+      "MM3716",
+      "MM3716M",
+      "MM3720",
+      "MM3720M",
+      "MM3721",
+      "MM3721M",
+      "MM3723",
+      "MM3723M",
+      "MM3725",
+      "MM3725M",
+      "MM3726",
+      "MM3726M",
+      "MM3729",
+      "MM3729M",
+      "MM3731",
+      "MM3731M",
+      "MM3732",
+      "MM3732M",
+      "MM3733",
+      "MM3733M",
+      "MM3734",
+      "MM3734M",
+      "MM3735",
+      "MM3735M",
+      "MM3737",
+      "MM3737M",
+      "MM3739",
+      "MM3739M",
+      "MM3740",
+      "MM3740M",
+      "MM3745",
+      "MM3745M",
+      "MM3748",
+      "MM3748M",
+      "MM3749",
+      "MM3749M",
+      "MM3806",
+      "MM3806M",
+      "MM3807",
+      "MM3807M",
+      "MM3811",
+      "MM3811M",
+      "MM3814",
+      "MM3814M",
+      "MM3815",
+      "MM3815M",
+      "MM3818",
+      "MM3818M",
+      "MM3819",
+      "MM3819M",
+      "MM3820",
+      "MM3820M",
+      "MM3821",
+      "MM3821M",
+      "MM3822",
+      "MM3822M",
+      "MM3824",
+      "MM3824M",
+      "MM3825",
+      "MM3825M",
+      "MM3826",
+      "MM3826M",
+      "MM3827",
+      "MM3827M",
+      "MM3829",
+      "MM3829M",
+      "MM3830",
+      "MM3830M",
+      "MM3831",
+      "MM3831M"
+    ]
+  },
+  "sourceLocalIds": [
+    "MM3295M",
+    "MM3815M",
+    "MM3301",
+    "MM3143",
+    "MM3292",
+    "MM3814M",
+    "MM3821",
+    "MM3295",
+    "MM3815",
+    "MM3814",
+    "MM3821M",
+    "MM3143M",
+    "MM3301M",
+    "MM3292M",
+    "MM3819",
+    "MM3313",
+    "MM3398",
+    "MM3291",
+    "MM3822",
+    "MM3820",
+    "MM3317",
+    "MM3300",
+    "MM3303",
+    "MM3299",
+    "MM3811",
+    "MM3298",
+    "MM3287",
+    "MM3771",
+    "MM3822M",
+    "MM3313M",
+    "MM3819M",
+    "MM3398M",
+    "MM3291M",
+    "MM3300M",
+    "MM3820M",
+    "MM3317M",
+    "MM3303M",
+    "MM3771M",
+    "MM3299M",
+    "MM3811M",
+    "MM3287M",
+    "MM3298M"
+  ],
+  "sourceDeepContextIds": [
+    "MM2850",
+    "MM2850M",
+    "MM2870",
+    "MM2870M",
+    "MM2879",
+    "MM2879M",
+    "MM2915",
+    "MM2915M",
+    "MM2918",
+    "MM2918M",
+    "MM3271",
+    "MM3271M",
+    "MM3272",
+    "MM3272M",
+    "MM3323",
+    "MM3323M",
+    "MM3326",
+    "MM3326M",
+    "MM3333",
+    "MM3333M",
+    "MM3343",
+    "MM3343M",
+    "MM3345",
+    "MM3345M",
+    "MM3351",
+    "MM3351M",
+    "MM3355",
+    "MM3355M",
+    "MM3360",
+    "MM3360M"
+  ],
+  "archives": [
+    "official-2018-context-1.zip",
+    "official-2018-context-2.zip",
+    "official-2018-context-3.zip",
+    "official-2018-putamen-thalamus.zip"
+  ],
+  "geometryChanged": false,
+  "registrationApplied": false,
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "legacyNoticeURL": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+  "note": "Official compound includes historical or nested anatomical representations. Inclusion in this inventory does not mean every object should be displayed simultaneously. No 4.3 geometry was copied into this dataset.",
+  "additionalDeepSourceCompounds": {
+    "FMA72829": [
+      "MM3271"
+    ],
+    "FMA72828": [
+      "MM3271M"
+    ]
+  },
+  "excludedResearchOnlyIds": [
+    "FJ7558",
+    "FJ7558M",
+    "FJ7559",
+    "FJ7559M",
+    "FJ7561",
+    "FJ7561M",
+    "MM2789",
+    "MM2789M",
+    "MM2790",
+    "MM2790M",
+    "MM2791",
+    "MM2791M",
+    "MM2792",
+    "MM2792M",
+    "MM2793",
+    "MM2793M",
+    "MM2795",
+    "MM2795M",
+    "MM2798",
+    "MM2798M",
+    "MM2800",
+    "MM2800M",
+    "MM2802",
+    "MM2802M",
+    "MM2804",
+    "MM2804M",
+    "MM2807",
+    "MM2807M",
+    "MM2810",
+    "MM2810M",
+    "MM2812",
+    "MM2812M",
+    "MM2813",
+    "MM2813M",
+    "MM2815",
+    "MM2815M",
+    "MM2817",
+    "MM2817M",
+    "MM2819",
+    "MM2819M",
+    "MM2821",
+    "MM2821M",
+    "MM2823",
+    "MM2823M",
+    "MM2824",
+    "MM2824M",
+    "MM2826",
+    "MM2826M",
+    "MM2827",
+    "MM2827M",
+    "MM2836",
+    "MM2836M",
+    "MM2837",
+    "MM2837M",
+    "MM2838",
+    "MM2838M",
+    "MM2840",
+    "MM2840M",
+    "MM2841",
+    "MM2841M",
+    "MM2842",
+    "MM2842M",
+    "MM2843",
+    "MM2843M"
+  ]
+}

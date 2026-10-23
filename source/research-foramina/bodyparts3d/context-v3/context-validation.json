@@ -1,0 +1,75 @@
+{
+  "method": "Direct native-coordinate nearest-original-vertex distances. No fit, surface Hausdorff calculation or proof of biological correspondence.",
+  "versionComparison": [
+    {
+      "side": "left",
+      "oldID": "FJ1748",
+      "newCompoundSourceFMA": "FMA72978",
+      "newIDs": [
+        "MM3814",
+        "MM3815",
+        "MM3819",
+        "MM3820",
+        "MM3821",
+        "MM3822"
+      ],
+      "oldToNewVertexDistancesMm": {
+        "median": 5.994749773325951,
+        "p95": 11.299351444107886,
+        "max": 12.919008845360537
+      },
+      "newToOldVertexDistancesMm": {
+        "median": 3.0733465921417578,
+        "p95": 10.215206304387394,
+        "max": 16.2207244112782
+      }
+    },
+    {
+      "side": "right",
+      "oldID": "FJ1749",
+      "newCompoundSourceFMA": "FMA72977",
+      "newIDs": [
+        "MM3814M",
+        "MM3815M",
+        "MM3819M",
+        "MM3820M",
+        "MM3821M",
+        "MM3822M"
+      ],
+      "oldToNewVertexDistancesMm": {
+        "median": 6.5672702706155075,
+        "p95": 11.754425737398867,
+        "max": 13.272889708296088
+      },
+      "newToOldVertexDistancesMm": {
+        "median": 3.477096634093967,
+        "p95": 10.806883570772422,
+        "max": 16.864176422564235
+      }
+    }
+  ],
+  "decision": "Do not substitute 2018 local parts into the old 4.3 atlas as if they were registered. The differences include anatomical remodeling and mesh sampling, which this check does not separate.",
+  "bp43CombinedCorticalObjectCount": 50,
+  "bp43CombinedBoundsMm": [
+    [
+      -69.94039916992188,
+      -169.677001953125,
+      1513.6099853515625
+    ],
+    [
+      69.67960357666016,
+      10.18649959564209,
+      1630.4599609375
+    ]
+  ],
+  "bp43CombinedDimensionsMm": [
+    139.6199951171875,
+    179.86349487304688,
+    116.8499755859375
+  ],
+  "renderMethod": "Original triangle faces projected orthographically and painter-sorted for QA. Rendered objects are explicitly listed in this script. No surfaces synthesized.",
+  "figures": [
+    "bp43-whole-cortex-context.png",
+    "bp2018-perisylvian-context.png"
+  ]
+}

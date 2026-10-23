@@ -1,0 +1,8 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+Official license: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Legacy viewer notice retained: BodyParts3D / Database Center for Life Science, CC BY-SA 2.1 Japan
+Legacy notice: https://lifesciencedb.jp/bp3d/info_en/license/index.html
+Legacy license: https://creativecommons.org/licenses/by-sa/2.1/jp/
+Source: official BodyParts3D version 20181210i412 / object set 20181210 / FMA4.12.0-inference
+Changes: original OBJ vertices and faces packed as float32/uint32; named source objects grouped for selection/visibility, bilingual metadata and diagnostics added. No mesh simplification, anatomical reconstruction, fitted registration, or altered source geometry.

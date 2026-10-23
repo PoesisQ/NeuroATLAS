@@ -1,0 +1,155 @@
+{
+  "id" : "2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc",
+  "uuid" : "2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc",
+  "name" : "Automated atlas-based segmentation for skull base surgical planning",
+  "handle" : "1773/46259",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Konuthula, Neeraja",
+      "language" : null,
+      "authority" : "60eaca8e-8c85-4b1a-a11d-213ccd8edd81",
+      "confidence" : 0,
+      "place" : 0
+    }, {
+      "value" : "Perez, Francisco A",
+      "language" : "",
+      "authority" : "5b3d9884-fe02-41d1-a2dc-daef767eaff9",
+      "confidence" : 0,
+      "place" : 1
+    }, {
+      "value" : "Maga, A Murat",
+      "language" : "",
+      "authority" : "ba4a0773-c516-4518-b8b3-1d03d6dc8841",
+      "confidence" : 300,
+      "place" : 2
+    }, {
+      "value" : "Abuzeid, Waleed M.",
+      "language" : "",
+      "authority" : "462edb9e-1729-4665-ae49-90a8c36e0868",
+      "confidence" : 300,
+      "place" : 3
+    }, {
+      "value" : "Moe, Kris",
+      "language" : "",
+      "authority" : "da7872c3-4817-4d3f-b39a-cc40b0d55102",
+      "confidence" : 0,
+      "place" : 4
+    }, {
+      "value" : "Hannaford, Blake",
+      "language" : "",
+      "authority" : "56211de7-04a9-403b-a0af-069345323e21",
+      "confidence" : 0,
+      "place" : 5
+    }, {
+      "value" : "Bly, Randall A.",
+      "language" : "",
+      "authority" : "e02b950f-62e7-4965-8b0f-93ad1136542d",
+      "confidence" : 500,
+      "place" : 6
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2020-09-30T21:56:07Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2020-09-30T21:56:07Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2020-09-09",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Purpose: Computational surgical planning tools could help develop novel skull base surgical approaches that improve safety and patient outcomes. This defines a need for automated skull base segmentation to improve the usability of surgical planning software. The objective of this work was to design and validate an algorithm for atlas-based automated segmentation of skull base structures in individual scans in skull base surgical planning.  \r\n \r\nMethods: Advanced Normalization Tools software was used to construct a synthetic CT template from 6 subject scans, and skull base structures were manually segmented to create a reference atlas. Structures were also segmented on scans from 30 additional subjects to serve as ground truth scans for accuracy testing. Landmark registration followed by Elastix deformable registration were applied to the template to register it to each of the 30 patient scans. Dice coefficient, average Hausdorff distance, and clinical usability scoring were used to compare the atlas segmentations to those of the ground truth scans.  \r\nResults: The upper limit of the 95% confidence intervals for the average Hausdorff distance for all structures was less than 2 mm. For structures greater than 2.5mL in volume, the average Dice coefficient was 0.73 (range 0.59-0.82), and for structures less than 2.5 mL in volume the Dice coefficient was less than 0.7. The usability scoring survey was completed by three experts, and all structures met the criteria for acceptable effort except for the foramen spinosum, rotundum, and carotid artery, which required more than minor corrections. \r\n\r\nConclusion: Currently available open-source algorithms, such as the Elastix deformable algorithm, can be used for automated atlas-based segmentation of skull base structures with acceptable clinical accuracy and minimal corrections with the use of the proposed atlas. The first publicly available CT template and anterior skull base segmentation atlas being released with this paper will allow for general use of automated atlas-based segmentation of the skull base.  \r\n\r\nScreen reader support enabled.",
+      "language" : "en_US",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://hdl.handle.net/1773/46259",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "Attribution-NonCommercial-ShareAlike 3.0 United States",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "http://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Automated atlas-based segmentation for skull base surgical planning",
+      "language" : "en_US",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Dataset",
+      "language" : "en_US",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2025-01-07T21:37:08.317Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/relationships"
+    },
+    "version" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc/submitter"
+    },
+    "self" : {
+      "href" : "https://digital.lib.washington.edu/server/api/core/items/2b0f0e1e-ae81-4bf8-9b79-8dc6872b5ecc"
+    }
+  }
+}

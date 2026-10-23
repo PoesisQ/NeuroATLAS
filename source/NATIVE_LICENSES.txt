@@ -1,0 +1,14 @@
+NextBrain / UCL / MGH. Data DOI https://doi.org/10.5522/04/24243835.v1, CC0-1.0. P41-16 original source registration retained. Changes: source-label isosurfaces; no smoothing, seam closure, mirroring or inter-atlas registration.
+
+BodyParts3D, © The Database Center for Life Science (DBCLS). Official archive license https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html is CC BY 4.0 from 2025-02-27. Legacy viewer retains CC BY-SA 2.1 Japan attribution, preserved here as historical source notice. Original OBJ geometry retained; common rigid axis conversion/translation and coordinate quantization only.
+
+University of Washington ResearchWorks
+Konuthula N, Perez FA, Maga AM, Abuzeid WM, Moe K, Hannaford B, Bly RA. Automated atlas-based segmentation for skull base surgical planning.
+Dataset: https://hdl.handle.net/1773/46259
+Paper: https://doi.org/10.1007/s11548-021-02390-5
+License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States
+License URL: https://creativecommons.org/licenses/by-nc-sa/3.0/us/
+Changes: original binary labelmap surfaces extracted using marching cubes without smoothing or decimation; source CT interpolated for explicitly labeled verification slices. No registration, invented anatomy, cleanup or patient-specific representation.
+Use and redistribute these source-derived components under the stated noncommercial share-alike terms; these components are not relicensed as MIT or CC BY.
+
+Additional change: removed marching-cubes artificial caps at source array crop planes; no change to natural source-label surface vertices. All source-derived components retain their respective licenses; aggregation does not relicense them.

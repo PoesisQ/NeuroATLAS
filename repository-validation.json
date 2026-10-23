@@ -1,0 +1,33 @@
+{
+  "version": "3.2",
+  "scope": "Clean checkout of the staged repository, with all ignored local downloads and caches absent. Python standard-library build; Node.js validation.",
+  "stagedFiles": 163,
+  "tests": [
+    {
+      "name": "build",
+      "passed": true
+    },
+    {
+      "name": "static",
+      "passed": true
+    },
+    {
+      "name": "sections",
+      "passed": true
+    },
+    {
+      "name": "portability",
+      "passed": true
+    },
+    {
+      "name": "rebuilt HTML exactly matches validated release",
+      "passed": true
+    },
+    {
+      "name": "offline ZIP CRC and HTML equality",
+      "passed": true
+    }
+  ],
+  "htmlSHA256": "f61cbe2833dc09357f8fecce287152230cfd5b9e1e60609ed96a082231676bb1",
+  "htmlBytes": 57833463
+}

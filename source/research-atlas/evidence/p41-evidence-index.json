@@ -1,0 +1,1609 @@
+{
+  "MRI": {
+    "file": "C:\\Users\\y_mai\\Desktop\\SCUTDAYS\\课\\Semester5\\脑机\\NeuroAtlas\\source\\research-atlas\\p41-mri.nii.gz",
+    "shape": [
+      226,
+      450,
+      362
+    ],
+    "affine": [
+      [
+        0.39940738677978516,
+        0.006269693374633789,
+        0.020943760871887207,
+        -16.026254653930664
+      ],
+      [
+        -0.0071021318435668945,
+        0.40138351917266846,
+        0.01649528741836548,
+        -108.34925842285156
+      ],
+      [
+        -0.02057361602783203,
+        -0.016842663288116455,
+        0.4009002447128296,
+        -48.86082458496094
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "units": [
+      "unknown",
+      "unknown"
+    ]
+  },
+  "coordinateConvention": "neurological physical RAS axis labels printed on each panel; L/R and A/P are not inferred from bitmap indices",
+  "referenceWindow": [
+    17.0,
+    214.0
+  ],
+  "sourceMRIResolutionMm": [
+    0.3999999761581421,
+    0.40178564190864563,
+    0.4017857015132904
+  ],
+  "evidence": [
+    {
+      "labelId": 649,
+      "zh": "上橄榄内侧部",
+      "en": "medial_superior_olive",
+      "contactSheet": "p41_649_orthogonal.png",
+      "anchorRASmm": [
+        4.4569504065439105,
+        -31.937687873840332,
+        -17.932734727859497
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -17.932734727859497,
+          "sourceOverlayPixelCount": 184,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_649_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -31.937687873840332,
+          "sourceOverlayPixelCount": 1128,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_649_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 4.4569504065439105,
+          "sourceOverlayPixelCount": 1186,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_649_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 660,
+      "zh": "上橄榄外侧核",
+      "en": "lateral_superior_olivary_nucleus",
+      "contactSheet": "p41_660_orthogonal.png",
+      "anchorRASmm": [
+        4.798320268979296,
+        -32.55781130492687,
+        -18.398046569898725
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -18.398046569898725,
+          "sourceOverlayPixelCount": 164,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_660_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -32.55781130492687,
+          "sourceOverlayPixelCount": 723,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_660_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 4.798320268979296,
+          "sourceOverlayPixelCount": 513,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_660_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 654,
+      "zh": "下橄榄主核",
+      "en": "inferior_olive__principal_nucleus",
+      "contactSheet": "p41_654_orthogonal.png",
+      "anchorRASmm": [
+        3.6246331240981817,
+        -37.8454534560442,
+        -24.929846316576004
+      ],
+      "fieldOfViewMm": 23.72050666809082,
+      "displayPixelMm": 0.05503597834823856,
+      "sourceBlocks": [
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -24.929846316576004,
+          "sourceOverlayPixelCount": 2956,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_654_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -37.8454534560442,
+          "sourceOverlayPixelCount": 1037,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_654_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 3.6246331240981817,
+          "sourceOverlayPixelCount": 5083,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_654_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 671,
+      "zh": "下橄榄内侧副核",
+      "en": "inferior_olive__medial_nucleus",
+      "contactSheet": "p41_671_orthogonal.png",
+      "anchorRASmm": [
+        2.3366098604165018,
+        -38.42816539853811,
+        -25.983858451247215
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -25.983858451247215,
+          "sourceOverlayPixelCount": 551,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_671_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -38.42816539853811,
+          "sourceOverlayPixelCount": 488,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_671_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.3366098604165018,
+          "sourceOverlayPixelCount": 1464,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_671_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 685,
+      "zh": "下橄榄背侧副核",
+      "en": "inferior_olive__dorsal_nucleus",
+      "contactSheet": "p41_685_orthogonal.png",
+      "anchorRASmm": [
+        2.752264487789944,
+        -39.43079165369272,
+        -22.682546697556973
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -22.682546697556973,
+          "sourceOverlayPixelCount": 614,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_685_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -39.43079165369272,
+          "sourceOverlayPixelCount": 148,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_685_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.752264487789944,
+          "sourceOverlayPixelCount": 251,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_685_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 682,
+      "zh": "外展神经核",
+      "en": "abducens_nucleus",
+      "contactSheet": "p41_682_orthogonal.png",
+      "anchorRASmm": [
+        3.2778268745169044,
+        -38.52994870394468,
+        -13.37738880701363
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        6,
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ],
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -13.37738880701363,
+          "sourceOverlayPixelCount": 1045,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_682_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -38.52994870394468,
+          "sourceOverlayPixelCount": 150,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_682_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 3.2778268745169044,
+          "sourceOverlayPixelCount": 729,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_682_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 666,
+      "zh": "面神经核",
+      "en": "facial_nucleus",
+      "contactSheet": "p41_666_orthogonal.png",
+      "anchorRASmm": [
+        5.122543320991099,
+        -34.133266143500805,
+        -16.928115898743272
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        6,
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ],
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -16.928115898743272,
+          "sourceOverlayPixelCount": 939,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_666_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -34.133266143500805,
+          "sourceOverlayPixelCount": 2158,
+          "blockOverlapPixelCount": 2,
+          "file": "p41_666_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 5.122543320991099,
+          "sourceOverlayPixelCount": 1769,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_666_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 724,
+      "zh": "舌下神经核",
+      "en": "hypoglossal_nucleus",
+      "contactSheet": "p41_724_orthogonal.png",
+      "anchorRASmm": [
+        1.4955089134164155,
+        -42.30069240182638,
+        -18.686891732737422
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -18.686891732737422,
+          "sourceOverlayPixelCount": 483,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_724_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -42.30069240182638,
+          "sourceOverlayPixelCount": 926,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_724_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 1.4955089134164155,
+          "sourceOverlayPixelCount": 1971,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_724_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 725,
+      "zh": "迷走神经背侧运动核",
+      "en": "dorsal_motor_nucleus_of_the_vagus_(vagal_nucleus)",
+      "contactSheet": "p41_725_orthogonal.png",
+      "anchorRASmm": [
+        1.8329934338107705,
+        -42.20347582548857,
+        -18.118224443867803
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -18.118224443867803,
+          "sourceOverlayPixelCount": 589,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_725_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -42.20347582548857,
+          "sourceOverlayPixelCount": 327,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_725_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 1.8329934338107705,
+          "sourceOverlayPixelCount": 1179,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_725_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 693,
+      "zh": "疑核",
+      "en": "ambiguus_nucleus",
+      "contactSheet": "p41_693_orthogonal.png",
+      "anchorRASmm": [
+        3.008619896834716,
+        -38.22342795878649,
+        -20.20706706494093
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -20.20706706494093,
+          "sourceOverlayPixelCount": 808,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_693_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -38.22342795878649,
+          "sourceOverlayPixelCount": 458,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_693_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 3.008619896834716,
+          "sourceOverlayPixelCount": 662,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_693_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 717,
+      "zh": "孤束核",
+      "en": "solitary_nucleus",
+      "contactSheet": "p41_717_orthogonal.png",
+      "anchorRASmm": [
+        2.598863194230944,
+        -41.88669506460428,
+        -19.551791017875075
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -19.551791017875075,
+          "sourceOverlayPixelCount": 225,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_717_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -41.88669506460428,
+          "sourceOverlayPixelCount": 305,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_717_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.598863194230944,
+          "sourceOverlayPixelCount": 1290,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_717_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 630,
+      "zh": "三叉神经运动核",
+      "en": "motor_nucleus_of_trigeminal_nerve",
+      "contactSheet": "p41_630_orthogonal.png",
+      "anchorRASmm": [
+        5.759334756061435,
+        -34.28012468293309,
+        -13.143349077552557
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        6
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -13.143349077552557,
+          "sourceOverlayPixelCount": 522,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_630_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -34.28012468293309,
+          "sourceOverlayPixelCount": 933,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_630_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 5.759334756061435,
+          "sourceOverlayPixelCount": 1195,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_630_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 659,
+      "zh": "三叉神经脑桥感觉核",
+      "en": "principal_sensory_nucleus_of_trigeminal_nerve",
+      "contactSheet": "p41_659_orthogonal.png",
+      "anchorRASmm": [
+        7.401637436822057,
+        -35.32411943748593,
+        -11.728125717490911
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        6
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -11.728125717490911,
+          "sourceOverlayPixelCount": 551,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_659_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -35.32411943748593,
+          "sourceOverlayPixelCount": 904,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_659_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 7.401637436822057,
+          "sourceOverlayPixelCount": 2294,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_659_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 669,
+      "zh": "三叉神经脊束核",
+      "en": "spinal_trigeminal_nucleus",
+      "contactSheet": "p41_669_orthogonal.png",
+      "anchorRASmm": [
+        4.132538751233369,
+        -43.82027791067958,
+        -22.58212136477232
+      ],
+      "fieldOfViewMm": 28.416301727294922,
+      "displayPixelMm": 0.06593109449488381,
+      "sourceBlocks": [
+        6,
+        16,
+        38
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ],
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ],
+        [
+          0.09996235370635986,
+          0.0998983383178711,
+          0.3354274034500122
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -22.58212136477232,
+          "sourceOverlayPixelCount": 741,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_669_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -43.82027791067958,
+          "sourceOverlayPixelCount": 1000,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_669_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 4.132538751233369,
+          "sourceOverlayPixelCount": 5448,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_669_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 645,
+      "zh": "三叉神经中脑核",
+      "en": "mesencephalic_trigeminal_nucleus",
+      "contactSheet": "p41_645_orthogonal.png",
+      "anchorRASmm": [
+        2.7006157357245684,
+        -32.730189234018326,
+        -3.5866859704256058
+      ],
+      "fieldOfViewMm": 30.04146099090576,
+      "displayPixelMm": 0.06970176564015258,
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ],
+        [
+          0.09993784874677658,
+          0.09993818402290344,
+          0.31204426288604736
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -3.5866859704256058,
+          "sourceOverlayPixelCount": 49,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_645_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -32.730189234018326,
+          "sourceOverlayPixelCount": 62,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_645_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.7006157357245684,
+          "sourceOverlayPixelCount": 389,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_645_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 689,
+      "zh": "耳蜗腹侧核",
+      "en": "ventral_cochlear_nucleus",
+      "contactSheet": "p41_689_orthogonal.png",
+      "anchorRASmm": [
+        10.02621965133585,
+        -38.931369699537754,
+        -17.760554537177086
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -17.760554537177086,
+          "sourceOverlayPixelCount": 800,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_689_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -38.931369699537754,
+          "sourceOverlayPixelCount": 409,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_689_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 10.02621965133585,
+          "sourceOverlayPixelCount": 1258,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_689_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 731,
+      "zh": "耳蜗背侧核",
+      "en": "dorsal_cochlear_nucleus",
+      "contactSheet": "p41_731_orthogonal.png",
+      "anchorRASmm": [
+        7.515212318394333,
+        -41.22050932794809,
+        -15.167011359706521
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -15.167011359706521,
+          "sourceOverlayPixelCount": 680,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_731_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -41.22050932794809,
+          "sourceOverlayPixelCount": 631,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_731_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 7.515212318394333,
+          "sourceOverlayPixelCount": 197,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_731_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 683,
+      "zh": "前庭上核",
+      "en": "superior_vestibular_nucleus",
+      "contactSheet": "p41_683_orthogonal.png",
+      "anchorRASmm": [
+        5.457617017440498,
+        -39.889780163764954,
+        -12.50785605609417
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -12.50785605609417,
+          "sourceOverlayPixelCount": 741,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_683_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -39.889780163764954,
+          "sourceOverlayPixelCount": 262,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_683_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 5.457617017440498,
+          "sourceOverlayPixelCount": 243,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_683_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 690,
+      "zh": "前庭外侧核",
+      "en": "lateral_vestibular_nucleus",
+      "contactSheet": "p41_690_orthogonal.png",
+      "anchorRASmm": [
+        6.630847074324265,
+        -37.419390343129635,
+        -15.203763574361801
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -15.203763574361801,
+          "sourceOverlayPixelCount": 585,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_690_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -37.419390343129635,
+          "sourceOverlayPixelCount": 708,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_690_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 6.630847074324265,
+          "sourceOverlayPixelCount": 725,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_690_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 694,
+      "zh": "前庭内侧核",
+      "en": "medial_vestibular_nucleus",
+      "contactSheet": "p41_694_orthogonal.png",
+      "anchorRASmm": [
+        2.2982637812383473,
+        -39.25904256850481,
+        -16.629677144810557
+      ],
+      "fieldOfViewMm": 24.0672607421875,
+      "displayPixelMm": 0.05584051216284803,
+      "sourceBlocks": [
+        6,
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ],
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -16.629677144810557,
+          "sourceOverlayPixelCount": 716,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_694_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -39.25904256850481,
+          "sourceOverlayPixelCount": 543,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_694_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.2982637812383473,
+          "sourceOverlayPixelCount": 2260,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_694_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 703,
+      "zh": "前庭下核",
+      "en": "spinal_(inferior)_vestibular_nucleus",
+      "contactSheet": "p41_703_orthogonal.png",
+      "anchorRASmm": [
+        4.501475273864344,
+        -41.04326085746288,
+        -15.892972415313125
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        16
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10000389814376831,
+          0.10003525018692017,
+          0.30457133054733276
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -15.892972415313125,
+          "sourceOverlayPixelCount": 776,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_703_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -41.04326085746288,
+          "sourceOverlayPixelCount": 717,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_703_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 4.501475273864344,
+          "sourceOverlayPixelCount": 1391,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_703_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 715,
+      "zh": "小脑顶核",
+      "en": "fastigial_(medial)_nucleus",
+      "contactSheet": "p41_715_orthogonal.png",
+      "anchorRASmm": [
+        3.3108693584799767,
+        -48.80762059241533,
+        -1.9058106169104576
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        5
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10006517916917801,
+          0.10001568496227264,
+          0.350454717874527
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -1.9058106169104576,
+          "sourceOverlayPixelCount": 1160,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_715_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -48.80762059241533,
+          "sourceOverlayPixelCount": 433,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_715_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 3.3108693584799767,
+          "sourceOverlayPixelCount": 1443,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_715_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 721,
+      "zh": "小脑齿状核",
+      "en": "dentate_(lateral)_nucleus",
+      "contactSheet": "p41_721_orthogonal.png",
+      "anchorRASmm": [
+        12.92623936990276,
+        -53.53097067773342,
+        -6.52876316010952
+      ],
+      "fieldOfViewMm": 30.648807525634766,
+      "displayPixelMm": 0.07111092233325932,
+      "sourceBlocks": [
+        3,
+        5
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.1000312864780426,
+          0.10005545616149902,
+          0.339389830827713
+        ],
+        [
+          0.10006517916917801,
+          0.10001568496227264,
+          0.350454717874527
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -6.52876316010952,
+          "sourceOverlayPixelCount": 6025,
+          "blockOverlapPixelCount": 168,
+          "file": "p41_721_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -53.53097067773342,
+          "sourceOverlayPixelCount": 3321,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_721_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 12.92623936990276,
+          "sourceOverlayPixelCount": 8302,
+          "blockOverlapPixelCount": 686,
+          "file": "p41_721_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 751,
+      "zh": "小脑球状核",
+      "en": "medial_interpositus_(globose)_nucleus",
+      "contactSheet": "p41_751_orthogonal.png",
+      "anchorRASmm": [
+        6.945784884039313,
+        -53.4113575220108,
+        -2.8070566207170486
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        5
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10006517916917801,
+          0.10001568496227264,
+          0.350454717874527
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -2.8070566207170486,
+          "sourceOverlayPixelCount": 4017,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_751_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -53.4113575220108,
+          "sourceOverlayPixelCount": 2049,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_751_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 6.945784884039313,
+          "sourceOverlayPixelCount": 2258,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_751_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 752,
+      "zh": "小脑栓状核",
+      "en": "lateral_interpositus_(emboliform)_nucleus",
+      "contactSheet": "p41_752_orthogonal.png",
+      "anchorRASmm": [
+        6.8377305516041815,
+        -48.458708859980106,
+        -1.7286293879151344
+      ],
+      "fieldOfViewMm": 22.697757720947266,
+      "displayPixelMm": 0.052663010953473935,
+      "sourceBlocks": [
+        5
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.10006517916917801,
+          0.10001568496227264,
+          0.350454717874527
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -1.7286293879151344,
+          "sourceOverlayPixelCount": 5143,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_752_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -48.458708859980106,
+          "sourceOverlayPixelCount": 1420,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_752_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 6.8377305516041815,
+          "sourceOverlayPixelCount": 2514,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_752_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 589,
+      "zh": "蓝斑核",
+      "en": "nucleus_coeruleus",
+      "contactSheet": "p41_589_orthogonal.png",
+      "anchorRASmm": [
+        2.808400508016348,
+        -33.556388948112726,
+        -6.007950868457556
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        6
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.0999847874045372,
+          0.10002470016479492,
+          0.34317994117736816
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": -6.007950868457556,
+          "sourceOverlayPixelCount": 337,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_589_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -33.556388948112726,
+          "sourceOverlayPixelCount": 597,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_589_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 2.808400508016348,
+          "sourceOverlayPixelCount": 1715,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_589_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": false,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 447,
+      "zh": "动眼神经副核（局部标签）",
+      "en": "edinger-westphal_nucleus_(accessory_oculomotor_nucleus)",
+      "contactSheet": "p41_447_orthogonal.png",
+      "anchorRASmm": [
+        1.671840726165101,
+        -19.448116430081427,
+        2.590449322015047
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        7,
+        19
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.09993784874677658,
+          0.09993818402290344,
+          0.31204426288604736
+        ],
+        [
+          0.09998823702335358,
+          0.09997416287660599,
+          0.32637012004852295
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": 2.590449322015047,
+          "sourceOverlayPixelCount": 773,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_447_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -19.448116430081427,
+          "sourceOverlayPixelCount": 517,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_447_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 1.671840726165101,
+          "sourceOverlayPixelCount": 619,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_447_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": true,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 464,
+      "zh": "动眼神经核（局部标签）",
+      "en": "oculomotor_nucleus",
+      "contactSheet": "p41_464_orthogonal.png",
+      "anchorRASmm": [
+        4.17833299934864,
+        -25.67353098653257,
+        5.075351294130087
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        7
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.09993784874677658,
+          0.09993818402290344,
+          0.31204426288604736
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": 5.075351294130087,
+          "sourceOverlayPixelCount": 159,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_464_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -25.67353098653257,
+          "sourceOverlayPixelCount": 32,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_464_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 4.17833299934864,
+          "sourceOverlayPixelCount": 200,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_464_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": true,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    },
+    {
+      "labelId": 520,
+      "zh": "滑车神经核（局部标签）",
+      "en": "trochlear_nucleus",
+      "contactSheet": "p41_520_orthogonal.png",
+      "anchorRASmm": [
+        3.698438219667878,
+        -26.173176810145378,
+        3.243952501565218
+      ],
+      "fieldOfViewMm": 22,
+      "displayPixelMm": 0.05104408352668213,
+      "sourceBlocks": [
+        7
+      ],
+      "sourceBlockSpacingMm": [
+        [
+          0.09993784874677658,
+          0.09993818402290344,
+          0.31204426288604736
+        ]
+      ],
+      "slicePanels": [
+        {
+          "plane": "axial",
+          "fixedRASaxis": 2,
+          "fixedCoordinateMm": 3.243952501565218,
+          "sourceOverlayPixelCount": 406,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_520_axial.png"
+        },
+        {
+          "plane": "coronal",
+          "fixedRASaxis": 1,
+          "fixedCoordinateMm": -26.173176810145378,
+          "sourceOverlayPixelCount": 59,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_520_coronal.png"
+        },
+        {
+          "plane": "sagittal",
+          "fixedRASaxis": 0,
+          "fixedCoordinateMm": 3.698438219667878,
+          "sourceOverlayPixelCount": 181,
+          "blockOverlapPixelCount": 0,
+          "file": "p41_520_sagittal.png"
+        }
+      ],
+      "smallSourceLabelCaution": true,
+      "method": "World RAS orthogonal planes sampled through an actual label voxel nearest the source-volume centroid. MRI sampled via inverse MRI affine (linear), each source label block via its inverse native NIfTI affine (nearest). No guessed image-index alignment."
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "checkedDate": "2026-10-23",
+  "priorityDecision": "Use P41-16 donor labels in their native coordinate scene for source-based nuclei, BodyParts3D for the missing bilateral insula/internal capsule in a separately sourced scene, and UW CT for skull-base foramina in its own scene. Do not merge these disparate spaces without validated registration.",
+  "anatomicalAccuracyClaim": "Source provenance and numerical coordinate consistency are verified. This is not independent expert anatomical validation, and does not establish complete or error-free nuclear boundaries.",
+  "sources": [
+    {
+      "id": "nextbrain-p41",
+      "name": "NextBrain donor P41-16 (case 2), registered histology label blocks",
+      "status": "asset produced; nucleus labels only with native background",
+      "primaryURLs": [
+        "https://github.com/UCL/BrainAtlas-P41-16",
+        "https://api.figshare.com/v2/articles/24243835",
+        "https://www.nature.com/articles/s41586-025-09708-2"
+      ],
+      "datasetDOI": "10.5522/04/24243835.v1",
+      "paperDOI": "10.1038/s41586-025-09708-2",
+      "license": "CC0-1.0",
+      "licenseEvidence": "Official Figshare API lists CC0 and directly links the UCL registered-data repositories including P41-16. The MIT license of the separate web viewer is not used as evidence for data permission.",
+      "commit": "9c29e15e2eef6db902296f53de636d57fc5aa6a1",
+      "format": "40 uint16 NIfTI label blocks with individual native affines; corresponding donor T2w MRI and block-index volume",
+      "originalSampling": "Histology reconstruction uses 0.1 mm in-plane grids, 0.25 or 0.5 mm section spacing before registration scaling. Ex vivo MRI approximately 0.4 mm isotropic. NIfTI header spacings after transforms vary by block.",
+      "headerUnitsNote": "P41 NIfTI xyzt_units is unspecified; units are interpreted in millimetres from the published MRI protocol and documented RAS transforms, not inferred from voxel indices alone.",
+      "geometry": "33 label segments (29 nuclear targets, 4 source residual/white-matter context labels); raw float32 positions and uint32 triangle indices, RAS mm. Target labels marching cubes level0.5 at every source voxel. No smoothing, filling, mirroring, fitting or component deletion.",
+      "geometryContext": "Context labels are sampled every fourth source voxel in each axis; exact displaySpacingMm is stored per part. This is not uniformly 0.4 mm because the source section direction has larger spacing.",
+      "limits": [
+        "Single donor hemisphere. No bilateral reconstruction is claimed.",
+        "No original label for internal-capsule IDs73,115,204,258 in these blocks.",
+        "Blocks can leave seams or overlap; no seam welding or invented interpolation performed. Source boundary open mesh edges are retained.",
+        "Tiny local labels447,464,520 must not be described as complete nuclei. All segment completeNucleusClaim flags are false.",
+        "Source context labels580 and662 are residual tissue labels within a partition; they do not contain the other labelled nuclei and do not form complete pons/medulla envelopes.",
+        "Published landmark registration error about0.99±0.51mm across250 pairs is a dataset-level result, not a per-label accuracy guarantee.",
+        "No complete cranial nerve pathways emerge from these nucleus-only assets."
+      ],
+      "files": [
+        "p41-meshes.bin.gz",
+        "p41-meshes.json",
+        "p41-label-statistics.json",
+        "p41-coordinate-validation.json",
+        "evidence/p41-evidence-index.json",
+        "p41-downloads.json"
+      ],
+      "validationSummary": {
+        "points": 239,
+        "exactMatches": 213,
+        "within1mm": 239,
+        "within2mm": 239,
+        "maxDisplayZError": 3.50732853959812e-06
+      },
+      "coordinateValidationMeaning": "239 non-placeholder author ontology locations were transformed into native block coordinates:213 exactly hit the corresponding label voxel and all239 were within1mm of it. All40 block affines agree with official display transforms after only display-plane rotations and source slice-order reversals, max slice-coordinate error3.51e-6 voxels. These tests validate coordinates, not anatomical boundary accuracy."
+    },
+    {
+      "id": "nextbrain-argmax",
+      "name": "NextBrain 3dAtlas maximum-probability volume",
+      "status": "research evidence only; not proposed as complete nuclei",
+      "url": "https://ndownloader.figshare.com/files/42561616",
+      "license": "CC0-1.0",
+      "shape": [
+        460,
+        1145,
+        910,
+        1
+      ],
+      "samplingMm": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "content": "333 non-background labels; one pooled left-oriented hemisphere. Authors flip3right hemispheres and combine with2left hemispheres; retained cortex name ctx-rh-insula is an ontology identifier, not the volume orientation.",
+      "insulaLabel": 2035,
+      "internalCapsulePresent": false,
+      "limitations": [
+        "Argmax gives the most probable label in each voxel, not a full probability-envelope boundary. Small competing nuclear labels shrink strongly.",
+        "The large LUT includes labels absent from the actual image.",
+        "No added mirror should be presented as a real second hemisphere."
+      ],
+      "files": [
+        "3dAtlas/atlas.labels.argmax.nii.gz",
+        "3dAtlas/lut.freeview.txt",
+        "nextbrain-label-statistics.json"
+      ],
+      "archiveMD5": "70ea45339d24e151d2247bc0b0944f5a",
+      "archiveMD5MatchesOfficial": true
+    },
+    {
+      "id": "cerebra",
+      "name": "CerebrA on MNI-ICBM2009c symmetric template",
+      "status": "optional research source, not integrated in this revision",
+      "primaryURLs": [
+        "https://nist.mni.mcgill.ca/cerebra/",
+        "https://doi.gin.g-node.org/10.12751/g-node.be5e62/"
+      ],
+      "downloadURL": "https://packages.bic.mni.mcgill.ca/mni-models/icbm152/mni_icbm152_nlin_sym_09c_CerebrA_nifti.zip",
+      "license": "CC0-1.0 (dataset DOI record)",
+      "shape": [
+        193,
+        229,
+        193
+      ],
+      "samplingMm": [
+        1,
+        1,
+        1
+      ],
+      "nativeAffine": [
+        [
+          1,
+          0,
+          0,
+          -96
+        ],
+        [
+          0,
+          1,
+          0,
+          -132
+        ],
+        [
+          0,
+          0,
+          1,
+          -78
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "insula": {
+        "right": 23,
+        "left": 74,
+        "voxelsEach": 9521
+      },
+      "meaning": "Mindboggle101 anatomical cortical and subcortical labels registered and manually corrected on the symmetric2009c average template.",
+      "limitations": [
+        "Symmetric population template, not an individual bilateral brain; cannot model actual lateral asymmetry.",
+        "No fine brainstem nuclei and no independent internal-capsule partition.",
+        "Do not transfer coordinates to MNI6 or Z-Anatomy by identity or an unvalidated affine."
+      ],
+      "files": [
+        "mni_icbm152_CerebrA_tal_nlin_sym_09c.nii",
+        "CerebrA_LabelDetails.csv",
+        "cerebra-native.zip"
+      ]
+    },
+    {
+      "id": "edlow",
+      "name": "NextBrain 200-micrometre manual segmentation of Edlow ex vivo right hemisphere",
+      "status": "LUT and license checked; not needed for this revision",
+      "primaryURLs": [
+        "https://openneuro.org/datasets/ds005422/versions/1.0.1",
+        "https://github.com/OpenNeuroDatasets/ds005422/tree/1.0.1"
+      ],
+      "license": "CC0-1.0",
+      "limitations": [
+        "Only the right hemisphere is manually labelled. Some LUT subcortical strings retain Left-, so dataset provenance must govern side interpretation.",
+        "No dedicated internal-capsule labels in the supplied LUT.",
+        "Its simplified nuclei are less comprehensive than the raw histology blocks."
+      ],
+      "files": [
+        "edlow-description.json",
+        "edlow-readme.txt",
+        "edlow-lut.txt"
+      ]
+    },
+    {
+      "id": "brainstem-navigator",
+      "name": "Brainstem Navigator v1.0",
+      "status": "excluded from portable redistributable artifact",
+      "primaryURLs": [
+        "https://www.nitrc.org/projects/brainstemnavig/",
+        "https://www.nitrc.org/frs/download.php/17380/BrainstemNavigatorv1.0.zip"
+      ],
+      "license": "Non-commercial research; redistribution of originals or information/files derived from them outside the organization is prohibited.",
+      "meaning": "7T multimodal in-vivo probabilistic brainstem atlas.",
+      "action": "Read the official pre-download agreement. Did not accept it and did not download restricted masks."
+    },
+    {
+      "id": "jhu",
+      "name": "JHU ICBM-DTI81 white-matter labels",
+      "status": "candidate reviewed; not needed when BodyParts3D original capsule is available",
+      "primaryURLs": [
+        "https://fsl.fmrib.ox.ac.uk/fsl/docs/other/datasets.html",
+        "https://fsl.fmrib.ox.ac.uk/fsl/docs/license.html",
+        "https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/tree/master/JHU"
+      ],
+      "license": "FSL noncommercial terms, including source/notice conditions for redistribution; not CC BY-SA simply because Harvard-Oxford was relicensed.",
+      "meaning": "Hand-labelled deep white-matter regions in a standard-space mean of81 diffusion tensor maps.",
+      "limitations": [
+        "Labels include anterior limb, posterior limb and retrolenticular capsule, not a separately delineated genu or whole capsule.",
+        "FSL published an orientation/label correction in2021; raw historical LONI headers must not be trusted without that correction.",
+        "A tract atlas mask is not an axon reconstruction or complete histological capsule boundary."
+      ]
+    },
+    {
+      "id": "bodyparts3d",
+      "name": "BodyParts3D original source data",
+      "status": "handled by separate data/foramina workstream",
+      "primaryURLs": [
+        "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+        "https://lifesciencedb.jp/bp3d/info_en/download/index.html"
+      ],
+      "license": "CC BY4.0 as stated on official archive license page updated2025-02-27",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution4.0 International",
+      "limitations": [
+        "Use original same-source neighbours; modified Z-Anatomy mesh coordinates are not automatically the same spatial reference.",
+        "Whole internal-capsule object does not prove separately delineated histological limbs."
+      ]
+    }
+  ],
+  "p41MeshQA": {
+    "segments": 33,
+    "parts": 57,
+    "triangles": 573248,
+    "vertices": 289147,
+    "binaryBytes": 10348740,
+    "gzipBytes": 5343540,
+    "sha256": "9e2df0e120d138fc0c78d01b79a6b273a267c5a1e68a5b981cc447547ee68b3e",
+    "outwardWinding": "gradient_direction=ascent; triangle orientation is inverted for negative-determinant native affine. Every closed source part asserts positive signed volume.",
+    "sourceBoundaryOpenParts": 37,
+    "maxNonManifoldEdges": 111,
+    "allIndicesInRangeAndPositionsFinite": true,
+    "mriEvidence": {
+      "labels": 29,
+      "orthogonalPanels": 87,
+      "allTargetOverlaysNonempty": true,
+      "visualSampleReviewed": [
+        654,
+        464
+      ],
+      "interpretation": "Source labels remain visibly partial/fragmented where acquired or reconstructed that way. The overlay does not fill missing tissue."
+    }
+  },
+  "deliverablePaths": [
+    "p41-meshes.json",
+    "p41-meshes.bin.gz",
+    "p41-coordinate-validation.json",
+    "p41-label-statistics.json",
+    "evidence/p41-evidence-index.json"
+  ],
+  "noAppEdits": true
+}

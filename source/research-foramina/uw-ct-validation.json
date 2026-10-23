@@ -1,0 +1,272 @@
+{
+  "ctSha256": "40b16cf04998c5b2fb865d4baf4d86981ae4f5d252b058b46abc3ce2684e44d5",
+  "ctOriginalSpace": "left-posterior-superior",
+  "ctShape": [
+    367,
+    449,
+    304
+  ],
+  "ctIJKToRAS": [
+    [
+      0.46743053133989815,
+      0.03514627819984113,
+      0.0,
+      -78.9318008422852
+    ],
+    [
+      -0.03514627819984113,
+      0.46743053133989815,
+      0.0,
+      -97.91750335693368
+    ],
+    [
+      0.0,
+      0.0,
+      0.46875,
+      45.02849960327144
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "segIJKToRAS": [
+    [
+      0.46875,
+      -0.0,
+      0.0,
+      -48.109550476074205
+    ],
+    [
+      -0.0,
+      0.46875,
+      -0.0,
+      -14.334999084472997
+    ],
+    [
+      0.0,
+      -0.0,
+      1.25,
+      51.2901992797852
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "registrationPerformed": false,
+  "sampling": "linear interpolation at world RAS voxel centres; outside CT counted as nonfinite",
+  "interpretation": "Image overlay supports a visual alignment check only. It is not clinical proof of segmentation accuracy. CT is a synthetic average of 6 subjects.",
+  "segments": [
+    {
+      "index": 0,
+      "en": "eyes",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -105.13027954101562,
+        "q10": 2.3958535194396973,
+        "median": 18.409008026123047,
+        "q90": 47.99858474731445,
+        "max": 125.14002990722656
+      }
+    },
+    {
+      "index": 1,
+      "en": "septum",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -1000.0,
+        "q10": -101.61009216308594,
+        "median": 108.86444854736328,
+        "q90": 541.8381958007812,
+        "max": 1297.254150390625
+      }
+    },
+    {
+      "index": 2,
+      "en": "optic nerves",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -97.66288757324219,
+        "q10": -34.705650329589844,
+        "median": 24.21079444885254,
+        "q90": 53.385498046875,
+        "max": 611.7481689453125
+      }
+    },
+    {
+      "index": 3,
+      "en": "internal carotid artery",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": 23.297327041625977,
+        "q10": 96.14320373535156,
+        "median": 151.59832763671875,
+        "q90": 198.3613739013672,
+        "max": 356.06085205078125
+      }
+    },
+    {
+      "index": 4,
+      "en": "nasolacrimal duct",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -751.1328735351562,
+        "q10": -345.70849609375,
+        "median": -120.09230041503906,
+        "q90": 43.48147964477539,
+        "max": 129.6106414794922
+      }
+    },
+    {
+      "index": 5,
+      "en": "foramen ovale",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -23.877260208129883,
+        "q10": 26.26089859008789,
+        "median": 56.485504150390625,
+        "q90": 118.95378875732422,
+        "max": 177.15643310546875
+      }
+    },
+    {
+      "index": 6,
+      "en": "foramen spinosum",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": 235.4355010986328,
+        "q10": 289.38360595703125,
+        "median": 450.05462646484375,
+        "q90": 792.4501953125,
+        "max": 1067.484375
+      }
+    },
+    {
+      "index": 7,
+      "en": "foramen rotundum",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": 7.788454532623291,
+        "q10": 128.27484130859375,
+        "median": 317.593017578125,
+        "q90": 476.5216064453125,
+        "max": 548.5811767578125
+      }
+    },
+    {
+      "index": 8,
+      "en": "vidian canal",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -299.6546630859375,
+        "q10": -47.835304260253906,
+        "median": 178.6839599609375,
+        "q90": 428.2559509277344,
+        "max": 545.3878173828125
+      }
+    },
+    {
+      "index": 9,
+      "en": "pterygopalatine fossa",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -138.46685791015625,
+        "q10": -72.60000610351562,
+        "median": -6.037229061126709,
+        "q90": 126.16864776611328,
+        "max": 264.4529724121094
+      }
+    },
+    {
+      "index": 10,
+      "en": "pituitary",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -3.1519243717193604,
+        "q10": 15.732969284057617,
+        "median": 48.95197677612305,
+        "q90": 82.01757049560547,
+        "max": 121.53805541992188
+      }
+    },
+    {
+      "index": 11,
+      "en": "cavernous sinus",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": 44.54991912841797,
+        "q10": 105.81639862060547,
+        "median": 157.8116912841797,
+        "q90": 198.44671630859375,
+        "max": 357.2420654296875
+      }
+    },
+    {
+      "index": 12,
+      "en": "extraocular muscles",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -98.11414337158203,
+        "q10": -1.717034101486206,
+        "median": 43.74005126953125,
+        "q90": 77.64476013183594,
+        "max": 176.76499938964844
+      }
+    },
+    {
+      "index": 13,
+      "en": "bone of anterior cranial fossa",
+      "ctSampleStats": {
+        "finiteFraction": 1.0,
+        "min": -1002.5462036132812,
+        "q10": 65.40457916259766,
+        "median": 643.363037109375,
+        "q90": 1353.5677490234375,
+        "max": 2557.357177734375
+      }
+    }
+  ],
+  "slices": [
+    {
+      "index": 5,
+      "file": "uw-foramen-ovale-ct.png",
+      "targetRASmm": [
+        -9.885831856827355,
+        13.63505844690768,
+        95.95024112078936
+      ]
+    },
+    {
+      "index": 6,
+      "file": "uw-foramen-spinosum-ct.png",
+      "targetRASmm": [
+        -16.000175476074215,
+        8.096067091997591,
+        95.77549339743223
+      ]
+    },
+    {
+      "index": 7,
+      "file": "uw-foramen-rotundum-ct.png",
+      "targetRASmm": [
+        -5.090682551545914,
+        28.69713534948919,
+        102.7288785250682
+      ]
+    },
+    {
+      "index": 8,
+      "file": "uw-vidian-canal-ct.png",
+      "targetRASmm": [
+        1.5401001450438023,
+        28.552714424843927,
+        96.51923654686591
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="离线双语脑解剖学习图谱：旋转、分层、展开、关联定位与脑神经走行。">
+<title>脑图谱 · NeuroAtlas</title>
+<style>/*__STYLE__*/</style>
+</head>
+<body>
+<header class="topbar">
+ <button class="mobile-menu iconbtn" id="menuButton" title="显示结构目录" aria-label="显示结构目录">☰</button>
+ <div class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M19 8C13 3 6 9 9 15C2 18 5 28 11 27C11 35 20 35 20 29V11M21 8C27 3 34 9 31 15C38 18 35 28 29 27C29 35 20 35 20 29M10 16C17 14 17 22 12 22M30 16C23 14 23 22 28 22M13 28C13 25 18 24 20 26M27 28C27 25 22 24 20 26"/></svg><span>脑图谱 <small>NEUROATLAS</small></span><span class="brand-tag">空间解剖学习室</span></div>
+ <div class="top-actions"><span class="offline"><i></i>离线 · 单文件</span><button class="quiet" id="focusModeButton">专注 3D</button><button class="quiet" id="sourceButton">资料与精度</button><button class="quiet" id="helpButton">操作说明 <kbd>?</kbd></button></div>
+</header>
+<div class="workspace">
+ <aside class="sidebar" id="sidebar" aria-label="结构目录">
+  <div class="searchbox"><span>⌕</span><input id="search" type="search" autocomplete="off" placeholder="搜索中文 / English" aria-label="搜索解剖结构"><kbd>Ctrl K</kbd></div>
+  <div class="navtabs" role="tablist"><button data-tab="course" class="active" role="tab" aria-selected="true">课程清单</button><button data-tab="atlas" role="tab" aria-selected="false">完整图谱</button><button data-tab="tours" role="tab" aria-selected="false">学习路线</button></div>
+  <div class="list-summary"><span id="listCount">正在读取图谱</span><button id="clearSearch" class="textbtn" hidden>清空</button></div>
+  <nav id="structureList" class="structure-list" aria-label="选择结构"></nav>
+  <div class="sidebar-bottom"><span class="tiny-label">从位置，走向联系</span><p>点一个结构，看它在哪里、邻着谁、通向哪里。</p><button class="source-shortcut textbtn" id="auditButton">查看建模覆盖清单 ↗</button></div>
+ </aside>
+ <main class="stage" id="stage" aria-label="三维脑解剖场景">
+  <canvas id="brainCanvas" tabindex="0" aria-label="拖动旋转脑模型，滚轮缩放，右键拖动平移"></canvas>
+  <div class="scene-top">
+   <div class="view-tabs" aria-label="观察场景"><button data-preset="brain" class="active">整体</button><button data-preset="callosum">内侧</button><button data-preset="basal">深部</button><button data-preset="ventricles">脑室</button><button data-preset="brainstem">脑干</button><button data-preset="cn5">脑神经</button><button data-preset="skullbase">颅底</button></div>
+   <div class="dataset-bar"><label for="datasetSelect">参考空间</label><select id="datasetSelect" aria-label="参考空间"></select><button id="evidenceButton" title="查看原始分割证据">分割证据</button></div>
+   <div class="scene-heading"><div><p class="eyebrow" id="sceneEyebrow">REFERENCE ANATOMY / 01</p><h1 id="sceneTitle">建立大脑的空间地图</h1><p class="scene-sub" id="sceneSubtitle">从完整外形开始，逐层探索。</p></div><div class="history-buttons"><button class="small-square" id="backButton" disabled title="返回并恢复完整视图" aria-label="返回上一个选择">↶</button><button class="small-square" id="forwardButton" disabled title="前进并恢复完整视图" aria-label="前进到下一个选择">↷</button></div></div>
+   <div id="compareBar" class="compare-bar" hidden></div>
+   <div id="tourBar" class="tourbar" hidden><div><b id="tourName"></b><span id="tourStep"></span></div><button id="tourPrev" title="上一站">←</button><button id="tourNext" title="下一站">→</button><button id="tourClose" title="退出路线">×</button></div>
+  </div>
+  <div class="camera-tools"><canvas id="compass" width="156" height="156" aria-label="解剖方向标"></canvas><div class="view-grid"><button data-view="left">左面</button><button data-view="right">右面</button><button data-view="anterior">前面</button><button data-view="posterior">后面</button><button data-view="superior">上面</button><button data-view="inferior">底面</button></div><button id="resetButton" class="toolbtn">↺ 全脑复位</button><button id="layerButton" class="toolbtn">▤ 图层</button></div>
+  <div id="layerPanel" class="layer-panel" hidden><div class="panel-title">解剖图层<button id="layerClose" class="textbtn">×</button></div><div id="layerList"></div><p>选中对象和关联对象会自动显示。</p><label class="check-row"><input type="checkbox" id="atlasFine">显示全部配准核团</label><label class="check-row"><input type="checkbox" id="labelToggle" checked>显示选中与关联标签</label><label class="check-row"><input type="checkbox" id="motionToggle">减少动画</label></div>
+  <button id="occluderButton" class="occluder-toggle">遮挡清单</button>
+  <div id="occluderPanel" class="occluder-panel" hidden><div class="panel-title">当前可见结构<button id="occluderClose" class="textbtn">×</button></div><p id="hiddenCount">可逐项隐藏遮挡物</p><button id="showHidden" class="textbtn">还原全部隐藏</button><label class="check-row"><input type="checkbox" id="guideToggle" checked>显示展开位移参照线</label><div id="occluderList"></div><p>取消勾选可隐藏；当前目标保持可见。也可悬停在模型上按 H。</p></div>
+  <div id="worldLabels" class="world-labels" aria-hidden="true"></div>
+  <aside id="locatorPanel" class="locator-panel" aria-label="原位定位小图"><div><b>原位定位</b><button id="locatorOverview" title="在主视图查看整体">看整体 ↗</button></div><canvas id="locatorCanvas" aria-label="与主视图同方向的原位结构投影"></canvas><p id="locatorCaption">同源整体 · 目标原位投影</p></aside>
+  <div id="hoverTip" class="hover-tip" hidden></div>
+  <div class="scene-notice" id="sceneNotice" hidden></div>
+  <div class="scene-bottom">
+   <div id="legend" class="legend"><span><i style="background:#ec7451"></i>所选</span><span><i style="background:#5d9fbc"></i>关联结构</span><span><i style="background:#c3c5bd"></i>背景参照</span></div>
+   <div class="reveal-panel">
+    <div class="dissection-bar"><b id="planName">完整皮层</b><select id="sectionMode" aria-label="解剖剖面"><option value="off">整组开合</option><option value="x">矢状剖面</option><option value="y">水平剖面</option><option value="z">冠状剖面</option></select><button id="planInfo" class="plan-info">方案说明</button><span id="continuityNote"></span></div>
+    <p id="planDescription" class="plan-description"></p>
+    <div class="reveal-head"><span class="tiny-label">观察方式</span><div class="side-switch" aria-label="观察侧别"><button data-side="auto" class="active">自动</button><button data-side="left">左</button><button data-side="right">右</button><button data-side="both">双侧</button></div></div>
+    <div class="reveal-buttons"><button data-reveal="smart" class="active">智能显露</button><button data-reveal="ghost">淡化遮挡</button><button data-reveal="related">仅看关联</button><button data-reveal="isolate">仅看所选</button></div>
+    <div class="observe-actions"><button id="inSituButton">原位观察</button><button id="revealTargetButton">移开遮挡</button><button id="fitRelationsButton">适配关联</button><label><input type="checkbox" id="lockView">保持视角</label></div>
+    <div class="sliders"><label><span>分组开合 <output id="openValue">0%</output></span><input id="openSlider" type="range" min="0" max="100" value="0" aria-label="分组开合"></label><label id="opacityControl" hidden><span>辅助透明度 <output id="opacityValue">16%</output></span><input id="opacitySlider" type="range" min="0" max="100" value="16" aria-label="辅助透明度"></label></div>
+    <div class="reveal-foot"><button id="focusButton" class="textbtn">◎ 重新居中</button><button id="cutButton" class="textbtn">╱ 表面裁切</button><button id="snapshotButton" class="textbtn">↓ 保存图片</button><button id="saveViewButton" class="textbtn">存视图</button><button id="restoreViewButton" class="textbtn" disabled>恢复</button></div>
+   </div>
+   <div id="cutPanel" class="cut-panel" hidden><div class="cut-options"><label><input type="checkbox" id="protectTarget" checked>完整保留目标</label><span id="sectionStatus"></span><button id="sectionHelp" class="textbtn" title="剖面原理与数据范围">?</button></div><label>切面 <select id="cutAxis"><option value="off">关闭</option><option value="x">矢状</option><option value="y">水平</option><option value="z">冠状</option></select></label><input type="range" id="cutSlider" min="-100" max="100" value="0" aria-label="剖面位置"><output id="cutReadout">0 mm</output><button id="cutCenter" class="textbtn">露出整个目标</button><button id="cutFlip" class="textbtn">翻面</button></div>
+   <div class="stage-footer"><span>拖动旋转 · 滚轮缩放 · 右键平移</span><span id="renderStatus">模型加载中</span></div>
+  </div>
+  <div id="loading" class="loading"><span class="loading-glyph"></span><h2>正在展开脑图谱</h2><p id="loadingStatus">解压本地解剖数据…</p><div class="loadline"><i id="loadProgress"></i></div></div>
+  <div id="fallback" class="fallback" hidden><h2>此环境没有可用的 WebGL</h2><p>左侧词条、走行关系和资料仍可使用。要查看三维模型，请在支持 WebGL 的新版 Edge、Chrome、Firefox 或 Safari 中打开本文件，并启用硬件加速。</p></div>
+ </main>
+ <aside id="detail" class="detail" aria-live="polite" aria-label="结构讲解"></aside>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+<dialog id="modal"><div class="modal-top"><span class="eyebrow">NEUROATLAS / 学习工具</span><button id="modalClose" class="small-square" aria-label="关闭">×</button></div><div id="modalContent"></div></dialog>
+<script>/*__THREE__*/</script>
+<script>/*__FFLATE__*/</script>
+<script id="atlasMetadata" type="application/json">/*__METADATA__*/</script>
+<script id="atlasBinary" type="application/octet-stream">/*__BINARY__*/</script>
+<!--__NATIVE_DATA__-->
+<script>/*__CONTENT__*/</script>
+<script>/*__APP__*/</script>
+</body></html>

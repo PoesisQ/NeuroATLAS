@@ -1,0 +1,287 @@
+{
+  "status": "READY",
+  "date": "2026-10-23",
+  "bundle": "bp2018-full",
+  "source": "DBCLS BodyParts3D / Anatomography official version 20181210i412, objects set 20181210, tree FMA4.12.0-inference",
+  "officialSource": "https://lifesciencedb.jp/bp3d/",
+  "officialObjectMapURL": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=20181210i412&cmd=concept-objfiles-list",
+  "sourceObjectCompound": "FMA61820 is_a: all 161 listed cortical objects retained as source inventory; default visibility excludes older overlapping alternatives and internal hippocampal pieces.",
+  "coreFiles": [
+    "meshes.json",
+    "meshes.bin.gz"
+  ],
+  "objectCount": 205,
+  "vertices": 779983,
+  "triangles": 1297188,
+  "compressedBytes": 12920790,
+  "defaultContextObjectCount": 124,
+  "defaultContextTriangles": 875398,
+  "schema": {
+    "positions": "little-endian float32 xyz, byte offset segment.po, vertexCount vertices",
+    "indices": "little-endian uint32 triangle indices, byte offset segment.io, triangleCount triangles",
+    "metadata": "segments include id,en,zh,side,role,sceneGroup,sourceFile,sourceVersion,fma,bp,sha256,po,io,vertexCount,triangleCount,bboxNativeMm,centroidNativeMm,coverageNote,defaultContextVisible,recommendedSelectable,sourceSideConflict"
+  },
+  "coordinateSystem": {
+    "units": "mm",
+    "axes": "+X patient left, +Y posterior, +Z superior",
+    "commonNativeCenterMm": [
+      -0.7256011962890625,
+      -76.9113998413086,
+      1564.9849853515625
+    ],
+    "displayBasis": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "registrationTo43": null,
+    "rule": "All objects share this native space. Apply only one global display-basis/translation. Preserve this frame during selection and layer opening; never independently recenter anatomical parts."
+  },
+  "keyObjects": {
+    "anteriorTransverseTemporalGyri": [
+      "MM3299",
+      "MM3299M"
+    ],
+    "posteriorTransverseTemporalGyri": [
+      "MM3300",
+      "MM3300M"
+    ],
+    "frontalOpercula": [
+      "MM3292",
+      "MM3292M"
+    ],
+    "parietalOpercula": [
+      "MM3301",
+      "MM3301M"
+    ],
+    "orbitalOpercula": [
+      "MM3143",
+      "MM3143M"
+    ],
+    "insulaSourceCompoundLeft": [
+      "MM3814",
+      "MM3815",
+      "MM3819",
+      "MM3820",
+      "MM3821",
+      "MM3822"
+    ],
+    "insulaSourceCompoundRight": [
+      "MM3814M",
+      "MM3815M",
+      "MM3819M",
+      "MM3820M",
+      "MM3821M",
+      "MM3822M"
+    ],
+    "lateralSulci": [
+      "MM3771",
+      "MM3771M"
+    ],
+    "circularInsularSulci": [
+      "MM3398",
+      "MM3398M"
+    ],
+    "extremeCapsules": [
+      "MM3351",
+      "MM3351M"
+    ],
+    "claustra": [
+      "MM3360",
+      "MM3360M"
+    ],
+    "externalCapsules": [
+      "MM3355",
+      "MM3355M"
+    ],
+    "putamenProperParts": [
+      "MM3271",
+      "MM3271M"
+    ],
+    "auditoryRadiations": [
+      "MM3323",
+      "MM3323M"
+    ]
+  },
+  "coverage": [
+    {
+      "structure": "Cerebral cortical orientation background",
+      "status": "available",
+      "note": "124 recommended default objects, 875398 original triangles; composite source gyri, not a newly closed/manifold hemisphere shell."
+    },
+    {
+      "structure": "Heschl-insula-opercula continuity",
+      "status": "available-in-one-version",
+      "note": "Direct original 2018 atlas coordinates. No 4.3/UW/other-source registration or overlay was performed."
+    },
+    {
+      "structure": "A1 functional/cytoarchitectonic boundary",
+      "status": "not-provided",
+      "note": "The anatomical transverse temporal gyri are available. Do not paint an arbitrary fraction as exact A1.",
+      "primaryReference": "https://pubmed.ncbi.nlm.nih.gov/11305897/",
+      "additionalPrimaryReference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6623669/"
+    },
+    {
+      "structure": "Internal capsule",
+      "status": "partial",
+      "available": [
+        "anterior limb",
+        "genu",
+        "retrolenticular part",
+        "sublenticular part"
+      ],
+      "missing": [
+        "complete posterior limb"
+      ],
+      "note": "Official FMA72907/FMA72906 compounds contain these four parts. MM3353 posterior thalamolenticular file names exist in global metadata but are unmapped/inactive for this version; MM3358 is labeled a corticospinal tract segment, not a complete posterior limb. Do not infer the missing whole."
+    },
+    {
+      "structure": "Caudate nucleus",
+      "status": "partial",
+      "available": [
+        "body",
+        "tail"
+      ],
+      "missing": [
+        "head"
+      ],
+      "note": "Official active compounds FMA72827/FMA72826 map only body and tail. Global unassigned head file names are not active verified 2018 labeled parts."
+    },
+    {
+      "structure": "Putamen",
+      "status": "source-proper-part-available",
+      "note": "MM3271/M names explicitly say PROPER PART OF putamen. Preserve this source qualifier."
+    },
+    {
+      "structure": "Globus pallidus",
+      "status": "named-subparts-available",
+      "available": [
+        "medial part",
+        "lateral part",
+        "medial medullary lamina",
+        "lateral medullary lamina"
+      ]
+    },
+    {
+      "structure": "Thalamus",
+      "status": "excluded-from-core",
+      "note": "Official 32 components per side were resolved; original files are quarantined in research-only-thalamus and are absent from meshes.json/bin. No broad deep-nucleus expansion in this delivery."
+    }
+  ],
+  "validation": {
+    "all205SourceHashesAndPackedFacesMatch": true,
+    "gzipRoundTrip": true,
+    "allOther203SideMeansMatch": true,
+    "sourceSideConflictsExcludedFromRecommendedSelection": [
+      "MM3641",
+      "MM3641M"
+    ],
+    "sourceTopologyDefects": [
+      {
+        "id": "MM233",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 2,
+        "defaultContextVisible": false
+      },
+      {
+        "id": "MM233M",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 2,
+        "defaultContextVisible": false
+      },
+      {
+        "id": "MM3686",
+        "boundaryEdges": 4,
+        "nonManifoldEdges": 0,
+        "defaultContextVisible": true
+      },
+      {
+        "id": "MM3686M",
+        "boundaryEdges": 4,
+        "nonManifoldEdges": 0,
+        "defaultContextVisible": true
+      },
+      {
+        "id": "MM3713",
+        "boundaryEdges": 21,
+        "nonManifoldEdges": 0,
+        "defaultContextVisible": true
+      },
+      {
+        "id": "MM3713M",
+        "boundaryEdges": 21,
+        "nonManifoldEdges": 0,
+        "defaultContextVisible": true
+      }
+    ],
+    "figure": "../bp2018-whole-cortex-context.png",
+    "report": "core-validation.json"
+  },
+  "limitations": [
+    "Publisher anatomical atlas incorporating anatomical modeling; per-structure acquisition precision or measured segmentation confidence is not supplied.",
+    "Default visibility is a documented source-object selection, not certification that every pair of surfaces has zero overlap.",
+    "Existing source boundary/nonmanifold edges are retained; no fabricated closing faces or geometric repairs.",
+    "Native geometric compatibility is limited to this source version. 2018 and 4.3 insula models differ substantially; no mixed-version fusion."
+  ],
+  "license": {
+    "currentOfficialArchive": "CC BY 4.0 International",
+    "currentURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "requiredCredit": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "legacyViewerNotice": "CC BY-SA 2.1 Japan",
+    "legacyURL": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+    "instruction": "Preserve both publisher notices and links. These are original DBCLS assets, not Z-Anatomy or CAHID derivative downloads."
+  },
+  "files": [
+    {
+      "path": "meshes.json",
+      "bytes": 205766,
+      "sha256": "c3cb186157c3c16a8e4e22b5f88dcc5134fd6a283c57adec71ff913082fb27f6"
+    },
+    {
+      "path": "meshes.bin",
+      "bytes": 24926052,
+      "sha256": "65ce01855a287376b5b529a082ea0be84ab9aab9ae46a0b748029bcdb1dbbc63"
+    },
+    {
+      "path": "meshes.bin.gz",
+      "bytes": 12920790,
+      "sha256": "04a81a2d9595d40775ae225ecb3cbfd2e30bb93d7203104617952d8bc0b96150"
+    },
+    {
+      "path": "geometry-analysis.json",
+      "bytes": 384686,
+      "sha256": "d9aa99a70f011e69d198a82574be2140bfcf7cb332e3a915203db46cb4851d97"
+    },
+    {
+      "path": "core-validation.json",
+      "bytes": 4121,
+      "sha256": "857ccb56d615350475669544b10d6b9020bfd8d5a2b31bb8d86c3feaad9d89e1"
+    },
+    {
+      "path": "download-manifest.json",
+      "bytes": 110210,
+      "sha256": "09683c6b5cc4760345af513c839e688279d767e46c8aa04569083d393932eb67"
+    }
+  ]
+}

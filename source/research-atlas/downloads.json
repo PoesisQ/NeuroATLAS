@@ -1,0 +1,104 @@
+[
+  {
+    "file": "nextbrain-figshare.json",
+    "url": "https://api.figshare.com/v2/articles/24243835",
+    "bytes": 11478,
+    "sha256": "a6efa5b4979503fb80288f74327f7d453c7034059dbf994b3d60fc90dbee4265"
+  },
+  {
+    "file": "edlow-tree.json",
+    "url": "https://api.github.com/repos/OpenNeuroDatasets/ds005422/git/trees/1.0.1?recursive=1",
+    "bytes": 4006,
+    "sha256": "6f46cf2c66dc52eca65dc8095fce1ec8a9e34c8564d4be09aa1b507f9289aac3"
+  },
+  {
+    "file": "nextbrain-p41-tree.json",
+    "url": "https://api.github.com/repos/UCL/BrainAtlas-P41-16/git/trees/main?recursive=1",
+    "bytes": 3200487,
+    "sha256": "b807e7a9c0079f93766cf6fe766a24e9cd934891aebf3dabfefb22570d8654ce"
+  },
+  {
+    "file": "edlow-description.json",
+    "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds005422/1.0.1/dataset_description.json",
+    "bytes": 1283,
+    "sha256": "7281b4834458cacaa87965cdf6eb6718c988b3f5cfb04c4b970351a372f9e9f9"
+  },
+  {
+    "file": "edlow-readme.txt",
+    "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds005422/1.0.1/README.md",
+    "bytes": 1209,
+    "sha256": "eecb392757baecbebaa30157229b004e3d9bb965980445921f6103a52aff6a3f"
+  },
+  {
+    "file": "edlow-lut.txt",
+    "url": "https://s3.amazonaws.com/openneuro.org/ds005422/derivatives/manual_segmentation/sub-001/sub-001_lut.txt",
+    "bytes": 5657,
+    "sha256": "3ccb76d286b7ddf3601a84efa9a0b7fdcfc319827709b98f5666585fd231d370"
+  },
+  {
+    "file": "nextbrain-ui-tree.json",
+    "url": "https://api.github.com/repos/UCL/NextBrain/git/trees/development?recursive=1",
+    "bytes": 35029,
+    "sha256": "923e9b0c572e5e7813f29d901afe24e540761277d1a7e0c8a05b360425882171"
+  },
+  {
+    "file": "nextbrain-atlas.zip",
+    "url": "https://ndownloader.figshare.com/files/42561616",
+    "bytes": 397039281,
+    "sha256": "feef33d5913b3931525a590ea389800a746551ea02083e94ca1b122eecff4283"
+  },
+  {
+    "file": "p41-ontology.json",
+    "url": "https://raw.githubusercontent.com/UCL/BrainAtlas-P41-16/main/P41-16/image_ontology_hierarchical.json",
+    "bytes": 168331,
+    "sha256": "b88d1989687537a2c614babbccf8d2aeb05b6600875bc59fd035a905448fa1b8"
+  },
+  {
+    "file": "p41-labels/3.nii.gz",
+    "url": "https://raw.githubusercontent.com/UCL/BrainAtlas-P41-16/main/P41-16/labels_blocks/3/LABELS.nii.gz",
+    "bytes": 1414546,
+    "sha256": "d62a8113e13e27880190f522678e817ecf1bb2e5771b649b413a44a598686f9b"
+  },
+  {
+    "file": "nextbrain-ontology.csv",
+    "url": "https://raw.githubusercontent.com/UCL/NextBrain/development/docs/image_ontology_table.csv",
+    "bytes": 6669,
+    "sha256": "a58c42503be87de054bacd2f2c6176d99b002dbab17f2510ab93308a7069c068"
+  },
+  {
+    "file": "p41-readme.txt",
+    "url": "https://raw.githubusercontent.com/UCL/BrainAtlas-P41-16/main/README.md",
+    "bytes": 6574,
+    "sha256": "5049dc26be528bebe8001532a1fce1a2db7154bc77e4956a6c5ba72d4304a422"
+  },
+  {
+    "file": "p41-mri.nii.gz",
+    "url": "https://raw.githubusercontent.com/UCL/BrainAtlas-P41-16/9c29e15e2eef6db902296f53de636d57fc5aa6a1/P41-16/mri_rotated/mri.nii.gz",
+    "bytes": 7731378,
+    "sha256": "bc94037b065db82087983446f25748c12b65c31b2f091ad543dfc5f8b1e9ca7a"
+  },
+  {
+    "file": "p41-matrix3.txt",
+    "url": "https://raw.githubusercontent.com/UCL/BrainAtlas-P41-16/9c29e15e2eef6db902296f53de636d57fc5aa6a1/P41-16/mri_rotated/matrices/block_03.txt",
+    "bytes": 256,
+    "sha256": "ec3d81b8f1fde0287c15a0b2133eb885243ad67834f33dcdec7b388cd6a73633"
+  },
+  {
+    "file": "nextbrain-paper-author.pdf",
+    "url": "https://www.nature.com/articles/s41586-025-09708-2.pdf",
+    "bytes": 24739624,
+    "sha256": "4d2d4a2a83e7694cf130d1cc4b1c4a740671a647a94ce02e0defd899517d0fe8"
+  },
+  {
+    "file": "cerebra-page.html",
+    "url": "https://nist.mni.mcgill.ca/cerebra/",
+    "bytes": 31479,
+    "sha256": "970f58ac4ab6a3d8c6f266987543889fa42b8ab0d74f3a86fea6c70766f1be17"
+  },
+  {
+    "file": "cerebra-native.zip",
+    "url": "https://packages.bic.mni.mcgill.ca/mni-models/icbm152/mni_icbm152_nlin_sym_09c_CerebrA_nifti.zip",
+    "bytes": 351216,
+    "sha256": "51ae4a9a2d004c3c0edea2e3ab0c15f71a2c88f04960aa2e599a3633816f445d"
+  }
+]

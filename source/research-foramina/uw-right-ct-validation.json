@@ -1,0 +1,438 @@
+{
+  "ctSha256": "40b16cf04998c5b2fb865d4baf4d86981ae4f5d252b058b46abc3ce2684e44d5",
+  "segmentationSha256": "bf4a600515fc2ca1477029baaeb42d25d4f6a8b594f0236e3292e376f3447963",
+  "ctOriginalSpace": "left-posterior-superior",
+  "ctShape": [
+    367,
+    449,
+    304
+  ],
+  "ctIJKToRAS": [
+    [
+      0.46743053133989815,
+      0.03514627819984113,
+      0.0,
+      -78.9318008422852
+    ],
+    [
+      -0.03514627819984113,
+      0.46743053133989815,
+      0.0,
+      -97.91750335693368
+    ],
+    [
+      0.0,
+      0.0,
+      0.46875,
+      45.02849960327144
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "segIJKToRAS": [
+    [
+      0.46875,
+      -0.0,
+      0.0,
+      -48.109550476074205
+    ],
+    [
+      -0.0,
+      0.46875,
+      -0.0,
+      -14.334999084472997
+    ],
+    [
+      0.0,
+      -0.0,
+      1.25,
+      51.2901992797852
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "registrationPerformed": false,
+  "side": "right",
+  "sideAssignment": "Connected-component centroid lies to positive R of source septum reference plane; no deformation or registration.",
+  "referenceMidlineXmmFromSeptumCentroid": 12.821083857642044,
+  "sampling": "CT linear interpolation / label nearest-neighbour in original world RAS coordinates",
+  "interpretation": "Verification overlays of the published 6-subject synthetic CT template and its source segmentation. Not single-patient imaging or independent proof of exact rim geometry.",
+  "slices": [
+    {
+      "index": 5,
+      "en": "foramen ovale",
+      "side": "right",
+      "file": "uw-foramen-ovale-right-ct.png",
+      "sourceVolumeComponentLabel": 2,
+      "sourceComponentVoxelCount": 280,
+      "exactComponentVoxelCentroidRASmm": [
+        38.91556113106864,
+        13.975826808384062,
+        95.51341356549945
+      ],
+      "sourceComponentBBoxVoxelCentersRASmm": [
+        [
+          35.796699523925795,
+          10.977500915527003,
+          92.5401992797852
+        ],
+        [
+          41.421699523925795,
+          16.602500915527003,
+          97.5401992797852
+        ]
+      ],
+      "centroidMethod": "Arithmetic mean of all original nonzero voxel centres in this connected component, transformed by published source affine.",
+      "planes": [
+        {
+          "name": "Axial",
+          "fixedRASaxis": "S",
+          "fixedMm": 95.51341356549945,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "A",
+          "horizontalExtentMm": [
+            14.915561131068642,
+            62.91556113106864
+          ],
+          "verticalExtentMm": [
+            -10.024173191615938,
+            37.97582680838406
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 541,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Coronal",
+          "fixedRASaxis": "A",
+          "fixedMm": 13.975826808384062,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            14.915561131068642,
+            62.91556113106864
+          ],
+          "verticalExtentMm": [
+            71.51341356549945,
+            119.51341356549945
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 1688,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Sagittal",
+          "fixedRASaxis": "R",
+          "fixedMm": 38.91556113106864,
+          "horizontalRASaxis": "A",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            -10.024173191615938,
+            37.97582680838406
+          ],
+          "verticalExtentMm": [
+            71.51341356549945,
+            119.51341356549945
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 1396,
+          "finiteCTFraction": 1.0
+        }
+      ],
+      "pngSha256": "fe1fa8f730be1293ac593470abd634cbd517c35d0d45398cf683acdfff2298a0"
+    },
+    {
+      "index": 6,
+      "en": "foramen spinosum",
+      "side": "right",
+      "file": "uw-foramen-spinosum-right-ct.png",
+      "sourceVolumeComponentLabel": 2,
+      "sourceComponentVoxelCount": 22,
+      "exactComponentVoxelCentroidRASmm": [
+        44.873404069380335,
+        9.61386455189064,
+        94.30156291614881
+      ],
+      "sourceComponentBBoxVoxelCentersRASmm": [
+        [
+          44.234199523925795,
+          8.633750915527003,
+          92.5401992797852
+        ],
+        [
+          45.640449523925795,
+          10.508750915527003,
+          95.0401992797852
+        ]
+      ],
+      "centroidMethod": "Arithmetic mean of all original nonzero voxel centres in this connected component, transformed by published source affine.",
+      "planes": [
+        {
+          "name": "Axial",
+          "fixedRASaxis": "S",
+          "fixedMm": 94.30156291614881,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "A",
+          "horizontalExtentMm": [
+            28.873404069380335,
+            60.873404069380335
+          ],
+          "verticalExtentMm": [
+            -6.386135448109361,
+            25.61386455189064
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 240,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Coronal",
+          "fixedRASaxis": "A",
+          "fixedMm": 9.61386455189064,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            28.873404069380335,
+            60.873404069380335
+          ],
+          "verticalExtentMm": [
+            78.30156291614881,
+            110.30156291614881
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 644,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Sagittal",
+          "fixedRASaxis": "R",
+          "fixedMm": 44.873404069380335,
+          "horizontalRASaxis": "A",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            -6.386135448109361,
+            25.61386455189064
+          ],
+          "verticalExtentMm": [
+            78.30156291614881,
+            110.30156291614881
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 703,
+          "finiteCTFraction": 1.0
+        }
+      ],
+      "pngSha256": "e6b3e92722c0762111e8c050d43e4194b3b624a9702492eda574efa824550378"
+    },
+    {
+      "index": 7,
+      "en": "foramen rotundum",
+      "side": "right",
+      "file": "uw-foramen-rotundum-right-ct.png",
+      "sourceVolumeComponentLabel": 2,
+      "sourceComponentVoxelCount": 108,
+      "exactComponentVoxelCentroidRASmm": [
+        32.74982452392579,
+        28.937570359971375,
+        102.05408816867406
+      ],
+      "sourceComponentBBoxVoxelCentersRASmm": [
+        [
+          31.577949523925795,
+          25.508750915527003,
+          101.2901992797852
+        ],
+        [
+          33.921699523925795,
+          32.540000915527,
+          103.7901992797852
+        ]
+      ],
+      "centroidMethod": "Arithmetic mean of all original nonzero voxel centres in this connected component, transformed by published source affine.",
+      "planes": [
+        {
+          "name": "Axial",
+          "fixedRASaxis": "S",
+          "fixedMm": 102.05408816867406,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "A",
+          "horizontalExtentMm": [
+            8.749824523925788,
+            56.74982452392579
+          ],
+          "verticalExtentMm": [
+            4.9375703599713745,
+            52.937570359971375
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 812,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Coronal",
+          "fixedRASaxis": "A",
+          "fixedMm": 28.937570359971375,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            8.749824523925788,
+            56.74982452392579
+          ],
+          "verticalExtentMm": [
+            78.05408816867406,
+            126.05408816867406
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 296,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Sagittal",
+          "fixedRASaxis": "R",
+          "fixedMm": 32.74982452392579,
+          "horizontalRASaxis": "A",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            4.9375703599713745,
+            52.937570359971375
+          ],
+          "verticalExtentMm": [
+            78.05408816867406,
+            126.05408816867406
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 1331,
+          "finiteCTFraction": 1.0
+        }
+      ],
+      "pngSha256": "9e393fc4845f2fd38a9b6f649fd668691c7756e91d304bf62369c6f151ad846d"
+    },
+    {
+      "index": 8,
+      "en": "vidian canal",
+      "side": "right",
+      "file": "uw-vidian-canal-right-ct.png",
+      "sourceVolumeComponentLabel": 3,
+      "sourceComponentVoxelCount": 214,
+      "exactComponentVoxelCentroidRASmm": [
+        25.60248223420616,
+        28.404486896835465,
+        96.20258245735526
+      ],
+      "sourceComponentBBoxVoxelCentersRASmm": [
+        [
+          23.609199523925795,
+          25.508750915527003,
+          93.7901992797852
+        ],
+        [
+          27.827949523925795,
+          30.665000915527003,
+          98.7901992797852
+        ]
+      ],
+      "centroidMethod": "Arithmetic mean of all original nonzero voxel centres in this connected component, transformed by published source affine.",
+      "planes": [
+        {
+          "name": "Axial",
+          "fixedRASaxis": "S",
+          "fixedMm": 96.20258245735526,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "A",
+          "horizontalExtentMm": [
+            1.6024822342061604,
+            49.602482234206164
+          ],
+          "verticalExtentMm": [
+            4.404486896835465,
+            52.404486896835465
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 2254,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Coronal",
+          "fixedRASaxis": "A",
+          "fixedMm": 28.404486896835465,
+          "horizontalRASaxis": "R",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            1.6024822342061604,
+            49.602482234206164
+          ],
+          "verticalExtentMm": [
+            72.20258245735526,
+            120.20258245735526
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 1002,
+          "finiteCTFraction": 1.0
+        },
+        {
+          "name": "Sagittal",
+          "fixedRASaxis": "R",
+          "fixedMm": 25.60248223420616,
+          "horizontalRASaxis": "A",
+          "verticalRASaxis": "S",
+          "horizontalExtentMm": [
+            4.404486896835465,
+            52.404486896835465
+          ],
+          "verticalExtentMm": [
+            72.20258245735526,
+            120.20258245735526
+          ],
+          "pixels": [
+            400,
+            400
+          ],
+          "labelPixelsInView": 1589,
+          "finiteCTFraction": 1.0
+        }
+      ],
+      "pngSha256": "d6e229163dd14a1483b58ae5116ef15f27088ba1a5b24f3959fb0b307182e252"
+    }
+  ]
+}

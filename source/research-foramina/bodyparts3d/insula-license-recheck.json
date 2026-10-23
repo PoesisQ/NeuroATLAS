@@ -1,0 +1,53 @@
+{
+  "checkedDate": "2026-10-23",
+  "source": "Original BodyParts3D 4.3 public official download; not the Z-Anatomy or CAHID derivative files.",
+  "sourceEndpoint": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "officialManifestURL": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+  "officialDownloadZIP": "capsule-insula-context-official.zip",
+  "zipContains": "20 original OBJ files, no additional license or third-party attribution file",
+  "currentArchiveNotice": {
+    "URL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "pageUpdated": "2025-02-27",
+    "license": "CC BY 4.0 International",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "requiredCredit": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "verifiedOnLivePage": true
+  },
+  "legacyViewerNotice": {
+    "URL": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+    "license": "CC BY-SA 2.1 Japan",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+    "credit": "BodyParts3D, Copyright 2008 The Database Center for Life Science, licensed under CC BY-SA 2.1 Japan",
+    "detailsReferToArchivePage": true,
+    "verifiedOnLivePage": true
+  },
+  "distributionInstruction": "Retain the current official archive credit and license URL plus the legacy viewer notice and URL. Do not erase source notices or imply these source data are authored by NeuroAtlas. Keep the UW component under its separate NC-SA license.",
+  "changes": "Original OBJ coordinates and triangle indices packed into float32/uint32 binary; no smoothing, deformation, mirroring, new anatomical mesh, or registration.",
+  "scopeOfVerification": "Official source name, download, hashes and publisher notices were checked. Source labeling as entire insula does not establish independently measured anatomical accuracy or patient-specific segmentation.",
+  "insula": [
+    {
+      "id": "FJ1748",
+      "en": "Left insula",
+      "zh": "左侧岛叶",
+      "side": "left",
+      "sourceFile": "FJ1748_BP23978_FMA72978_Left insula.obj",
+      "fma": "FMA72978",
+      "bp": "BP23978",
+      "sha256": "941d824f461433d486be6291a55e5b9aad880f759e16b616a04fecae3d2d3a38",
+      "vertexCount": 1250,
+      "triangleCount": 2448
+    },
+    {
+      "id": "FJ1749",
+      "en": "Right insula",
+      "zh": "右侧岛叶",
+      "side": "right",
+      "sourceFile": "FJ1749_BP21973_FMA72977_Right insula.obj",
+      "fma": "FMA72977",
+      "bp": "BP21973",
+      "sha256": "c724379de905744b0a6ffea5a20376af1a521bd577e9abdca9665dfd3daf39e0",
+      "vertexCount": 1261,
+      "triangleCount": 2448
+    }
+  ]
+}

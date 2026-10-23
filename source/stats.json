@@ -1,0 +1,8 @@
+{
+  "structures": 467,
+  "vertices": 912357,
+  "triangles": 1491149,
+  "packed_bytes": 16045378,
+  "gzip_bytes": 8932345,
+  "max_quantization_error_mm": 0.0013570204455619493
+}

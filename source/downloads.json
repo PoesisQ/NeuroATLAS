@@ -1,0 +1,98 @@
+[
+  {
+    "file": "manifest.json",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/brain-atlas/models/manifest.json",
+    "sha256": "66c32355e02c3ba5fadf3b3bdb61b18c619162d6c5ee2083262e59bed4274d93",
+    "bytes": 232455
+  },
+  {
+    "file": "brain.glb",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/brain-atlas/models/brain.glb",
+    "sha256": "76a49ea4526a4880613aec7a02756bd7301b0b9d0680d7cae33e197b672c5453",
+    "bytes": 4650816
+  },
+  {
+    "file": "ASSET_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/LICENSE",
+    "sha256": "c8ae081bfc6dbc99f98a4ade5ade798eda4be4d1c6c8a34205b9d084a03e8c26",
+    "bytes": 13448
+  },
+  {
+    "file": "UPSTREAM_README.md",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/README.md",
+    "sha256": "853343baf26929ecee41e47a05ea6e653da74badb1d1a6a256cb66900a18e04b",
+    "bytes": 12694
+  },
+  {
+    "file": "export_brain.py.txt",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/scripts/export_brain.py",
+    "sha256": "0f1d763f2a06b4eb521e0409ae22a85e59ddd3ac5ce05c76c0129490f9fcae55",
+    "bytes": 18810
+  },
+  {
+    "file": "three.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js",
+    "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "bytes": 669884
+  },
+  {
+    "file": "draco_decoder_nodejs.cjs",
+    "url": "https://cdn.jsdelivr.net/npm/draco3dgltf@1.5.7/draco_decoder_gltf_nodejs.js",
+    "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+    "bytes": 58456
+  },
+  {
+    "file": "draco_decoder_gltf.wasm",
+    "url": "https://cdn.jsdelivr.net/npm/draco3dgltf@1.5.7/draco_decoder_gltf.wasm",
+    "sha256": "712db3449ae2041d6e8a224c395bda6cedb49e51322fae38b7db9beb8b381889",
+    "bytes": 192593
+  },
+  {
+    "file": "body_fetch.mjs.txt",
+    "url": "https://raw.githubusercontent.com/CognitionLabSNUC/open-anatomy-atlas/main/src/data/zanatomy.js",
+    "sha256": "e788e5813fffc536896d2002ed58deda40a646431914ed276e2a83743464bfe8",
+    "bytes": 15184
+  },
+  {
+    "file": "nervous.glb",
+    "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/nervous.glb",
+    "sha256": "c7cde35497f887b319c0a84f1b5b605fa3ce66e23084b5e09d6e3825fa5030d9",
+    "bytes": 3802588
+  },
+  {
+    "file": "skeletal.glb",
+    "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/skeletal.glb",
+    "sha256": "c2b70b31ddec4062cbc5ba969fc24ecfed61d00397a0bca795e2701d997200f8",
+    "bytes": 1863828
+  },
+  {
+    "file": "Z_ANATOMY_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/nqwrc/3d-anatomy/8ca3b7421bcfbe88b85859eb1983d5cf79f21749/public/models/License.txt",
+    "sha256": "47c73bd1a7557f49fa5a2c02561ce6ca4ac0169066ab76fc6a6351835f5d185f",
+    "bytes": 1746
+  },
+  {
+    "file": "fflate.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js",
+    "sha256": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf",
+    "bytes": 32665
+  },
+  {
+    "file": "THREE_LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/LICENSE",
+    "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+    "bytes": 1081
+  },
+  {
+    "file": "FFLATE_LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/LICENSE",
+    "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+    "bytes": 1069
+  },
+  {
+    "file": "registration.md",
+    "url": "https://raw.githubusercontent.com/itayinbarr/brainproject/main/docs/registration.md",
+    "sha256": "90559c66ea9c17a14ac300451c9bf069f561eedf97467eb0be9b933d9f14383b",
+    "bytes": 14980
+  }
+]
